@@ -91,7 +91,7 @@ const altUrl = lang === 'zh' ? '/' : '/zh/';
           {p.data.featured && <a href={`${prefix}/${p.id}/`}><img class="thumb" src={p.data.featured} alt={p.data.title} loading="lazy" /></a>}
           <div class="body">
             <h3><a href={`${prefix}/${p.id}/`}>{lang === 'zh' && p.data.titleZh ? p.data.titleZh : p.data.title}</a></h3>
-            <p>{(p.data.description || '').slice(0, 120)}…</p>
+            <p>{((lang === 'zh' && p.data.descriptionZh ? p.data.descriptionZh : p.data.description) || '').slice(0, 120)}…</p>
           </div>
         </article>
       ))}

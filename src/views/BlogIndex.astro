@@ -22,7 +22,7 @@ const prefix = lang === 'zh' ? '/zh' : '';
           {p.data.featured && <a href={`${prefix}/${p.id}/`}><img class="thumb" src={p.data.featured} alt={p.data.title} loading="lazy" /></a>}
           <div class="body">
             <h3><a href={`${prefix}/${p.id}/`}>{lang === 'zh' && p.data.titleZh ? p.data.titleZh : p.data.title}</a></h3>
-            <p>{(p.data.description || '').slice(0, 130)}…</p>
+            <p>{((lang === 'zh' && p.data.descriptionZh ? p.data.descriptionZh : p.data.description) || '').slice(0, 130)}…</p>
             <div class="badges">
               <span class="badge">{p.data.date.slice(0, 10)}</span>
               {p.data.categories.slice(0, 1).map((c) => <span class="badge">{catName(lang, c, c)}</span>)}
