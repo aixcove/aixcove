@@ -8,6 +8,8 @@ categories:
 - ai-coding-development
 featured: /uploads/2026/04/opencode.jpg
 wpId: 214
+titleZh: "OpenCode"
+descriptionZh: "什么是OpenCode？OpenCode是一个开源的AI编程助手，在终端中运行，通过命令行提供智能代码生成、解释和重构功能"
 ---
 
 <h2>What Is OpenCode?</h2>

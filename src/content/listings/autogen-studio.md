@@ -8,6 +8,8 @@ categories:
 - ai-agents-automation
 featured: /uploads/2026/04/autogen-studio-2.jpg
 wpId: 649
+titleZh: "AutoGen Studio"
+descriptionZh: "什么是 AutoGen 工作室？AutoGen 工作室是一个围绕 AutoGen 生态系统构建的低代码界面，用于设计和测试多智能体 AI 工作流。它帮助团队原型化智能体对话和编排。"
 ---
 
 

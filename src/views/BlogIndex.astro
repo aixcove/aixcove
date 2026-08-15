@@ -1,0 +1,35 @@
+---
+// 博客列表视图（en/zh 共用）
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { ui, catName } from '../i18n/ui';
+
+interface Props {
+  lang: 'en' | 'zh';
+  posts: any[];
+}
+const { lang, posts } = Astro.props;
+const L = ui[lang];
+const prefix = lang === 'zh' ? '/zh' : '';
+---
+
+<BaseLayout title={`${L.blog_h1} | AIX Cove`} description={L.blog_sub(posts.length)} lang={lang} altUrl={lang === 'zh' ? '/blog/' : '/zh/blog/'}>
+  <section class="section">
+    <h1 style="font-size:1.9rem">{L.blog_h1}</h1>
+    <p style="color:var(--muted)">{L.blog_sub(posts.length)}</p>
+    <div class="grid cols-3">
+      {posts.map((p) => (
+        <article class="card">
+          {p.data.featured && <a href={`${prefix}/${p.id}/`}><img class="thumb" src={p.data.featured} alt={p.data.title} loading="lazy" /></a>}
+          <div class="body">
+            <h3><a href={`${prefix}/${p.id}/`}>{p.data.title}</a></h3>
+            <p>{(p.data.description || '').slice(0, 130)}…</p>
+            <div class="badges">
+              <span class="badge">{p.data.date.slice(0, 10)}</span>
+              {p.data.categories.slice(0, 1).map((c) => <span class="badge">{catName(lang, c, c)}</span>)}
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

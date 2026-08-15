@@ -8,6 +8,8 @@ categories:
 - ai-audio-voice
 featured: /uploads/2026/04/elevenlabs-1.jpg
 wpId: 261
+titleZh: "ElevenLabs"
+descriptionZh: "ElevenLabs是什么？ElevenLabs是行业领先的AI语音合成平台，可以从文本生成极其逼真的人声。使用先进的深度学习模型，ElevenLabs能够生产"
 ---
 
 <h2>What Is ElevenLabs?</h2>

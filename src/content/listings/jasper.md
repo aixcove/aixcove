@@ -9,6 +9,8 @@ categories:
 - ai-text-blog-writing
 featured: /uploads/2026/04/jasper-1.jpg
 wpId: 250
+titleZh: "Jasper"
+descriptionZh: "什么是Jasper？Jasper是一个专为营销团队设计的AI营销助手。它通过学习和保持一致性，帮助组织大规模创建符合品牌的内容。"
 ---
 
 <h2>What Is Jasper?</h2>

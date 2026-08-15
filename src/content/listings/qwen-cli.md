@@ -8,6 +8,8 @@ categories:
 - ai-coding-development
 featured: /uploads/2026/04/qwen.jpg
 wpId: 203
+titleZh: "Qwen CLI"
+descriptionZh: "什么是 QWen CLI？QWen CLI 是用于与阿里巴巴 QWen 大语言模型系列进行交互的命令行界面。它提供了对中国最强大的大语言模型之一的直接终端访问。"
 ---
 
 <h2>What Is QWen CLI?</h2>

@@ -1,0 +1,10 @@
+---
+import { getCollection } from 'astro:content';
+import BlogIndex from '../../../views/BlogIndex.astro';
+
+export const prerender = true;
+
+const posts = (await getCollection('posts')).sort((a, b) => b.data.date.localeCompare(a.data.date));
+---
+
+<BlogIndex lang="zh" posts={posts} />

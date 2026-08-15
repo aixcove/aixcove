@@ -8,6 +8,8 @@ categories:
 - ai-coding-development
 featured: /uploads/2026/04/cursor.jpg
 wpId: 202
+titleZh: "Cursor"
+descriptionZh: "什么是Cursor？Cursor是一个基于VS Code构建的AI优先代码编辑器，将强大的AI功能直接集成到开发工作流程中。而不是要求开发者切换"
 ---
 
 <h2>What Is Cursor?</h2>

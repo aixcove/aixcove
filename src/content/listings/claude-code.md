@@ -8,6 +8,8 @@ categories:
 - ai-coding-development
 featured: /uploads/2026/04/claude_code.jpg
 wpId: 168
+titleZh: "Claude Code"
+descriptionZh: "什么是Claude Code？Claude Code是由Anthropic开发的代理式AI编程工具，直接在你的终端中运行。与传统的代码补全工具不同，Claude Code充当一个自主"
 ---
 
 <h2>What Is Claude Code?</h2>

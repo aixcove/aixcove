@@ -9,6 +9,8 @@ categories:
 - ai-workflow-orchestration
 featured: /uploads/2026/04/alpha_sense.jpg
 wpId: 266
+titleZh: "AlphaSense"
+descriptionZh: "AlphaSense是什么？AlphaSense是一个由人工智能驱动的金融研究平台，它帮助投资专业人士、企业战略分析师和分析师在数百万份商业文件中找到关键洞察"
 ---
 
 <h2>What Is AlphaSense?</h2>

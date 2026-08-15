@@ -9,6 +9,8 @@ categories:
 - autonomous-ai-agents
 featured: /uploads/2026/04/langchain-1.jpg
 wpId: 274
+titleZh: "LangChain"
+descriptionZh: "什么是LangChain？LangChain是最受欢迎的用于构建由大型语言模型驱动应用程序的开源框架。它提供了一套全面的工具、抽象和集成"
 ---
 
 <h2>What Is LangChain?</h2>

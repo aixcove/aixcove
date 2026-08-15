@@ -8,6 +8,8 @@ categories:
 - ai-video-generation-editing
 featured: /uploads/2026/04/descript-1.jpg
 wpId: 263
+titleZh: "Descript"
+descriptionZh: "什么是 Descript？Descript 是一个由人工智能驱动的视频和播客编辑平台，它通过将媒体编辑视为文本文档来革新媒体编辑方式。而不是处理复杂的时间线和波形"
 ---
 
 <h2>What Is Descript?</h2>

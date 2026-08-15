@@ -9,6 +9,8 @@ categories:
 - ai-text-blog-writing
 featured: /uploads/2026/04/notion.jpg
 wpId: 255
+titleZh: "Notion AI"
+descriptionZh: "什么是 Notion AI？Notion AI 是一个直接集成到 Notion 工作区平台的 AI 助手。它不需要用户在笔记应用和单独的 AI 工具之间切换，No"
 ---
 
 <h2>What Is Notion AI?</h2>

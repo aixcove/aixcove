@@ -8,6 +8,8 @@ categories:
 - local-llm-self-hosted
 featured: /uploads/2026/07/qwenpaw-feature-picture.jpg
 wpId: 784
+titleZh: "QwenPaw"
+descriptionZh: "什么是QwenPaw？QwenPaw是一个开源的个人AI助手，您可以在本地或云端运行，支持多渠道聊天、内置日程安排、记忆功能、技能以及本地模型支持。"
 ---
 
 <h2>What is QwenPaw?</h2>

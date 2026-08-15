@@ -122,3 +122,17 @@ article.prose th, article.prose td { border: 1px solid var(--border); padding: 8
 }
 .pagefind-wrap .pagefind-ui__message { color: var(--muted); }
 .pagefind-wrap mark { background: rgba(99,102,241,.35); color: var(--text); }
+
+/* 语言切换器 */
+.lang-switch {
+  margin-left: 16px;
+  padding: 4px 12px;
+  border: 1px solid var(--border, #d0d7de);
+  border-radius: 999px;
+  font-size: .85rem;
+  font-weight: 600;
+  color: inherit;
+  white-space: nowrap;
+  transition: background .15s;
+}
+.lang-switch:hover { background: rgba(125, 138, 245, .12); }

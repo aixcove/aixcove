@@ -1,12 +1,12 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { catName } from '../i18n/ui';
 
 export const prerender = true;
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
-  // WP 静态页面（contact/privacy/terms）原来也在根路径，保持不变以保全 SEO
   const wpPages = (await getCollection('pages')).filter((p) => p.id !== 'home');
   return [
     ...posts.map((p) => ({ params: { slug: p.id }, props: { post: p, wpPage: undefined } })),
@@ -21,6 +21,7 @@ const { post, wpPage } = Astro.props;
   title={post ? `${post.data.title} | AIX Cove` : `${wpPage.data.title} | AIX Cove`}
   description={post?.data.description || undefined}
   image={post?.data.featured || undefined}
+  altUrl={post ? `/zh/${post.id}/` : undefined}
 >
   {post ? (
     <article class="prose">
@@ -29,7 +30,7 @@ const { post, wpPage } = Astro.props;
         <time datetime={post.data.date}>{post.data.date.slice(0, 10)}</time>
         <span> · By AIX Cove</span>
         {post.data.categories.length > 0 && (
-          <span> · {post.data.categories.map((c) => <a href={`/category/${c}/`}>{c.replace(/-/g, ' ')}</a>)}</span>
+          <span> · {post.data.categories.map((c) => <a href={`/category/${c}/`}>{catName('en', c, c)}</a>)}</span>
         )}
       </div>
       {post.data.featured && <img class="hero-img" src={post.data.featured} alt={post.data.title} width="1200" height="630" />}
@@ -42,16 +43,8 @@ const { post, wpPage } = Astro.props;
         datePublished: post.data.date,
         dateModified: post.data.modified || post.data.date,
         image: post.data.featured ? new URL(post.data.featured, Astro.site).toString() : undefined,
-        author: {
-          '@type': 'Organization',
-          name: 'AIX Cove',
-          url: new URL('/', Astro.site).toString(),
-        },
-        publisher: {
-          '@type': 'Organization',
-          name: 'AIX Cove',
-          url: new URL('/', Astro.site).toString(),
-        },
+        author: { '@type': 'Organization', name: 'AIX Cove', url: new URL('/', Astro.site).toString() },
+        publisher: { '@type': 'Organization', name: 'AIX Cove', url: new URL('/', Astro.site).toString() },
         mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).toString(),
       })} />
     </article>

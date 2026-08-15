@@ -1,0 +1,15 @@
+---
+import { getCollection } from 'astro:content';
+import PostView from '../../views/PostView.astro';
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  return posts.map((p) => ({ params: { slug: p.id }, props: { post: p } }));
+}
+
+const { post } = Astro.props;
+---
+
+<PostView lang="zh" post={post} />

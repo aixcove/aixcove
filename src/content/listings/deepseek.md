@@ -8,6 +8,8 @@ categories:
 - general-purpose-llms-chat-assistants
 featured: /uploads/2026/04/deepseek-1.jpg
 wpId: 286
+titleZh: "DeepSeek"
+descriptionZh: "什么是深度求索？深度求索是一家来自中国的开源人工智能公司，因其生产的大型语言模型能够与领先专有模型相媲美或匹配性能而迅速获得全球关注。"
 ---
 
 <h2>What Is DeepSeek?</h2>

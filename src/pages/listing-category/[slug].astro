@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import CategoryView from '../../views/CategoryView.astro';
 
 export const prerender = true;
 
@@ -15,21 +15,4 @@ const listings = (await getCollection('listings'))
   .sort((a, b) => a.data.title.localeCompare(b.data.title));
 ---
 
-<BaseLayout title={`${cat.data.name} AI Tools | AIX Cove`} description={`Browse ${listings.length} ${cat.data.name} AI tools.`}>
-  <section class="section">
-    <div class="breadcrumb"><a href="/listings/">AI Tools</a> / {cat.data.name}</div>
-    <h1 style="font-size:1.9rem">{cat.data.name}</h1>
-    <p style="color:var(--muted)">{listings.length} tools in this category.</p>
-    <div class="grid cols-3">
-      {listings.map((l) => (
-        <article class="card">
-          {l.data.featured && <a href={`/listing/${l.id}/`}><img class="thumb" src={l.data.featured} alt={l.data.title} loading="lazy" /></a>}
-          <div class="body">
-            <h3><a href={`/listing/${l.id}/`}>{l.data.title}</a></h3>
-            <p>{l.data.description.slice(0, 130)}…</p>
-          </div>
-        </article>
-      ))}
-    </div>
-  </section>
-</BaseLayout>
+<CategoryView lang="en" kind="listings" catId={cat.id} catNameEn={cat.data.name} items={listings} />

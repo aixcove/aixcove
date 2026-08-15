@@ -8,6 +8,8 @@ categories:
 - ai-copywriting-seo
 featured: /uploads/2026/04/surfer_seo.jpg
 wpId: 252
+titleZh: "Surfer SEO"
+descriptionZh: "什么是Surfer SEO？Surfer SEO是一个由AI驱动的内容优化平台，帮助网站在谷歌搜索结果中获得更高的排名。它可以分析任何关键词的顶级排名页面，并提供数据..."
 ---
 
 <h2>What Is Surfer SEO?</h2>

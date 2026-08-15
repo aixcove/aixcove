@@ -8,6 +8,8 @@ categories:
 - ai-video-generation-editing
 featured: /uploads/2026/04/runway-1.jpg
 wpId: 260
+titleZh: "Runway"
+descriptionZh: "Runway是什么？Runway是一个领先的AI驱动创意套件，它使电影制作人、设计师和内容创作者能够使用人工智能生成和编辑视频、图像和音频。了解"
 ---
 
 <h2>What Is Runway?</h2>

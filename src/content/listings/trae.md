@@ -8,6 +8,8 @@ categories:
 - ai-coding-development
 featured: /uploads/2026/04/trae.jpg
 wpId: 204
+titleZh: "Trae"
+descriptionZh: "什么是Trae？Trae是由字节跳动（TikTok的母公司）开发的AI驱动集成开发环境（IDE）。Trae旨在使软件开发更快、更直观，Trae集"
 ---
 
 <h2>What Is Trae?</h2>

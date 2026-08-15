@@ -8,6 +8,8 @@ categories:
 - general-purpose-llms-chat-assistants
 featured: /uploads/2026/04/claude.jpg
 wpId: 184
+titleZh: "Claude"
+descriptionZh: "什么是Claude？Claude是由Anthropic公司创建的高级AI助手，Anthropic是一家专注于AI安全研究的公司。以其深思熟虑、细致入微的回答以及对帮助性和..."
 ---
 
 <h2>What Is Claude?</h2>

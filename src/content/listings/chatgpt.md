@@ -8,6 +8,8 @@ categories:
 - general-purpose-llms-chat-assistants
 featured: /uploads/2026/04/ChatGPT.jpg
 wpId: 185
+titleZh: "ChatGPT"
+descriptionZh: "什么是ChatGPT？ChatGPT是由OpenAI开发的领先的人工智能聊天机器人。自2022年11月推出以来，它已成为全球最广泛认可的人工智能对话工具，服务于m"
 ---
 
 <h2>What Is ChatGPT?</h2>

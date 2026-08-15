@@ -8,6 +8,8 @@ categories:
 - general-purpose-llms-chat-assistants
 featured: /uploads/2026/04/gemini.jpg
 wpId: 186
+titleZh: "Gemini"
+descriptionZh: "什么是 Google Gemini？Gemini 是 Google 的旗舰 AI 模型系列，设计为原生多模态 — 意味着它可以在单一环境中理解和生成文本、图像、音频和视频"
 ---
 
 <h2>What Is Google Gemini?</h2>

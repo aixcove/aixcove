@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import BaseLayout from '../layouts/BaseLayout.astro';
+import Home from '../views/Home.astro';
 
 export const prerender = true;
 
@@ -9,83 +9,6 @@ const listings = await getCollection('listings');
 const listCats = (await getCollection('listingCategories'))
   .filter((c) => c.data.count > 0)
   .sort((a, b) => b.data.count - a.data.count);
-
-const latestPosts = posts.slice(0, 6);
-const latestListings = [...listings].sort((a, b) => b.data.date.localeCompare(a.data.date)).slice(0, 9);
-const siteUrl = new URL('/', Astro.site).toString();
-const orgSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Organization',
-  name: 'AIX Cove',
-  url: siteUrl,
-  description: 'AIX Cove — curated AI tools directory and reviews.',
-};
-const webSiteSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'WebSite',
-  name: 'AIX Cove',
-  url: siteUrl,
-  potentialAction: {
-    '@type': 'SearchAction',
-    target: new URL('search/?q={search_term_string}', Astro.site).toString(),
-    'query-input': 'required name=search_term_string',
-  },
-};
 ---
 
-<BaseLayout title="AIX Cove — AI Tools Directory & Reviews" image="/uploads/2026/04/cropped-banner-scaled-1.jpg">
-  <section class="hero">
-    <h1>Discover the Best AI Tools</h1>
-    <p>Curated AI tools directory — agents, coding assistants, image & video generators, and productivity boosters. Hand-picked, honestly reviewed.</p>
-    <form class="search-box" action="/search/" method="get">
-      <input type="search" name="q" placeholder="Search AI tools and articles…" aria-label="Search" />
-      <button type="submit">Search</button>
-    </form>
-  </section>
-
-  <section class="section">
-    <h2>Explore Categories</h2>
-    <div class="badges" style="justify-content:center">
-      {listCats.slice(0, 18).map((c) => (
-        <a class="badge" href={`/listing-category/${c.id}/`}>{c.data.name}</a>
-      ))}
-    </div>
-  </section>
-
-  <section class="section">
-    <h2>Latest AI Tools</h2>
-    <div class="grid cols-3">
-      {latestListings.map((l) => (
-        <article class="card">
-          {l.data.featured && <a href={`/listing/${l.id}/`}><img class="thumb" src={l.data.featured} alt={l.data.title} loading="lazy" /></a>}
-          <div class="body">
-            <h3><a href={`/listing/${l.id}/`}>{l.data.title}</a></h3>
-            <p>{l.data.description.slice(0, 120)}…</p>
-            <div class="badges">
-              {l.data.categories.slice(0, 2).map((c) => <span class="badge">{c.replace(/-/g, ' ')}</span>)}
-            </div>
-          </div>
-        </article>
-      ))}
-    </div>
-    <p style="text-align:center;margin-top:24px"><a class="more-link" href="/listings/">Browse all {listings.length} tools →</a></p>
-  </section>
-
-  <section class="section">
-    <h2>From the Blog</h2>
-    <div class="grid cols-3">
-      {latestPosts.map((p) => (
-        <article class="card">
-          {p.data.featured && <a href={`/${p.id}/`}><img class="thumb" src={p.data.featured} alt={p.data.title} loading="lazy" /></a>}
-          <div class="body">
-            <h3><a href={`/${p.id}/`}>{p.data.title}</a></h3>
-            <p>{(p.data.description || '').slice(0, 120)}…</p>
-          </div>
-        </article>
-      ))}
-    </div>
-    <p style="text-align:center;margin-top:24px"><a class="more-link" href="/blog/">All articles →</a></p>
-  </section>
-  <script type="application/ld+json" set:html={JSON.stringify(orgSchema)} />
-  <script type="application/ld+json" set:html={JSON.stringify(webSiteSchema)} />
-</BaseLayout>
+<Home lang="en" posts={posts} listings={listings} listCats={listCats} />

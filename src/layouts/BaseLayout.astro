@@ -1,36 +1,50 @@
 ---
 import '../styles/global.css';
+import { ui } from '../i18n/ui';
 
 interface Props {
   title: string;
   description?: string;
   image?: string;
   noindex?: boolean;
+  lang?: 'en' | 'zh';
+  altUrl?: string; // 对应语言的镜像页 URL（用于 hreflang 与切换器）
 }
 
-const { title, description = 'AIX Cove — Discover the best AI tools, curated and reviewed. AI agents, coding assistants, image generators, and more.', image, noindex = false } = Astro.props;
-const canonical = new URL(Astro.url.pathname, Astro.site);
+const {
+  title,
+  description,
+  image,
+  noindex = false,
+  lang = 'en',
+  altUrl,
+} = Astro.props;
 
-let jsonLd: string | undefined;
-const ld = Astro.props; // reserved for future per-page schema
-export const prerender = true;
+const L = ui[lang];
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const alt = altUrl ? new URL(altUrl, Astro.site) : undefined;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={lang === 'zh' ? 'zh-CN' : 'en'}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
-    <meta name="description" content={description} />
+    {description && <meta name="description" content={description} />}
     {noindex && <meta name="robots" content="noindex,follow" />}
     <link rel="canonical" href={canonical} />
+    {alt && <link rel="alternate" hreflang={lang === 'zh' ? 'en' : 'zh-CN'} href={alt} />}
+    {alt && <link rel="alternate" hreflang={lang === 'zh' ? 'zh-CN' : 'en'} href={canonical} />}
+    {alt && <link rel="alternate" hreflang="x-default" href={lang === 'zh' ? alt : canonical} />}
     {image && <meta property="og:image" content={new URL(image, Astro.site)} />}
     <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
+    {description && <meta property="og:description" content={description} />}
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content="AIX Cove" />
+    <meta property="og:locale" content={lang === 'zh' ? 'zh_CN' : 'en_US'} />
+    {alt && <meta property="og:locale:alternate" content={lang === 'zh' ? 'en_US' : 'zh_CN'} />}
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="alternate" type="application/rss+xml" title="AIX Cove" href="/rss.xml" />
@@ -39,13 +53,18 @@ export const prerender = true;
   <body>
     <header class="site-header">
       <div class="container inner">
-        <a href="/" class="site-logo">AIX<span>Cove</span></a>
+        <a href={lang === 'zh' ? '/zh/' : '/'} class="site-logo">AIX<span>Cove</span></a>
         <nav class="site-nav">
-          <a href="/listings/">AI Tools</a>
-          <a href="/blog/">Blog</a>
-          <a href="/search/">Search</a>
-          <a href="/contact-us/">Contact</a>
+          <a href={lang === 'zh' ? '/zh/listings/' : '/listings/'}>{L.nav_tools}</a>
+          <a href={lang === 'zh' ? '/zh/blog/' : '/blog/'}>{L.nav_blog}</a>
+          <a href={lang === 'zh' ? '/zh/search/' : '/search/'}>{L.nav_search}</a>
+          <a href="/contact-us/">{L.nav_contact}</a>
         </nav>
+        {alt && (
+          <a class="lang-switch" href={alt} hreflang={lang === 'zh' ? 'en' : 'zh-CN'}>
+            {L.switch_label}
+          </a>
+        )}
       </div>
     </header>
     <main class="container">
@@ -53,9 +72,9 @@ export const prerender = true;
     </main>
     <footer class="site-footer">
       <div class="container inner">
-        <div>© {new Date().getFullYear()} AIX Cove · AI tools directory &amp; reviews</div>
+        <div>© {new Date().getFullYear()} AIX Cove · {L.footer_tag}</div>
         <div>
-          <a href="/privacy-policy/">Privacy</a> · <a href="/terms-of-use/">Terms</a> · <a href="/contact-us/">Contact</a>
+          <a href="/privacy-policy/">{L.footer_privacy}</a> · <a href="/terms-of-use/">{L.footer_terms}</a> · <a href="/contact-us/">{L.footer_contact}</a>
         </div>
       </div>
     </footer>

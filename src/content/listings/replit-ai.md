@@ -8,6 +8,8 @@ categories:
 - ai-coding-development
 featured: /uploads/2026/04/replit_ai.jpg
 wpId: 280
+titleZh: "Replit AI"
+descriptionZh: "什么是Replit AI？Replit AI是内置在Replit（基于浏览器的软件开发平台）中的人工智能层。它提供AI驱动的代码生成、调试和解释功能。"
 ---
 
 <h2>What Is Replit AI?</h2>

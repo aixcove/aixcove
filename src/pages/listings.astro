@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import BaseLayout from '../layouts/BaseLayout.astro';
+import ListingsIndex from '../views/ListingsIndex.astro';
 
 export const prerender = true;
 
@@ -10,26 +10,4 @@ const cats = (await getCollection('listingCategories'))
   .sort((a, b) => b.data.count - a.data.count);
 ---
 
-<BaseLayout title="AI Tools Directory | AIX Cove" description={`Browse ${listings.length}+ curated AI tools — agents, coding, image generation, audio, productivity, and more.`}>
-  <section class="section">
-    <h1 style="font-size:1.9rem">AI Tools Directory</h1>
-    <p style="color:var(--muted)">{listings.length} tools, sorted A–Z.</p>
-    <div class="badges" style="margin-bottom:24px">
-      {cats.map((c) => <a class="badge" href={`/listing-category/${c.id}/`}>{c.data.name} ({c.data.count})</a>)}
-    </div>
-    <div class="grid cols-3">
-      {listings.map((l) => (
-        <article class="card">
-          {l.data.featured && <a href={`/listing/${l.id}/`}><img class="thumb" src={l.data.featured} alt={l.data.title} loading="lazy" /></a>}
-          <div class="body">
-            <h3><a href={`/listing/${l.id}/`}>{l.data.title}</a></h3>
-            <p>{l.data.description.slice(0, 130)}…</p>
-            <div class="badges">
-              {l.data.categories.slice(0, 2).map((c) => <span class="badge">{c.replace(/-/g, ' ')}</span>)}
-            </div>
-          </div>
-        </article>
-      ))}
-    </div>
-  </section>
-</BaseLayout>
+<ListingsIndex lang="en" listings={listings} cats={cats} />

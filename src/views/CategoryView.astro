@@ -1,0 +1,55 @@
+---
+// 分类列表视图（posts category / listing category 共用）
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { ui, catName } from '../i18n/ui';
+
+interface Props {
+  lang: 'en' | 'zh';
+  kind: 'posts' | 'listings';
+  catId: string;
+  catNameEn: string;
+  items: any[]; // posts or listings
+}
+const { lang, kind, catId, catNameEn, items } = Astro.props;
+const L = ui[lang];
+const prefix = lang === 'zh' ? '/zh' : '';
+const cname = catName(lang, catId, catNameEn);
+const isPosts = kind === 'posts';
+const altUrl = lang === 'zh'
+  ? (isPosts ? `/category/${catId}/` : `/listing-category/${catId}/`)
+  : (isPosts ? `/zh/category/${catId}/` : `/zh/listing-category/${catId}/`);
+---
+
+<BaseLayout
+  title={`${cname} | AIX Cove`}
+  description={isPosts ? `${cname} — ${L.articles_count(items.length)}` : `${cname} — ${L.tools_count(items.length)}`}
+  lang={lang}
+  altUrl={altUrl}
+>
+  <section class="section">
+    <div class="breadcrumb">
+      <a href={`${prefix}${isPosts ? '/blog/' : '/listings/'}`}>{isPosts ? L.blog_h1 : L.nav_tools}</a> / {cname}
+    </div>
+    <h1 style="font-size:1.9rem">{cname}</h1>
+    <p style="color:var(--muted)">{isPosts ? L.articles_count(items.length) : L.tools_count(items.length)}</p>
+    <div class="grid cols-3">
+      {items.map((it) => {
+        const href = isPosts ? `${prefix}/${it.id}/` : `${prefix}/listing/${it.id}/`;
+        const t = (!isPosts && lang === 'zh' && it.data.titleZh) ? it.data.titleZh : it.data.title;
+        const d = (!isPosts && lang === 'zh' && it.data.descriptionZh) ? it.data.descriptionZh : (it.data.description || '');
+        return (
+          <article class="card">
+            {it.data.featured && <a href={href}><img class="thumb" src={it.data.featured} alt={t} loading="lazy" /></a>}
+            <div class="body">
+              <h3><a href={href}>{t}</a></h3>
+              <p>{d.slice(0, 130)}…</p>
+              {isPosts && (
+                <div class="badges"><span class="badge">{it.data.date.slice(0, 0)}{it.data.date.slice(0, 10)}</span></div>
+              )}
+            </div>
+          </article>
+        );
+      })}
+    </div>
+  </section>
+</BaseLayout>

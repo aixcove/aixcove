@@ -8,6 +8,8 @@ categories:
 - general-purpose-llms-chat-assistants
 featured: /uploads/2026/04/gemma.jpg
 wpId: 237
+titleZh: "Gemma"
+descriptionZh: "什么是Gemma？Gemma是谷歌的一系列开源权重AI模型，专为开发者、研究人员和团队设计，他们希望能够在封闭环境之外运行、调优或集成的强大语言模型"
 ---
 
 <h2>What is Gemma?</h2>

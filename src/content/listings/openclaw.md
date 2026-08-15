@@ -8,6 +8,8 @@ categories:
 - ai-agents-automation
 featured: /uploads/2026/04/openclaw.jpg
 wpId: 213
+titleZh: "OpenClaw"
+descriptionZh: "什么是OpenClaw？OpenClaw是一个开源的AI智能体平台，它可以将大型语言模型转变为功能完备的个人助手。与基本的聊天机器人界面不同，OpenClaw将AI连接到"
 ---
 
 <h2>What Is OpenClaw?</h2>

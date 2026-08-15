@@ -9,6 +9,8 @@ categories:
 - ai-email-outreach
 featured: /uploads/2026/04/copy.ai_.jpg
 wpId: 251
+titleZh: "Copy.ai"
+descriptionZh: "什么是Copy.ai？Copy.ai是一个由人工智能驱动的平台，帮助上市团队创建高转化率的营销和销售内容。最初作为AI文案写作工具推出，Copy.ai已经发展演变"
 ---
 
 <h2>What Is Copy.ai?</h2>

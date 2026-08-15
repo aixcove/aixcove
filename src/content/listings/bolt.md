@@ -8,6 +8,8 @@ categories:
 - ai-coding-development
 featured: /uploads/2026/04/bolt-1.jpg
 wpId: 282
+titleZh: "Bolt"
+descriptionZh: "Bolt是什么？Bolt是StackBlitz开发的一款由AI驱动的全栈Web开发工具，它使任何人都可以直接使用自然语言从浏览器中构建、运行和部署完整的Web应用程序。"
 ---
 
 <h2>What Is Bolt?</h2>

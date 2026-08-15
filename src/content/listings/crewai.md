@@ -9,6 +9,8 @@ categories:
 - autonomous-ai-agents
 featured: /uploads/2026/04/crewai-1.jpg
 wpId: 272
+titleZh: "CrewAI"
+descriptionZh: "什么是CrewAI？CrewAI是一个开源的多智能体AI框架，它使开发者能够创建由专业化AI智能体组成的团队，这些智能体协作完成复杂任务。受人类如何..."
 ---
 
 <h2>What Is CrewAI?</h2>

@@ -8,6 +8,8 @@ categories:
 - business-process-automation
 featured: /uploads/2026/07/hapax-ai-feature-picture.jpg
 wpId: 788
+titleZh: "Hapax"
+descriptionZh: "Hapax是什么？Hapax是一个面向金融机构和运营密集型团队的AI平台，这些团队希望自动工作流程，同时保持对知识、合规性和流程质量的控制。"
 ---
 
 <h2>What is Hapax?</h2>

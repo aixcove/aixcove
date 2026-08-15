@@ -8,6 +8,8 @@ categories:
 - ai-coding-development
 featured: /uploads/2026/06/zcode-official-docs-featured.jpg
 wpId: 869
+titleZh: "ZCode"
+descriptionZh: "ZCode是什么？ZCode是Z.ai开发的一个智能代理开发环境，专为长期的软件工程任务而构建。它不像传统编辑器那样带有小型聊天侧边栏，而是将"
 ---
 
 <h2>What Is ZCode?</h2>

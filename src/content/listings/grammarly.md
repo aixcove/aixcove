@@ -9,6 +9,8 @@ categories:
 - ai-text-blog-writing
 featured: /uploads/2026/04/grammarly-1.jpg
 wpId: 258
+titleZh: "Grammarly"
+descriptionZh: "Grammarly是什么？Grammarly是全球使用最广泛的AI写作助手，帮助数百万人更清晰、更有效地用英语交流。除了基本的语法和拼写"
 ---
 
 <h2>What Is Grammarly?</h2>

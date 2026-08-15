@@ -1,0 +1,14 @@
+---
+import { getCollection } from 'astro:content';
+import Home from '../../views/Home.astro';
+
+export const prerender = true;
+
+const posts = (await getCollection('posts')).sort((a, b) => b.data.date.localeCompare(a.data.date));
+const listings = await getCollection('listings');
+const listCats = (await getCollection('listingCategories'))
+  .filter((c) => c.data.count > 0)
+  .sort((a, b) => b.data.count - a.data.count);
+---
+
+<Home lang="zh" posts={posts} listings={listings} listCats={listCats} />

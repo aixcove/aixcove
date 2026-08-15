@@ -8,6 +8,8 @@ categories:
 - ai-image-design
 featured: /uploads/2026/04/canva.jpg
 wpId: 262
+titleZh: "Canva AI"
+descriptionZh: "什么是Canva AI？Canva AI指的是集成在Canva中的人工智能功能套件，Canva是世界上最受欢迎的在线设计平台。这些AI工具使用户能够创建"
 ---
 
 <h2>What Is Canva AI?</h2>

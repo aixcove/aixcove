@@ -1,0 +1,18 @@
+---
+import { getCollection } from 'astro:content';
+import CategoryView from '../../../views/CategoryView.astro';
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  const cats = await getCollection('categories');
+  return cats.map((c) => ({ params: { slug: c.id }, props: { cat: c } }));
+}
+
+const { cat } = Astro.props;
+const posts = (await getCollection('posts'))
+  .filter((p) => p.data.categories.includes(cat.id))
+  .sort((a, b) => b.data.date.localeCompare(a.data.date));
+---
+
+<CategoryView lang="zh" kind="posts" catId={cat.id} catNameEn={cat.data.name} items={posts} />

@@ -1,0 +1,43 @@
+---
+// 工具目录视图（en/zh 共用）
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { ui, catName } from '../i18n/ui';
+
+interface Props {
+  lang: 'en' | 'zh';
+  listings: any[];
+  cats: any[];
+}
+const { lang, listings, cats } = Astro.props;
+const L = ui[lang];
+const prefix = lang === 'zh' ? '/zh' : '';
+---
+
+<BaseLayout
+  title={`${L.tools_h1} | AIX Cove`}
+  description={L.tools_sub(listings.length)}
+  lang={lang}
+  altUrl={lang === 'zh' ? '/listings/' : '/zh/listings/'}
+>
+  <section class="section">
+    <h1 style="font-size:1.9rem">{L.tools_h1}</h1>
+    <p style="color:var(--muted)">{L.tools_sub(listings.length)}</p>
+    <div class="badges" style="margin-bottom:24px">
+      {cats.map((c) => <a class="badge" href={`${prefix}/listing-category/${c.id}/`}>{catName(lang, c.id, c.data.name)} ({c.data.count})</a>)}
+    </div>
+    <div class="grid cols-3">
+      {listings.map((l) => (
+        <article class="card">
+          {l.data.featured && <a href={`${prefix}/listing/${l.id}/`}><img class="thumb" src={l.data.featured} alt={l.data.title} loading="lazy" /></a>}
+          <div class="body">
+            <h3><a href={`${prefix}/listing/${l.id}/`}>{lang === 'zh' && l.data.titleZh ? l.data.titleZh : l.data.title}</a></h3>
+            <p>{(lang === 'zh' && l.data.descriptionZh ? l.data.descriptionZh : l.data.description).slice(0, 130)}…</p>
+            <div class="badges">
+              {l.data.categories.slice(0, 2).map((c) => <span class="badge">{catName(lang, c, c)}</span>)}
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

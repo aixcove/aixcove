@@ -8,6 +8,8 @@ categories:
 - ai-coding-development
 featured: /uploads/2026/04/antigravity.jpg
 wpId: 208
+titleZh: "Antigravity"
+descriptionZh: "什么是反重力？反重力是一款AI驱动的开发工具，旨在加速软件工程工作流程。它为常见的开发任务提供智能自动化，包括代码"
 ---
 
 <h2>What Is Antigravity?</h2>

@@ -8,6 +8,8 @@ categories:
 - ai-coding-development
 featured: /uploads/2026/04/codex.jpg
 wpId: 200
+titleZh: "Codex"
+descriptionZh: "什么是Codex？Codex是OpenAI的代理式AI编程工具，它在沙盒云环境中自主运行。给定自然语言任务描述，Codex可以独立规划、编写"
 ---
 
 <h2>What Is Codex?</h2>

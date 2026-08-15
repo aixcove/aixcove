@@ -8,6 +8,8 @@ categories:
 - ai-coding-development
 featured: /uploads/2026/04/kiro.jpg
 wpId: 207
+titleZh: "Kiro"
+descriptionZh: "什么是Kiro？Kiro是亚马逊开发的一款AI驱动的集成开发环境，它采用规范驱动的方法进行软件开发。与其他专注于内联的AI编码工具不同"
 ---
 
 <h2>What Is Kiro?</h2>

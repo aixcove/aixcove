@@ -8,6 +8,8 @@ categories:
 - ai-workflow-orchestration
 featured: /uploads/2026/04/flowise-1.jpg
 wpId: 633
+titleZh: "Flowise"
+descriptionZh: "什么是Flowise？Flowise是一个用于LLM应用和AI工作流程的开源可视化构建器。它通过基于节点的方式帮助团队设计聊天机器人、检索管道、代理流程和集成。"
 ---
 
 <h2>What Is Flowise?</h2>

@@ -12,6 +12,8 @@ const posts = defineCollection({
     categories: z.array(z.string()).default([]),
     featured: z.string().default(''),
     wpId: z.number().optional(),
+    titleZh: z.string().optional(),
+    descriptionZh: z.string().optional(),
   }),
 });
 
@@ -26,6 +28,9 @@ const listings = defineCollection({
     categories: z.array(z.string()).default([]),
     featured: z.string().default(''),
     wpId: z.number().optional(),
+    titleZh: z.string().optional(),
+    descriptionZh: z.string().optional(),
+    bodyZh: z.string().optional(),
   }),
 });
 

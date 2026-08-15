@@ -8,6 +8,8 @@ categories:
 - ai-copywriting-seo
 featured: /uploads/2026/04/semrush.jpg
 wpId: 253
+titleZh: "Semrush Copilot"
+descriptionZh: "什么是 Semrush 助手？Semrush 助手是集成到 Semrush 数字营销平台中的 AI 驱动的助手。它会自动分析您网站的 SEO 性能，识别 '"
 ---
 
 <h2>What Is Semrush Copilot?</h2>

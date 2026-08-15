@@ -9,6 +9,8 @@ categories:
 - autonomous-ai-agents
 featured: /uploads/2026/04/hermes-agent.jpg
 wpId: 548
+titleZh: "Hermes Agent"
+descriptionZh: "什么是赫尔墨斯智能体？赫尔墨斯智能体是由Nous Research开发的开源、自我改进的AI智能体。它内置学习循环，能够自主创建、完善和重用技能，从..."
 ---
 
 <h2>What Is Hermes Agent?</h2>

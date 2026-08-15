@@ -8,6 +8,8 @@ categories:
 - ai-workflow-orchestration
 featured: /uploads/2026/04/viz_ai.jpg
 wpId: 265
+titleZh: "Viz.ai"
+descriptionZh: "Viz.ai是什么？Viz.ai是一个获得FDA批准的AI驱动医疗平台，利用先进的计算机视觉和深度学习技术实时分析医学影像。旨在加速关键..."
 ---
 
 <h2>What Is Viz.ai?</h2>

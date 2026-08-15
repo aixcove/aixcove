@@ -8,6 +8,8 @@ categories:
 - ai-coding-development
 featured: /uploads/2026/04/codebuddy.jpg
 wpId: 206
+titleZh: "CodeBuddy"
+descriptionZh: "什么是CodeBuddy？CodeBuddy是一个AI编程助手，旨在作为您在整个开发过程中的编程伙伴。它提供实时的编写、理解和调试帮助"
 ---
 
 <h2>What Is CodeBuddy?</h2>

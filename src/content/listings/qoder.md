@@ -8,6 +8,8 @@ categories:
 - ai-coding-development
 featured: /uploads/2026/04/qoder.jpg
 wpId: 205
+titleZh: "Qoder"
+descriptionZh: "Qoder是什么？Qoder是一款AI编程工具，旨在帮助开发者编写、理解和改进代码。它属于AI编程助手类别，用户通常通过编辑功能来比较工具..."
 ---
 
 <h2>What is Qoder?</h2>

@@ -8,6 +8,8 @@ categories:
 - ai-education-learning
 featured: /uploads/2026/04/sana_aI.jpg
 wpId: 268
+titleZh: "Sana AI"
+descriptionZh: "什么是Sana AI？Sana AI是一个为企业团队设计的AI驱动学习和知识平台。它将自适应学习、知识管理和AI辅助内容创作融为一体..."
 ---
 
 <h2>What Is Sana AI?</h2>

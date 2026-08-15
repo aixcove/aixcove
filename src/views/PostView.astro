@@ -1,0 +1,51 @@
+---
+// 文章详情视图（en/zh 共用）— zh 版暂用英文正文+中文 meta（后续翻译）
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { ui, catName } from '../i18n/ui';
+
+interface Props {
+  lang: 'en' | 'zh';
+  post: any;
+}
+const { lang, post } = Astro.props;
+const L = ui[lang];
+const prefix = lang === 'zh' ? '/zh' : '';
+const title = lang === 'zh' && post.data.titleZh ? post.data.titleZh : post.data.title;
+const description = lang === 'zh' && post.data.descriptionZh ? post.data.descriptionZh : post.data.description;
+---
+
+<BaseLayout title={`${title} | AIX Cove`} description={description} image={post.data.featured || undefined} lang={lang} altUrl={lang === 'zh' ? `/${post.id}/` : `/zh/${post.id}/`}>
+  <article class="prose">
+    <h1>{title}</h1>
+    <div class="meta">
+      <time datetime={post.data.date}>{post.data.date.slice(0, 10)}</time>
+      <span> · {L.by_author}</span>
+      {post.data.categories.length > 0 && (
+        <span> · {post.data.categories.map((c) => <a href={`${prefix}/category/${c}/`}>{catName(lang, c, c)}</a>)}</span>
+      )}
+    </div>
+    {post.data.featured && <img class="hero-img" src={post.data.featured} alt={title} width="1200" height="630" />}
+    <div class="content" set:html={post.body} />
+    <script type="application/ld+json" set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: title,
+      description: description,
+      inLanguage: lang === 'zh' ? 'zh-CN' : 'en',
+      datePublished: post.data.date,
+      dateModified: post.data.modified || post.data.date,
+      image: post.data.featured ? new URL(post.data.featured, Astro.site).toString() : undefined,
+      author: {
+        '@type': 'Organization',
+        name: 'AIX Cove',
+        url: new URL('/', Astro.site).toString(),
+      },
+      publisher: {
+        '@type': 'Organization',
+        name: 'AIX Cove',
+        url: new URL('/', Astro.site).toString(),
+      },
+      mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).toString(),
+    })} />
+  </article>
+</BaseLayout>

@@ -1,0 +1,15 @@
+---
+import { getCollection } from 'astro:content';
+import ListingView from '../../../views/ListingView.astro';
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  const listings = await getCollection('listings');
+  return listings.map((l) => ({ params: { slug: l.id }, props: { item: l } }));
+}
+
+const { item } = Astro.props;
+---
+
+<ListingView lang="zh" item={item} />

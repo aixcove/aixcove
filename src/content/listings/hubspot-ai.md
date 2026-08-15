@@ -9,6 +9,8 @@ categories:
 - ai-email-outreach
 featured: /uploads/2026/04/hubspot.jpg
 wpId: 254
+titleZh: "HubSpot AI"
+descriptionZh: "什么是 HubSpot AI？HubSpot AI 是集成在 HubSpot 的 CRM、营销、销售和客户支持平台中的 AI 功能集合。它专为已经使用 HubSpot 并希望应用 AI 的团队设计。"
 ---
 
 <h2>What is HubSpot AI?</h2>

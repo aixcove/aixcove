@@ -8,6 +8,8 @@ categories:
 - general-purpose-llms-chat-assistants
 featured: /uploads/2026/04/glm.jpg
 wpId: 188
+titleZh: "GLM"
+descriptionZh: "什么是GLM？GLM（通用语言模型）是智谱AI的旗舰大型语言模型系列，由中国顶尖的AI研究公司之一开发，该公司源自清华大学。Kno"
 ---
 
 <h2>What Is GLM?</h2>

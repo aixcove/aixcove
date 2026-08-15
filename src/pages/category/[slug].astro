@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import CategoryView from '../../views/CategoryView.astro';
 
 export const prerender = true;
 
@@ -15,22 +15,4 @@ const posts = (await getCollection('posts'))
   .sort((a, b) => b.data.date.localeCompare(a.data.date));
 ---
 
-<BaseLayout title={`${cat.data.name} | AIX Cove Blog`} description={`${cat.data.name} articles — AI tool reviews and guides.`}>
-  <section class="section">
-    <div class="breadcrumb"><a href="/blog/">Blog</a> / {cat.data.name}</div>
-    <h1 style="font-size:1.9rem">{cat.data.name}</h1>
-    <p style="color:var(--muted)">{posts.length} articles.</p>
-    <div class="grid cols-3">
-      {posts.map((p) => (
-        <article class="card">
-          {p.data.featured && <a href={`/${p.id}/`}><img class="thumb" src={p.data.featured} alt={p.data.title} loading="lazy" /></a>}
-          <div class="body">
-            <h3><a href={`/${p.id}/`}>{p.data.title}</a></h3>
-            <p>{(p.data.description || '').slice(0, 130)}…</p>
-            <div class="badges"><span class="badge">{p.data.date.slice(0, 10)}</span></div>
-          </div>
-        </article>
-      ))}
-    </div>
-  </section>
-</BaseLayout>
+<CategoryView lang="en" kind="posts" catId={cat.id} catNameEn={cat.data.name} items={posts} />

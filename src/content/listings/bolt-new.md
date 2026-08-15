@@ -8,6 +8,8 @@ categories:
 - ai-code-generation-debug
 featured: /uploads/2026/04/bolt.new_.jpg
 wpId: 635
+titleZh: "Bolt.new"
+descriptionZh: "什么是Bolt.new？Bolt.new是一个AI编程和应用程序构建工具，帮助用户通过自然语言提示创建、编辑和运行Web应用程序。它最著名的是基于浏览器的快速开发能力。"
 ---
 
 <h2>What is Bolt.new?</h2>

@@ -1,0 +1,22 @@
+---
+// 404 视图（en/zh 共用）
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { ui } from '../i18n/ui';
+
+interface Props {
+  lang: 'en' | 'zh';
+}
+const { lang } = Astro.props;
+const L = ui[lang];
+const prefix = lang === 'zh' ? '/zh' : '';
+---
+
+<BaseLayout title={lang === 'zh' ? '页面不存在 | AIX Cove' : 'Page Not Found | AIX Cove'} lang={lang}>
+  <section class="hero">
+    <h1>{L.notfound_h1}</h1>
+    <p>{L.notfound_p}</p>
+    <p>
+      <a href={`${prefix}/`}>{L.notfound_back}</a> · <a href={`${prefix}/listings/`}>{L.notfound_tools}</a> · <a href={`${prefix}/search/`}>{L.nav_search}</a>
+    </p>
+  </section>
+</BaseLayout>

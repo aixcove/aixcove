@@ -8,6 +8,8 @@ categories:
 - ai-coding-development
 featured: /uploads/2026/05/adk-rust.jpg
 wpId: 786
+titleZh: "ADK-Rust"
+descriptionZh: "ADK-Rust是什么？ADK-Rust是一个专注于生产的Rust框架，用于构建AI智能体，它包含用于模型、工具、内存、会话、RAG、实时语音和部署API的模块化组件。为什么选择ADK-Rust"
 ---
 
 <h2>What is ADK-Rust?</h2>

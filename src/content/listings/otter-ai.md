@@ -8,6 +8,8 @@ categories:
 - ai-meeting-collaboration
 featured: /uploads/2026/04/otter_ai.jpg
 wpId: 257
+titleZh: "Otter.ai"
+descriptionZh: "什么是Otter.ai？Otter.ai是一个由人工智能驱动的会议转录和协作工具，可以自动记录、转录和实时总结您的会议。利用先进的语音识别"
 ---
 
 <h2>What Is Otter.ai?</h2>

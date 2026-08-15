@@ -9,6 +9,8 @@ categories:
 - autonomous-ai-agents
 featured: /uploads/2026/04/autogpt-1.jpg
 wpId: 270
+titleZh: "AutoGPT"
+descriptionZh: "什么是AutoGPT？AutoGPT是开创性的自主AI代理框架之一，它展示了AI系统独立规划、执行和迭代复杂多步骤任务的潜力。"
 ---
 
 <h2>What Is AutoGPT?</h2>

@@ -8,6 +8,8 @@ categories:
 - ai-coding-development
 featured: /uploads/2026/06/kimi-code-official-demo-featured.jpg
 wpId: 871
+titleZh: "Kimi Code"
+descriptionZh: "什么是Kimi代码？Kimi代码是由Moonshot AI开发的运行在终端中的开源AI编程助手。它可以读取和编辑代码，运行shell命令，搜索文件，获取网页内容，并做出决策..."
 ---
 
 <h2>What Is Kimi Code?</h2>

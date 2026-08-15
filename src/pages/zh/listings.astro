@@ -1,0 +1,13 @@
+---
+import { getCollection } from 'astro:content';
+import ListingsIndex from '../../views/ListingsIndex.astro';
+
+export const prerender = true;
+
+const listings = (await getCollection('listings')).sort((a, b) => a.data.title.localeCompare(b.data.title));
+const cats = (await getCollection('listingCategories'))
+  .filter((c) => c.data.count > 0)
+  .sort((a, b) => b.data.count - a.data.count);
+---
+
+<ListingsIndex lang="zh" listings={listings} cats={cats} />

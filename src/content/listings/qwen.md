@@ -8,6 +8,8 @@ categories:
 - general-purpose-llms-chat-assistants
 featured: /uploads/2026/04/qwen-1.jpg
 wpId: 187
+titleZh: "Qwen"
+descriptionZh: "什么是QWen？QWen（通义千问）是阿里云的旗舰大语言模型家族，旨在提供强大的AI能力，涵盖文本理解、代码生成、数学"
 ---
 
 <h2>What Is QWen?</h2>

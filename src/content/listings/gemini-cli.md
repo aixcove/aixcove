@@ -8,6 +8,8 @@ categories:
 - ai-coding-development
 featured: /uploads/2026/04/gemini_cli.jpg
 wpId: 201
+titleZh: "Gemini CLI"
+descriptionZh: "什么是 Gemini CLI？Gemini CLI 是 Google 官方的命令行界面，可以直接从终端与 Gemini AI 模型进行交互。它使开发者和高级用户能够利用 Gem"
 ---
 
 <h2>What Is Gemini CLI?</h2>

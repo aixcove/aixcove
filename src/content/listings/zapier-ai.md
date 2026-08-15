@@ -9,6 +9,8 @@ categories:
 - ai-workflow-orchestration
 featured: /uploads/2026/04/zapier.jpg
 wpId: 256
+titleZh: "Zapier AI"
+descriptionZh: "什么是Zapier AI？Zapier AI是内置在Zapier中的人工智能层，Zapier是世界领先的工作流程自动化平台。它使用户能够创建复杂的工作流程自动化"
 ---
 
 <h2>What Is Zapier AI?</h2>

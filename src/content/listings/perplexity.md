@@ -8,6 +8,8 @@ categories:
 - general-purpose-llms-chat-assistants
 featured: /uploads/2026/04/perplexity-1.jpg
 wpId: 284
+titleZh: "Perplexity"
+descriptionZh: "什么是Perplexity？Perplexity是一款由人工智能驱动的搜索引擎，它提供直接且有引用来源的答案，而不是返回链接列表。结合大型语言模型与实时网络"
 ---
 
 <h2>What Is Perplexity?</h2>

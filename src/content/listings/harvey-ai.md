@@ -8,6 +8,8 @@ categories:
 - ai-legal-contract
 featured: /uploads/2026/04/harvey_ai.jpg
 wpId: 264
+titleZh: "Harvey AI"
+descriptionZh: "什么是Harvey AI？Harvey AI是一个专门为法律行业构建的专业人工智能平台。在OpenAI创业基金的支持下，Harvey为法律专业人士提供"
 ---
 
 <h2>What Is Harvey AI?</h2>
