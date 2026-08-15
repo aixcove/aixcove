@@ -10,7 +10,7 @@ export async function getStaticPaths() {
 }
 
 const { cat } = Astro.props;
-const posts = (await getCollection('posts'))
+const posts = (await getCollection('postsZh'))
   .filter((p) => p.data.categories.includes(cat.id))
   .sort((a, b) => b.data.date.localeCompare(a.data.date));
 ---

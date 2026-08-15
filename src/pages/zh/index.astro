@@ -4,8 +4,8 @@ import Home from '../../views/Home.astro';
 
 export const prerender = true;
 
-const posts = (await getCollection('posts')).sort((a, b) => b.data.date.localeCompare(a.data.date));
-const listings = await getCollection('listings');
+const posts = (await getCollection('postsZh')).sort((a, b) => b.data.date.localeCompare(a.data.date));
+const listings = await getCollection('listingsZh');
 const listCats = (await getCollection('listingCategories'))
   .filter((c) => c.data.count > 0)
   .sort((a, b) => b.data.count - a.data.count);

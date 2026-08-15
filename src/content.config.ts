@@ -35,6 +35,24 @@ const listings = defineCollection({
   }),
 });
 
+const postsZh = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/posts-zh' }),
+  schema: z.object({
+    title: z.string(), date: z.string(), modified: z.string().optional(), slug: z.string().optional(),
+    description: z.string().default(''), categories: z.array(z.string()).default([]),
+    featured: z.string().default(''), wpId: z.number().optional(),
+  }),
+});
+
+const listingsZh = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/listings-zh' }),
+  schema: z.object({
+    title: z.string(), date: z.string(), modified: z.string().optional(), slug: z.string().optional(),
+    description: z.string().default(''), categories: z.array(z.string()).default([]),
+    featured: z.string().default(''), wpId: z.number().optional(),
+  }),
+});
+
 const pages = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/pages' }),
   schema: z.object({
@@ -67,4 +85,4 @@ const listingCategories = defineCollection({
   }),
 });
 
-export const collections = { posts, listings, pages, categories, listingCategories };
+export const collections = { posts, postsZh, listings, listingsZh, pages, categories, listingCategories };

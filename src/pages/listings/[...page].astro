@@ -4,20 +4,15 @@ import ListingsIndex from '../../views/ListingsIndex.astro';
 
 export const prerender = true;
 
-export async function getStaticPaths() {
-  const listings = (await getCollection('listings')).sort((a, b) => a.data.title.localeCompare(b.data.title));
+export async function getStaticPaths({ paginate }) {
+  const entries = (await getCollection('listings')).sort((a, b) => a.data.title.localeCompare(b.data.title));
   const cats = (await getCollection('listingCategories'))
     .filter((c) => c.data.count > 0)
     .sort((a, b) => b.data.count - a.data.count);
-  const PER = 18;
-  const total = Math.ceil(listings.length / PER);
-  return Array.from({ length: total }, (_, i) => ({
-    params: { page: i === 0 ? undefined : String(i + 1) },
-    props: { listings: listings.slice(i * PER, (i + 1) * PER), cats, current: i + 1, total },
-  }));
+  return paginate(entries, { pageSize: 18, props: { cats } });
 }
 
-const { listings, cats, current, total } = Astro.props;
+const { page, cats } = Astro.props;
 ---
 
-<ListingsIndex lang="en" listings={listings} cats={cats} page={{ current, total, base: '/listings/' }} />
+<ListingsIndex lang="en" listings={page.data} cats={cats} page={{ current: page.currentPage, total: page.lastPage, base: '/listings/' }} />

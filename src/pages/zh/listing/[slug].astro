@@ -5,7 +5,7 @@ import ListingView from '../../../views/ListingView.astro';
 export const prerender = true;
 
 export async function getStaticPaths() {
-  const listings = await getCollection('listings');
+  const listings = await getCollection('listingsZh');
   return listings.map((l) => ({ params: { slug: l.id }, props: { item: l } }));
 }
 

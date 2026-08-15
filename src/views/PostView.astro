@@ -1,5 +1,6 @@
 ---
-// 文章详情视图（en/zh 共用）— zh 版暂用英文正文+中文 meta（后续翻译）
+// 文章详情视图（en/zh 共用；每种语言各自使用 Astro Content collection）
+import { render } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { localeUrl } from '../i18n/utils';
 import { ui, catName } from '../i18n/ui';
@@ -11,8 +12,9 @@ interface Props {
 const { lang, post } = Astro.props;
 const L = ui[lang];
 const prefix = localeUrl(lang, '');
-const title = lang === 'zh' && post.data.titleZh ? post.data.titleZh : post.data.title;
-const description = lang === 'zh' && post.data.descriptionZh ? post.data.descriptionZh : post.data.description;
+const title = post.data.title;
+const description = post.data.description;
+const { Content } = await render(post);
 ---
 
 <BaseLayout title={`${title} | AIX Cove`} description={description} image={post.data.featured || undefined} lang={lang} altUrl={lang === 'zh' ? `/${post.id}/` : `/zh/${post.id}/`}>
@@ -26,7 +28,7 @@ const description = lang === 'zh' && post.data.descriptionZh ? post.data.descrip
       )}
     </div>
     {post.data.featured && <img class="hero-img" src={post.data.featured} alt={title} width="1200" height="630" />}
-    <div class="content" set:html={lang === 'zh' && post.data.bodyZh ? post.data.bodyZh : post.body} />
+    <div class="content"><Content /></div>
     <script type="application/ld+json" set:html={JSON.stringify({
       '@context': 'https://schema.org',
       '@type': 'Article',

@@ -5,7 +5,7 @@ import PostView from '../../views/PostView.astro';
 export const prerender = true;
 
 export async function getStaticPaths() {
-  const posts = await getCollection('posts');
+  const posts = await getCollection('postsZh');
   return posts.map((p) => ({ params: { slug: p.id }, props: { post: p } }));
 }
 

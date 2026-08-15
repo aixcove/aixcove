@@ -48,7 +48,7 @@ const alt = altUrl ? new URL(altUrl, Astro.site) : undefined;
     {alt && <meta property="og:locale:alternate" content={lang === 'zh' ? 'en_US' : 'zh_CN'} />}
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="alternate" type="application/rss+xml" title="AIX Cove" href="/rss.xml" />
+    <link rel="alternate" type="application/rss+xml" title={lang === 'zh' ? 'AIX Cove 中文' : 'AIX Cove'} href={lang === 'zh' ? '/zh/rss.xml' : '/rss.xml'} />
     <slot name="head" />
     <script is:inline>
       (function () {

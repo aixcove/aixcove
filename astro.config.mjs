@@ -9,6 +9,11 @@ export default defineConfig({
   },
   site: 'https://aixcove.com',
   trailingSlash: 'always',
-  integrations: [sitemap()],
+  integrations: [sitemap({
+    i18n: {
+      defaultLocale: 'en',
+      locales: { en: 'en', zh: 'zh-CN' },
+    },
+  })],
   build: { inlineStylesheets: 'auto' },
 });
