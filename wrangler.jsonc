@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "aixcove",
+  "main": "worker.js",
+  "account_id": "d083a59080489198d5fd9fcfb0a091bf",
+  "compatibility_date": "2026-08-15",
+  "compatibility_flags": ["global_fetch_strictly_public"],
+  "workers_dev": true,
+  "preview_urls": true,
+  "assets": { "directory": "./dist", "binding": "ASSETS", "run_worker_first": true }
+}

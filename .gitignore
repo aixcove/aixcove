@@ -5,3 +5,6 @@ dist/
 .env.*
 .DS_Store
 *.log
+# Local audit evidence and rollback snapshots; never commit production credentials or backups.
+AIXCOVE_GSC_SEO_AUDIT_*.md
+migration-backups/
