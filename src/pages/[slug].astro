@@ -27,6 +27,7 @@ const { post, wpPage } = Astro.props;
       <h1>{post.data.title}</h1>
       <div class="meta">
         <time datetime={post.data.date}>{post.data.date.slice(0, 10)}</time>
+        <span> · By AIX Cove</span>
         {post.data.categories.length > 0 && (
           <span> · {post.data.categories.map((c) => <a href={`/category/${c}/`}>{c.replace(/-/g, ' ')}</a>)}</span>
         )}
