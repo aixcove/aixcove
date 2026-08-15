@@ -6,7 +6,6 @@ slug: grammarly
 description: 'What Is Grammarly? Grammarly is the world&#8217;s most widely used AI writing assistant, helping millions of people communicate more clearly and effectively in English. Beyond basic grammar and spell '
 categories:
 - ai-writing-marketing
-featured: /uploads/2026/04/grammarly-1.jpg
 wpId: 258
 bodyZh: '<h2>什么是Grammarly？</h2>
 
@@ -45,8 +44,9 @@ bodyZh: '<h2>什么是Grammarly？</h2>
   <p>Grammarly在你写作的地方直接工作——无论是邮件、文档还是任何应用中的文本输入框。ChatGPT则需要切换到独立界面。Grammarly提供实时的行内建议，在提升质量的同时保留你的个人风格。在现有工作流程中改进写作，Grammarly更方便。生成全新内容，ChatGPT能力更强。</p>'
 titleZh: Grammarly
 descriptionZh: Grammarly是什么？Grammarly是全球使用最广泛的AI写作助手，帮助数百万人更清晰、更有效地用英语交流。除了基本的语法和拼写
+image: /uploads/2026/04/grammarly-1.jpg
+featured: false
 ---
-
 <h2>What Is Grammarly?</h2>
 <p>Grammarly is the world&#8217;s most widely used AI writing assistant, helping millions of people communicate more clearly and effectively in English. Beyond basic grammar and spell checking, Grammarly uses advanced AI to analyze tone, clarity, engagement, and delivery, providing real-time suggestions that improve writing quality across emails, documents, social media, and web applications. It works everywhere you write through browser extensions, desktop apps, and mobile keyboards.</p>
 <h2>Key Features and Capabilities</h2>

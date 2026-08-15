@@ -6,8 +6,9 @@ slug: dify
 description: Dify是什么？Dify是一个开源平台，用于构建和运营AI应用程序、助手和工作流。它将提示管理、数据集、工具集成和应用程序部署结合到
 categories:
 - ai-agents
-featured: /uploads/2026/04/dify-4.jpg
 wpId: 638
+image: /uploads/2026/04/dify-4.jpg
+featured: true
 ---
 <h2 class="wp-block-heading">什么是 Dify？</h2>
 <p class="wp-block-paragraph">Dify 是一个用于构建和运营 AI 应用、助手及工作流的开源平台。它将提示词管理、数据集、工具集成和应用部署整合到一个产品层中，帮助团队更快地交付 AI 功能。</p>

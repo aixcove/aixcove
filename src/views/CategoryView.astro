@@ -36,11 +36,13 @@ const altUrl = lang === 'zh'
     <div class="grid cols-3">
       {items.map((it) => {
         const href = isPosts ? `${prefix}/${it.id}/` : `${prefix}/listing/${it.id}/`;
-        const t = (lang === 'zh' && it.data.titleZh) ? it.data.titleZh : it.data.title;
-        const d = (lang === 'zh' && it.data.descriptionZh) ? it.data.descriptionZh : (it.data.description || '');
+        const t = it.data.title;
+        const d = it.data.description || '';
+        const image = isPosts ? it.data.featured : it.data.image;
         return (
-          <article class="card">
-            {it.data.featured && <a href={href}><img class="thumb" src={it.data.featured} alt={t} loading="lazy" /></a>}
+          <article class:list={['card', { 'is-featured': !isPosts && it.data.featured }]}>
+            {!isPosts && it.data.featured && <span class="featured-badge">{lang === 'zh' ? '精选工具' : 'Featured tool'}</span>}
+            {image && <a href={href}><img class="thumb" src={image} alt={t} loading="lazy" /></a>}
             <div class="body">
               <h3><a href={href}>{t}</a></h3>
               <p>{d.slice(0, 130)}…</p>

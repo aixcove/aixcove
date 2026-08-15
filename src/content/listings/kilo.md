@@ -6,7 +6,6 @@ slug: kilo
 description: 'What Is Kiro? Kiro is an AI-powered integrated development environment developed by Amazon that takes a spec-driven approach to software development. Unlike other AI coding tools that focus on inline '
 categories:
 - ai-coding
-featured: /uploads/2026/04/kiro.jpg
 wpId: 207
 bodyZh: '<h2>什么是 Kiro？</h2>
 
@@ -45,8 +44,9 @@ bodyZh: '<h2>什么是 Kiro？</h2>
   <p>Kiro 的规格驱动方法是其关键差异化优势。Cursor 和 Trae 侧重于交互式、实时的编码辅助，而 Kiro 鼓励开发者先思考需求，再让 AI 实现。这能产生更周全、架构更完善的代码。那些受困于范围蔓延和需求不清晰的团队，可能会发现 Kiro 的方法特别有价值。</p>'
 titleZh: Kiro
 descriptionZh: 什么是Kiro？Kiro是亚马逊开发的一款AI驱动的集成开发环境，它采用规范驱动的方法进行软件开发。与其他专注于内联的AI编码工具不同
+image: /uploads/2026/04/kiro.jpg
+featured: false
 ---
-
 <h2>What Is Kiro?</h2>
 <p>Kiro is an AI-powered integrated development environment developed by Amazon that takes a spec-driven approach to software development. Unlike other AI coding tools that focus on inline completions, Kiro emphasizes understanding requirements through structured specifications and then generating complete, well-architected implementations. It represents Amazon&#8217;s vision for how AI should transform the software development process.</p>
 <h2>Key Features and Capabilities</h2>

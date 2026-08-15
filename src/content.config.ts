@@ -27,7 +27,8 @@ const listings = defineCollection({
     slug: z.string().optional(),
     description: z.string().default(''),
     categories: z.array(z.string()).default([]),
-    featured: z.string().default(''),
+    image: z.string().default(''),
+    featured: z.boolean().default(false),
     wpId: z.number().optional(),
     titleZh: z.string().optional(),
     descriptionZh: z.string().optional(),
@@ -49,7 +50,7 @@ const listingsZh = defineCollection({
   schema: z.object({
     title: z.string(), date: z.string(), modified: z.string().optional(), slug: z.string().optional(),
     description: z.string().default(''), categories: z.array(z.string()).default([]),
-    featured: z.string().default(''), wpId: z.number().optional(),
+    image: z.string().default(''), featured: z.boolean().default(false), wpId: z.number().optional(),
   }),
 });
 

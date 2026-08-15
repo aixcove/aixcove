@@ -6,7 +6,6 @@ slug: flowise
 description: What Is Flowise? Flowise is an open-source visual builder for LLM applications and AI workflows. It helps teams design chatbots, retrieval pipelines, agent flows, and integrations through a node-based
 categories:
 - ai-agents
-featured: /uploads/2026/04/flowise-1.jpg
 wpId: 633
 bodyZh: '<h2>Flowise 是什么？</h2>
 
@@ -45,8 +44,9 @@ bodyZh: '<h2>Flowise 是什么？</h2>
   <p>Flowise 被广泛用作 LLM 工作流的实用可视化构建工具。LangFlow 在概念上类似，且与 LangChain 联系紧密；Dify 则提供更产品化的应用层体验。对于希望同时拥有开源控制权和可视化工作流速度的团队来说，Flowise 是一个可靠的选择。</p>'
 titleZh: Flowise
 descriptionZh: 什么是Flowise？Flowise是一个用于LLM应用和AI工作流程的开源可视化构建器。它通过基于节点的方式帮助团队设计聊天机器人、检索管道、代理流程和集成。
+image: /uploads/2026/04/flowise-1.jpg
+featured: false
 ---
-
 <h2>What Is Flowise?</h2>
 <p>Flowise is an open-source visual builder for LLM applications and AI workflows. It helps teams design chatbots, retrieval pipelines, agent flows, and integrations through a node-based interface that reduces the amount of custom code needed to prototype and ship AI products.</p>
 <h2>Key Features and Capabilities</h2>

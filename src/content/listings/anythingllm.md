@@ -6,7 +6,6 @@ slug: anythingllm
 description: What Is AnythingLLM? AnythingLLM is an open-source platform designed to help teams build private AI workspaces using either local or hosted models. It offers a practical, user-friendly solution for ch
 categories:
 - local-self-hosted
-featured: /uploads/2026/04/anythingllm.jpg
 wpId: 651
 bodyZh: '<div data-page-id="WJ36dN6q8o9jm6xxTwCcNRxPnRF" data-lark-html-role="root" data-docx-has-block-data="false">
 
@@ -437,8 +436,9 @@ bodyZh: '<div data-page-id="WJ36dN6q8o9jm6xxTwCcNRxPnRF" data-lark-html-role="ro
   </div>'
 titleZh: AnythingLLM
 descriptionZh: 什么是AnythingLLM？AnythingLLM是一个开源平台，旨在帮助团队使用本地或托管模型构建私有AI工作空间。它提供了一个实用、用户友好的解决方案
+image: /uploads/2026/04/anythingllm.jpg
+featured: false
 ---
-
 <div data-page-id="WJ36dN6q8o9jm6xxTwCcNRxPnRF" data-lark-html-role="root" data-docx-has-block-data="false">
 <h2 class="ace-line ace-line old-record-id-WJ36dN6q8o9jm6xxTwCcNRxPnRF">What Is AnythingLLM?</h2>
 <div class="ace-line ace-line old-record-id-EchRfbao3dAogDcm2xJckJLMnIg">AnythingLLM is an open-source platform designed to help teams build private AI workspaces using either local or hosted models. It offers a practical, user-friendly solution for chatting with documents, integrating various knowledge sources, and running AI assistants in a self-hosted environment—eliminating full reliance on closed SaaS (Software as a Service) tools. Whether for privacy-focused teams or those seeking more control over their AI workflows, AnythingLLM bridges the gap between functionality and data autonomy.</div>

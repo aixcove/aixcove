@@ -6,8 +6,9 @@ slug: elevenlabs
 description: ElevenLabs是什么？ElevenLabs是行业领先的AI语音合成平台，可以从文本生成极其逼真的人声。使用先进的深度学习模型，ElevenLabs能够生产
 categories:
 - ai-creative
-featured: /uploads/2026/04/elevenlabs-1.jpg
 wpId: 261
+image: /uploads/2026/04/elevenlabs-1.jpg
+featured: false
 ---
 <h2>什么是 ElevenLabs？</h2>
 <p>ElevenLabs 是行业领先的 AI 语音合成平台，能从文本生成极其逼真的人类语音。借助先进的深度学习模型，ElevenLabs 能生成带有恰当情感、语调和节奏的自然语音，几乎与真人录音难以区分。它已成为有声书、播客、视频解说和对话式 AI 应用领域 AI 语音生成的标准。</p>

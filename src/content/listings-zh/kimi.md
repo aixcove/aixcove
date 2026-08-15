@@ -6,8 +6,9 @@ slug: kimi
 description: Kimi是什么？Kimi是来自月之暗面(Moonshot AI)的AI助手，以其长文本阅读能力、中文和多语言能力以及通用聊天功能而闻名。它对需要文档理解的用户很有用。
 categories:
 - llm-chat
-featured: /uploads/2026/04/kimi.jpg
 wpId: 199
+image: /uploads/2026/04/kimi.jpg
+featured: false
 ---
 <h2>Kimi是什么？</h2>
 <p>Kimi是Moonshot AI推出的AI助手，以长文本阅读、中文及多语言能力见长，同时支持通用对话。适合需要文档理解、研究辅助、内容总结以及日常AI帮助的用户。</p>

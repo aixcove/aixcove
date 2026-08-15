@@ -6,8 +6,9 @@ slug: kimi-code
 description: 什么是Kimi Code？Kimi Code是由Moonshot AI开发的运行在终端中的开源AI编程助手。它可以读取和编辑代码，运行shell命令，搜索文件，获取网页内容，并做出决策...
 categories:
 - ai-coding
-featured: /uploads/2026/06/kimi-code-official-demo-featured.jpg
 wpId: 871
+image: /uploads/2026/06/kimi-code-official-demo-featured.jpg
+featured: false
 ---
 <h2>什么是 Kimi Code？</h2>
 <p>Kimi Code 是 Moonshot AI 推出的开源 AI 编程代理，运行在终端中。它可以读取和编辑代码、执行 shell 命令、搜索文件、抓取网页，并根据开发环境的反馈决定下一步操作。它开箱即用地支持 Moonshot AI 的 Kimi 模型，也可以配置其他兼容的提供商。</p>

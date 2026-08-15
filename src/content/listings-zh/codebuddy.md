@@ -6,8 +6,9 @@ slug: codebuddy
 description: 什么是CodeBuddy？CodeBuddy是一个AI编程助手，旨在作为您在整个开发过程中的编程伙伴。它提供实时的编写、理解和调试帮助
 categories:
 - ai-coding
-featured: /uploads/2026/04/codebuddy.jpg
 wpId: 206
+image: /uploads/2026/04/codebuddy.jpg
+featured: false
 ---
 <h2>CodeBuddy 是什么？</h2>
 <p>CodeBuddy 是一款 AI 编程助手，旨在成为你整个开发过程中的编码伙伴。它能在编写、理解、调试和优化代码方面提供实时帮助，支持多种编程语言。正如其名，CodeBuddy 的目标是复现一位经验丰富的开发者坐在你身边、随时帮你解决任何编码难题的体验。</p>

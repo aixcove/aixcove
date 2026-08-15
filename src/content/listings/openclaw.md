@@ -6,7 +6,6 @@ slug: openclaw
 description: What Is OpenClaw? OpenClaw is an open-source AI agent platform that transforms large language models into fully functional personal assistants. Unlike basic chatbot interfaces, OpenClaw connects AI to
 categories:
 - ai-agents
-featured: /uploads/2026/04/openclaw.jpg
 wpId: 213
 bodyZh: '<h2>什么是OpenClaw？</h2>
 
@@ -45,8 +44,9 @@ bodyZh: '<h2>什么是OpenClaw？</h2>
   <p>OpenClaw的关键区别在于其智能体架构——它不只是聊天，而是执行操作。与局限于自身界面的ChatGPT或Claude不同，OpenClaw可以自主发送消息、编辑文件、浏览网站和执行代码。与商业智能体平台相比，OpenClaw免费、自托管且完全可定制，是希望完全掌控AI助理的用户的最佳选择。</p>'
 titleZh: OpenClaw
 descriptionZh: 什么是OpenClaw？OpenClaw是一个开源的AI智能体平台，它可以将大型语言模型转变为功能完备的个人助手。与基本的聊天机器人界面不同，OpenClaw将AI连接到
+image: /uploads/2026/04/openclaw.jpg
+featured: true
 ---
-
 <h2>What Is OpenClaw?</h2>
 <p>OpenClaw is an open-source AI agent platform that transforms large language models into fully functional personal assistants. Unlike basic chatbot interfaces, OpenClaw connects AI to your real-world tools and services — messaging apps, calendars, email, file systems, web browsers, and custom scripts — enabling autonomous task execution across multiple channels. It runs as a self-hosted service that you control completely.</p>
 <h2>Key Features and Capabilities</h2>

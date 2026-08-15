@@ -6,7 +6,6 @@ slug: trae
 description: What Is Trae? Trae is an AI-powered integrated development environment (IDE) developed by ByteDance, the company behind TikTok. Built to make software development faster and more intuitive, Trae integ
 categories:
 - ai-coding
-featured: /uploads/2026/04/trae.jpg
 wpId: 204
 bodyZh: '<h2>Trae 是什么？</h2>
 
@@ -45,8 +44,9 @@ bodyZh: '<h2>Trae 是什么？</h2>
   <p>Trae 相比 Cursor 的主要优势是免费提供顶级 AI 模型。Cursor 产品更成熟，代码库索引更深入，用户体验也更精细。对于预算有限的开发者或刚接触 AI 编码工具的用户，Trae 提供了极佳的价值。对于需要企业级功能和稳定性的团队，Cursor 仍是更稳妥的选择。</p>'
 titleZh: Trae
 descriptionZh: 什么是Trae？Trae是由字节跳动（TikTok的母公司）开发的AI驱动集成开发环境（IDE）。Trae旨在使软件开发更快、更直观，Trae集
+image: /uploads/2026/04/trae.jpg
+featured: false
 ---
-
 <h2>What Is Trae?</h2>
 <p>Trae is an AI-powered integrated development environment (IDE) developed by ByteDance, the company behind TikTok. Built to make software development faster and more intuitive, Trae integrates advanced AI capabilities including code generation, real-time completion, and natural language programming directly into a full-featured coding environment. It is designed to compete with tools like Cursor while offering its own approach to AI-assisted development.</p>
 <h2>Key Features and Capabilities</h2>

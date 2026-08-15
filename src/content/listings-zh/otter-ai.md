@@ -6,8 +6,9 @@ slug: otter-ai
 description: 什么是Otter.ai？Otter.ai是一个由人工智能驱动的会议转录和协作工具，可以自动记录、转录和实时总结您的会议。利用先进的语音识别
 categories:
 - ai-productivity
-featured: /uploads/2026/04/otter_ai.jpg
 wpId: 257
+image: /uploads/2026/04/otter_ai.jpg
+featured: false
 ---
 <h2>什么是 Otter.ai？</h2>
 <p>Otter.ai 是一款基于 AI 的会议转录与协作工具，能够自动录制、转写并实时总结会议内容。借助先进的语音识别和自然语言处理技术，Otter.ai 将口头对话转化为可搜索的文本，支持说话人识别、要点提取和自动生成行动项。对于希望提升会议效率和执行力的团队来说，它已成为不可或缺的工具。</p>

@@ -6,7 +6,6 @@ slug: autogpt
 description: 'What Is AutoGPT? AutoGPT is one of the pioneering autonomous AI agent frameworks that demonstrated the potential of AI systems to independently plan, execute, and iterate on complex multi-step tasks. '
 categories:
 - ai-agents
-featured: /uploads/2026/04/autogpt-1.jpg
 wpId: 270
 bodyZh: '<h2>什么是 AutoGPT？</h2>
 
@@ -45,8 +44,9 @@ bodyZh: '<h2>什么是 AutoGPT？</h2>
   <p>AutoGPT 是专注于自主任务完成的单智能体框架。CrewAI 支持多智能体协作，让专业智能体在复杂项目中协同工作。LangChain 提供构建自定义智能体架构的模块化组件。对于快速自主任务执行，AutoGPT 更直接。对于多智能体工作流，CrewAI 更合适。对于构建自定义智能体系统，LangChain 提供最大的灵活性。</p>'
 titleZh: AutoGPT
 descriptionZh: 什么是AutoGPT？AutoGPT是开创性的自主AI代理框架之一，它展示了AI系统独立规划、执行和迭代复杂多步骤任务的潜力。
+image: /uploads/2026/04/autogpt-1.jpg
+featured: false
 ---
-
 <h2>What Is AutoGPT?</h2>
 <p>AutoGPT is one of the pioneering autonomous AI agent frameworks that demonstrated the potential of AI systems to independently plan, execute, and iterate on complex multi-step tasks. Released as an open-source project, AutoGPT chains together large language model calls with tool access — web browsing, file operations, code execution — to pursue user-defined goals with minimal human intervention. It inspired a wave of AI agent development and remains an important project in the autonomous agent ecosystem.</p>
 <h2>Key Features and Capabilities</h2>

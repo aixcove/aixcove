@@ -6,8 +6,9 @@ slug: runway
 description: Runway是什么？Runway是一个领先的AI驱动创意套件，它使电影制作人、设计师和内容创作者能够使用人工智能生成和编辑视频、图像和音频。了解
 categories:
 - ai-creative
-featured: /uploads/2026/04/runway-1.jpg
 wpId: 260
+image: /uploads/2026/04/runway-1.jpg
+featured: true
 ---
 <h2>什么是Runway？</h2>
 <p>Runway是一款领先的AI创意套件，帮助电影制作人、设计师和内容创作者利用人工智能生成和编辑视频、图像及音频。凭借其突破性的Gen-3视频生成模型，Runway让专业级创意工具触手可及。从文字生成视频到AI驱动的编辑功能，它已成为AI辅助视觉内容创作的标准工具。</p>

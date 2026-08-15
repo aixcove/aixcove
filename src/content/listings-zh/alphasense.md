@@ -6,8 +6,9 @@ slug: alphasense
 description: AlphaSense是什么？AlphaSense是一个由人工智能驱动的金融研究平台，它帮助投资专业人士、企业战略分析师和分析师在数百万份商业文件中找到关键洞察
 categories:
 - vertical-ai
-featured: /uploads/2026/04/alpha_sense.jpg
 wpId: 266
+image: /uploads/2026/04/alpha_sense.jpg
+featured: false
 ---
 <h2>AlphaSense是什么？</h2>
 <p>AlphaSense是一个由AI驱动的金融研究平台，帮助投资专业人士、企业战略分析师和分析师在数百万份商业文件中找到关键洞察。利用专有AI和自然语言处理技术，AlphaSense搜索财报电话会议记录、SEC文件、分析师报告、新闻和行业出版物，以比传统研究方法更快地提供相关、可操作的情报。</p>

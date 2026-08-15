@@ -6,7 +6,6 @@ slug: glm
 description: What Is GLM? GLM (General Language Model) is Zhipu AI&#8217;s flagship large language model family, developed by one of China&#8217;s leading AI research companies spun out of Tsinghua University. Kno
 categories:
 - llm-chat
-featured: /uploads/2026/04/glm.jpg
 wpId: 188
 bodyZh: '<h2>GLM是什么？</h2>
 
@@ -43,8 +42,9 @@ bodyZh: '<h2>GLM是什么？</h2>
   <h2>GLM vs QWen vs DeepSeek</h2><p>GLM、QWen 和 DeepSeek 代表了中国顶尖的AI模型。GLM 通过智谱AI提供了最强的双语平衡和企业生态系统。QWen 提供了最广泛的模型变体选择，并与阿里云深度集成。DeepSeek 在编程基准和开源透明度方面领先。对于需要卓越双语能力和成熟部署方案的企业应用，GLM 是一个可靠的选择。</p>'
 titleZh: GLM
 descriptionZh: 什么是GLM？GLM（通用语言模型）是智谱AI的旗舰大型语言模型系列，由中国顶尖的AI研究公司之一开发，该公司源自清华大学。Kno
+image: /uploads/2026/04/glm.jpg
+featured: false
 ---
-
 <h2>What Is GLM?</h2>
 <p>GLM (General Language Model) is Zhipu AI&#8217;s flagship large language model family, developed by one of China&#8217;s leading AI research companies spun out of Tsinghua University. Known for its strong bilingual capabilities in Chinese and English, GLM models power a wide range of applications from conversational AI to code generation, data analysis, and enterprise automation. The GLM series includes both proprietary and open-source model variants.</p>
 <h2>Key Features and Capabilities</h2>

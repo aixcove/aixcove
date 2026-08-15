@@ -6,7 +6,6 @@ slug: cursor
 description: What Is Cursor? Cursor is an AI-first code editor built on top of VS Code that integrates powerful AI capabilities directly into the development workflow. Rather than requiring developers to switch be
 categories:
 - ai-coding
-featured: /uploads/2026/04/cursor.jpg
 wpId: 202
 bodyZh: '<h2>什么是 Cursor？</h2>
 
@@ -43,8 +42,9 @@ bodyZh: '<h2>什么是 Cursor？</h2>
   <h2>Cursor 与 GitHub Copilot 对比</h2><p>GitHub Copilot 专注于在现有编辑器内提供内联代码建议，而 Cursor 则提供更全面的 AI 编程体验，支持多文件编辑、感知代码库的聊天以及自然语言代码转换。希望在工作流程中获得最深层次 AI 集成的开发者通常更青睐 Cursor，而希望留在现有 IDE 中的开发者可能更偏好 Copilot 基于扩展的方式。</p>'
 titleZh: Cursor
 descriptionZh: 什么是Cursor？Cursor是一个基于VS Code构建的AI优先代码编辑器，将强大的AI功能直接集成到开发工作流程中。而不是要求开发者切换
+image: /uploads/2026/04/cursor.jpg
+featured: true
 ---
-
 <h2>What Is Cursor?</h2>
 <p>Cursor is an AI-first code editor built on top of VS Code that integrates powerful AI capabilities directly into the development workflow. Rather than requiring developers to switch between an IDE and a separate AI chat tool, Cursor embeds intelligent code completion, natural language editing, and context-aware suggestions right where developers write code. It has quickly become one of the most popular AI coding tools among professional software engineers.</p>
 <h2>Key Features and Capabilities</h2>

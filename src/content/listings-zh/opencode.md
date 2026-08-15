@@ -6,8 +6,9 @@ slug: opencode
 description: 什么是OpenCode？OpenCode是一个开源的AI编程助手，在终端中运行，通过命令行提供智能代码生成、解释和重构功能
 categories:
 - ai-coding
-featured: /uploads/2026/04/opencode.jpg
 wpId: 214
+image: /uploads/2026/04/opencode.jpg
+featured: false
 ---
 <h2>什么是 OpenCode？</h2>
 <p>OpenCode 是一款开源 AI 编程助手，运行在终端中，通过命令行界面提供智能代码生成、解释和重构功能。OpenCode 以灵活性为核心设计，支持多种 AI 模型后端，让开发者可以自由选择偏好的服务商，同时保持统一的终端原生工作流。</p>

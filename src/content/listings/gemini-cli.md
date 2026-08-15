@@ -6,7 +6,6 @@ slug: gemini-cli
 description: What Is Gemini CLI? Gemini CLI is Google&#8217;s official command-line interface for interacting with Gemini AI models directly from the terminal. It enables developers and power users to leverage Gem
 categories:
 - ai-coding
-featured: /uploads/2026/04/gemini_cli.jpg
 wpId: 201
 bodyZh: '<h2>什么是 Gemini CLI？</h2>
 
@@ -45,8 +44,9 @@ bodyZh: '<h2>什么是 Gemini CLI？</h2>
   <p>Gemini CLI 是一款轻量级免费工具，用于在终端中查询 AI；而 Claude Code 则是一个完整的智能体编码助手，具备文件编辑和 Shell 执行能力。对于快速问答和一次性任务，使用 Gemini CLI；对于复杂的多步骤编码项目，使用 Claude Code。</p>'
 titleZh: Gemini CLI
 descriptionZh: 什么是 Gemini CLI？Gemini CLI 是 Google 官方的命令行界面，可以直接从终端与 Gemini AI 模型进行交互。它使开发者和高级用户能够利用 Gem
+image: /uploads/2026/04/gemini_cli.jpg
+featured: false
 ---
-
 <h2>What Is Gemini CLI?</h2>
 <p>Gemini CLI is Google&#8217;s official command-line interface for interacting with Gemini AI models directly from the terminal. It enables developers and power users to leverage Gemini&#8217;s capabilities for code generation, text analysis, file processing, and automation tasks without leaving their command-line environment. As an open-source tool, it provides a lightweight way to integrate AI into development workflows and shell scripts.</p>
 <h2>Key Features and Capabilities</h2>

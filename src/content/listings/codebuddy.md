@@ -6,7 +6,6 @@ slug: codebuddy
 description: What Is CodeBuddy? CodeBuddy is an AI programming assistant designed to act as your coding companion throughout the development process. It provides real-time help with writing, understanding, debuggi
 categories:
 - ai-coding
-featured: /uploads/2026/04/codebuddy.jpg
 wpId: 206
 bodyZh: '<h2>CodeBuddy 是什么？</h2>
 
@@ -45,8 +44,9 @@ bodyZh: '<h2>CodeBuddy 是什么？</h2>
   <p>CodeBuddy 更侧重教学和解释，适合学习和理解代码。GitHub Copilot 则侧重 IDE 内的生产力和自动补全。对于想理解代码为何能运行（而不只是拿到能跑的代码）的开发者，CodeBuddy 提供更多教育价值。如果纯粹追求效率提升，Copilot 的行内补全更高效。</p>'
 titleZh: CodeBuddy
 descriptionZh: 什么是CodeBuddy？CodeBuddy是一个AI编程助手，旨在作为您在整个开发过程中的编程伙伴。它提供实时的编写、理解和调试帮助
+image: /uploads/2026/04/codebuddy.jpg
+featured: false
 ---
-
 <h2>What Is CodeBuddy?</h2>
 <p>CodeBuddy is an AI programming assistant designed to act as your coding companion throughout the development process. It provides real-time help with writing, understanding, debugging, and optimizing code across multiple programming languages. True to its name, CodeBuddy aims to replicate the experience of having an experienced developer sitting beside you, ready to help with any coding challenge.</p>
 <h2>Key Features and Capabilities</h2>

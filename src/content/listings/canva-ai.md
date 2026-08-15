@@ -6,7 +6,6 @@ slug: canva-ai
 description: What Is Canva AI? Canva AI refers to the suite of artificial intelligence features integrated into Canva, the world&#8217;s most popular online design platform. These AI tools enable users to create p
 categories:
 - ai-creative
-featured: /uploads/2026/04/canva.jpg
 wpId: 262
 bodyZh: '<h2>什么是Canva AI？</h2>
 
@@ -43,8 +42,9 @@ bodyZh: '<h2>什么是Canva AI？</h2>
   <h2>Canva AI与Adobe Firefly对比</h2><p>Canva AI 注重易用性和可访问性，非常适合非设计师和需要快速出图的团队。Adobe Firefly 提供更专业的工具，并深度集成于 Creative Cloud 生态系统中，更适合需要精细控制的有经验设计师。对于大多数商业用户和内容创作者来说，Canva AI 在功能与简洁之间取得了最佳平衡。</p>'
 titleZh: Canva AI
 descriptionZh: 什么是Canva AI？Canva AI指的是集成在Canva中的人工智能功能套件，Canva是世界上最受欢迎的在线设计平台。这些AI工具使用户能够创建
+image: /uploads/2026/04/canva.jpg
+featured: false
 ---
-
 <h2>What Is Canva AI?</h2>
 <p>Canva AI refers to the suite of artificial intelligence features integrated into Canva, the world&#8217;s most popular online design platform. These AI tools enable users to create professional-quality graphics, presentations, videos, and marketing materials using natural language prompts and intelligent automation. Canva AI makes sophisticated design accessible to everyone, regardless of graphic design experience.</p>
 <h2>Key Features and Capabilities</h2>

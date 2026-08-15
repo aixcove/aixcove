@@ -6,8 +6,9 @@ slug: notion-ai
 description: 什么是 Notion AI？Notion AI 是一个直接集成到 Notion 工作区平台的 AI 助手。它不需要用户在笔记应用和单独的 AI 工具之间切换，No
 categories:
 - ai-productivity
-featured: /uploads/2026/04/notion.jpg
 wpId: 255
+image: /uploads/2026/04/notion.jpg
+featured: false
 ---
 <h2>什么是Notion AI？</h2>
 <p>Notion AI是直接内置于Notion工作区平台中的集成AI助手。用户无需在笔记应用和独立AI工具之间来回切换，Notion AI将智能写作、摘要和整理功能直接带入团队已经在使用的页面和数据库中。它通过理解你的内容和上下文的AI，增强了Notion本就强大的工作区功能。</p>

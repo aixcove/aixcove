@@ -6,7 +6,6 @@ slug: surfer-seo
 description: What Is Surfer SEO? Surfer SEO is an AI-powered content optimization platform that helps websites rank higher in Google search results. It analyzes top-ranking pages for any keyword and provides data-
 categories:
 - ai-writing-marketing
-featured: /uploads/2026/04/surfer_seo.jpg
 wpId: 252
 bodyZh: '<h2>Surfer SEO是什么？</h2>
 
@@ -45,8 +44,9 @@ bodyZh: '<h2>Surfer SEO是什么？</h2>
   <p>Surfer SEO专注于内容优化——帮助你写出能排上名的内容。Semrush则是更广泛的SEO平台，涵盖关键词研究、网站审计、外链分析和竞争情报。许多SEO专业人士会同时使用两者：Semrush用于策略和研究，Surfer用于内容优化。如果只关注内容SEO，Surfer的性价比更高。</p>'
 titleZh: Surfer SEO
 descriptionZh: 什么是Surfer SEO？Surfer SEO是一个由AI驱动的内容优化平台，帮助网站在谷歌搜索结果中获得更高的排名。它可以分析任何关键词的顶级排名页面，并提供数据...
+image: /uploads/2026/04/surfer_seo.jpg
+featured: false
 ---
-
 <h2>What Is Surfer SEO?</h2>
 <p>Surfer SEO is an AI-powered content optimization platform that helps websites rank higher in Google search results. It analyzes top-ranking pages for any keyword and provides data-driven recommendations for content structure, word count, headings, keywords, and other ranking factors. By reverse-engineering Google&#8217;s ranking algorithm for specific queries, Surfer SEO enables content creators to produce perfectly optimized articles.</p>
 <h2>Key Features and Capabilities</h2>

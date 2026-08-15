@@ -6,7 +6,6 @@ slug: harvey-ai
 description: What Is Harvey AI? Harvey AI is a specialized artificial intelligence platform built specifically for the legal industry. Backed by OpenAI&#8217;s Startup Fund, Harvey provides legal professionals wit
 categories:
 - vertical-ai
-featured: /uploads/2026/04/harvey_ai.jpg
 wpId: 264
 bodyZh: '<h2>什么是Harvey AI？</h2>
 
@@ -43,8 +42,9 @@ bodyZh: '<h2>什么是Harvey AI？</h2>
   <h2>Harvey AI与ChatGPT在法律工作中的对比</h2><p>ChatGPT 能回答一般性法律问题，但 Harvey AI 是专为法律工作流打造的，具备引文验证、法律级安全机制和领域调优模型等功能。Harvey 还解决了许多律所因保密顾虑而不敢使用消费级 AI 工具的问题。对于需要准确性、安全性和合规性的专业法律工作，Harvey 是更合适的选择。</p>'
 titleZh: Harvey AI
 descriptionZh: 什么是Harvey AI？Harvey AI是一个专门为法律行业构建的专业人工智能平台。在OpenAI创业基金的支持下，Harvey为法律专业人士提供
+image: /uploads/2026/04/harvey_ai.jpg
+featured: false
 ---
-
 <h2>What Is Harvey AI?</h2>
 <p>Harvey AI is a specialized artificial intelligence platform built specifically for the legal industry. Backed by OpenAI&#8217;s Startup Fund, Harvey provides legal professionals with AI tools for contract analysis, legal research, document drafting, and regulatory compliance. Unlike general-purpose AI tools, Harvey is trained and fine-tuned for legal workflows, understanding legal terminology, citation formats, and the nuanced reasoning required in legal practice.</p>
 <h2>Key Features and Capabilities</h2>

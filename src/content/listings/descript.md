@@ -6,7 +6,6 @@ slug: descript
 description: What Is Descript? Descript is an AI-powered video and podcast editing platform that revolutionizes media editing by treating it like a text document. Instead of working with complex timelines and wave
 categories:
 - ai-creative
-featured: /uploads/2026/04/descript-1.jpg
 wpId: 263
 bodyZh: '<h2>什么是 Descript？</h2>
 
@@ -43,8 +42,9 @@ bodyZh: '<h2>什么是 Descript？</h2>
   <h2>Descript 与 Premiere Pro 和 CapCut 的对比</h2><p>Descript 基于文本的剪辑方式与 Premiere Pro 或 CapCut 这类基于时间轴的编辑器有本质区别。对于以人物口播或访谈为主的素材，Descript 的效率要高得多。而在涉及特效和转场的复杂视觉剪辑中，传统编辑器仍然更胜一筹。许多创作者先用 Descript 完成粗剪和清理，再回到自己惯用的编辑器中进行精修。</p>'
 titleZh: Descript
 descriptionZh: 什么是 Descript？Descript 是一个由人工智能驱动的视频和播客编辑平台，它通过将媒体编辑视为文本文档来革新媒体编辑方式。而不是处理复杂的时间线和波形
+image: /uploads/2026/04/descript-1.jpg
+featured: false
 ---
-
 <h2>What Is Descript?</h2>
 <p>Descript is an AI-powered video and podcast editing platform that revolutionizes media editing by treating it like a text document. Instead of working with complex timelines and waveforms, you edit audio and video by editing the transcript — delete a word from the text, and it&#8217;s removed from the media. Combined with AI features for filler word removal, screen recording, and template-based editing, Descript makes professional-quality media production accessible to everyone.</p>
 <h2>Key Features and Capabilities</h2>

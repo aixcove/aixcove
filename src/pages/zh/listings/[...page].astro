@@ -5,7 +5,7 @@ import ListingsIndex from '../../../views/ListingsIndex.astro';
 export const prerender = true;
 
 export async function getStaticPaths({ paginate }) {
-  const entries = (await getCollection('listingsZh')).sort((a, b) => a.data.title.localeCompare(b.data.title));
+  const entries = (await getCollection('listingsZh')).sort((a, b) => Number(b.data.featured) - Number(a.data.featured) || a.data.title.localeCompare(b.data.title, 'zh'));
   const cats = (await getCollection('listingCategories'))
     .filter((c) => c.data.count > 0)
     .sort((a, b) => b.data.count - a.data.count);

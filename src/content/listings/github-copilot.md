@@ -6,7 +6,6 @@ slug: github-copilot
 description: What Is GitHub Copilot? GitHub Copilot is an AI-powered code completion tool developed by GitHub and OpenAI that integrates directly into popular code editors and IDEs. Trained on billions of lines of
 categories:
 - ai-coding
-featured: /uploads/2026/04/github_copilot.jpg
 wpId: 278
 bodyZh: '<h2>什么是 GitHub Copilot？</h2>
 
@@ -43,8 +42,9 @@ bodyZh: '<h2>什么是 GitHub Copilot？</h2>
   <h2>GitHub Copilot 与 Cursor 对比</h2><p>GitHub Copilot 支持更广泛的 IDE 兼容性，并与 GitHub 生态系统深度集成，适合已在用 GitHub 做版本控制的团队。Cursor 则提供更沉浸式的 AI 编程体验，支持多文件编辑和基于代码库的聊天。许多开发者会同时使用两者——用 Copilot 处理快速的行内建议，用 Cursor 应对复杂的重构和功能实现。</p>'
 titleZh: GitHub Copilot
 descriptionZh: 什么是 GitHub Copilot？GitHub Copilot 是一个由人工智能驱动的代码补全工具，由 GitHub 和 OpenAI 开发，可以直接集成到流行的代码编辑器和 IDE 中。在数十亿行代码上训练
+image: /uploads/2026/04/github_copilot.jpg
+featured: true
 ---
-
 <h2>What Is GitHub Copilot?</h2>
 <p>GitHub Copilot is an AI-powered code completion tool developed by GitHub and OpenAI that integrates directly into popular code editors and IDEs. Trained on billions of lines of public code, Copilot suggests entire functions, writes boilerplate code, and helps developers implement features faster. As one of the earliest and most widely adopted AI coding assistants, it has fundamentally changed how developers write software.</p>
 <h2>Key Features and Capabilities</h2>

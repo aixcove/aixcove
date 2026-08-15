@@ -6,8 +6,9 @@ slug: claude-code
 description: 什么是Claude Code？Claude Code是由Anthropic开发的代理式AI编程工具，直接在你的终端中运行。与传统的代码补全工具不同，Claude Code充当一个自主
 categories:
 - ai-coding
-featured: /uploads/2026/04/claude_code.jpg
 wpId: 168
+image: /uploads/2026/04/claude_code.jpg
+featured: true
 ---
 <h2>什么是Claude Code？</h2>
 <p>Claude Code是Anthropic开发的一款代理式AI编程工具，直接在终端中运行。与传统的代码补全工具不同，Claude Code作为自主编程代理，能够理解整个代码库，跨多个目录编写和编辑文件、运行测试、执行shell命令，并通过自然语言指令解决复杂的编程任务。它代表了AI辅助软件开发的新范式。</p>

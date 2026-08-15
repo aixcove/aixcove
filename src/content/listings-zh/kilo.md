@@ -6,8 +6,9 @@ slug: kilo
 description: 什么是Kiro？Kiro是亚马逊开发的一款AI驱动的集成开发环境，它采用规范驱动的方法进行软件开发。与其他专注于内联的AI编码工具不同
 categories:
 - ai-coding
-featured: /uploads/2026/04/kiro.jpg
 wpId: 207
+image: /uploads/2026/04/kiro.jpg
+featured: false
 ---
 <h2>什么是 Kiro？</h2>
 <p>Kiro 是亚马逊开发的一款 AI 驱动的集成开发环境，采用规格驱动的方法进行软件开发。与其他专注于行内补全的 AI 编码工具不同，Kiro 强调通过结构化规格来理解需求，然后生成完整、架构良好的实现。它代表了亚马逊对 AI 如何改变软件开发流程的愿景。</p>

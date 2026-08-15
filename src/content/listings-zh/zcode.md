@@ -6,8 +6,9 @@ slug: zcode
 description: ZCode是什么？ZCode是Z.ai开发的一个智能代理开发环境，专为长期的软件工程任务而构建。它不像传统编辑器那样带有小型聊天侧边栏，而是将
 categories:
 - ai-coding
-featured: /uploads/2026/06/zcode-official-docs-featured.jpg
 wpId: 869
+image: /uploads/2026/06/zcode-official-docs-featured.jpg
+featured: false
 ---
 <h2>什么是 ZCode？</h2>
 <p>ZCode 是 Z.ai 推出的智能体开发环境，专为长时间软件工程任务而设计。与传统编辑器加小型聊天侧边栏的模式不同，ZCode 将第一方编程智能体置于工作流的核心位置，让开发者描述目标后，智能体即可规划、编辑文件、运行命令、预览更改、审查差异，并在更长的任务中持续工作。</p>

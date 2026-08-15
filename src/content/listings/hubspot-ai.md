@@ -6,7 +6,6 @@ slug: hubspot-ai
 description: What is HubSpot AI? HubSpot AI is the collection of AI features built into HubSpot’s CRM, marketing, sales, and customer support platform. It is designed for teams that already use HubSpot and want AI
 categories:
 - ai-writing-marketing
-featured: /uploads/2026/04/hubspot.jpg
 wpId: 254
 bodyZh: '<h2>什么是 HubSpot AI？</h2>
 
@@ -59,8 +58,9 @@ bodyZh: '<h2>什么是 HubSpot AI？</h2>
   <p>拥有干净 CRM 数据和活跃 HubSpot 工作流的团队，比仅需要偶尔内容生成的团队获益更多。</p>'
 titleZh: HubSpot AI
 descriptionZh: 什么是 HubSpot AI？HubSpot AI 是集成在 HubSpot 的 CRM、营销、销售和客户支持平台中的 AI 功能集合。它专为已经使用 HubSpot 并希望应用 AI 的团队设计。
+image: /uploads/2026/04/hubspot.jpg
+featured: false
 ---
-
 <h2>What is HubSpot AI?</h2>
 <p>HubSpot AI is the collection of AI features built into HubSpot’s CRM, marketing, sales, and customer support platform. It is designed for teams that already use HubSpot and want AI help with content, email, CRM insights, customer support, and campaign execution inside the same system.</p>
 <h2>Best for</h2>

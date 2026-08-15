@@ -6,7 +6,6 @@ slug: langchain
 description: What Is LangChain? LangChain is the most popular open-source framework for building applications powered by large language models. It provides a comprehensive set of tools, abstractions, and integrati
 categories:
 - ai-agents
-featured: /uploads/2026/04/langchain-1.jpg
 wpId: 274
 bodyZh: '<h2>什么是LangChain？</h2>
 
@@ -45,8 +44,9 @@ bodyZh: '<h2>什么是LangChain？</h2>
   <p>LangChain是一个通用型LLM框架，为任何AI应用提供低层级的构建模块。CrewAI构建在LangChain概念之上，专注于多代理协作。LlamaIndex专注于通过高级索引和检索将LLM连接到数据。如果您需要最大灵活性，请使用LangChain；如果您需要多代理工作流，请使用CrewAI；如果您需要数据密集型RAG应用，请使用LlamaIndex。</p>'
 titleZh: LangChain
 descriptionZh: 什么是LangChain？LangChain是最受欢迎的用于构建由大型语言模型驱动应用程序的开源框架。它提供了一套全面的工具、抽象和集成
+image: /uploads/2026/04/langchain-1.jpg
+featured: false
 ---
-
 <h2>What Is LangChain?</h2>
 <p>LangChain is the most popular open-source framework for building applications powered by large language models. It provides a comprehensive set of tools, abstractions, and integrations that make it easy to connect LLMs to external data sources, tools, and APIs. From simple prompt chains to complex autonomous agents, LangChain provides the building blocks that thousands of developers use to create production-ready AI applications.</p>
 <h2>Key Features and Capabilities</h2>

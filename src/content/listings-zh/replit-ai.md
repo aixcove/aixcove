@@ -6,8 +6,9 @@ slug: replit-ai
 description: 什么是Replit AI？Replit AI是内置在Replit（基于浏览器的软件开发平台）中的人工智能层。它提供AI驱动的代码生成、调试和解释功能。
 categories:
 - ai-coding
-featured: /uploads/2026/04/replit_ai.jpg
 wpId: 280
+image: /uploads/2026/04/replit_ai.jpg
+featured: false
 ---
 <h2>什么是 Replit AI？</h2>
 <p>Replit AI 是内置于 Replit 的人工智能层，Replit 是一个基于浏览器的软件开发平台。它直接在 Replit 的在线 IDE 中提供 AI 驱动的代码生成、调试和解释功能，让任何人都能通过带网页浏览器的设备构建软件。结合 Replit 的即时托管、协作编辑和多语言支持，这些 AI 功能使其成为借助 AI 辅助开始编程最容易上手的途径之一。</p>

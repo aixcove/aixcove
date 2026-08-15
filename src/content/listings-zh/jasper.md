@@ -6,8 +6,9 @@ slug: jasper
 description: 什么是Jasper？Jasper是一个专为营销团队设计的AI营销助手。它通过学习和保持一致性，帮助组织大规模创建符合品牌的内容。
 categories:
 - ai-writing-marketing
-featured: /uploads/2026/04/jasper-1.jpg
 wpId: 250
+image: /uploads/2026/04/jasper-1.jpg
+featured: false
 ---
 <h2>什么是Jasper？</h2>
 <p>Jasper是一款专为企业营销团队设计的人工智能营销副驾。它通过学习并保持所有输出内容中一致的品牌语调，帮助组织大规模创建符合品牌形象的内容。从博客文章、社交媒体内容到广告文案和邮件营销活动，Jasper提供理解营销语境的专业AI工具，生成符合品牌准则的内容。</p>

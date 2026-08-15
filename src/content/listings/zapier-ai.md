@@ -6,7 +6,6 @@ slug: zapier-ai
 description: What Is Zapier AI? Zapier AI is the artificial intelligence layer built into Zapier, the world&#8217;s leading workflow automation platform. It enables users to create sophisticated automated workflow
 categories:
 - ai-agents
-featured: /uploads/2026/04/zapier.jpg
 wpId: 256
 bodyZh: '<h2>什么是 Zapier AI？</h2>
 
@@ -43,8 +42,9 @@ bodyZh: '<h2>什么是 Zapier AI？</h2>
   <h2>Zapier AI 对比 Make 与 n8n</h2><p>Zapier 提供最多的应用集成和最简单的设置，非常适合非技术用户。Make（原 Integromat）提供更直观的可视化工作流构建，支持复杂分支。n8n 是开源且可自托管的，深受希望完全掌控的开发者青睐。Zapier AI 的自然语言工作流创建功能，在易用性和实施速度上更具优势。</p>'
 titleZh: Zapier AI
 descriptionZh: 什么是Zapier AI？Zapier AI是内置在Zapier中的人工智能层，Zapier是世界领先的工作流程自动化平台。它使用户能够创建复杂的工作流程自动化
+image: /uploads/2026/04/zapier.jpg
+featured: false
 ---
-
 <h2>What Is Zapier AI?</h2>
 <p>Zapier AI is the artificial intelligence layer built into Zapier, the world&#8217;s leading workflow automation platform. It enables users to create sophisticated automated workflows between thousands of apps using natural language instructions, AI-powered data transformation, and intelligent decision-making within automation sequences. Zapier AI makes complex automation accessible to non-technical users while providing powerful capabilities for developers.</p>
 <h2>Key Features and Capabilities</h2>

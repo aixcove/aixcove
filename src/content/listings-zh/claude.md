@@ -6,8 +6,9 @@ slug: claude
 description: 什么是Claude？Claude是由Anthropic公司创建的高级AI助手，Anthropic是一家专注于AI安全研究的公司。以其深思熟虑、细致入微的回答以及对帮助性和...
 categories:
 - llm-chat
-featured: /uploads/2026/04/claude.jpg
 wpId: 184
+image: /uploads/2026/04/claude.jpg
+featured: true
 ---
 <h2>什么是Claude？</h2>
 <p>Claude是由Anthropic开发的先进AI助手，该公司专注于AI安全研究。Claude以其深思熟虑、细致入微的回答以及强调有用性和无害性而闻名，已成为需要可靠AI支持处理复杂任务的专业人士的首选。最新的Claude模型在长上下文推理、代码生成、创意写作和详细分析方面表现出色。</p>

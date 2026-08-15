@@ -6,8 +6,9 @@ slug: anythingllm
 description: 什么是AnythingLLM？AnythingLLM是一个开源平台，旨在帮助团队使用本地或托管模型构建私有AI工作空间。它提供了一个实用、用户友好的解决方案
 categories:
 - local-self-hosted
-featured: /uploads/2026/04/anythingllm.jpg
 wpId: 651
+image: /uploads/2026/04/anythingllm.jpg
+featured: false
 ---
 <div data-page-id="WJ36dN6q8o9jm6xxTwCcNRxPnRF" data-lark-html-role="root" data-docx-has-block-data="false">
 <h2 class="ace-line ace-line old-record-id-WJ36dN6q8o9jm6xxTwCcNRxPnRF">AnythingLLM 是什么？</h2>

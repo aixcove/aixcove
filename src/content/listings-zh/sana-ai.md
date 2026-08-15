@@ -6,8 +6,9 @@ slug: sana-ai
 description: 什么是Sana AI？Sana AI是一个为企业团队设计的AI驱动学习和知识平台。它将自适应学习、知识管理和AI辅助内容创作融为一体...
 categories:
 - vertical-ai
-featured: /uploads/2026/04/sana_aI.jpg
 wpId: 268
+image: /uploads/2026/04/sana_aI.jpg
+featured: false
 ---
 <h2>Sana AI 是什么？</h2>
 <p>Sana AI 是一个面向企业团队的 AI 驱动学习与知识平台。它将自适应学习、知识管理和 AI 辅助内容创作整合到一个平台中，帮助企业加快员工入职速度、共享机构知识，并大规模提供个性化培训。Sana AI 利用人工智能理解每位员工需要学习的内容，并提供定制化的学习体验。</p>

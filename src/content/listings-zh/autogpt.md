@@ -6,8 +6,9 @@ slug: autogpt
 description: 什么是AutoGPT？AutoGPT是开创性的自主AI代理框架之一，它展示了AI系统独立规划、执行和迭代复杂多步骤任务的潜力。
 categories:
 - ai-agents
-featured: /uploads/2026/04/autogpt-1.jpg
 wpId: 270
+image: /uploads/2026/04/autogpt-1.jpg
+featured: false
 ---
 <h2>什么是 AutoGPT？</h2>
 <p>AutoGPT 是开创性的自主 AI 智能体框架之一，展示了 AI 系统独立规划、执行和迭代复杂多步骤任务的潜力。作为一个开源项目发布，AutoGPT 将大语言模型调用与工具访问（网页浏览、文件操作、代码执行）串联起来，以最少的人工干预实现用户定义的目标。它启发了 AI 智能体开发的热潮，至今仍是自主智能体生态中的重要项目。</p>

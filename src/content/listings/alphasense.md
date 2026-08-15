@@ -6,7 +6,6 @@ slug: alphasense
 description: 'What Is AlphaSense? AlphaSense is an AI-powered financial research platform that helps investment professionals, corporate strategists, and analysts find critical insights across millions of business '
 categories:
 - vertical-ai
-featured: /uploads/2026/04/alpha_sense.jpg
 wpId: 266
 bodyZh: '<h2>AlphaSense是什么？</h2>
 
@@ -43,8 +42,9 @@ bodyZh: '<h2>AlphaSense是什么？</h2>
   <h2>AlphaSense vs 彭博终端</h2><p>AlphaSense 专注于文档搜索和研究智能，而 Bloomberg 提供更广泛的金融数据平台，包括实时市场数据、交易和新闻。AlphaSense&#8217;s 在文件和转录本上的 AI 驱动搜索比 Bloomberg&#8217;s 的等效功能更先进。许多专业人士同时使用两者：Bloomberg 用于实时数据和交易，AlphaSense 用于深入研究和文档分析。</p>'
 titleZh: AlphaSense
 descriptionZh: AlphaSense是什么？AlphaSense是一个由人工智能驱动的金融研究平台，它帮助投资专业人士、企业战略分析师和分析师在数百万份商业文件中找到关键洞察
+image: /uploads/2026/04/alpha_sense.jpg
+featured: false
 ---
-
 <h2>What Is AlphaSense?</h2>
 <p>AlphaSense is an AI-powered financial research platform that helps investment professionals, corporate strategists, and analysts find critical insights across millions of business documents. Using proprietary AI and natural language processing, AlphaSense searches through earnings call transcripts, SEC filings, analyst reports, news, and trade publications to deliver relevant, actionable intelligence faster than traditional research methods.</p>
 <h2>Key Features and Capabilities</h2>

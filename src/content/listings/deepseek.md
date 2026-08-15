@@ -6,7 +6,6 @@ slug: deepseek
 description: What Is DeepSeek? DeepSeek is an open-source AI company from China that has rapidly gained global attention for producing large language models that rival or match the performance of leading proprieta
 categories:
 - llm-chat
-featured: /uploads/2026/04/deepseek-1.jpg
 wpId: 286
 bodyZh: '<h2>DeepSeek是什么？</h2>
 
@@ -43,8 +42,9 @@ bodyZh: '<h2>DeepSeek是什么？</h2>
   <h2>DeepSeek与ChatGPT对比</h2><p>DeepSeek对ChatGPT的挑战主要集中在成本和开源灵活性上。虽然ChatGPT提供了更完善的用户体验和更广泛的功能，包括插件和图像生成，但DeepSeek在编程和推理性能上与之持平甚至超越，而成本却大幅降低。对于熟悉API集成的技术用户来说，DeepSeek具有极高的性价比。</p>'
 titleZh: DeepSeek
 descriptionZh: 什么是深度求索？深度求索是一家来自中国的开源人工智能公司，因其生产的大型语言模型能够与领先专有模型相媲美或匹配性能而迅速获得全球关注。
+image: /uploads/2026/04/deepseek-1.jpg
+featured: true
 ---
-
 <h2>What Is DeepSeek?</h2>
 <p>DeepSeek is an open-source AI company from China that has rapidly gained global attention for producing large language models that rival or match the performance of leading proprietary models at a fraction of the cost. Founded by quant hedge fund High-Flyer, DeepSeek&#8217;s models are known for exceptional coding ability, mathematical reasoning, and efficient training methods that challenge the conventional AI development paradigm.</p>
 <h2>Key Features and Capabilities</h2>

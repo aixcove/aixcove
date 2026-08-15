@@ -6,7 +6,6 @@ slug: hermes-agent
 description: What Is Hermes Agent? Hermes Agent is an open-source, self-improving AI agent developed by Nous Research. Built with a native learning loop, it autonomously creates, refines, and reuses skills from ex
 categories:
 - ai-agents
-featured: /uploads/2026/04/hermes-agent.jpg
 wpId: 548
 bodyZh: '<h2>Hermes Agent 是什么？</h2>
 
@@ -45,8 +44,9 @@ bodyZh: '<h2>Hermes Agent 是什么？</h2>
   <p>Hermes Agent 的自我改进学习循环是其核心差异化优势——它通过不断积累和优化技能，随时间推移在任务上表现更好。OpenClaw 提供更成熟的多渠道体验和完整的技能系统。AutoGPT 专注于单代理自主任务执行。对于希望代理能从经验中学习和改进的用户，Hermes Agent 提供了一种独特的方法。</p>'
 titleZh: Hermes Agent
 descriptionZh: 什么是赫尔墨斯智能体？赫尔墨斯智能体是由Nous Research开发的开源、自我改进的AI智能体。它内置学习循环，能够自主创建、完善和重用技能，从...
+image: /uploads/2026/04/hermes-agent.jpg
+featured: false
 ---
-
 <h2>What Is Hermes Agent?</h2>
 <p>Hermes Agent is an open-source, self-improving AI agent developed by Nous Research. Built with a native learning loop, it autonomously creates, refines, and reuses skills from experience while maintaining persistent cross-session memory. Hermes Agent supports over 40 built-in tools including web search, file operations, terminal control, and multimodal tasks, and unifies access across Telegram, Discord, Slack, WhatsApp, email, and CLI interfaces.</p>
 <h2>Key Features and Capabilities</h2>

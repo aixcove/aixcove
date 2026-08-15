@@ -6,7 +6,6 @@ slug: replit-ai
 description: What Is Replit AI? Replit AI is the artificial intelligence layer built into Replit, the browser-based software development platform. It provides AI-powered code generation, debugging, and explanation
 categories:
 - ai-coding
-featured: /uploads/2026/04/replit_ai.jpg
 wpId: 280
 bodyZh: '<h2>什么是 Replit AI？</h2>
 
@@ -43,8 +42,9 @@ bodyZh: '<h2>什么是 Replit AI？</h2>
   <h2>Replit AI 与 Cursor 和 GitHub Codespaces 的对比</h2><p>Replit AI 的优势在于无需配置、基于浏览器的使用体验，并内置 AI 功能。Cursor 则提供更深入的桌面 IDE 体验，AI 功能也更强大。GitHub Codespaces 在浏览器中提供完整的 VS Code，但需要更多配置。对于快速原型开发、学习或在不同设备上编码，Replit 最为便捷。对于专业的日常开发，Cursor 或 Codespaces 可能更合适。</p>'
 titleZh: Replit AI
 descriptionZh: 什么是Replit AI？Replit AI是内置在Replit（基于浏览器的软件开发平台）中的人工智能层。它提供AI驱动的代码生成、调试和解释功能。
+image: /uploads/2026/04/replit_ai.jpg
+featured: false
 ---
-
 <h2>What Is Replit AI?</h2>
 <p>Replit AI is the artificial intelligence layer built into Replit, the browser-based software development platform. It provides AI-powered code generation, debugging, and explanation directly within Replit&#8217;s online IDE, enabling anyone to build software from any device with a web browser. Combined with Replit&#8217;s instant hosting, collaborative editing, and multi-language support, the AI features make it one of the most accessible ways to start coding with AI assistance.</p>
 <h2>Key Features and Capabilities</h2>

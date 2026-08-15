@@ -6,8 +6,9 @@ slug: copy-ai
 description: 什么是Copy.ai？Copy.ai是一个由人工智能驱动的平台，帮助上市团队创建高转化率的营销和销售内容。最初作为AI文案写作工具推出，Copy.ai已经发展演变
 categories:
 - ai-writing-marketing
-featured: /uploads/2026/04/copy.ai_.jpg
 wpId: 251
+image: /uploads/2026/04/copy.ai_.jpg
+featured: false
 ---
 <h2>什么是 Copy.ai？</h2>
 <p>Copy.ai 是一个 AI 驱动的平台，帮助市场推广团队创建高转化率的营销和销售内容。最初作为 AI 文案工具推出，Copy.ai 已发展成为一个全面的 GTM（市场推广）AI 平台，为销售和营销团队自动化内容创作、客户发掘和工作流执行。它将大语言模型与针对商业内容设计的专用工作流相结合。</p>

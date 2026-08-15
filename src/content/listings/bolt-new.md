@@ -6,7 +6,6 @@ slug: bolt-new
 description: What is Bolt.new? Bolt.new is an AI coding and app-building tool that helps users create, edit, and run web applications from natural-language prompts. It is best known for fast browser-based developm
 categories:
 - ai-coding
-featured: /uploads/2026/04/bolt.new_.jpg
 wpId: 635
 bodyZh: '<h2>什么是Bolt.new？</h2>
 
@@ -59,8 +58,9 @@ bodyZh: '<h2>什么是Bolt.new？</h2>
   <p>拥有大型现有代码库、严格合规要求或复杂后端架构的团队可能更倾向于使用本地IDE和更可控的AI编码助手。</p>'
 titleZh: Bolt.new
 descriptionZh: 什么是Bolt.new？Bolt.new是一个AI编程和应用程序构建工具，帮助用户通过自然语言提示创建、编辑和运行Web应用程序。它最著名的是基于浏览器的快速开发能力。
+image: /uploads/2026/04/bolt.new_.jpg
+featured: false
 ---
-
 <h2>What is Bolt.new?</h2>
 <p>Bolt.new is an AI coding and app-building tool that helps users create, edit, and run web applications from natural-language prompts. It is best known for fast browser-based development, quick prototyping, and turning ideas into working front-end or full-stack projects without a long local setup process.</p>
 <h2>Best for</h2>

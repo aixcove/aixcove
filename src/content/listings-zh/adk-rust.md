@@ -6,8 +6,9 @@ slug: adk-rust
 description: ADK-Rust是什么？ADK-Rust是一个专注于生产的Rust框架，用于构建AI智能体，它包含用于模型、工具、内存、会话、RAG、实时语音和部署API的模块化组件。为什么选择ADK-Rust
 categories:
 - ai-coding
-featured: /uploads/2026/05/adk-rust.jpg
 wpId: 786
+image: /uploads/2026/05/adk-rust.jpg
+featured: false
 ---
 <h2>什么是 ADK-Rust？</h2>
 <p>ADK-Rust 是一个专注于生产的 Rust 框架，用于构建 AI 代理，包含用于模型、工具、内存、会话、RAG、实时语音和部署 API 的模块化 crate。</p>

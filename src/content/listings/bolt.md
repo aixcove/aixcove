@@ -6,7 +6,6 @@ slug: bolt
 description: What Is Bolt? Bolt is an AI-powered full-stack web development tool by StackBlitz that enables anyone to build, run, and deploy complete web applications directly from a browser using natural language
 categories:
 - ai-coding
-featured: /uploads/2026/04/bolt-1.jpg
 wpId: 282
 bodyZh: '<h2>什么是Bolt？</h2>
 
@@ -45,8 +44,9 @@ bodyZh: '<h2>什么是Bolt？</h2>
   <p>Bolt的WebContainers技术赋予其独特优势：生成的应用能在浏览器中立即运行，并具备完整的服务端能力。Vercel推出的v0专注于UI组件生成。Replit AI提供更传统的IDE体验并集成AI功能。在快速生成并运行完整全栈应用方面，Bolt提供了最一体化的体验。</p>'
 titleZh: Bolt
 descriptionZh: Bolt是什么？Bolt是StackBlitz开发的一款由AI驱动的全栈Web开发工具，它使任何人都可以直接使用自然语言从浏览器中构建、运行和部署完整的Web应用程序。
+image: /uploads/2026/04/bolt-1.jpg
+featured: false
 ---
-
 <h2>What Is Bolt?</h2>
 <p>Bolt is an AI-powered full-stack web development tool by StackBlitz that enables anyone to build, run, and deploy complete web applications directly from a browser using natural language prompts. Built on the WebContainers technology, Bolt can spin up a full Node.js environment in the browser, allowing AI-generated applications to run instantly without any local setup. It has become a popular tool for rapid prototyping and AI-assisted web development.</p>
 <h2>Key Features and Capabilities</h2>

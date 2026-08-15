@@ -6,8 +6,9 @@ slug: zapier-ai
 description: 什么是Zapier AI？Zapier AI是内置在Zapier中的人工智能层，Zapier是世界领先的工作流程自动化平台。它使用户能够创建复杂的工作流程自动化
 categories:
 - ai-agents
-featured: /uploads/2026/04/zapier.jpg
 wpId: 256
+image: /uploads/2026/04/zapier.jpg
+featured: false
 ---
 <h2>什么是 Zapier AI？</h2>
 <p>Zapier AI 是内置于 Zapier（全球领先的工作流自动化平台）中的人工智能层。它让用户能够通过自然语言指令、AI 驱动的数据转换以及自动化流程中的智能决策，在数千个应用之间创建复杂的自动化工作流。Zapier AI 让非技术用户也能轻松使用复杂的自动化功能，同时为开发者提供强大的能力。</p>

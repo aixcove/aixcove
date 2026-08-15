@@ -69,11 +69,12 @@ const altUrl = localeUrl(lang === 'zh' ? 'en' : 'zh', '/');
     <h2>{L.latest_tools}</h2>
     <div class="grid cols-3">
       {latestListings.map((l) => (
-        <article class="card">
-          {l.data.featured && <a href={`${prefix}/listing/${l.id}/`}><img class="thumb" src={l.data.featured} alt={l.data.title} loading="lazy" /></a>}
+        <article class:list={['card', { 'is-featured': l.data.featured }]}>
+          {l.data.featured && <span class="featured-badge">{lang === 'zh' ? '精选工具' : 'Featured tool'}</span>}
+          {l.data.image && <a href={`${prefix}/listing/${l.id}/`}><img class="thumb" src={l.data.image} alt={l.data.title} loading="lazy" /></a>}
           <div class="body">
-            <h3><a href={`${prefix}/listing/${l.id}/`}>{lang === 'zh' && l.data.titleZh ? l.data.titleZh : l.data.title}</a></h3>
-            <p>{(lang === 'zh' && l.data.descriptionZh ? l.data.descriptionZh : l.data.description).slice(0, 120)}…</p>
+            <h3><a href={`${prefix}/listing/${l.id}/`}>{l.data.title}</a></h3>
+            <p>{l.data.description.slice(0, 120)}…</p>
             <div class="badges">
               {l.data.categories.slice(0, 2).map((c) => <span class="badge">{catName(lang, c, c)}</span>)}
             </div>

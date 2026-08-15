@@ -6,8 +6,9 @@ slug: deepseek
 description: 什么是深度求索？深度求索是一家来自中国的开源人工智能公司，因其生产的大型语言模型能够与领先专有模型相媲美或匹配性能而迅速获得全球关注。
 categories:
 - llm-chat
-featured: /uploads/2026/04/deepseek-1.jpg
 wpId: 286
+image: /uploads/2026/04/deepseek-1.jpg
+featured: true
 ---
 <h2>DeepSeek是什么？</h2>
 <p>DeepSeek是一家来自中国的开源AI公司，凭借以极低成本打造出性能比肩甚至超越领先专有模型的大型语言模型，迅速获得全球关注。DeepSeek由量化对冲基金幻方量化创立，其模型以卓越的编程能力、数学推理和高效训练方法著称，挑战了传统AI开发范式。</p>

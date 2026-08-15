@@ -6,8 +6,9 @@ slug: trae
 description: 什么是Trae？Trae是由字节跳动（TikTok的母公司）开发的AI驱动集成开发环境（IDE）。Trae旨在使软件开发更快、更直观，Trae集
 categories:
 - ai-coding
-featured: /uploads/2026/04/trae.jpg
 wpId: 204
+image: /uploads/2026/04/trae.jpg
+featured: false
 ---
 <h2>Trae 是什么？</h2>
 <p>Trae 是由字节跳动（TikTok 母公司）开发的 AI 集成开发环境（IDE）。Trae 旨在让软件开发更快、更直观，将代码生成、实时补全和自然语言编程等高级 AI 能力直接集成到功能完整的编码环境中。它的设计目标是成为 Cursor 等工具的竞品，同时提供自己独特的 AI 辅助开发方案。</p>

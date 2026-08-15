@@ -6,8 +6,9 @@ slug: canva-ai
 description: 什么是Canva AI？Canva AI指的是集成在Canva中的人工智能功能套件，Canva是世界上最受欢迎的在线设计平台。这些AI工具使用户能够创建
 categories:
 - ai-creative
-featured: /uploads/2026/04/canva.jpg
 wpId: 262
+image: /uploads/2026/04/canva.jpg
+featured: false
 ---
 <h2>什么是Canva AI？</h2>
 <p>Canva AI是指集成在Canva中的一系列人工智能功能，Canva是全球最受欢迎的在线设计平台。这些AI工具让用户能够通过自然语言提示和智能自动化，创建专业品质的图形、演示文稿、视频和营销材料。Canva AI让复杂的设计变得人人可用，无论用户是否具备平面设计经验。</p>

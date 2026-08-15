@@ -6,7 +6,6 @@ slug: chatgpt
 description: What Is ChatGPT? ChatGPT is a leading AI-powered chatbot developed by OpenAI. Since its launch in November 2022, it has become the most widely recognized conversational AI tool in the world, serving m
 categories:
 - llm-chat
-featured: /uploads/2026/04/ChatGPT.jpg
 wpId: 185
 bodyZh: '<h2>什么是ChatGPT？</h2>
 
@@ -45,8 +44,9 @@ bodyZh: '<h2>什么是ChatGPT？</h2>
   <h2>ChatGPT与其他AI聊天机器人的对比</h2><p>与Claude和Gemini等替代品相比，ChatGPT凭借其庞大的插件生态系统、自定义GPT市场以及与OpenAI前沿模型的深度集成而脱颖而出。其用户友好的界面和跨平台可用性（网页、iOS、Android、macOS、Windows）使其成为当今最易用的AI助手。</p>'
 titleZh: ChatGPT
 descriptionZh: 什么是ChatGPT？ChatGPT是由OpenAI开发的领先的人工智能聊天机器人。自2022年11月推出以来，它已成为全球最广泛认可的人工智能对话工具，服务于m
+image: /uploads/2026/04/ChatGPT.jpg
+featured: true
 ---
-
 <h2>What Is ChatGPT?</h2>
 <p>ChatGPT is a leading AI-powered chatbot developed by OpenAI. Since its launch in November 2022, it has become the most widely recognized conversational AI tool in the world, serving millions of users across personal, academic, and professional use cases. Built on the GPT family of large language models, ChatGPT excels at natural language understanding, content creation, code generation, data analysis, and complex reasoning tasks.</p>
 <h2>Key Features and Capabilities</h2>

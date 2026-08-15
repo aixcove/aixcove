@@ -6,8 +6,9 @@ slug: gemma
 description: 什么是Gemma？Gemma是谷歌的一系列开源权重AI模型，专为开发者、研究人员和团队设计，他们希望能够在封闭环境之外运行、调优或集成的强大语言模型
 categories:
 - llm-chat
-featured: /uploads/2026/04/gemma.jpg
 wpId: 237
+image: /uploads/2026/04/gemma.jpg
+featured: false
 ---
 <h2>什么是Gemma？</h2>
 <p>Gemma是Google推出的开放权重AI模型系列，面向开发者、研究人员和团队，让他们可以在封闭聊天产品之外运行、微调或集成这些语言模型。它与Llama、Mistral和Qwen等工具一起，构成了更广泛的开放模型生态系统。</p>

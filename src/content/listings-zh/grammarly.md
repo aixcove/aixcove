@@ -6,8 +6,9 @@ slug: grammarly
 description: Grammarly是什么？Grammarly是全球使用最广泛的AI写作助手，帮助数百万人更清晰、更有效地用英语交流。除了基本的语法和拼写
 categories:
 - ai-writing-marketing
-featured: /uploads/2026/04/grammarly-1.jpg
 wpId: 258
+image: /uploads/2026/04/grammarly-1.jpg
+featured: false
 ---
 <h2>什么是Grammarly？</h2>
 <p>Grammarly是全球使用最广泛的AI写作助手，帮助数百万人更清晰、更有效地用英语沟通。除了基础的语法和拼写检查，Grammarly利用先进AI分析语气、清晰度、感染力和表达方式，在邮件、文档、社交媒体和网页应用中实时提供改进建议，提升写作质量。通过浏览器扩展、桌面应用和手机键盘，它在你写作的任何地方都能发挥作用。</p>

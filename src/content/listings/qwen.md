@@ -6,7 +6,6 @@ slug: qwen
 description: What Is QWen? QWen (Tongyi Qianwen) is Alibaba Cloud&#8217;s flagship large language model family, designed to deliver powerful AI capabilities across text understanding, code generation, mathematical
 categories:
 - llm-chat
-featured: /uploads/2026/04/qwen-1.jpg
 wpId: 187
 bodyZh: '<h2>什么是QWen？</h2>
 
@@ -45,8 +44,9 @@ bodyZh: '<h2>什么是QWen？</h2>
   <p>在主流大语言模型中，QWen的中文能力最强，是中文应用场景的首选。ChatGPT提供最广泛的功能集，包括插件和图像生成。DeepSeek在编程任务上与QWen相当甚至更优，且成本更低。对于中文商业应用，QWen在质量、定价和生态集成之间提供了最佳平衡。</p>'
 titleZh: Qwen
 descriptionZh: 什么是QWen？QWen（通义千问）是阿里云的旗舰大语言模型家族，旨在提供强大的AI能力，涵盖文本理解、代码生成、数学
+image: /uploads/2026/04/qwen-1.jpg
+featured: false
 ---
-
 <h2>What Is QWen?</h2>
 <p>QWen (Tongyi Qianwen) is Alibaba Cloud&#8217;s flagship large language model family, designed to deliver powerful AI capabilities across text understanding, code generation, mathematical reasoning, and multilingual communication. As one of China&#8217;s leading AI models, QWen consistently ranks among the top-performing LLMs globally on major benchmarks. The open-source variants have been downloaded millions of times by the global AI community.</p>
 <h2>Key Features and Capabilities</h2>

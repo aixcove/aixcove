@@ -6,8 +6,9 @@ slug: crewai
 description: 什么是CrewAI？CrewAI是一个开源的多智能体AI框架，它使开发者能够创建由专业化AI智能体组成的团队，这些智能体协作完成复杂任务。受人类如何...
 categories:
 - ai-agents
-featured: /uploads/2026/04/crewai-1.jpg
 wpId: 272
+image: /uploads/2026/04/crewai-1.jpg
+featured: false
 ---
 <h2>什么是 CrewAI？</h2>
 <p>CrewAI 是一个开源的多智能体 AI 框架，让开发者能够创建由专业 AI 智能体组成的团队，通过协作完成复杂任务。CrewAI 的灵感来自人类团队的工作方式，你可以定义具有特定角色、目标和专业能力的智能体，然后为它们分配需要协调与合作的任务。每个智能体可以使用不同的工具和 LLM，从而构建一个灵活的系统，用于自动化复杂的多步骤工作流。</p>

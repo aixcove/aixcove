@@ -6,8 +6,9 @@ slug: surfer-seo
 description: 什么是Surfer SEO？Surfer SEO是一个由AI驱动的内容优化平台，帮助网站在谷歌搜索结果中获得更高的排名。它可以分析任何关键词的顶级排名页面，并提供数据...
 categories:
 - ai-writing-marketing
-featured: /uploads/2026/04/surfer_seo.jpg
 wpId: 252
+image: /uploads/2026/04/surfer_seo.jpg
+featured: false
 ---
 <h2>Surfer SEO是什么？</h2>
 <p>Surfer SEO是一个AI驱动的内容优化平台，帮助网站在Google搜索结果中获得更高排名。它会分析任意关键词下排名靠前的页面，并提供基于数据的内容结构、字数、标题、关键词及其他排名因素建议。通过针对特定搜索查询逆向解析Google排名算法，Surfer SEO让内容创作者能够写出完全优化的文章。</p>

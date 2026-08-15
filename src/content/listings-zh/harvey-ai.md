@@ -6,8 +6,9 @@ slug: harvey-ai
 description: 什么是Harvey AI？Harvey AI是一个专门为法律行业构建的专业人工智能平台。在OpenAI创业基金的支持下，Harvey为法律专业人士提供
 categories:
 - vertical-ai
-featured: /uploads/2026/04/harvey_ai.jpg
 wpId: 264
+image: /uploads/2026/04/harvey_ai.jpg
+featured: false
 ---
 <h2>什么是Harvey AI？</h2>
 <p>Harvey AI是一个专为法律行业打造的专业人工智能平台。在OpenAI创业基金的支持下，Harvey为法律专业人士提供合同分析、法律研究、文件起草和合规监管等AI工具。与通用型AI工具不同，Harvey针对法律工作流程进行了专门训练和优化，能够理解法律术语、引注格式以及法律实践中所需的细致推理。</p>

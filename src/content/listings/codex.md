@@ -6,7 +6,6 @@ slug: codex
 description: What Is Codex? Codex is OpenAI&#8217;s agentic AI coding tool that operates autonomously in a sandboxed cloud environment. Given a natural language task description, Codex can independently plan, writ
 categories:
 - ai-coding
-featured: /uploads/2026/04/codex.jpg
 wpId: 200
 bodyZh: '<h2>什么是 Codex？</h2>
 
@@ -45,8 +44,9 @@ bodyZh: '<h2>什么是 Codex？</h2>
   <p>Codex 与 Claude Code 和 Cursor 的区别在于它在云端而非本地运行。这意味着它可以异步工作——你分配任务后，等它完成再回来查看。Claude Code 和 Cursor 提供实时交互式协助。对于需要完全自主、且每一步都无需人工监督的任务，Codex 是最强的选择。</p>'
 titleZh: Codex
 descriptionZh: 什么是Codex？Codex是OpenAI的代理式AI编程工具，它在沙盒云环境中自主运行。给定自然语言任务描述，Codex可以独立规划、编写
+image: /uploads/2026/04/codex.jpg
+featured: false
 ---
-
 <h2>What Is Codex?</h2>
 <p>Codex is OpenAI&#8217;s agentic AI coding tool that operates autonomously in a sandboxed cloud environment. Given a natural language task description, Codex can independently plan, write, test, and submit code changes. It spins up an isolated container with your repository, executes commands, installs dependencies, runs tests, and produces a complete pull request — all without requiring step-by-step human guidance.</p>
 <h2>Key Features and Capabilities</h2>

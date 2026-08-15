@@ -6,7 +6,6 @@ slug: claude
 description: What Is Claude? Claude is an advanced AI assistant created by Anthropic, a company focused on AI safety research. Known for its thoughtful, nuanced responses and strong emphasis on helpfulness and har
 categories:
 - llm-chat
-featured: /uploads/2026/04/claude.jpg
 wpId: 184
 bodyZh: '<h2>什么是Claude？</h2>
 
@@ -43,8 +42,9 @@ bodyZh: '<h2>什么是Claude？</h2>
   <h2>Claude与其他AI助手的对比</h2><p>Claude 与 ChatGPT 和 Gemini 的区别在于其对安全性、准确性和长文内容质量的重视。ChatGPT 在插件生态广度上领先，Gemini 在多模态集成方面表现出色，而 Claude 在需要细致推理、细腻写作和坦诚承认局限性的任务中，用户满意度始终最高。</p>'
 titleZh: Claude
 descriptionZh: 什么是Claude？Claude是由Anthropic公司创建的高级AI助手，Anthropic是一家专注于AI安全研究的公司。以其深思熟虑、细致入微的回答以及对帮助性和...
+image: /uploads/2026/04/claude.jpg
+featured: true
 ---
-
 <h2>What Is Claude?</h2>
 <p>Claude is an advanced AI assistant created by Anthropic, a company focused on AI safety research. Known for its thoughtful, nuanced responses and strong emphasis on helpfulness and harmlessness, Claude has become a top choice for professionals who need reliable AI support for complex tasks. The latest Claude models excel at long-context reasoning, code generation, creative writing, and detailed analysis.</p>
 <h2>Key Features and Capabilities</h2>

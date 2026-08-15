@@ -6,8 +6,9 @@ slug: flowise
 description: 什么是Flowise？Flowise是一个用于LLM应用和AI工作流程的开源可视化构建器。它通过基于节点的方式帮助团队设计聊天机器人、检索管道、代理流程和集成。
 categories:
 - ai-agents
-featured: /uploads/2026/04/flowise-1.jpg
 wpId: 633
+image: /uploads/2026/04/flowise-1.jpg
+featured: false
 ---
 <h2>Flowise 是什么？</h2>
 <p>Flowise 是一个开源的 LLM 应用与 AI 工作流可视化构建工具。它通过节点式界面帮助团队设计聊天机器人、检索流程、智能体工作流和集成方案，减少原型开发和 AI 产品上线所需的自定义代码量。</p>

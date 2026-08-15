@@ -6,7 +6,6 @@ slug: gemini
 description: What Is Google Gemini? Gemini is Google&#8217;s flagship AI model family, designed to be natively multimodal — meaning it can understand and generate text, images, audio, and video within a single con
 categories:
 - llm-chat
-featured: /uploads/2026/04/gemini.jpg
 wpId: 186
 bodyZh: '<h2>什么是 Google Gemini？</h2>
 
@@ -45,8 +44,9 @@ bodyZh: '<h2>什么是 Google Gemini？</h2>
   <p>Gemini 的核心优势在于其原生多模态设计和深度 Google 集成。ChatGPT 提供更广泛的插件市场，Claude 在安全导向的应用中表现出色，而 Gemini 则为 Google Workspace、Android 和 Chrome 用户提供最全面的免费层级和最强大的生态集成。</p>'
 titleZh: Gemini
 descriptionZh: 什么是 Google Gemini？Gemini 是 Google 的旗舰 AI 模型系列，设计为原生多模态 — 意味着它可以在单一环境中理解和生成文本、图像、音频和视频
+image: /uploads/2026/04/gemini.jpg
+featured: true
 ---
-
 <h2>What Is Google Gemini?</h2>
 <p>Gemini is Google&#8217;s flagship AI model family, designed to be natively multimodal — meaning it can understand and generate text, images, audio, and video within a single conversation. Integrated deeply across Google&#8217;s ecosystem including Search, Workspace, and Android, Gemini represents Google&#8217;s most capable AI technology and serves as the backbone for next-generation AI applications.</p>
 <h2>Key Features and Capabilities</h2>

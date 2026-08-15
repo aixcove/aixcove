@@ -6,7 +6,6 @@ slug: sana-ai
 description: What Is Sana AI? Sana AI is an AI-powered learning and knowledge platform designed for enterprise teams. It combines adaptive learning, knowledge management, and AI-assisted content creation into a si
 categories:
 - vertical-ai
-featured: /uploads/2026/04/sana_aI.jpg
 wpId: 268
 bodyZh: '<h2>Sana AI 是什么？</h2>
 
@@ -43,8 +42,9 @@ bodyZh: '<h2>Sana AI 是什么？</h2>
   <h2>Sana AI 与传统 LMS 的对比</h2><p>传统学习管理系统需要大量人工创建课程，并提供千篇一律的内容。Sana AI 可从现有材料自动生成课程，并根据个人需求调整学习路径。其 AI 驱动的知识搜索能将您的 LMS 转变为智能助手，实时回答问题。对于重视学习效果的组织而言，Sana AI 相比传统 LMS 平台是一次重大升级。</p>'
 titleZh: Sana AI
 descriptionZh: 什么是Sana AI？Sana AI是一个为企业团队设计的AI驱动学习和知识平台。它将自适应学习、知识管理和AI辅助内容创作融为一体...
+image: /uploads/2026/04/sana_aI.jpg
+featured: false
 ---
-
 <h2>What Is Sana AI?</h2>
 <p>Sana AI is an AI-powered learning and knowledge platform designed for enterprise teams. It combines adaptive learning, knowledge management, and AI-assisted content creation into a single platform that helps organizations onboard employees faster, share institutional knowledge, and deliver personalized training at scale. Sana AI uses artificial intelligence to understand what each employee needs to learn and delivers customized learning experiences.</p>
 <h2>Key Features and Capabilities</h2>

@@ -37,11 +37,12 @@ const pageUrl = (n: number) => (n <= 1 ? `${pg.base}` : `${pg.base}${n}/`);
     )}
     <div class="grid cols-3">
       {listings.map((l) => (
-        <article class="card">
-          {l.data.featured && <a href={`${prefix}/listing/${l.id}/`}><img class="thumb" src={l.data.featured} alt={l.data.title} loading="lazy" /></a>}
+        <article class:list={['card', { 'is-featured': l.data.featured }]}>
+          {l.data.featured && <span class="featured-badge">{lang === 'zh' ? '精选工具' : 'Featured tool'}</span>}
+          {l.data.image && <a href={`${prefix}/listing/${l.id}/`}><img class="thumb" src={l.data.image} alt={l.data.title} loading="lazy" /></a>}
           <div class="body">
-            <h3><a href={`${prefix}/listing/${l.id}/`}>{lang === 'zh' && l.data.titleZh ? l.data.titleZh : l.data.title}</a></h3>
-            <p>{(lang === 'zh' && l.data.descriptionZh ? l.data.descriptionZh : l.data.description).slice(0, 130)}…</p>
+            <h3><a href={`${prefix}/listing/${l.id}/`}>{l.data.title}</a></h3>
+            <p>{l.data.description.slice(0, 130)}…</p>
           </div>
         </article>
       ))}

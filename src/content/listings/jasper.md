@@ -6,7 +6,6 @@ slug: jasper
 description: What Is Jasper? Jasper is an AI-powered marketing copilot designed specifically for enterprise marketing teams. It helps organizations create on-brand content at scale by learning and maintaining cons
 categories:
 - ai-writing-marketing
-featured: /uploads/2026/04/jasper-1.jpg
 wpId: 250
 bodyZh: '<h2>什么是Jasper？</h2>
 
@@ -45,8 +44,9 @@ bodyZh: '<h2>什么是Jasper？</h2>
   <p>ChatGPT是通用型AI助手，而Jasper专为营销工作流打造。其品牌语调功能确保内容一致性，这是ChatGPT在缺乏大量提示词的情况下无法实现的。营销模板、活动工作流和团队协作功能使Jasper在专业营销场景中效率显著更高。不过，对于偶尔的内容创作需求，ChatGPT较低的成本可能已经足够。</p>'
 titleZh: Jasper
 descriptionZh: 什么是Jasper？Jasper是一个专为营销团队设计的AI营销助手。它通过学习和保持一致性，帮助组织大规模创建符合品牌的内容。
+image: /uploads/2026/04/jasper-1.jpg
+featured: false
 ---
-
 <h2>What Is Jasper?</h2>
 <p>Jasper is an AI-powered marketing copilot designed specifically for enterprise marketing teams. It helps organizations create on-brand content at scale by learning and maintaining consistent brand voice across all outputs. From blog posts and social media content to ad copy and email campaigns, Jasper provides purpose-built AI tools that understand marketing context and produce content that aligns with brand guidelines.</p>
 <h2>Key Features and Capabilities</h2>

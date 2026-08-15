@@ -6,8 +6,9 @@ slug: gemini-cli
 description: 什么是 Gemini CLI？Gemini CLI 是 Google 官方的命令行界面，可以直接从终端与 Gemini AI 模型进行交互。它使开发者和高级用户能够利用 Gem
 categories:
 - ai-coding
-featured: /uploads/2026/04/gemini_cli.jpg
 wpId: 201
+image: /uploads/2026/04/gemini_cli.jpg
+featured: false
 ---
 <h2>什么是 Gemini CLI？</h2>
 <p>Gemini CLI 是 Google 官方推出的命令行界面工具，让用户直接在终端中与 Gemini AI 模型交互。开发者和高级用户无需离开命令行环境，即可利用 Gemini 进行代码生成、文本分析、文件处理和自动化任务。作为一款开源工具，它提供了一种轻量级方式，将 AI 集成到开发工作流和 Shell 脚本中。</p>

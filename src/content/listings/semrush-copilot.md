@@ -6,7 +6,6 @@ slug: semrush-copilot
 description: 'What Is Semrush Copilot? Semrush Copilot is the AI-powered assistant integrated into the Semrush digital marketing platform. It automatically analyzes your website&#8217;s SEO performance, identifies '
 categories:
 - ai-writing-marketing
-featured: /uploads/2026/04/semrush.jpg
 wpId: 253
 bodyZh: '<h2>什么是 Semrush Copilot？</h2>
 
@@ -45,8 +44,9 @@ bodyZh: '<h2>什么是 Semrush Copilot？</h2>
   <p>Semrush Copilot 是综合营销平台中的一项功能，而 Surfer SEO 是专注于内容优化的工具。Copilot 擅长自动化监控、全站建议和竞争分析。Surfer 擅长指导实际的内容写作过程。对于全漏斗 SEO 管理，Semrush 更胜一筹。对于撰写优化内容，Surfer 更专注且更直观。</p>'
 titleZh: Semrush Copilot
 descriptionZh: 什么是 Semrush 助手？Semrush 助手是集成到 Semrush 数字营销平台中的 AI 驱动的助手。它会自动分析您网站的 SEO 性能，识别 '
+image: /uploads/2026/04/semrush.jpg
+featured: false
 ---
-
 <h2>What Is Semrush Copilot?</h2>
 <p>Semrush Copilot is the AI-powered assistant integrated into the Semrush digital marketing platform. It automatically analyzes your website&#8217;s SEO performance, identifies issues and opportunities, and provides personalized, actionable recommendations to improve your search rankings. By leveraging Semrush&#8217;s extensive database of search data combined with AI analysis, Copilot delivers insights that would take hours of manual research to uncover.</p>
 <h2>Key Features and Capabilities</h2>

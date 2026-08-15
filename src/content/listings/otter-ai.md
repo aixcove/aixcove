@@ -6,7 +6,6 @@ slug: otter-ai
 description: What Is Otter.ai? Otter.ai is an AI-powered meeting transcription and collaboration tool that automatically records, transcribes, and summarizes your meetings in real time. Using advanced speech recog
 categories:
 - ai-productivity
-featured: /uploads/2026/04/otter_ai.jpg
 wpId: 257
 bodyZh: '<h2>什么是 Otter.ai？</h2>
 
@@ -43,8 +42,9 @@ bodyZh: '<h2>什么是 Otter.ai？</h2>
   <h2>Otter.ai 与内置转录功能对比</h2><p>虽然Zoom和Teams提供基础转写功能，但Otter.ai在准确率、说话人识别、AI摘要和跨平台会议支持方面明显更胜一筹。它的协作功能和可搜索存档使其成为会议知识库，而不仅仅是转写工具。对于依赖会议运转的团队，Otter.ai的专业能力远超自带方案。</p>'
 titleZh: Otter.ai
 descriptionZh: 什么是Otter.ai？Otter.ai是一个由人工智能驱动的会议转录和协作工具，可以自动记录、转录和实时总结您的会议。利用先进的语音识别
+image: /uploads/2026/04/otter_ai.jpg
+featured: false
 ---
-
 <h2>What Is Otter.ai?</h2>
 <p>Otter.ai is an AI-powered meeting transcription and collaboration tool that automatically records, transcribes, and summarizes your meetings in real time. Using advanced speech recognition and natural language processing, Otter.ai transforms spoken conversations into searchable text with speaker identification, key point extraction, and automated action items. It has become an essential tool for teams that want to make meetings more productive and actionable.</p>
 <h2>Key Features and Capabilities</h2>

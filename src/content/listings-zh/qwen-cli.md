@@ -6,8 +6,9 @@ slug: qwen-cli
 description: 什么是 QWen CLI？QWen CLI 是用于与阿里巴巴 QWen 大语言模型系列进行交互的命令行界面。它提供了对中国最强大的大语言模型之一的直接终端访问。
 categories:
 - ai-coding
-featured: /uploads/2026/04/qwen.jpg
 wpId: 203
+image: /uploads/2026/04/qwen.jpg
+featured: false
 ---
 <h2>什么是 QWen CLI？</h2>
 <p>QWen CLI 是用于与阿里巴巴 QWen 系列大语言模型交互的命令行界面。它提供对终端直接访问，支持代码生成、文本分析、翻译和通用推理任务，是中国最强大的 AI 模型系列之一。由于 QWen 模型是开源的，该 CLI 既可以连接云端 API 端点，也可以连接本地部署的模型实例。</p>

@@ -6,8 +6,9 @@ slug: langchain
 description: 什么是LangChain？LangChain是最受欢迎的用于构建由大型语言模型驱动应用程序的开源框架。它提供了一套全面的工具、抽象和集成
 categories:
 - ai-agents
-featured: /uploads/2026/04/langchain-1.jpg
 wpId: 274
+image: /uploads/2026/04/langchain-1.jpg
+featured: false
 ---
 <h2>什么是LangChain？</h2>
 <p>LangChain是最受欢迎的开源框架，用于构建由大语言模型驱动的应用程序。它提供了一套全面的工具、抽象和集成，使开发者能够轻松地将LLM连接到外部数据源、工具和API。从简单的提示链到复杂的自主代理，LangChain提供了数千名开发者用来创建生产级AI应用的基础组件。</p>

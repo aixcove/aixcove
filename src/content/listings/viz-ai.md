@@ -6,7 +6,6 @@ slug: viz-ai
 description: What Is Viz.ai? Viz.ai is an FDA-cleared AI-powered healthcare platform that uses advanced computer vision and deep learning to analyze medical images in real time. Designed to accelerate critical car
 categories:
 - vertical-ai
-featured: /uploads/2026/04/viz_ai.jpg
 wpId: 265
 bodyZh: '<h2>什么是Viz.ai？</h2>
 
@@ -45,8 +44,9 @@ bodyZh: '<h2>什么是Viz.ai？</h2>
   <p>Viz.ai不会取代放射科医生——它通过提供自动化的首轮分析来增强医生的能力，加速关键发现的识别。放射科医生读取一份扫描可能需要几分钟到几小时（取决于排队数量），而Viz.ai在数秒内完成影像分析并立即升级关键病例。这种并行处理方式显著缩短了危及生命病症的治疗时间。</p>'
 titleZh: Viz.ai
 descriptionZh: Viz.ai是什么？Viz.ai是一个获得FDA批准的AI驱动医疗平台，利用先进的计算机视觉和深度学习技术实时分析医学影像。旨在加速关键...
+image: /uploads/2026/04/viz_ai.jpg
+featured: false
 ---
-
 <h2>What Is Viz.ai?</h2>
 <p>Viz.ai is an FDA-cleared AI-powered healthcare platform that uses advanced computer vision and deep learning to analyze medical images in real time. Designed to accelerate critical care decisions, Viz.ai automatically detects conditions like strokes, pulmonary embolisms, and aortic dissections on CT scans, then immediately alerts the appropriate care team. By reducing the time between scan and treatment, Viz.ai helps save lives in time-sensitive medical emergencies.</p>
 <h2>Key Features and Capabilities</h2>

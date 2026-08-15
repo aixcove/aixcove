@@ -6,8 +6,9 @@ slug: chatgpt
 description: 什么是ChatGPT？ChatGPT是由OpenAI开发的领先的人工智能聊天机器人。自2022年11月推出以来，它已成为全球最广泛认可的人工智能对话工具，服务于m
 categories:
 - llm-chat
-featured: /uploads/2026/04/ChatGPT.jpg
 wpId: 185
+image: /uploads/2026/04/ChatGPT.jpg
+featured: true
 ---
 <h2>什么是ChatGPT？</h2>
 <p>ChatGPT是OpenAI开发的领先AI聊天机器人。自2022年11月推出以来，它已成为全球最广为人知的对话式AI工具，服务于个人、学术和专业领域的数百万用户。ChatGPT基于GPT系列大语言模型构建，擅长自然语言理解、内容创作、代码生成、数据分析和复杂推理任务。</p>

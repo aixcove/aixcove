@@ -6,8 +6,9 @@ slug: hapax-ai
 description: Hapax是什么？Hapax是一个面向金融机构和运营密集型团队的AI平台，这些团队希望自动工作流程，同时保持对知识、合规性和流程质量的控制。
 categories:
 - vertical-ai
-featured: /uploads/2026/07/hapax-ai-feature-picture.jpg
 wpId: 788
+image: /uploads/2026/07/hapax-ai-feature-picture.jpg
+featured: false
 ---
 <h2>什么是Hapax？</h2>
 <p>Hapax是一个面向金融机构和运营密集型团队的AI平台，旨在自动化工作流程，同时保持对知识、合规性和流程质量的控制。它最适合银行、信用合作社以及正在评估AI代理以提升内部生产力的受监管团队。</p>

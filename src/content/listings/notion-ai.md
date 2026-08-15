@@ -6,7 +6,6 @@ slug: notion-ai
 description: What Is Notion AI? Notion AI is an integrated AI assistant built directly into the Notion workspace platform. Rather than requiring users to switch between a note-taking app and a separate AI tool, No
 categories:
 - ai-productivity
-featured: /uploads/2026/04/notion.jpg
 wpId: 255
 bodyZh: '<h2>什么是Notion AI？</h2>
 
@@ -45,8 +44,9 @@ bodyZh: '<h2>什么是Notion AI？</h2>
   <p>ChatGPT是独立的聊天机器人，而Notion AI的关键优势在于与工作区内容的深度集成。它可以引用并基于你现有的页面、数据库和团队知识进行扩展。对于常驻Notion的团队来说，集成式AI体验消除了上下文切换，将所有内容集中在一处。不过，在复杂推理或代码生成方面，ChatGPT可能仍然更胜一筹。</p>'
 titleZh: Notion AI
 descriptionZh: 什么是 Notion AI？Notion AI 是一个直接集成到 Notion 工作区平台的 AI 助手。它不需要用户在笔记应用和单独的 AI 工具之间切换，No
+image: /uploads/2026/04/notion.jpg
+featured: false
 ---
-
 <h2>What Is Notion AI?</h2>
 <p>Notion AI is an integrated AI assistant built directly into the Notion workspace platform. Rather than requiring users to switch between a note-taking app and a separate AI tool, Notion AI brings intelligent writing, summarization, and organization capabilities right into the pages and databases where teams already work. It enhances Notion&#8217;s already powerful workspace with AI that understands your content and context.</p>
 <h2>Key Features and Capabilities</h2>

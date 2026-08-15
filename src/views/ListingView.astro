@@ -21,7 +21,7 @@ const { Content } = await render(item);
 <BaseLayout
   title={`${title} — ${lang === 'zh' ? 'AI 工具评测' : 'AI Tool Review'} | AIX Cove`}
   description={description}
-  image={item.data.featured || undefined}
+  image={item.data.image || undefined}
   lang={lang}
   altUrl={lang === 'zh' ? `/listing/${item.id}/` : `/zh/listing/${item.id}/`}
 >
@@ -32,7 +32,8 @@ const { Content } = await render(item);
       <span>{L.reviewed_by}</span>
       {item.data.date && <span> · <time datetime={item.data.date}>{item.data.date.slice(0, 10)}</time></span>}
     </div>
-    {item.data.featured && <img class="hero-img" src={item.data.featured} alt={title} width="1200" height="630" />}
+    {item.data.image && <img class="hero-img" src={item.data.image} alt={title} width="1200" height="630" />}
+    {item.data.featured && <span class="featured-badge">{lang === 'zh' ? '精选工具' : 'Featured tool'}</span>}
     <div class="badges">
       {item.data.categories.map((c) => <a class="badge" href={`${prefix}/listing-category/${c}/`}>{catName(lang, c, c)}</a>)}
     </div>
@@ -44,7 +45,7 @@ const { Content } = await render(item);
       description: description,
       applicationCategory: 'AI Tool',
       inLanguage: lang === 'zh' ? 'zh-CN' : 'en',
-      image: item.data.featured ? new URL(item.data.featured, Astro.site).toString() : undefined,
+      image: item.data.image ? new URL(item.data.image, Astro.site).toString() : undefined,
       url: new URL(Astro.url.pathname, Astro.site).toString(),
       author: {
         '@type': 'Organization',

@@ -6,8 +6,9 @@ slug: bolt
 description: Bolt是什么？Bolt是StackBlitz开发的一款由AI驱动的全栈Web开发工具，它使任何人都可以直接使用自然语言从浏览器中构建、运行和部署完整的Web应用程序。
 categories:
 - ai-coding
-featured: /uploads/2026/04/bolt-1.jpg
 wpId: 282
+image: /uploads/2026/04/bolt-1.jpg
+featured: false
 ---
 <h2>什么是Bolt？</h2>
 <p>Bolt是StackBlitz推出的一款AI驱动的全栈Web开发工具，让任何人都能通过自然语言提示，直接在浏览器中构建、运行和部署完整的Web应用。基于WebContainers技术，Bolt能在浏览器中启动完整的Node.js环境，让AI生成的应用无需任何本地配置即可立即运行。它已成为快速原型制作和AI辅助Web开发的热门工具。</p>

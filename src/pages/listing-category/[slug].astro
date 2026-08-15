@@ -12,7 +12,7 @@ export async function getStaticPaths() {
 const { cat } = Astro.props;
 const listings = (await getCollection('listings'))
   .filter((l) => l.data.categories.includes(cat.id))
-  .sort((a, b) => a.data.title.localeCompare(b.data.title));
+  .sort((a, b) => Number(b.data.featured) - Number(a.data.featured) || a.data.title.localeCompare(b.data.title));
 ---
 
 <CategoryView lang="en" kind="listings" catId={cat.id} catNameEn={cat.data.name} items={listings} />

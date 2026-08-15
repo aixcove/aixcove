@@ -6,8 +6,9 @@ slug: antigravity
 description: 什么是Antigravity？Antigravity是一款AI驱动的开发工具，旨在加速软件工程工作流程。它为常见的开发任务提供智能自动化，包括代码
 categories:
 - ai-coding
-featured: /uploads/2026/04/antigravity.jpg
 wpId: 208
+image: /uploads/2026/04/antigravity.jpg
+featured: false
 ---
 <h2>Antigravity：AI加速开发工具详解</h2>
 <p>Antigravity是一款AI驱动的开发工具，旨在加速软件工程工作流程。它为常见开发任务提供智能自动化，包括代码生成、测试、文档编写和部署。该工具旨在减少编程的重复性部分，使开发者能够专注于创造性问题解决和架构决策。</p>

@@ -6,7 +6,6 @@ slug: opencode
 description: 'What Is OpenCode? OpenCode is an open-source AI coding assistant that operates in the terminal, providing intelligent code generation, explanation, and refactoring capabilities through a command-line '
 categories:
 - ai-coding
-featured: /uploads/2026/04/opencode.jpg
 wpId: 214
 bodyZh: '<h2>什么是 OpenCode？</h2>
 
@@ -45,8 +44,9 @@ bodyZh: '<h2>什么是 OpenCode？</h2>
   <p>OpenCode 在模型选择上更灵活且免费使用，而 Claude Code 则提供与 Anthropic 模型更完善、更紧密集成的体验。对于想使用自己的 API 密钥并自由选择模型的开发者，OpenCode 提供更大的自由度。对于想要开箱即用、针对 Claude 优化的解决方案，官方工具更为便捷。</p>'
 titleZh: OpenCode
 descriptionZh: 什么是OpenCode？OpenCode是一个开源的AI编程助手，在终端中运行，通过命令行提供智能代码生成、解释和重构功能
+image: /uploads/2026/04/opencode.jpg
+featured: false
 ---
-
 <h2>What Is OpenCode?</h2>
 <p>OpenCode is an open-source AI coding assistant that operates in the terminal, providing intelligent code generation, explanation, and refactoring capabilities through a command-line interface. Built with flexibility in mind, OpenCode supports multiple AI model backends, allowing developers to choose their preferred provider while maintaining a consistent, terminal-native workflow.</p>
 <h2>Key Features and Capabilities</h2>

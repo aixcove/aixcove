@@ -6,7 +6,6 @@ slug: copy-ai
 description: 'What Is Copy.ai? Copy.ai is an AI-powered platform that helps go-to-market teams create high-converting marketing and sales content. Originally launched as an AI copywriting tool, Copy.ai has evolved '
 categories:
 - ai-writing-marketing
-featured: /uploads/2026/04/copy.ai_.jpg
 wpId: 251
 bodyZh: '<h2>什么是 Copy.ai？</h2>
 
@@ -45,8 +44,9 @@ bodyZh: '<h2>什么是 Copy.ai？</h2>
   <p>Copy.ai 更侧重于销售和 GTM 自动化，具备工作流功能，而 Jasper 强调品牌语调一致性和企业营销。Copy.ai 通常价格更低，并提供更好的销售客户发掘工具。Jasper 提供更深入的营销活动管理。对于销售为主的团队，Copy.ai 更合适；对于内容营销团队，Jasper 更有优势。</p>'
 titleZh: Copy.ai
 descriptionZh: 什么是Copy.ai？Copy.ai是一个由人工智能驱动的平台，帮助上市团队创建高转化率的营销和销售内容。最初作为AI文案写作工具推出，Copy.ai已经发展演变
+image: /uploads/2026/04/copy.ai_.jpg
+featured: false
 ---
-
 <h2>What Is Copy.ai?</h2>
 <p>Copy.ai is an AI-powered platform that helps go-to-market teams create high-converting marketing and sales content. Originally launched as an AI copywriting tool, Copy.ai has evolved into a comprehensive GTM (go-to-market) AI platform that automates content creation, prospecting, and workflow execution for sales and marketing teams. It combines large language models with purpose-built workflows for business content.</p>
 <h2>Key Features and Capabilities</h2>

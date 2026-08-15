@@ -6,8 +6,9 @@ slug: qwen
 description: 什么是QWen？QWen（通义千问）是阿里云的旗舰大语言模型家族，旨在提供强大的AI能力，涵盖文本理解、代码生成、数学
 categories:
 - llm-chat
-featured: /uploads/2026/04/qwen-1.jpg
 wpId: 187
+image: /uploads/2026/04/qwen-1.jpg
+featured: false
 ---
 <h2>什么是QWen？</h2>
 <p>QWen（通义千问）是阿里云推出的旗舰级大语言模型系列，旨在提供文本理解、代码生成、数学推理和多语言交流等强大AI能力。作为中国领先的AI模型之一，QWen在各大基准测试中持续位列全球顶尖大语言模型。其开源版本已被全球AI社区下载数百万次。</p>

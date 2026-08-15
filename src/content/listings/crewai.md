@@ -6,7 +6,6 @@ slug: crewai
 description: What Is CrewAI? CrewAI is an open-source multi-agent AI framework that enables developers to create teams of specialized AI agents that collaborate to accomplish complex tasks. Inspired by how human t
 categories:
 - ai-agents
-featured: /uploads/2026/04/crewai-1.jpg
 wpId: 272
 bodyZh: '<h2>什么是 CrewAI？</h2>
 
@@ -43,8 +42,9 @@ bodyZh: '<h2>什么是 CrewAI？</h2>
   <h2>CrewAI 与 AutoGPT 和 LangChain 的对比</h2><p>CrewAI的多智能体协作模型是它相较于AutoGPT等单智能体框架的核心优势。LangChain为智能体创建提供了底层构建模块，而CrewAI则提供了一个更高级、更直观的框架，专为多智能体工作流设计。对于需要分工与协作的任务——比如让研究员、写作者和审阅者协同工作——CrewAI是最自然的选择。</p>'
 titleZh: CrewAI
 descriptionZh: 什么是CrewAI？CrewAI是一个开源的多智能体AI框架，它使开发者能够创建由专业化AI智能体组成的团队，这些智能体协作完成复杂任务。受人类如何...
+image: /uploads/2026/04/crewai-1.jpg
+featured: false
 ---
-
 <h2>What Is CrewAI?</h2>
 <p>CrewAI is an open-source multi-agent AI framework that enables developers to create teams of specialized AI agents that collaborate to accomplish complex tasks. Inspired by how human teams work, CrewAI lets you define agents with specific roles, goals, and expertise, then assign them tasks that require coordination and collaboration. Each agent can use different tools and LLMs, creating a flexible system for automating sophisticated multi-step workflows.</p>
 <h2>Key Features and Capabilities</h2>

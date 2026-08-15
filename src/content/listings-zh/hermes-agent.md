@@ -6,8 +6,9 @@ slug: hermes-agent
 description: 什么是赫尔墨斯智能体？赫尔墨斯智能体是由Nous Research开发的开源、自我改进的AI智能体。它内置学习循环，能够自主创建、完善和重用技能，从...
 categories:
 - ai-agents
-featured: /uploads/2026/04/hermes-agent.jpg
 wpId: 548
+image: /uploads/2026/04/hermes-agent.jpg
+featured: false
 ---
 <h2>Hermes Agent 是什么？</h2>
 <p>Hermes Agent 是由 Nous Research 开发的开源、自我改进型 AI 代理。它内置原生学习循环，能够自主从经验中创建、优化和复用技能，同时保持跨会话的持久记忆。Hermes Agent 支持 40 多种内置工具，包括网络搜索、文件操作、终端控制和多模态任务，并统一了 Telegram、Discord、Slack、WhatsApp、电子邮件和 CLI 接口的访问方式。</p>

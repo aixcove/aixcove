@@ -6,7 +6,6 @@ slug: gemma
 description: What is Gemma? Gemma is Google’s family of open-weight AI models designed for developers, researchers, and teams that want capable language models they can run, tune, or integrate outside a closed cha
 categories:
 - llm-chat
-featured: /uploads/2026/04/gemma.jpg
 wpId: 237
 bodyZh: '<h2>什么是Gemma？</h2>
 
@@ -55,8 +54,9 @@ bodyZh: '<h2>什么是Gemma？</h2>
   <p>开放权重模型工作选Gemma。托管式Google AI助手和API生态选Gemini。</p>'
 titleZh: Gemma
 descriptionZh: 什么是Gemma？Gemma是谷歌的一系列开源权重AI模型，专为开发者、研究人员和团队设计，他们希望能够在封闭环境之外运行、调优或集成的强大语言模型
+image: /uploads/2026/04/gemma.jpg
+featured: false
 ---
-
 <h2>What is Gemma?</h2>
 <p>Gemma is Google’s family of open-weight AI models designed for developers, researchers, and teams that want capable language models they can run, tune, or integrate outside a closed chatbot product. It fits the broader open model ecosystem alongside tools like Llama, Mistral, and Qwen.</p>
 <h2>Best for</h2>

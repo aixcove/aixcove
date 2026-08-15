@@ -6,7 +6,6 @@ slug: midjourney
 description: What Is Midjourney? Midjourney is an AI-powered image generation tool that creates stunning visual artwork from text descriptions. Known for its distinctive artistic aesthetic and high-quality output,
 categories:
 - ai-creative
-featured: /uploads/2026/04/midjourney-1.jpg
 wpId: 259
 bodyZh: '<h2>什么是Midjourney？</h2>
 
@@ -43,8 +42,9 @@ bodyZh: '<h2>什么是Midjourney？</h2>
   <h2>Midjourney与DALL-E和Stable Diffusion的对比</h2><p>Midjourney 以艺术质量和独特美学著称，在艺术风格方面往往比 DALL-E 产出更具视觉吸引力的结果。DALL-E 擅长遵循精确指令和写实风格。Stable Diffusion 提供开源灵活性，支持本地部署。对于优先追求艺术输出质量且不想折腾技术配置的用户，Midjourney 仍是首选。</p>'
 titleZh: Midjourney
 descriptionZh: 什么是Midjourney？Midjourney是一款由AI驱动的图像生成工具，能够根据文本描述创作出令人惊艳的视觉艺术作品。它以其独特的艺术风格和高品质的输出而闻名，
+image: /uploads/2026/04/midjourney-1.jpg
+featured: true
 ---
-
 <h2>What Is Midjourney?</h2>
 <p>Midjourney is an AI-powered image generation tool that creates stunning visual artwork from text descriptions. Known for its distinctive artistic aesthetic and high-quality output, Midjourney has become the go-to AI art generator for designers, artists, marketers, and creative professionals. Its latest versions produce photorealistic images, detailed illustrations, and conceptual art that rival professional human-created work.</p>
 <h2>Key Features and Capabilities</h2>

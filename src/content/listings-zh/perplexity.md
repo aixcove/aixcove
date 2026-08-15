@@ -6,8 +6,9 @@ slug: perplexity
 description: 什么是Perplexity？Perplexity是一款由人工智能驱动的搜索引擎，它提供直接且有引用来源的答案，而不是返回链接列表。结合大型语言模型与实时网络
 categories:
 - llm-chat
-featured: /uploads/2026/04/perplexity-1.jpg
 wpId: 284
+image: /uploads/2026/04/perplexity-1.jpg
+featured: false
 ---
 <h2>什么是Perplexity？</h2>
 <p>Perplexity是一款AI驱动的搜索引擎，直接提供带引用的答案，而非返回链接列表。它将大语言模型与实时网络搜索相结合，给出简洁、准确的回答，并附带用户可核实的来源引用。在研究、事实核查和信息发现方面，它已成为传统搜索引擎的有力替代方案。</p>
