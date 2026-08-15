@@ -60,20 +60,25 @@ const alt = altUrl ? new URL(altUrl, Astro.site) : undefined;
     <header class="site-header">
       <div class="container inner">
         <a href={lang === 'zh' ? '/zh/' : '/'} class="site-logo">AIX<span>Cove</span></a>
-        <nav class="site-nav">
+        <nav class="site-nav" id="site-nav">
           <a href={lang === 'zh' ? '/zh/listings/' : '/listings/'}>{L.nav_tools}</a>
           <a href={lang === 'zh' ? '/zh/blog/' : '/blog/'}>{L.nav_blog}</a>
           <a href={lang === 'zh' ? '/zh/search/' : '/search/'}>{L.nav_search}</a>
           <a href="/contact-us/">{L.nav_contact}</a>
         </nav>
-        {altUrl && (
-          <a class="lang-switch" href={altUrl} hreflang={lang === 'zh' ? 'en' : 'zh-CN'}>
-            {L.switch_label}
-          </a>
-        )}
-        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark / light mode" title="Toggle dark / light mode">
-          <span class="icon-moon">🌙</span><span class="icon-sun">☀️</span>
-        </button>
+        <div class="header-actions">
+          {altUrl && (
+            <a class="lang-switch" href={altUrl} hreflang={lang === 'zh' ? 'en' : 'zh-CN'}>
+              {L.switch_label}
+            </a>
+          )}
+          <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark / light mode" title="Toggle dark / light mode">
+            <span class="icon-moon">🌙</span><span class="icon-sun">☀️</span>
+          </button>
+          <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Menu" aria-expanded="false">
+            <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+          </button>
+        </div>
       </div>
     </header>
     <main class="container">
@@ -86,6 +91,15 @@ const alt = altUrl ? new URL(altUrl, Astro.site) : undefined;
         function sync() {
           var light = document.documentElement.getAttribute('data-theme') === 'light';
           document.documentElement.classList.toggle('light-mode', light);
+        }
+        var nt = document.getElementById('nav-toggle');
+        var nv = document.getElementById('site-nav');
+        if (nt && nv) {
+          nt.addEventListener('click', function () {
+            var open = nv.classList.toggle('open');
+            nt.classList.toggle('open', open);
+            nt.setAttribute('aria-expanded', open ? 'true' : 'false');
+          });
         }
         btn.addEventListener('click', function () {
           var el = document.documentElement;

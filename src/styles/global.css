@@ -174,3 +174,32 @@ article.prose th, article.prose td { border: 1px solid var(--border); padding: 8
 .theme-toggle .icon-sun{display:none}
 html[data-theme="light"] .theme-toggle .icon-sun{display:inline}
 html[data-theme="light"] .theme-toggle .icon-moon{display:none}
+
+/* 顶部导航布局 */
+.site-header .inner { gap: 12px; }
+.header-actions { margin-left: auto; display: flex; align-items: center; gap: 10px; flex-wrap: nowrap; }
+.site-nav { margin-left: 0; }
+.nav-toggle {
+  display: none; margin: 0; padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px;
+  background: var(--bg-soft); cursor: pointer; flex-direction: column; gap: 4px; align-items: center; justify-content: center;
+}
+.nav-toggle .bar { display: block; width: 18px; height: 2px; background: var(--text); border-radius: 2px; transition: transform .2s, opacity .2s; }
+.nav-toggle.open .bar:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+.nav-toggle.open .bar:nth-child(2) { opacity: 0; }
+.nav-toggle.open .bar:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+
+/* 移动端: 汉堡菜单 */
+@media (max-width: 800px) {
+  .site-header .inner { height: auto; min-height: 56px; padding: 8px 0; flex-wrap: nowrap; }
+  .nav-toggle { display: flex; }
+  .site-nav {
+    order: 99; flex-basis: 100%; flex-direction: column; gap: 0;
+    display: none; width: 100%; margin: 8px 0 0; padding: 4px 0 8px;
+    border-top: 1px solid var(--border);
+  }
+  .site-nav.open { display: flex; }
+  .site-nav a { padding: 10px 2px; font-size: 1rem; border-bottom: 1px solid color-mix(in srgb, var(--border) 50%, transparent); }
+  .site-nav a:last-child { border-bottom: 0; }
+  .lang-switch { padding: 4px 10px; font-size: .85rem; }
+  .theme-toggle { padding: 4px 8px; }
+}
