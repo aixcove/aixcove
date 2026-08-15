@@ -28,7 +28,7 @@ const { post, wpPage } = Astro.props;
       <div class="meta">
         <time datetime={post.data.date}>{post.data.date.slice(0, 10)}</time>
         {post.data.categories.length > 0 && (
-          <span> · {post.data.categories.map((c) => <a href={`/category/${c}/`}>{c.replace(/-/g, ' ')}</a>).join(', ')}</span>
+          <span> · {post.data.categories.map((c) => <a href={`/category/${c}/`}>{c.replace(/-/g, ' ')}</a>)}</span>
         )}
       </div>
       {post.data.featured && <img class="hero-img" src={post.data.featured} alt={post.data.title} width="1200" height="630" />}
