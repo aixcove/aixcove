@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://aixcove.com/sitemap-index.xml
+# @astrojs/sitemap emits one sitemap file for this static build.
+Sitemap: https://aixcove.com/sitemap-0.xml

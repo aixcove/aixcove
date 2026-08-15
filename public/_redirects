@@ -1,5 +1,15 @@
 /wp-content/uploads/*  /uploads/:splat  301
 
+# Preserve discovery for Googlebot requests to the former WordPress sitemap endpoints.
+/sitemap.xml  /sitemap-0.xml  301
+/wp-sitemap.xml  /sitemap-0.xml  301
+/wp-sitemap-posts-post-1.xml  /sitemap-0.xml  301
+/wp-sitemap-posts-page-1.xml  /sitemap-0.xml  301
+/wp-sitemap-posts-hp_listing-1.xml  /sitemap-0.xml  301
+/wp-sitemap-posts-hp_vendor-1.xml  /sitemap-0.xml  301
+/wp-sitemap-taxonomies-category-1.xml  /sitemap-0.xml  301
+/wp-sitemap-taxonomies-hp_listing_category-1.xml  /sitemap-0.xml  301
+
 /listing-category/ai-ad-creative-media/  /listings/  301
 /zh/listing-category/ai-ad-creative-media/  /zh/listings/  301
 /listing-category/ai-agents-automation/  /listing-category/ai-agents/  301
