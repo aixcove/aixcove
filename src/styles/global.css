@@ -136,3 +136,9 @@ article.prose th, article.prose td { border: 1px solid var(--border); padding: 8
   transition: background .15s;
 }
 .lang-switch:hover { background: rgba(125, 138, 245, .12); }
+
+/* 分页 */
+.pagination{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:36px 0 8px}
+.page-link{display:inline-block;padding:8px 14px;border:1px solid var(--border,#ddd);border-radius:8px;color:var(--text,#333);text-decoration:none;font-size:.95rem;transition:all .15s}
+.page-link:hover{border-color:var(--accent,#667eea);color:var(--accent,#667eea)}
+.page-link.active{background:var(--accent,#667eea);border-color:var(--accent,#667eea);color:#fff;font-weight:600}

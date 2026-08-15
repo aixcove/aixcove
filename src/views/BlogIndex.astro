@@ -1,21 +1,31 @@
 ---
-// 博客列表视图（en/zh 共用）
+// 博客列表视图（en/zh 共用，支持分页）
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { ui, catName } from '../i18n/ui';
 
 interface Props {
   lang: 'en' | 'zh';
   posts: any[];
+  page?: { current: number; total: number; base: string; };
 }
-const { lang, posts } = Astro.props;
+
+const { lang, posts, page } = Astro.props;
 const L = ui[lang];
 const prefix = lang === 'zh' ? '/zh' : '';
+const pg = page ?? { current: 1, total: 1, base: `${prefix}/blog/` };
+
+const pageUrl = (n: number) => (n <= 1 ? `${pg.base}` : `${pg.base}${n}/`);
 ---
 
-<BaseLayout title={`${L.blog_h1} | AIX Cove`} description={L.blog_sub(posts.length)} lang={lang} altUrl={lang === 'zh' ? '/blog/' : '/zh/blog/'}>
+<BaseLayout
+  title={pg.current > 1 ? `${L.blog_h1} - ${lang === 'zh' ? `第${pg.current}页` : `Page ${pg.current}`} | AIX Cove` : `${L.blog_h1} | AIX Cove`}
+  description={L.blog_sub(posts.length)}
+  lang={lang}
+  altUrl={lang === 'zh' ? '/blog/' : '/zh/blog/'}
+>
   <section class="section">
     <h1 style="font-size:1.9rem">{L.blog_h1}</h1>
-    <p style="color:var(--muted)">{L.blog_sub(posts.length)}</p>
+    <p style="color:var(--muted)">{L.blog_sub(pg.total * 20 > posts.length ? posts.length : posts.length)}</p>
     <div class="grid cols-3">
       {posts.map((p) => (
         <article class="card">
@@ -31,5 +41,25 @@ const prefix = lang === 'zh' ? '/zh' : '';
         </article>
       ))}
     </div>
+
+    {pg.total > 1 && (
+      <nav class="pagination" aria-label="pagination">
+        {pg.current > 1 && (
+          <a class="page-link prev" href={pageUrl(pg.current - 1)}>
+            {lang === 'zh' ? '← 上一页' : '← Previous'}
+          </a>
+        )}
+        {Array.from({ length: pg.total }, (_, i) => i + 1).map((n) => (
+          <a class={`page-link${n === pg.current ? ' active' : ''}`} href={pageUrl(n)} aria-current={n === pg.current ? 'page' : undefined}>
+            {n}
+          </a>
+        ))}
+        {pg.current < pg.total && (
+          <a class="page-link next" href={pageUrl(pg.current + 1)}>
+            {lang === 'zh' ? '下一页 →' : 'Next →'}
+          </a>
+        )}
+      </nav>
+    )}
   </section>
 </BaseLayout>
