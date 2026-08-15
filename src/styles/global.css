@@ -191,7 +191,7 @@ html[data-theme="light"] .theme-toggle .icon-moon{display:none}
 /* 移动端: 汉堡菜单(下拉浮层, 参考 VCX: absolute top:100%) */
 @media (max-width: 800px) {
   .container { padding: 0 16px; }
-  .site-header .inner { height: 56px; padding: 0; flex-wrap: nowrap; position: relative; }
+  .site-header .inner { height: 56px; padding: 0 16px; flex-wrap: nowrap; position: relative; }
   .nav-toggle { display: flex; }
   .site-nav {
     display: none; position: absolute; top: 100%; left: 0; right: 0; z-index: 60;
