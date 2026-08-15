@@ -60,8 +60,8 @@ const alt = altUrl ? new URL(altUrl, Astro.site) : undefined;
           <a href={lang === 'zh' ? '/zh/search/' : '/search/'}>{L.nav_search}</a>
           <a href="/contact-us/">{L.nav_contact}</a>
         </nav>
-        {alt && (
-          <a class="lang-switch" href={alt} hreflang={lang === 'zh' ? 'en' : 'zh-CN'}>
+        {altUrl && (
+          <a class="lang-switch" href={altUrl} hreflang={lang === 'zh' ? 'en' : 'zh-CN'}>
             {L.switch_label}
           </a>
         )}
