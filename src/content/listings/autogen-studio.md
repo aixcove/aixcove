@@ -5,7 +5,7 @@ modified: '2026-04-21T14:05:43'
 slug: autogen-studio
 description: What Is AutoGen Studio? AutoGen Studio is a low-code interface built around the AutoGen ecosystem for designing and testing multi-agent AI workflows. It helps teams prototype agent conversations, orch
 categories:
-- ai-agents-automation
+- ai-agents
 featured: /uploads/2026/04/autogen-studio-2.jpg
 wpId: 649
 bodyZh: '<h2 class="wp-block-heading">什么是 AutoGen Studio？</h2>

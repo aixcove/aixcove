@@ -5,8 +5,7 @@ modified: '2026-04-17T15:38:08'
 slug: crewai
 description: What Is CrewAI? CrewAI is an open-source multi-agent AI framework that enables developers to create teams of specialized AI agents that collaborate to accomplish complex tasks. Inspired by how human t
 categories:
-- ai-agents-automation
-- autonomous-ai-agents
+- ai-agents
 featured: /uploads/2026/04/crewai-1.jpg
 wpId: 272
 bodyZh: '<h2>什么是 CrewAI？</h2>

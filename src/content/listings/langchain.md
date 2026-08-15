@@ -5,8 +5,7 @@ modified: '2026-04-17T15:38:07'
 slug: langchain
 description: What Is LangChain? LangChain is the most popular open-source framework for building applications powered by large language models. It provides a comprehensive set of tools, abstractions, and integrati
 categories:
-- ai-agents-automation
-- autonomous-ai-agents
+- ai-agents
 featured: /uploads/2026/04/langchain-1.jpg
 wpId: 274
 bodyZh: '<h2>什么是LangChain？</h2>

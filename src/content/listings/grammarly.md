@@ -5,8 +5,7 @@ modified: '2026-04-17T15:38:20'
 slug: grammarly
 description: 'What Is Grammarly? Grammarly is the world&#8217;s most widely used AI writing assistant, helping millions of people communicate more clearly and effectively in English. Beyond basic grammar and spell '
 categories:
-- ai-copywriting-seo
-- ai-text-blog-writing
+- ai-writing-marketing
 featured: /uploads/2026/04/grammarly-1.jpg
 wpId: 258
 bodyZh: '<h2>什么是Grammarly？</h2>

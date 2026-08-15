@@ -5,7 +5,7 @@ modified: '2026-06-19T06:34:33'
 slug: kimi-code
 description: 'What Is Kimi Code? Kimi Code is an open-source AI coding agent from Moonshot AI that runs in the terminal. It can read and edit code, run shell commands, search files, fetch web pages, and decide the '
 categories:
-- ai-coding-development
+- ai-coding
 featured: /uploads/2026/06/kimi-code-official-demo-featured.jpg
 wpId: 871
 bodyZh: '<h2>什么是 Kimi Code？</h2>

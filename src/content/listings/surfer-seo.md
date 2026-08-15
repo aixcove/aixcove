@@ -5,7 +5,7 @@ modified: '2026-04-17T15:38:09'
 slug: surfer-seo
 description: What Is Surfer SEO? Surfer SEO is an AI-powered content optimization platform that helps websites rank higher in Google search results. It analyzes top-ranking pages for any keyword and provides data-
 categories:
-- ai-copywriting-seo
+- ai-writing-marketing
 featured: /uploads/2026/04/surfer_seo.jpg
 wpId: 252
 bodyZh: '<h2>Surfer SEO是什么？</h2>

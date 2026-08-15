@@ -5,7 +5,7 @@ modified: '2026-04-17T14:49:53'
 slug: codex
 description: What Is Codex? Codex is OpenAI&#8217;s agentic AI coding tool that operates autonomously in a sandboxed cloud environment. Given a natural language task description, Codex can independently plan, writ
 categories:
-- ai-coding-development
+- ai-coding
 featured: /uploads/2026/04/codex.jpg
 wpId: 200
 bodyZh: '<h2>什么是 Codex？</h2>

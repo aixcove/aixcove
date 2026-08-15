@@ -5,7 +5,7 @@ modified: '2026-04-17T16:25:04'
 slug: chatgpt
 description: What Is ChatGPT? ChatGPT is a leading AI-powered chatbot developed by OpenAI. Since its launch in November 2022, it has become the most widely recognized conversational AI tool in the world, serving m
 categories:
-- general-purpose-llms-chat-assistants
+- llm-chat
 featured: /uploads/2026/04/ChatGPT.jpg
 wpId: 185
 bodyZh: '<h2>什么是ChatGPT？</h2>

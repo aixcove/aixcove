@@ -5,8 +5,7 @@ modified: '2026-04-17T15:38:13'
 slug: autogpt
 description: 'What Is AutoGPT? AutoGPT is one of the pioneering autonomous AI agent frameworks that demonstrated the potential of AI systems to independently plan, execute, and iterate on complex multi-step tasks. '
 categories:
-- ai-agents-automation
-- autonomous-ai-agents
+- ai-agents
 featured: /uploads/2026/04/autogpt-1.jpg
 wpId: 270
 bodyZh: '<h2>什么是 AutoGPT？</h2>

@@ -5,7 +5,7 @@ modified: '2026-04-17T14:49:51'
 slug: claude-code
 description: What Is Claude Code? Claude Code is an agentic AI coding tool developed by Anthropic that operates directly in your terminal. Unlike traditional code completion tools, Claude Code acts as an autonomou
 categories:
-- ai-coding-development
+- ai-coding
 featured: /uploads/2026/04/claude_code.jpg
 wpId: 168
 bodyZh: '<h2>什么是Claude Code？</h2>

@@ -5,7 +5,7 @@ modified: '2026-07-05T04:02:49'
 slug: qwenpaw
 description: What is QwenPaw? QwenPaw is an open-source personal AI assistant you can run locally or in the cloud, with multi-channel chat support, built-in scheduling, memory, skills, and support for local models
 categories:
-- local-llm-self-hosted
+- local-self-hosted
 featured: /uploads/2026/07/qwenpaw-feature-picture.jpg
 wpId: 784
 bodyZh: '<h2>什么是QwenPaw？</h2>

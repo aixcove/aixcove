@@ -75,9 +75,6 @@ export const ui = {
 // 分类名中译 (posts 11 + listing 35)
 export const catNamesZh: Record<string, string> = {
   // posts categories
-  'ai-agents-automation': 'AI 智能体与自动化',
-  'ai-business-productivity': 'AI 商业与效率',
-  'ai-coding-development': 'AI 编程与开发',
   'ai-content-creation': 'AI 内容创作',
   'ai-ethics-governance': 'AI 伦理与治理',
   'ai-industry-guides': 'AI 行业指南',
@@ -89,34 +86,28 @@ export const catNamesZh: Record<string, string> = {
   // listing categories
   'ai-ad-creative-media': 'AI 广告创意与媒体',
   'ai-api-integration-tools': 'AI API 与集成工具',
-  'ai-audio-voice': 'AI 音频与语音',
-  'ai-code-generation-debug': 'AI 代码生成与调试',
-  'ai-copywriting-seo': 'AI 文案与 SEO',
   'ai-customer-support': 'AI 客户支持',
   'ai-data-analysis-bi': 'AI 数据分析与 BI',
   'ai-devops-deployment': 'AI DevOps 与部署',
   'ai-ecommerce-retail': 'AI 电商与零售',
-  'ai-education-learning': 'AI 教育与学习',
-  'ai-email-outreach': 'AI 邮件营销',
   'ai-finance-fintech': 'AI 金融科技',
   'ai-healthcare-medical': 'AI 医疗健康',
   'ai-hr-talent': 'AI 人力资源',
-  'ai-image-design': 'AI 图像与设计',
   'ai-lead-gen-sales-intelligence': 'AI 线索生成与销售情报',
-  'ai-legal-contract': 'AI 法律与合同',
-  'ai-meeting-collaboration': 'AI 会议与协作',
   'ai-presentation-docs': 'AI 演示与文档',
   'ai-protocols-mcp': 'AI 协议与 MCP',
   'ai-skills-function-libraries': 'AI 技能与函数库',
   'ai-social-media-management': 'AI 社媒管理',
-  'ai-text-blog-writing': 'AI 文案写作',
   'ai-vertical-industry-solutions': 'AI 垂直行业方案',
-  'ai-video-generation-editing': 'AI 视频生成与编辑',
-  'ai-workflow-orchestration': 'AI 工作流编排',
-  'autonomous-ai-agents': '自主 AI 智能体',
-  'business-process-automation': '业务流程自动化',
-  'general-purpose-llms-chat-assistants': '通用大模型与聊天助手',
-  'local-llm-self-hosted': '本地大模型与自托管',
+  // listing 分类(2026-08 重组)
+  'ai-coding': 'AI 编程工具',
+  'llm-chat': 'AI 对话助手',
+  'ai-agents': 'AI 智能体与自动化',
+  'ai-writing-marketing': 'AI 写作与营销',
+  'ai-creative': 'AI 图像视频与音频',
+  'vertical-ai': '行业专用 AI',
+  'local-self-hosted': '本地部署 AI',
+  'ai-productivity': 'AI 办公协作',
 };
 
 export function catName(lang: 'en' | 'zh', id: string, enName: string): string {

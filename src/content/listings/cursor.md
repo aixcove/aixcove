@@ -5,7 +5,7 @@ modified: '2026-04-17T14:46:33'
 slug: cursor
 description: What Is Cursor? Cursor is an AI-first code editor built on top of VS Code that integrates powerful AI capabilities directly into the development workflow. Rather than requiring developers to switch be
 categories:
-- ai-coding-development
+- ai-coding
 featured: /uploads/2026/04/cursor.jpg
 wpId: 202
 bodyZh: '<h2>什么是 Cursor？</h2>

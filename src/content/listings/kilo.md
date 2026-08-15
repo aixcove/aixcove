@@ -5,7 +5,7 @@ modified: '2026-04-17T14:50:06'
 slug: kilo
 description: 'What Is Kiro? Kiro is an AI-powered integrated development environment developed by Amazon that takes a spec-driven approach to software development. Unlike other AI coding tools that focus on inline '
 categories:
-- ai-coding-development
+- ai-coding
 featured: /uploads/2026/04/kiro.jpg
 wpId: 207
 bodyZh: '<h2>什么是 Kiro？</h2>

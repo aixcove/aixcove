@@ -5,8 +5,7 @@ modified: '2026-04-17T15:38:11'
 slug: jasper
 description: What Is Jasper? Jasper is an AI-powered marketing copilot designed specifically for enterprise marketing teams. It helps organizations create on-brand content at scale by learning and maintaining cons
 categories:
-- ai-copywriting-seo
-- ai-text-blog-writing
+- ai-writing-marketing
 featured: /uploads/2026/04/jasper-1.jpg
 wpId: 250
 bodyZh: '<h2>什么是Jasper？</h2>

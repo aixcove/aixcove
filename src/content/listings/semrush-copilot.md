@@ -5,7 +5,7 @@ modified: '2026-04-17T14:53:17'
 slug: semrush-copilot
 description: 'What Is Semrush Copilot? Semrush Copilot is the AI-powered assistant integrated into the Semrush digital marketing platform. It automatically analyzes your website&#8217;s SEO performance, identifies '
 categories:
-- ai-copywriting-seo
+- ai-writing-marketing
 featured: /uploads/2026/04/semrush.jpg
 wpId: 253
 bodyZh: '<h2>什么是 Semrush Copilot？</h2>

@@ -5,8 +5,7 @@ modified: '2026-04-17T16:25:06'
 slug: hermes-agent
 description: What Is Hermes Agent? Hermes Agent is an open-source, self-improving AI agent developed by Nous Research. Built with a native learning loop, it autonomously creates, refines, and reuses skills from ex
 categories:
-- ai-agents-automation
-- autonomous-ai-agents
+- ai-agents
 featured: /uploads/2026/04/hermes-agent.jpg
 wpId: 548
 bodyZh: '<h2>Hermes Agent 是什么？</h2>

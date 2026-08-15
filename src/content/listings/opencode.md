@@ -5,7 +5,7 @@ modified: '2026-04-17T14:50:10'
 slug: opencode
 description: 'What Is OpenCode? OpenCode is an open-source AI coding assistant that operates in the terminal, providing intelligent code generation, explanation, and refactoring capabilities through a command-line '
 categories:
-- ai-coding-development
+- ai-coding
 featured: /uploads/2026/04/opencode.jpg
 wpId: 214
 bodyZh: '<h2>什么是 OpenCode？</h2>

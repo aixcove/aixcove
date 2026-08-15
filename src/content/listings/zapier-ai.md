@@ -5,8 +5,7 @@ modified: '2026-04-17T15:38:17'
 slug: zapier-ai
 description: What Is Zapier AI? Zapier AI is the artificial intelligence layer built into Zapier, the world&#8217;s leading workflow automation platform. It enables users to create sophisticated automated workflow
 categories:
-- ai-agents-automation
-- ai-workflow-orchestration
+- ai-agents
 featured: /uploads/2026/04/zapier.jpg
 wpId: 256
 bodyZh: '<h2>什么是 Zapier AI？</h2>

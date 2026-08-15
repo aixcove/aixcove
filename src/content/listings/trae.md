@@ -5,7 +5,7 @@ modified: '2026-04-17T14:50:00'
 slug: trae
 description: What Is Trae? Trae is an AI-powered integrated development environment (IDE) developed by ByteDance, the company behind TikTok. Built to make software development faster and more intuitive, Trae integ
 categories:
-- ai-coding-development
+- ai-coding
 featured: /uploads/2026/04/trae.jpg
 wpId: 204
 bodyZh: '<h2>Trae 是什么？</h2>
