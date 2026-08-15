@@ -37,7 +37,7 @@ const webSiteSchema = {
     'query-input': 'required name=search_term_string',
   },
 };
-const altUrl = localeUrl(lang, '/');
+const altUrl = localeUrl(lang === 'zh' ? 'en' : 'zh', '/');
 ---
 
 <BaseLayout

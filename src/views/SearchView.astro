@@ -11,7 +11,7 @@ const { lang } = Astro.props;
 const L = ui[lang];
 ---
 
-<BaseLayout title={L.search_title} description={L.search_desc} noindex lang={lang} altUrl={localeUrl(lang, '/search/')}>
+<BaseLayout title={L.search_title} description={L.search_desc} noindex lang={lang} altUrl={localeUrl(lang === 'zh' ? 'en' : 'zh', '/search/')}>
   <div class="pagefind-wrap">
     <h1 style="font-size:1.9rem">{L.nav_search}</h1>
     <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />

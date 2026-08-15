@@ -23,7 +23,7 @@ const pageUrl = (n: number) => (n <= 1 ? `${pg.base}` : `${pg.base}${n}/`);
   title={pg.current > 1 ? `${L.blog_h1} - ${lang === 'zh' ? `第${pg.current}页` : `Page ${pg.current}`} | AIX Cove` : `${L.blog_h1} | AIX Cove`}
   description={L.blog_sub(posts.length)}
   lang={lang}
-  altUrl={localeUrl(lang, '/blog/')}
+  altUrl={localeUrl(lang === 'zh' ? 'en' : 'zh', '/blog/')}
 >
   <section class="section">
     <h1 style="font-size:1.9rem">{L.blog_h1}</h1>

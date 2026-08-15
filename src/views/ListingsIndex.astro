@@ -23,7 +23,7 @@ const pageUrl = (n: number) => (n <= 1 ? `${pg.base}` : `${pg.base}${n}/`);
   title={pg.current > 1 ? `${L.tools_h1} - ${lang === 'zh' ? `第${pg.current}页` : `Page ${pg.current}`} | AIX Cove` : `${L.tools_h1} | AIX Cove`}
   description={L.tools_sub(listings.length)}
   lang={lang}
-  altUrl={localeUrl(lang, '/listings/')}
+  altUrl={localeUrl(lang === 'zh' ? 'en' : 'zh', '/listings/')}
 >
   <section class="section">
     <h1 style="font-size:1.9rem">{L.tools_h1}</h1>
