@@ -6,7 +6,7 @@ slug: how-to-use-open-webui-with-ollama-in-2026
 description: Complete setup guide for Open WebUI with Ollama — install, configure local models, enable document chat, and get a private ChatGPT alternative running.
 categories:
 - ai-tutorials-how-tos
-featured: /wp-content/uploads/2026/05/image-1-006fde99-6bc5-4cd7-a222-62aafcb1924c.jpg
+featured: /uploads/2026/05/image-1-006fde99-6bc5-4cd7-a222-62aafcb1924c.jpg
 wpId: 758
 ---
 

@@ -7,7 +7,7 @@ description: 'What Is Grammarly? Grammarly is the world&#8217;s most widely used
 categories:
 - ai-copywriting-seo
 - ai-text-blog-writing
-featured: /wp-content/uploads/2026/04/grammarly-1.jpg
+featured: /uploads/2026/04/grammarly-1.jpg
 wpId: 258
 ---
 

@@ -6,7 +6,7 @@ slug: how-to-use-dify-with-ollama-for-local-ai-workflows-in-2026
 description: Use Dify with Ollama for local AI workflows, private model calls, and self-hosted experiments, with setup notes and tool comparisons.
 categories:
 - ai-tutorials-how-tos
-featured: /wp-content/uploads/2026/05/image-1-bd01b6da-5804-4b3b-a9a6-5b8a74708ad3.jpg
+featured: /uploads/2026/05/image-1-bd01b6da-5804-4b3b-a9a6-5b8a74708ad3.jpg
 wpId: 811
 ---
 

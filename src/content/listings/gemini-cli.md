@@ -6,7 +6,7 @@ slug: gemini-cli
 description: What Is Gemini CLI? Gemini CLI is Google&#8217;s official command-line interface for interacting with Gemini AI models directly from the terminal. It enables developers and power users to leverage Gem
 categories:
 - ai-coding-development
-featured: /wp-content/uploads/2026/04/gemini_cli.jpg
+featured: /uploads/2026/04/gemini_cli.jpg
 wpId: 201
 ---
 

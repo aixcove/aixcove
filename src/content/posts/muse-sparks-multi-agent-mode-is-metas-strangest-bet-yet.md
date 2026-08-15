@@ -6,7 +6,7 @@ slug: muse-sparks-multi-agent-mode-is-metas-strangest-bet-yet
 description: 'The Multi-Agent Trick Muse Spark is a reasoning model. It works through problems step by step rather than pattern-matching a single answer. Standard stuff in 2026. The unusual part is what Meta calls '
 categories:
 - ai-agents-automation
-featured: /wp-content/uploads/2026/04/blog-hero-8.jpg
+featured: /uploads/2026/04/blog-hero-8.jpg
 wpId: 521
 ---
 

@@ -6,7 +6,7 @@ slug: openclaw-vs-dify-which-ai-agent-platform-should-you-use-in-2026
 description: 'Quick verdict: choose Dify if you want a visual platform for building AI apps, RAG workflows, internal chatbots, and production-facing agentic workflows. Choose OpenClaw if you want a self-hosted pers'
 categories:
 - ai-tools-comparisons
-featured: /wp-content/uploads/2026/05/openclaw-vs-dify-hero-14825df4-f90b-40bd-af94-3da92119549b.jpg
+featured: /uploads/2026/05/openclaw-vs-dify-hero-14825df4-f90b-40bd-af94-3da92119549b.jpg
 wpId: 838
 ---
 

@@ -6,7 +6,7 @@ slug: how-to-use-crewai-for-multi-agent-workflows-in-2026
 description: 'If you want the short answer, here it is: CrewAI is one of the cleaner ways to build multi-agent workflows in 2026 if you like Python, want role-based agents, and need more structure than a pile of pr'
 categories:
 - ai-tutorials-how-tos
-featured: /wp-content/uploads/2026/05/image-1-dc347886-1711-4b66-a7b2-2987fa07b34d.jpg
+featured: /uploads/2026/05/image-1-dc347886-1711-4b66-a7b2-2987fa07b34d.jpg
 wpId: 779
 ---
 

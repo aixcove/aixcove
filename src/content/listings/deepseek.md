@@ -6,7 +6,7 @@ slug: deepseek
 description: What Is DeepSeek? DeepSeek is an open-source AI company from China that has rapidly gained global attention for producing large language models that rival or match the performance of leading proprieta
 categories:
 - general-purpose-llms-chat-assistants
-featured: /wp-content/uploads/2026/04/deepseek-1.jpg
+featured: /uploads/2026/04/deepseek-1.jpg
 wpId: 286
 ---
 

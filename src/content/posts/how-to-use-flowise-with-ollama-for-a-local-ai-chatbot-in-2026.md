@@ -6,7 +6,7 @@ slug: how-to-use-flowise-with-ollama-for-a-local-ai-chatbot-in-2026
 description: 'Want a local AI chatbot without building the whole stack yourself? Start with Flowise and Ollama. It is one of the more practical self-hosted combinations right now: Ollama serves the local model, Flo'
 categories:
 - ai-tutorials-how-tos
-featured: /wp-content/uploads/2026/05/image-1-10c99367-2473-4ac0-90db-d7457d916c96.jpg
+featured: /uploads/2026/05/image-1-10c99367-2473-4ac0-90db-d7457d916c96.jpg
 wpId: 803
 ---
 

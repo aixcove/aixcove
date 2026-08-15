@@ -6,7 +6,7 @@ slug: midjourney
 description: What Is Midjourney? Midjourney is an AI-powered image generation tool that creates stunning visual artwork from text descriptions. Known for its distinctive artistic aesthetic and high-quality output,
 categories:
 - ai-image-design
-featured: /wp-content/uploads/2026/04/midjourney-1.jpg
+featured: /uploads/2026/04/midjourney-1.jpg
 wpId: 259
 ---
 

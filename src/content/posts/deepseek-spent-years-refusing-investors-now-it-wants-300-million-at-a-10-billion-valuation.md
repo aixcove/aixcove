@@ -6,7 +6,7 @@ slug: deepseek-spent-years-refusing-investors-now-it-wants-300-million-at-a-10-b
 description: DeepSeek Spent Years Refusing Investors. Now It Wants $300 Million at a $10 Billion Valuation. The Chinese AI startup that made Wall Street lose roughly $1 trillion in market value over a single weeke
 categories:
 - ai-trends-news
-featured: /wp-content/uploads/2026/04/blog-hero-30.jpg
+featured: /uploads/2026/04/blog-hero-30.jpg
 wpId: 595
 ---
 

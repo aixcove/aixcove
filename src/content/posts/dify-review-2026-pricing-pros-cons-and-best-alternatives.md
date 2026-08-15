@@ -6,7 +6,7 @@ slug: dify-review-2026-pricing-pros-cons-and-best-alternatives
 description: 'Dify Review 2026: Pricing, Pros, Cons, and Best Alternatives Dify is worth using if you want one platform to build AI workflows, RAG apps, internal copilots, and API-backed tools without wiring everyt'
 categories:
 - ai-tools-reviews
-featured: /wp-content/uploads/2026/05/image-1-959d12aa-671e-404c-bb6e-c9340a7d2ce7.jpg
+featured: /uploads/2026/05/image-1-959d12aa-671e-404c-bb6e-c9340a7d2ce7.jpg
 wpId: 768
 ---
 

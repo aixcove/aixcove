@@ -6,7 +6,7 @@ slug: deepseek-v4-to-run-entirely-on-huawei-chips-a-turning-point-for-global-ai
 description: April 6, 2026 — In what may prove to be the most consequential AI hardware announcement of the year, Reuters confirmed on April 4 that DeepSeek&#8217;s upcoming V4 model will run entirely on Huawei&#8
 categories:
 - ai-trends-news
-featured: /wp-content/uploads/2026/04/deepseek-v4-huawei-hero.jpg
+featured: /uploads/2026/04/deepseek-v4-huawei-hero.jpg
 wpId: 426
 ---
 

@@ -6,7 +6,7 @@ slug: codebuddy
 description: What Is CodeBuddy? CodeBuddy is an AI programming assistant designed to act as your coding companion throughout the development process. It provides real-time help with writing, understanding, debuggi
 categories:
 - ai-coding-development
-featured: /wp-content/uploads/2026/04/codebuddy.jpg
+featured: /uploads/2026/04/codebuddy.jpg
 wpId: 206
 ---
 

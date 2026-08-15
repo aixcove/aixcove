@@ -6,7 +6,7 @@ slug: bolt
 description: What Is Bolt? Bolt is an AI-powered full-stack web development tool by StackBlitz that enables anyone to build, run, and deploy complete web applications directly from a browser using natural language
 categories:
 - ai-coding-development
-featured: /wp-content/uploads/2026/04/bolt-1.jpg
+featured: /uploads/2026/04/bolt-1.jpg
 wpId: 282
 ---
 

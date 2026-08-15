@@ -6,7 +6,7 @@ slug: perplexity
 description: What Is Perplexity? Perplexity is an AI-powered search engine that provides direct, cited answers to questions rather than returning a list of links. Combining large language models with real-time web
 categories:
 - general-purpose-llms-chat-assistants
-featured: /wp-content/uploads/2026/04/perplexity-1.jpg
+featured: /uploads/2026/04/perplexity-1.jpg
 wpId: 284
 ---
 

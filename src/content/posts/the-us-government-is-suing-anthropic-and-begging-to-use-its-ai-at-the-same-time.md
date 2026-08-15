@@ -6,7 +6,7 @@ slug: the-us-government-is-suing-anthropic-and-begging-to-use-its-ai-at-the-same
 description: The US Government Is Suing Anthropic and Begging to Use Its AI at the Same Time Anthropic co-founder Jack Clark walked onto the stage at the Semafor World Economy Summit on April 14, 2026, and confirm
 categories:
 - ai-agents-automation
-featured: /wp-content/uploads/2026/04/blog-hero-23.jpg
+featured: /uploads/2026/04/blog-hero-23.jpg
 wpId: 578
 ---
 

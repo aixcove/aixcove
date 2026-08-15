@@ -6,7 +6,7 @@ slug: stanfords-2026-ai-index-has-some-good-news-some-bad-news-and-one-number-th
 description: Stanford&#8217;s 2026 AI Index Has Some Good News, Some Bad News, and One Number That Should Worry Every Junior Developer Stanford&#8217;s Institute for Human-Centered AI just dropped its annual AI In
 categories:
 - ai-industry-guides
-featured: /wp-content/uploads/2026/04/blog-hero-29.jpg
+featured: /uploads/2026/04/blog-hero-29.jpg
 wpId: 593
 ---
 

@@ -6,7 +6,7 @@ slug: openais-latest-buying-spree-looks-less-like-expansion-and-more-like-a-sear
 description: 'OpenAI’s Latest Buying Spree Looks Less Like Expansion and More Like a Search for Its Next Act OpenAI spent the past few weeks buying two very different companies, and that pairing says more than any '
 categories:
 - ai-agents-automation
-featured: /wp-content/uploads/2026/04/blog-hero-34.jpg
+featured: /uploads/2026/04/blog-hero-34.jpg
 wpId: 672
 ---
 

@@ -6,7 +6,7 @@ slug: best-anythingllm-alternatives-in-2026-2
 description: Looking beyond AnythingLLM? Here are 7 tested alternatives for local AI chat, document Q&#038;A, and self-hosted workflows — with pricing, pros, cons, and which to pick.
 categories:
 - ai-tools-comparisons
-featured: /wp-content/uploads/2026/04/blog-hero-48.jpg
+featured: /uploads/2026/04/blog-hero-48.jpg
 wpId: 725
 ---
 

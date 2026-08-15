@@ -7,7 +7,7 @@ description: 'What Is AutoGPT? AutoGPT is one of the pioneering autonomous AI ag
 categories:
 - ai-agents-automation
 - autonomous-ai-agents
-featured: /wp-content/uploads/2026/04/autogpt-1.jpg
+featured: /uploads/2026/04/autogpt-1.jpg
 wpId: 270
 ---
 

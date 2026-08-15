@@ -7,7 +7,7 @@ description: 'On Friday, April 11, the European Commission confirmed it is forma
 categories:
 - ai-ethics-governance
 - ai-trends-news
-featured: /wp-content/uploads/2026/08/eu-chatgpt-dsa-featured.jpg
+featured: /uploads/2026/08/eu-chatgpt-dsa-featured.jpg
 wpId: 565
 ---
 

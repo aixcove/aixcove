@@ -6,7 +6,7 @@ slug: openclaw-security-guide-self-hosted-ai-agent
 description: 'Quick answer: OpenClaw can be safe enough for serious personal and small-team workflows, but only if you treat it like infrastructure, not like a casual chatbot. The important question is not “Is Open'
 categories:
 - ai-tutorials-how-tos
-featured: /wp-content/uploads/2026/05/openclaw-security-guide-hero-dfaaf3d6-54a9-4517-a9fe-855f65d40574.jpg
+featured: /uploads/2026/05/openclaw-security-guide-hero-dfaaf3d6-54a9-4517-a9fe-855f65d40574.jpg
 wpId: 850
 ---
 

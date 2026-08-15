@@ -6,7 +6,7 @@ slug: microsoft-drops-three-new-mai-models-on-foundry-and-the-pricing-turns-head
 description: Microsoft just dropped three new in-house AI models on Microsoft Foundry, and the pricing is aggressive enough to make competitors sweat. On April 8, 2026, the company released MAI-Transcribe-1, MAI-V
 categories:
 - ai-tools-reviews
-featured: /wp-content/uploads/2026/04/blog-hero-5.jpg
+featured: /uploads/2026/04/blog-hero-5.jpg
 wpId: 514
 ---
 

@@ -6,7 +6,7 @@ slug: qwen-cli
 description: What Is QWen CLI? QWen CLI is the command-line interface for interacting with Alibaba&#8217;s QWen family of large language models. It provides direct terminal access to one of China&#8217;s most capa
 categories:
 - ai-coding-development
-featured: /wp-content/uploads/2026/04/qwen.jpg
+featured: /uploads/2026/04/qwen.jpg
 wpId: 203
 ---
 

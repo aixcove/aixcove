@@ -6,7 +6,7 @@ slug: langgraph
 description: What Is LangGraph?LangGraph is an open-source framework for building stateful, multi-step AI agent workflows. Developed within the LangChain ecosystem, it gives teams more control over branching logic
 categories:
 - ai-workflow-orchestration
-featured: /wp-content/uploads/2026/04/langgraph-3.jpg
+featured: /uploads/2026/04/langgraph-3.jpg
 wpId: 631
 ---
 

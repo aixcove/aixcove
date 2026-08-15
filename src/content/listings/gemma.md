@@ -6,7 +6,7 @@ slug: gemma
 description: What is Gemma? Gemma is Google’s family of open-weight AI models designed for developers, researchers, and teams that want capable language models they can run, tune, or integrate outside a closed cha
 categories:
 - general-purpose-llms-chat-assistants
-featured: /wp-content/uploads/2026/04/gemma.jpg
+featured: /uploads/2026/04/gemma.jpg
 wpId: 237
 ---
 

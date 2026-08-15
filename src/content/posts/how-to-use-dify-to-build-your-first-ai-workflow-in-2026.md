@@ -6,7 +6,7 @@ slug: how-to-use-dify-to-build-your-first-ai-workflow-in-2026
 description: If you want the short version, Dify is one of the fastest ways to build a usable AI workflow without writing much code. It is a good fit for internal Q&amp;A bots, simple RAG apps, and lightweight age
 categories:
 - ai-tutorials-how-tos
-featured: /wp-content/uploads/2026/05/image-1-16b5d0f3-ad42-4770-bb83-c8a4c9b4ee15.jpg
+featured: /uploads/2026/05/image-1-16b5d0f3-ad42-4770-bb83-c8a4c9b4ee15.jpg
 wpId: 783
 ---
 

@@ -6,7 +6,7 @@ slug: runway
 description: What Is Runway? Runway is a leading AI-powered creative suite that enables filmmakers, designers, and content creators to generate and edit video, images, and audio using artificial intelligence. Know
 categories:
 - ai-video-generation-editing
-featured: /wp-content/uploads/2026/04/runway-1.jpg
+featured: /uploads/2026/04/runway-1.jpg
 wpId: 260
 ---
 

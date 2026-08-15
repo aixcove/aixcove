@@ -6,7 +6,7 @@ slug: how-to-use-anythingllm-with-ollama-for-private-document-chat
 description: 'If you want a private way to chat with PDFs, notes, contracts, or internal docs, AnythingLLM with Ollama is one of the fastest local setups to try in 2026. The short version: Ollama runs the model, An'
 categories:
 - ai-tutorials-how-tos
-featured: /wp-content/uploads/2026/04/blog-hero-53.jpg
+featured: /uploads/2026/04/blog-hero-53.jpg
 wpId: 735
 ---
 

@@ -6,7 +6,7 @@ slug: google-built-a-deepmind-strike-team-after-sergey-brin-decided-anthropics-c
 description: 'Google’s Emergency Coding Team Says the Quiet Part Out Loud: Anthropic Is Ahead Google does not usually admit weakness in public, even by implication. That is what makes Monday’s reports about a DeepM'
 categories:
 - ai-tools-comparisons
-featured: /wp-content/uploads/2026/04/blog-hero-35.jpg
+featured: /uploads/2026/04/blog-hero-35.jpg
 wpId: 683
 ---
 

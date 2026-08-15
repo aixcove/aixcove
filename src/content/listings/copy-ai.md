@@ -7,7 +7,7 @@ description: 'What Is Copy.ai? Copy.ai is an AI-powered platform that helps go-t
 categories:
 - ai-copywriting-seo
 - ai-email-outreach
-featured: /wp-content/uploads/2026/04/copy.ai_.jpg
+featured: /uploads/2026/04/copy.ai_.jpg
 wpId: 251
 ---
 

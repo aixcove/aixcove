@@ -6,7 +6,7 @@ slug: anythingllm-review-pricing-pros-cons-and-best-use-cases
 description: 'If you want a short answer, here it is: AnythingLLM is one of the better self-hosted AI workspaces for people who want private document chat, flexible model support, and a usable interface without bui'
 categories:
 - ai-tools-reviews
-featured: /wp-content/uploads/2026/04/blog-hero-39.jpg
+featured: /uploads/2026/04/blog-hero-39.jpg
 wpId: 697
 ---
 

@@ -7,7 +7,7 @@ description: What Is Notion AI? Notion AI is an integrated AI assistant built di
 categories:
 - ai-meeting-collaboration
 - ai-text-blog-writing
-featured: /wp-content/uploads/2026/04/notion.jpg
+featured: /uploads/2026/04/notion.jpg
 wpId: 255
 ---
 

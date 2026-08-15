@@ -6,7 +6,7 @@ slug: anthropics-mythos-model-can-hack-better-than-most-humans-and-the-company-k
 description: A draft blog post from Anthropic, obtained by Fortune, describes the company&#8217;s unreleased model &#8220;Mythos&#8221; as &#8220;currently far ahead of any other AI model in cyber capabilities.&#8
 categories:
 - ai-coding-development
-featured: /wp-content/uploads/2026/04/blog-hero-2.jpg
+featured: /uploads/2026/04/blog-hero-2.jpg
 wpId: 509
 ---
 

@@ -6,7 +6,7 @@ slug: ai-models-now-solve-nearly-every-coding-benchmark-and-stanfords-latest-rep
 description: AI models now ace nearly every coding benchmark, but Stanford&#8217;s latest report reveals why those scores don&#8217;t match real-world performance.
 categories:
 - ai-coding-development
-featured: /wp-content/uploads/2026/04/blog-hero-25.jpg
+featured: /uploads/2026/04/blog-hero-25.jpg
 wpId: 585
 ---
 

@@ -6,7 +6,7 @@ slug: n8n-vs-dify-which-ai-automation-tool-fits-you-in-2026
 description: 'If you are choosing between n8n and Dify, the short answer is simple: pick n8n when you need to automate business workflows across many apps, and pick Dify when you need to build and ship an AI app, c'
 categories:
 - ai-tools-comparisons
-featured: /wp-content/uploads/2026/04/blog-hero-54.jpg
+featured: /uploads/2026/04/blog-hero-54.jpg
 wpId: 737
 ---
 

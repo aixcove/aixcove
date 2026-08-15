@@ -6,7 +6,7 @@ slug: anythingllm-review-2026-pricing-pros-cons-and-best-alternatives
 description: Is AnythingLLM the right self-hosted AI workspace for you? Real review of features, document chat quality, pricing, and top alternatives to consider.
 categories:
 - ai-tools-reviews
-featured: /wp-content/uploads/2026/05/blog-hero-3.jpg
+featured: /uploads/2026/05/blog-hero-3.jpg
 wpId: 745
 ---
 

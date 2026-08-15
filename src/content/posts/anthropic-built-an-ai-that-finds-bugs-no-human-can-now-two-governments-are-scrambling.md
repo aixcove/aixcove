@@ -6,7 +6,7 @@ slug: anthropic-built-an-ai-that-finds-bugs-no-human-can-now-two-governments-are
 description: 'Anthropic Built an AI That Finds Bugs No Human Can. Now Two Governments Are Scrambling. On April 7, Anthropic announced Project Glasswing, a controlled-access program built around an unreleased model '
 categories:
 - ai-tools-reviews
-featured: /wp-content/uploads/2026/04/blog-hero-17.jpg
+featured: /uploads/2026/04/blog-hero-17.jpg
 wpId: 568
 ---
 

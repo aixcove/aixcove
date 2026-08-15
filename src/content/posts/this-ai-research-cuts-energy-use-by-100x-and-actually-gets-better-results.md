@@ -6,7 +6,7 @@ slug: this-ai-research-cuts-energy-use-by-100x-and-actually-gets-better-results
 description: 'AI is burning through electricity at a rate that should make anyone paying a power bill nervous. In 2024, AI systems and data centers in the US alone consumed roughly 415 terawatt hours. That is more '
 categories:
 - ai-agents-automation
-featured: /wp-content/uploads/2026/04/blog-hero.jpg
+featured: /uploads/2026/04/blog-hero.jpg
 wpId: 506
 ---
 

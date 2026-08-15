@@ -6,7 +6,7 @@ slug: openclaw-feishu-integration-tutorial-set-up-a-lark-ai-agent-in-2026
 description: 'Quick answer: OpenClaw&#8217;s Feishu integration is worth setting up if your team already works in Feishu or Lark and wants an AI agent inside group chats, DMs, and internal workflows. It is not the '
 categories:
 - ai-tutorials-how-tos
-featured: /wp-content/uploads/2026/05/openclaw-feishu-integration-hero-28259837-26ea-4c95-8d99-ceed31aec0ee.jpg
+featured: /uploads/2026/05/openclaw-feishu-integration-hero-28259837-26ea-4c95-8d99-ceed31aec0ee.jpg
 wpId: 844
 ---
 

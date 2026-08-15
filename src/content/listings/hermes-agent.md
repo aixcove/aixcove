@@ -7,7 +7,7 @@ description: What Is Hermes Agent? Hermes Agent is an open-source, self-improvin
 categories:
 - ai-agents-automation
 - autonomous-ai-agents
-featured: /wp-content/uploads/2026/04/hermes-agent.jpg
+featured: /uploads/2026/04/hermes-agent.jpg
 wpId: 548
 ---
 

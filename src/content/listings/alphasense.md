@@ -7,7 +7,7 @@ description: 'What Is AlphaSense? AlphaSense is an AI-powered financial research
 categories:
 - ai-agents-automation
 - ai-workflow-orchestration
-featured: /wp-content/uploads/2026/04/alpha_sense.jpg
+featured: /uploads/2026/04/alpha_sense.jpg
 wpId: 266
 ---
 

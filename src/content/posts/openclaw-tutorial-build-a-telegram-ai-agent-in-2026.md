@@ -6,7 +6,7 @@ slug: openclaw-tutorial-build-a-telegram-ai-agent-in-2026
 description: 'Quick answer: OpenClaw is worth trying if you want a self-hosted AI assistant that can live in Telegram, remember your preferences, use tools, and run scheduled work. It is not the right first project'
 categories:
 - ai-tutorials-how-tos
-featured: /wp-content/uploads/2026/05/openclaw-telegram-ai-agent-hero-e8cf1188-93c2-4ccf-a019-c647c5718623.jpg
+featured: /uploads/2026/05/openclaw-telegram-ai-agent-hero-e8cf1188-93c2-4ccf-a019-c647c5718623.jpg
 wpId: 817
 ---
 

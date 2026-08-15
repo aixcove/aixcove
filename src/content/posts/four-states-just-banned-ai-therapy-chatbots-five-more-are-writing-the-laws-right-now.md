@@ -6,7 +6,7 @@ slug: four-states-just-banned-ai-therapy-chatbots-five-more-are-writing-the-laws
 description: What Happened This Week On Thursday, April 10, Maine&#8217;s legislature sent LD 2082 to the governor&#8217;s desk. The bill prohibits the clinical use of artificial intelligence in mental health ther
 categories:
 - ai-trends-news
-featured: /wp-content/uploads/2026/04/blog-hero-13.jpg
+featured: /uploads/2026/04/blog-hero-13.jpg
 wpId: 552
 ---
 

@@ -6,7 +6,7 @@ slug: how-to-use-dify-to-build-your-first-ai-workflow
 description: If you want to build an AI app without stitching everything together in code, Dify is one of the more practical places to start. It gives you a visual workflow builder, knowledge base support, model c
 categories:
 - ai-tutorials-how-tos
-featured: /wp-content/uploads/2026/05/blog-hero.jpg
+featured: /uploads/2026/05/blog-hero.jpg
 wpId: 739
 ---
 

@@ -6,7 +6,7 @@ slug: dify-ai-agent-tutorial-build-a-practical-research-assistant-in-2026
 description: A practical Dify AI agent tutorial for building a research assistant, with workflow design, tool choices, limitations, and alternatives.
 categories:
 - ai-tutorials-how-tos
-featured: /wp-content/uploads/2026/05/dify-ai-agent-tutorial-hero-01dff6c5-88d6-4ecc-9404-6e73b0f97bf9.jpg
+featured: /uploads/2026/05/dify-ai-agent-tutorial-hero-01dff6c5-88d6-4ecc-9404-6e73b0f97bf9.jpg
 wpId: 836
 ---
 

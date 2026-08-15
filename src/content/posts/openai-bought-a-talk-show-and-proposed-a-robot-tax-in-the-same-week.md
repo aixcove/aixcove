@@ -6,7 +6,7 @@ slug: openai-bought-a-talk-show-and-proposed-a-robot-tax-in-the-same-week
 description: $5 Million in Revenue, Hundreds of Millions to Buy TBPN launched in October 2024. Two former tech founders, John Coogan and Jordi Hays, started a weekday show streaming from 11am to 2pm Pacific across
 categories:
 - ai-trends-news
-featured: /wp-content/uploads/2026/04/blog-hero-7.jpg
+featured: /uploads/2026/04/blog-hero-7.jpg
 wpId: 519
 ---
 

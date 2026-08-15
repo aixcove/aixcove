@@ -6,7 +6,7 @@ slug: adk-rust
 description: What is ADK-Rust? ADK-Rust is a production-focused Rust framework for building AI agents with modular crates for models, tools, memory, sessions, RAG, realtime voice, and deployment APIs. Why ADK-Rust
 categories:
 - ai-coding-development
-featured: /wp-content/uploads/2026/05/adk-rust.jpg
+featured: /uploads/2026/05/adk-rust.jpg
 wpId: 786
 ---
 

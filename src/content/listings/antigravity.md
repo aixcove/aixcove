@@ -6,7 +6,7 @@ slug: antigravity
 description: What Is Antigravity? Antigravity is an AI-powered development tool designed to accelerate software engineering workflows. It provides intelligent automation for common development tasks including code
 categories:
 - ai-coding-development
-featured: /wp-content/uploads/2026/04/antigravity.jpg
+featured: /uploads/2026/04/antigravity.jpg
 wpId: 208
 ---
 

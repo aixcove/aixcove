@@ -6,7 +6,7 @@ slug: qoder
 description: What is Qoder? Qoder is an AI coding tool for developers who want help writing, understanding, and improving code. It sits in the AI coding assistant category, where users usually compare tools by edi
 categories:
 - ai-coding-development
-featured: /wp-content/uploads/2026/04/qoder.jpg
+featured: /uploads/2026/04/qoder.jpg
 wpId: 205
 ---
 

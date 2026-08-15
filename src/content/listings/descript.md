@@ -6,7 +6,7 @@ slug: descript
 description: What Is Descript? Descript is an AI-powered video and podcast editing platform that revolutionizes media editing by treating it like a text document. Instead of working with complex timelines and wave
 categories:
 - ai-video-generation-editing
-featured: /wp-content/uploads/2026/04/descript-1.jpg
+featured: /uploads/2026/04/descript-1.jpg
 wpId: 263
 ---
 

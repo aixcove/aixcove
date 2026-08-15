@@ -6,7 +6,7 @@ slug: harvey-ai
 description: What Is Harvey AI? Harvey AI is a specialized artificial intelligence platform built specifically for the legal industry. Backed by OpenAI&#8217;s Startup Fund, Harvey provides legal professionals wit
 categories:
 - ai-legal-contract
-featured: /wp-content/uploads/2026/04/harvey_ai.jpg
+featured: /uploads/2026/04/harvey_ai.jpg
 wpId: 264
 ---
 

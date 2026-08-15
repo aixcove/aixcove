@@ -6,7 +6,7 @@ slug: replit-ai
 description: What Is Replit AI? Replit AI is the artificial intelligence layer built into Replit, the browser-based software development platform. It provides AI-powered code generation, debugging, and explanation
 categories:
 - ai-coding-development
-featured: /wp-content/uploads/2026/04/replit_ai.jpg
+featured: /uploads/2026/04/replit_ai.jpg
 wpId: 280
 ---
 

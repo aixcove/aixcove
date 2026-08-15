@@ -6,7 +6,7 @@ slug: flowise-review-2026-pricing-pros-cons-and-best-use-cases
 description: 'Flowise is worth a serious look if you want to build AI agents, RAG apps, or internal chat assistants without wiring everything by hand. The short version: it is faster than coding from scratch, more '
 categories:
 - ai-tools-reviews
-featured: /wp-content/uploads/2026/05/blog-hero-2.jpg
+featured: /uploads/2026/05/blog-hero-2.jpg
 wpId: 743
 ---
 

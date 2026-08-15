@@ -6,7 +6,7 @@ slug: best-runway-alternatives-in-2026-6-practical-picks-for-ai-video
 description: If you are searching for Runway alternatives, the question probably is not whether Runway can make good AI video. It can. The real issue is whether its credit system, model choices, and production wor
 categories:
 - ai-tools-comparisons
-featured: /wp-content/uploads/2026/08/runway-alternatives-ai-video-cover-ca7809e2-260d-4576-b1f0-92ccc454927b.jpg
+featured: /uploads/2026/08/runway-alternatives-ai-video-cover-ca7809e2-260d-4576-b1f0-92ccc454927b.jpg
 wpId: 953
 ---
 

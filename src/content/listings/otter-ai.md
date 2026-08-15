@@ -6,7 +6,7 @@ slug: otter-ai
 description: What Is Otter.ai? Otter.ai is an AI-powered meeting transcription and collaboration tool that automatically records, transcribes, and summarizes your meetings in real time. Using advanced speech recog
 categories:
 - ai-meeting-collaboration
-featured: /wp-content/uploads/2026/04/otter_ai.jpg
+featured: /uploads/2026/04/otter_ai.jpg
 wpId: 257
 ---
 

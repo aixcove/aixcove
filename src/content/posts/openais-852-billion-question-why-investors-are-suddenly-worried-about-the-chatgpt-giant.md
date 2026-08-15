@@ -6,7 +6,7 @@ slug: openais-852-billion-question-why-investors-are-suddenly-worried-about-the-
 description: A Valuation Nobody Wants to Question — Until Now OpenAI sits at an $852 billion valuation after raising $122 billion last month, a round Reuters described as likely the largest fundraising round in Si
 categories:
 - ai-marketing-growth
-featured: /wp-content/uploads/2026/04/blog-hero-22.jpg
+featured: /uploads/2026/04/blog-hero-22.jpg
 wpId: 576
 ---
 

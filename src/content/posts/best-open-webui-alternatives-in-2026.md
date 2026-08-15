@@ -6,7 +6,7 @@ slug: best-open-webui-alternatives-in-2026
 description: Compare the best Open WebUI alternatives for self-hosted AI chat, RAG, team use, and automation — with setup difficulty, pricing, and best use cases.
 categories:
 - ai-tools-comparisons
-featured: /wp-content/uploads/2026/04/blog-hero-42.jpg
+featured: /uploads/2026/04/blog-hero-42.jpg
 wpId: 703
 ---
 

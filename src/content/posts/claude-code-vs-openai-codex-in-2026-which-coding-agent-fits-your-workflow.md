@@ -6,7 +6,7 @@ slug: claude-code-vs-openai-codex-in-2026-which-coding-agent-fits-your-workflow
 description: 'Quick verdict: choose Claude Code if you want a coding agent that lives close to your terminal, understands a repo in place, runs commands, and fits a hands-on developer loop. Choose OpenAI Codex if y'
 categories:
 - ai-tools-comparisons
-featured: /wp-content/uploads/2026/07/claude-code-vs-openai-codex-hero-d10f2818-f54a-4c50-8d2a-0a851ef4d78c.jpg
+featured: /uploads/2026/07/claude-code-vs-openai-codex-hero-d10f2818-f54a-4c50-8d2a-0a851ef4d78c.jpg
 wpId: 899
 ---
 

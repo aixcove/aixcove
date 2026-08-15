@@ -6,7 +6,7 @@ slug: best-n8n-alternatives-for-ai-workflow-automation-in-2026-2
 description: If you like n8n but keep running into its rough edges, the shortlist is pretty clear. Activepieces is the closest open-source option for simpler business automations, Make is usually the better pick f
 categories:
 - ai-tools-comparisons
-featured: /wp-content/uploads/2026/04/blog-hero-51.jpg
+featured: /uploads/2026/04/blog-hero-51.jpg
 wpId: 731
 ---
 

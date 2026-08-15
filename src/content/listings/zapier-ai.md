@@ -7,7 +7,7 @@ description: What Is Zapier AI? Zapier AI is the artificial intelligence layer b
 categories:
 - ai-agents-automation
 - ai-workflow-orchestration
-featured: /wp-content/uploads/2026/04/zapier.jpg
+featured: /uploads/2026/04/zapier.jpg
 wpId: 256
 ---
 

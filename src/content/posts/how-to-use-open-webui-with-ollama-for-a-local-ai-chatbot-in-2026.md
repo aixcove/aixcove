@@ -6,7 +6,7 @@ slug: how-to-use-open-webui-with-ollama-for-a-local-ai-chatbot-in-2026
 description: Open WebUI with Ollama is still one of the easiest ways to run a private ChatGPT-style setup on your own machine. Open WebUI handles the interface. Ollama runs the model. If all you want is local chat
 categories:
 - ai-tutorials-how-tos
-featured: /wp-content/uploads/2026/05/image-1-eac77dfd-b755-4cde-b053-850471580431.jpg
+featured: /uploads/2026/05/image-1-eac77dfd-b755-4cde-b053-850471580431.jpg
 wpId: 807
 ---
 

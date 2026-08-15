@@ -6,7 +6,7 @@ slug: anthropics-claude-mythos-preview-finds-27-year-old-openbsd-bug-launches-10
 description: Anthropic&#8217;s Claude Mythos Preview Finds 27-Year-Old OpenBSD Bug, Launches $100M Cybersecurity Coalition Anthropic announced something on April 10, 2026 that caught everyone&#8217;s attention. Pr
 categories:
 - ai-industry-guides
-featured: /wp-content/uploads/2026/04/cover-528-1.jpg
+featured: /uploads/2026/04/cover-528-1.jpg
 wpId: 528
 ---
 

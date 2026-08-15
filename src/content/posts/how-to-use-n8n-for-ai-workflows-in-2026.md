@@ -6,7 +6,7 @@ slug: how-to-use-n8n-for-ai-workflows-in-2026
 description: 'If you want to use n8n for AI workflows in 2026, the shortest path is simple: open an n8n workspace, add a Chat Trigger, connect an AI Agent node, attach a chat model, and test it in the built-in chat'
 categories:
 - ai-tutorials-how-tos
-featured: /wp-content/uploads/2026/05/image-1-415ecc0e-529d-4ea6-a7b3-39d8fd1889c5.jpg
+featured: /uploads/2026/05/image-1-415ecc0e-529d-4ea6-a7b3-39d8fd1889c5.jpg
 wpId: 799
 ---
 

@@ -6,7 +6,7 @@ slug: best-lindy-ai-alternatives-in-2026-7-picks-for-workflow-automation
 description: 'If Lindy feels close to what you need but not quite right, start by separating two questions: do you want an AI assistant for inbox and calendar work, or do you want a workflow automation platform tha'
 categories:
 - ai-tools-comparisons
-featured: /wp-content/uploads/2026/06/lindy-ai-alternatives-2026-hero-8e237707-7b82-4a1c-ab5e-2c971581d99f.jpg
+featured: /uploads/2026/06/lindy-ai-alternatives-2026-hero-8e237707-7b82-4a1c-ab5e-2c971581d99f.jpg
 wpId: 867
 ---
 

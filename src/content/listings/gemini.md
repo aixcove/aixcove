@@ -6,7 +6,7 @@ slug: gemini
 description: What Is Google Gemini? Gemini is Google&#8217;s flagship AI model family, designed to be natively multimodal — meaning it can understand and generate text, images, audio, and video within a single con
 categories:
 - general-purpose-llms-chat-assistants
-featured: /wp-content/uploads/2026/04/gemini.jpg
+featured: /uploads/2026/04/gemini.jpg
 wpId: 186
 ---
 

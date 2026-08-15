@@ -6,7 +6,7 @@ slug: coreweave-signed-anthropic-and-meta-in-48-hours-the-ai-cloud-king-now-has-
 description: CoreWeave Just Signed Anthropic. Two Days Earlier, Meta Handed Over $21 Billion. The AI Cloud Wars Are Getting Weird. On Friday, CoreWeave announced a multiyear deal with Anthropic to supply cloud com
 categories:
 - ai-agents-automation
-featured: /wp-content/uploads/2026/04/blog-hero-15.jpg
+featured: /uploads/2026/04/blog-hero-15.jpg
 wpId: 555
 ---
 

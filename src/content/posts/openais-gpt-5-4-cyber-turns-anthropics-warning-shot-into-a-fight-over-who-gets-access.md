@@ -6,7 +6,7 @@ slug: openais-gpt-5-4-cyber-turns-anthropics-warning-shot-into-a-fight-over-who-
 description: 'OpenAI’s GPT-5.4-Cyber Turns Anthropic’s Warning Shot Into a Fight Over Who Gets Access OpenAI spent April 14 trying to do two things at once. The company unveiled GPT-5.4-Cyber, a version of GPT-5.4 '
 categories:
 - ai-trends-news
-featured: /wp-content/uploads/2026/04/blog-hero-24.jpg
+featured: /uploads/2026/04/blog-hero-24.jpg
 wpId: 581
 ---
 

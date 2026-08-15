@@ -6,7 +6,7 @@ slug: anythingllm
 description: What Is AnythingLLM? AnythingLLM is an open-source platform designed to help teams build private AI workspaces using either local or hosted models. It offers a practical, user-friendly solution for ch
 categories:
 - local-llm-self-hosted
-featured: /wp-content/uploads/2026/04/anythingllm.jpg
+featured: /uploads/2026/04/anythingllm.jpg
 wpId: 651
 ---
 

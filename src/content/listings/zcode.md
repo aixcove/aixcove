@@ -6,7 +6,7 @@ slug: zcode
 description: What Is ZCode? ZCode is an agentic development environment from Z.ai built for long-running software engineering tasks. Instead of acting like a traditional editor with a small chat sidebar, ZCode put
 categories:
 - ai-coding-development
-featured: /wp-content/uploads/2026/06/zcode-official-docs-featured.jpg
+featured: /uploads/2026/06/zcode-official-docs-featured.jpg
 wpId: 869
 ---
 

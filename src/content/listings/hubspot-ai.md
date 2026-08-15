@@ -7,7 +7,7 @@ description: What is HubSpot AI? HubSpot AI is the collection of AI features bui
 categories:
 - ai-copywriting-seo
 - ai-email-outreach
-featured: /wp-content/uploads/2026/04/hubspot.jpg
+featured: /uploads/2026/04/hubspot.jpg
 wpId: 254
 ---
 

@@ -6,7 +6,7 @@ slug: how-to-use-flowise-with-ollama-for-a-private-rag-chatbot-in-2026
 description: 'If you want to use Flowise with Ollama, the short version is this: run Ollama locally, start Flowise, connect a ChatOllama model node, then add a document store if you want private RAG instead of a pl'
 categories:
 - ai-tutorials-how-tos
-featured: /wp-content/uploads/2026/05/image-1-40f6212a-92d9-4970-b4d9-df74c4610939.jpg
+featured: /uploads/2026/05/image-1-40f6212a-92d9-4970-b4d9-df74c4610939.jpg
 wpId: 754
 ---
 

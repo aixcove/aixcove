@@ -6,7 +6,7 @@ slug: google-finally-put-gemini-on-the-mac-and-the-timing-says-a-lot-about-the-d
 description: Google Finally Put Gemini on the Mac, and the Timing Says a Lot About the Desktop AI Fight Google spent the last year pushing Gemini into phones, search, Chrome, Gmail, Docs, and just about every othe
 categories:
 - ai-tools-reviews
-featured: /wp-content/uploads/2026/04/blog-hero-31.jpg
+featured: /uploads/2026/04/blog-hero-31.jpg
 wpId: 597
 ---
 

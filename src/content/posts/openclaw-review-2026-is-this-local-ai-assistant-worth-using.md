@@ -6,7 +6,7 @@ slug: openclaw-review-2026-is-this-local-ai-assistant-worth-using
 description: 'OpenClaw Review: Quick Verdict OpenClaw is best for technical operators who want a local-first AI assistant that can work across real messaging channels, local files, scripts, and web tools. It is not'
 categories:
 - ai-tools-reviews
-featured: /wp-content/uploads/2026/05/openclaw-review-hero-6d3d8f39-e628-4fef-a184-26751f5ddf86.jpg
+featured: /uploads/2026/05/openclaw-review-hero-6d3d8f39-e628-4fef-a184-26751f5ddf86.jpg
 wpId: 819
 ---
 

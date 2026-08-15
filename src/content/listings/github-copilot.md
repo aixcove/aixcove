@@ -6,7 +6,7 @@ slug: github-copilot
 description: What Is GitHub Copilot? GitHub Copilot is an AI-powered code completion tool developed by GitHub and OpenAI that integrates directly into popular code editors and IDEs. Trained on billions of lines of
 categories:
 - ai-coding-development
-featured: /wp-content/uploads/2026/04/github_copilot.jpg
+featured: /uploads/2026/04/github_copilot.jpg
 wpId: 278
 ---
 

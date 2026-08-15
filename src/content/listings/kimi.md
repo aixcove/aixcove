@@ -6,7 +6,7 @@ slug: kimi
 description: What is Kimi? Kimi is an AI assistant from Moonshot AI known for long-context reading, Chinese and multilingual capabilities, and general-purpose chat. It is useful for users who need document underst
 categories:
 - general-purpose-llms-chat-assistants
-featured: /wp-content/uploads/2026/04/kimi.jpg
+featured: /uploads/2026/04/kimi.jpg
 wpId: 199
 ---
 

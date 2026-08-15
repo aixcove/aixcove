@@ -6,7 +6,7 @@ slug: open-webui-vs-anythingllm-in-2026-which-self-hosted-ai-app-should-you-choo
 description: 'Open WebUI vs AnythingLLM in 2026: Which Self-Hosted AI App Should You Choose? If you want the short answer, pick Open WebUI when you need a flexible self-hosted AI interface for many models, broader '
 categories:
 - ai-tools-comparisons
-featured: /wp-content/uploads/2026/05/image-1-7a3c1792-8d07-495b-b70e-85a3c49d52d3.jpg
+featured: /uploads/2026/05/image-1-7a3c1792-8d07-495b-b70e-85a3c49d52d3.jpg
 wpId: 809
 ---
 

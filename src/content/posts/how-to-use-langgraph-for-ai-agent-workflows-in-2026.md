@@ -6,7 +6,7 @@ slug: how-to-use-langgraph-for-ai-agent-workflows-in-2026
 description: 'If you want a short answer, here it is: LangGraph is one of the best ways to build AI agent workflows when you need real control over routing, memory, tool use, and human approval. It is free and open'
 categories:
 - ai-tutorials-how-tos
-featured: /wp-content/uploads/2026/05/image-1-bfc8e2cb-f984-4861-bff4-8c833b124d3f.jpg
+featured: /uploads/2026/05/image-1-bfc8e2cb-f984-4861-bff4-8c833b124d3f.jpg
 wpId: 775
 ---
 

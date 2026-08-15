@@ -6,7 +6,7 @@ slug: how-to-use-anythingllm-with-ollama-for-private-document-chat-in-2026-2
 description: 'If you want private document chat without paying for another hosted AI subscription, AnythingLLM with Ollama is one of the cleaner setups right now. AnythingLLM is free and open-source for local use, '
 categories:
 - ai-tutorials-how-tos
-featured: /wp-content/uploads/2026/05/anythingllm-ollama-hero-small-1.jpg
+featured: /uploads/2026/05/anythingllm-ollama-hero-small-1.jpg
 wpId: 795
 ---
 

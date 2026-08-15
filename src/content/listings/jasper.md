@@ -7,7 +7,7 @@ description: What Is Jasper? Jasper is an AI-powered marketing copilot designed 
 categories:
 - ai-copywriting-seo
 - ai-text-blog-writing
-featured: /wp-content/uploads/2026/04/jasper-1.jpg
+featured: /uploads/2026/04/jasper-1.jpg
 wpId: 250
 ---
 

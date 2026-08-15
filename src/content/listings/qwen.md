@@ -6,7 +6,7 @@ slug: qwen
 description: What Is QWen? QWen (Tongyi Qianwen) is Alibaba Cloud&#8217;s flagship large language model family, designed to deliver powerful AI capabilities across text understanding, code generation, mathematical
 categories:
 - general-purpose-llms-chat-assistants
-featured: /wp-content/uploads/2026/04/qwen-1.jpg
+featured: /uploads/2026/04/qwen-1.jpg
 wpId: 187
 ---
 

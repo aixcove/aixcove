@@ -6,7 +6,7 @@ slug: how-to-use-anythingllm-with-ollama-for-private-document-chat-in-2026
 description: 'How to Use AnythingLLM with Ollama for Private Document Chat in 2026 If you want ChatGPT-style document chat without sending your files to a SaaS vendor, AnythingLLM with Ollama is one of the cleaner '
 categories:
 - ai-tutorials-how-tos
-featured: /wp-content/uploads/2026/05/image-1-931334a8-dad2-4617-a877-7ffd9abc2e00.jpg
+featured: /uploads/2026/05/image-1-931334a8-dad2-4617-a877-7ffd9abc2e00.jpg
 wpId: 766
 ---
 

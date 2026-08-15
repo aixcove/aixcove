@@ -6,7 +6,7 @@ slug: dify-vs-flowise-in-2026-which-ai-workflow-builder-should-you-choose
 description: 'Dify vs Flowise in 2026: Which AI Workflow Builder Should You Choose? If you want the short answer, pick Dify when you need a more complete AI app platform for a team. Pick Flowise when you want to mo'
 categories:
 - ai-tools-comparisons
-featured: /wp-content/uploads/2026/05/image-1-7fe0d5f7-d19b-4f69-b154-6528716eb3f2.jpg
+featured: /uploads/2026/05/image-1-7fe0d5f7-d19b-4f69-b154-6528716eb3f2.jpg
 wpId: 805
 ---
 

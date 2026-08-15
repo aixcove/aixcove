@@ -6,7 +6,7 @@ slug: anthropic-makes-bold-move-into-custom-ai-chip-development-as-claude-demand
 description: Three sources told Reuters something interesting on April 9, 2026. Anthropic is exploring designing its own AI chips. Not a rumor. Not speculation. Three people with direct knowledge confirmed it. The
 categories:
 - ai-coding-development
-featured: /wp-content/uploads/2026/04/cover-527.jpg
+featured: /uploads/2026/04/cover-527.jpg
 wpId: 527
 ---
 

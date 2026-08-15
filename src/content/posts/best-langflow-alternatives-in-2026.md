@@ -6,7 +6,7 @@ slug: best-langflow-alternatives-in-2026
 description: Best Langflow Alternatives in 2026 If you like Langflow’s visual builder but do not want to stay boxed into Langflow, start with Flowise for the closest open-source replacement, Dify for a more comple
 categories:
 - ai-tools-comparisons
-featured: /wp-content/uploads/2026/05/blog-hero-5.jpg
+featured: /uploads/2026/05/blog-hero-5.jpg
 wpId: 749
 ---
 

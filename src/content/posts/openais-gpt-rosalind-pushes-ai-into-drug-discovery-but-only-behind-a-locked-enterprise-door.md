@@ -6,7 +6,7 @@ slug: openais-gpt-rosalind-pushes-ai-into-drug-discovery-but-only-behind-a-locke
 description: OpenAI’s GPT-Rosalind Pushes AI Into Drug Discovery, but Only Behind a Locked Enterprise Door OpenAI spent April 16, 2026, trying to move the AI conversation away from chatbots and back toward the lab
 categories:
 - ai-agents-automation
-featured: /wp-content/uploads/2026/04/blog-hero-28.jpg
+featured: /uploads/2026/04/blog-hero-28.jpg
 wpId: 591
 ---
 

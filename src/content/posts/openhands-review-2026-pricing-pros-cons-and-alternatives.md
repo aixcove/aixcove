@@ -6,7 +6,7 @@ slug: openhands-review-2026-pricing-pros-cons-and-alternatives
 description: 'If you are searching for an honest OpenHands review, the short version is this: OpenHands is one of the most serious open-source AI coding agents you can run yourself, but it is not the easiest option'
 categories:
 - ai-tools-reviews
-featured: /wp-content/uploads/2026/04/blog-hero-44.jpg
+featured: /uploads/2026/04/blog-hero-44.jpg
 wpId: 707
 ---
 

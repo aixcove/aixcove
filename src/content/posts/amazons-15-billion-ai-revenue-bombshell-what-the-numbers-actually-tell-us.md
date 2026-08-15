@@ -6,7 +6,7 @@ slug: amazons-15-billion-ai-revenue-bombshell-what-the-numbers-actually-tell-us
 description: Amazon just dropped a bombshell that reverberated through Silicon Valley. Their cloud AI division now generates $15 billion in annual revenue. Not someday. Not theoretically. Right now. This isn&#8217
 categories:
 - ai-content-creation
-featured: /wp-content/uploads/2026/04/cover-523.jpg
+featured: /uploads/2026/04/cover-523.jpg
 wpId: 523
 ---
 

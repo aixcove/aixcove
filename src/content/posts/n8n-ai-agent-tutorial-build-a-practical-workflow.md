@@ -6,7 +6,7 @@ slug: n8n-ai-agent-tutorial-build-a-practical-workflow
 description: 'If you want the short version: n8n is a strong choice for AI agents when the agent needs to trigger real business workflows, call APIs, route data, and stay debuggable. It is less ideal if you only wa'
 categories:
 - ai-tutorials-how-tos
-featured: /wp-content/uploads/2026/05/n8n-ai-agent-tutorial-hero-0c702f25-4e8d-4b6b-9e1d-9601647404b9.jpg
+featured: /uploads/2026/05/n8n-ai-agent-tutorial-hero-0c702f25-4e8d-4b6b-9e1d-9601647404b9.jpg
 wpId: 824
 ---
 

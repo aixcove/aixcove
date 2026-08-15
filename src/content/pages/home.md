@@ -30,28 +30,28 @@ wpId: 8
 
  <div class="hp-listing-categories hp-grid hp-block"><div class="hp-row"><div class="hp-grid__item hp-col-sm-3 hp-col-xs-12"><article class="hp-listing-category hp-listing-category--view-block"><header class="hp-listing-category__header"><div class="hp-listing-category__image">
 	<a href="/listing-category/ai-coding-development/">
-					<img decoding="async" src="/wp-content/uploads/2026/04/AI_Coding_Development-400x533.jpg" alt="AI Coding &amp; Development" loading="lazy">
+					<img decoding="async" src="/uploads/2026/04/AI_Coding_Development-400x533.jpg" alt="AI Coding &amp; Development" loading="lazy">
 			</a>
 </div>
 <div class="hp-listing-category__item-count hp-listing-category__count">20 Listings</div>
 </header><div class="hp-listing-category__content"><h3 class="hp-listing-category__name"><a href="/listing-category/ai-coding-development/">AI Coding &amp; Development</a>
 </h3><div class="hp-listing-category__details hp-listing-category__details--primary"></div></div></article></div><div class="hp-grid__item hp-col-sm-3 hp-col-xs-12"><article class="hp-listing-category hp-listing-category--view-block"><header class="hp-listing-category__header"><div class="hp-listing-category__image">
 	<a href="/listing-category/ai-marketing-growth/">
-					<img decoding="async" src="/wp-content/uploads/2026/04/AI_Marketing_Growth-400x533.jpg" alt="AI Marketing &amp; Growth" loading="lazy">
+					<img decoding="async" src="/uploads/2026/04/AI_Marketing_Growth-400x533.jpg" alt="AI Marketing &amp; Growth" loading="lazy">
 			</a>
 </div>
 <div class="hp-listing-category__item-count hp-listing-category__count">8 Listings</div>
 </header><div class="hp-listing-category__content"><h3 class="hp-listing-category__name"><a href="/listing-category/ai-marketing-growth/">AI Marketing &amp; Growth</a>
 </h3><div class="hp-listing-category__details hp-listing-category__details--primary"></div></div></article></div><div class="hp-grid__item hp-col-sm-3 hp-col-xs-12"><article class="hp-listing-category hp-listing-category--view-block"><header class="hp-listing-category__header"><div class="hp-listing-category__image">
 	<a href="/listing-category/ai-business-productivity/">
-					<img decoding="async" src="/wp-content/uploads/2026/04/AI_Business_Productivity-400x533.jpg" alt="AI Business &amp; Productivity" loading="lazy">
+					<img decoding="async" src="/uploads/2026/04/AI_Business_Productivity-400x533.jpg" alt="AI Business &amp; Productivity" loading="lazy">
 			</a>
 </div>
 <div class="hp-listing-category__item-count hp-listing-category__count">3 Listings</div>
 </header><div class="hp-listing-category__content"><h3 class="hp-listing-category__name"><a href="/listing-category/ai-business-productivity/">AI Business &amp; Productivity</a>
 </h3><div class="hp-listing-category__details hp-listing-category__details--primary"></div></div></article></div><div class="hp-grid__item hp-col-sm-3 hp-col-xs-12"><article class="hp-listing-category hp-listing-category--view-block"><header class="hp-listing-category__header"><div class="hp-listing-category__image">
 	<a href="/listing-category/ai-vertical-industry-solutions/">
-					<img decoding="async" src="/wp-content/uploads/2026/04/AI_Vertical_Industry_Solutions-400x533.jpg" alt="AI Vertical Industry Solutions" loading="lazy">
+					<img decoding="async" src="/uploads/2026/04/AI_Vertical_Industry_Solutions-400x533.jpg" alt="AI Vertical Industry Solutions" loading="lazy">
 			</a>
 </div>
 <div class="hp-listing-category__item-count hp-listing-category__count">2 Listings</div>
@@ -64,7 +64,7 @@ wpId: 8
 
  <div class="hp-listings hp-block hp-grid"><div class="hp-row"><div class="hp-grid__item hp-col-sm-3 hp-col-xs-12"><article class="hp-listing hp-listing--view-block"><header class="hp-listing__header"><div class="hp-listing__image" data-component="carousel-slider" data-preview="false" data-aspect-ratio="1.3333" data-url="/listing/kimi-code/">
 			<a href="/listing/kimi-code/">
-							<img decoding="async" src="/wp-content/uploads/2026/06/kimi-code-official-demo-featured-400x300.jpg" alt="Kimi Code" loading="lazy">
+							<img decoding="async" src="/uploads/2026/06/kimi-code-official-demo-featured-400x300.jpg" alt="Kimi Code" loading="lazy">
 					</a>
 	</div>
 </header><div class="hp-listing__content">	<div class="hp-listing__categories hp-listing__category">
@@ -75,7 +75,7 @@ wpId: 8
 	Added on June 19, 2026</time>
 </div><div class="hp-block hp-listing__attributes hp-listing__attributes--secondary"><div class="hp-row"></div></div></div><footer class="hp-listing__footer"><div class="hp-listing__actions hp-listing__actions--primary"></div></footer></article></div><div class="hp-grid__item hp-col-sm-3 hp-col-xs-12"><article class="hp-listing hp-listing--view-block"><header class="hp-listing__header"><div class="hp-listing__image" data-component="carousel-slider" data-preview="false" data-aspect-ratio="1.3333" data-url="/listing/zcode/">
 			<a href="/listing/zcode/">
-							<img decoding="async" src="/wp-content/uploads/2026/06/zcode-official-docs-featured-400x300.jpg" alt="ZCode" loading="lazy">
+							<img decoding="async" src="/uploads/2026/06/zcode-official-docs-featured-400x300.jpg" alt="ZCode" loading="lazy">
 					</a>
 	</div>
 </header><div class="hp-listing__content">	<div class="hp-listing__categories hp-listing__category">
@@ -86,7 +86,7 @@ wpId: 8
 	Added on June 19, 2026</time>
 </div><div class="hp-block hp-listing__attributes hp-listing__attributes--secondary"><div class="hp-row"></div></div></div><footer class="hp-listing__footer"><div class="hp-listing__actions hp-listing__actions--primary"></div></footer></article></div><div class="hp-grid__item hp-col-sm-3 hp-col-xs-12"><article class="hp-listing hp-listing--view-block"><header class="hp-listing__header"><div class="hp-listing__image" data-component="carousel-slider" data-preview="false" data-aspect-ratio="1.3333" data-url="/listing/hapax-ai/">
 			<a href="/listing/hapax-ai/">
-							<img decoding="async" src="/wp-content/uploads/2026/07/hapax-ai-feature-picture-400x225.jpg" alt="Hapax" loading="lazy">
+							<img decoding="async" src="/uploads/2026/07/hapax-ai-feature-picture-400x225.jpg" alt="Hapax" loading="lazy">
 					</a>
 	</div>
 </header><div class="hp-listing__content">	<div class="hp-listing__categories hp-listing__category">
@@ -97,7 +97,7 @@ wpId: 8
 	Added on May 11, 2026</time>
 </div><div class="hp-block hp-listing__attributes hp-listing__attributes--secondary"><div class="hp-row"></div></div></div><footer class="hp-listing__footer"><div class="hp-listing__actions hp-listing__actions--primary"></div></footer></article></div><div class="hp-grid__item hp-col-sm-3 hp-col-xs-12"><article class="hp-listing hp-listing--view-block"><header class="hp-listing__header"><div class="hp-listing__image" data-component="carousel-slider" data-preview="false" data-aspect-ratio="1.3333" data-url="/listing/adk-rust/">
 			<a href="/listing/adk-rust/">
-							<img decoding="async" src="/wp-content/uploads/2026/05/adk-rust-400x300.jpg" alt="ADK-Rust" loading="lazy">
+							<img decoding="async" src="/uploads/2026/05/adk-rust-400x300.jpg" alt="ADK-Rust" loading="lazy">
 					</a>
 	</div>
 </header><div class="hp-listing__content">	<div class="hp-listing__categories hp-listing__category">
@@ -108,7 +108,7 @@ wpId: 8
 	Added on May 11, 2026</time>
 </div><div class="hp-block hp-listing__attributes hp-listing__attributes--secondary"><div class="hp-row"></div></div></div><footer class="hp-listing__footer"><div class="hp-listing__actions hp-listing__actions--primary"></div></footer></article></div><div class="hp-grid__item hp-col-sm-3 hp-col-xs-12"><article class="hp-listing hp-listing--view-block"><header class="hp-listing__header"><div class="hp-listing__image" data-component="carousel-slider" data-preview="false" data-aspect-ratio="1.3333" data-url="/listing/qwenpaw/">
 			<a href="/listing/qwenpaw/">
-							<img decoding="async" src="/wp-content/uploads/2026/07/qwenpaw-feature-picture-400x225.jpg" alt="QwenPaw" loading="lazy">
+							<img decoding="async" src="/uploads/2026/07/qwenpaw-feature-picture-400x225.jpg" alt="QwenPaw" loading="lazy">
 					</a>
 	</div>
 </header><div class="hp-listing__content">	<div class="hp-listing__categories hp-listing__category">
@@ -119,7 +119,7 @@ wpId: 8
 	Added on May 11, 2026</time>
 </div><div class="hp-block hp-listing__attributes hp-listing__attributes--secondary"><div class="hp-row"></div></div></div><footer class="hp-listing__footer"><div class="hp-listing__actions hp-listing__actions--primary"></div></footer></article></div><div class="hp-grid__item hp-col-sm-3 hp-col-xs-12"><article class="hp-listing hp-listing--view-block"><header class="hp-listing__header"><div class="hp-listing__image" data-component="carousel-slider" data-preview="false" data-aspect-ratio="1.3333" data-url="/listing/anythingllm/">
 			<a href="/listing/anythingllm/">
-							<img decoding="async" src="/wp-content/uploads/2026/04/anythingllm-400x300.jpg" alt="AnythingLLM" loading="lazy">
+							<img decoding="async" src="/uploads/2026/04/anythingllm-400x300.jpg" alt="AnythingLLM" loading="lazy">
 					</a>
 	</div>
 </header><div class="hp-listing__content">	<div class="hp-listing__categories hp-listing__category">
@@ -130,7 +130,7 @@ wpId: 8
 	Added on April 19, 2026</time>
 </div><div class="hp-block hp-listing__attributes hp-listing__attributes--secondary"><div class="hp-row"><div class="hp-col-lg-6 hp-col-xs-12"><div class="hp-listing__attribute hp-listing__attribute--official-website"><strong>Official Website</strong>: <a href="https://anythingllm.com/">https://anythingllm.com/</a></div></div><div class="hp-col-lg-6 hp-col-xs-12"><div class="hp-listing__attribute hp-listing__attribute--pricing-model"><strong>Pricing Model</strong>: Open-Source</div></div></div></div></div><footer class="hp-listing__footer"><div class="hp-listing__actions hp-listing__actions--primary"></div></footer></article></div><div class="hp-grid__item hp-col-sm-3 hp-col-xs-12"><article class="hp-listing hp-listing--view-block"><header class="hp-listing__header"><div class="hp-listing__image" data-component="carousel-slider" data-preview="false" data-aspect-ratio="1.3333" data-url="/listing/autogen-studio/">
 			<a href="/listing/autogen-studio/">
-							<img decoding="async" src="/wp-content/uploads/2026/04/autogen-studio-2-400x300.jpg" alt="AutoGen Studio" loading="lazy">
+							<img decoding="async" src="/uploads/2026/04/autogen-studio-2-400x300.jpg" alt="AutoGen Studio" loading="lazy">
 					</a>
 	</div>
 </header><div class="hp-listing__content">	<div class="hp-listing__categories hp-listing__category">
@@ -141,7 +141,7 @@ wpId: 8
 	Added on April 19, 2026</time>
 </div><div class="hp-block hp-listing__attributes hp-listing__attributes--secondary"><div class="hp-row"><div class="hp-col-lg-6 hp-col-xs-12"><div class="hp-listing__attribute hp-listing__attribute--official-website"><strong>Official Website</strong>: <a href="https://microsoft.github.io/autogen/dev//user-guide/autogenstudio-user-guide/index.html">https://microsoft.github.io/autogen/dev//user-guide/autogenstudio-user-guide/index.html</a></div></div><div class="hp-col-lg-6 hp-col-xs-12"><div class="hp-listing__attribute hp-listing__attribute--pricing-model"><strong>Pricing Model</strong>: Open-Source</div></div></div></div></div><footer class="hp-listing__footer"><div class="hp-listing__actions hp-listing__actions--primary"></div></footer></article></div><div class="hp-grid__item hp-col-sm-3 hp-col-xs-12"><article class="hp-listing hp-listing--view-block"><header class="hp-listing__header"><div class="hp-listing__image" data-component="carousel-slider" data-preview="false" data-aspect-ratio="1.3333" data-url="/listing/dify/">
 			<a href="/listing/dify/">
-							<img decoding="async" src="/wp-content/uploads/2026/04/dify-4-400x300.jpg" alt="Dify" loading="lazy">
+							<img decoding="async" src="/uploads/2026/04/dify-4-400x300.jpg" alt="Dify" loading="lazy">
 					</a>
 	</div>
 </header><div class="hp-listing__content">	<div class="hp-listing__categories hp-listing__category">

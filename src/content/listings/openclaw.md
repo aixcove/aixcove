@@ -6,7 +6,7 @@ slug: openclaw
 description: What Is OpenClaw? OpenClaw is an open-source AI agent platform that transforms large language models into fully functional personal assistants. Unlike basic chatbot interfaces, OpenClaw connects AI to
 categories:
 - ai-agents-automation
-featured: /wp-content/uploads/2026/04/openclaw.jpg
+featured: /uploads/2026/04/openclaw.jpg
 wpId: 213
 ---
 

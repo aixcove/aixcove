@@ -6,7 +6,7 @@ slug: an-ai-model-so-good-at-hacking-that-anthropic-wont-release-it-to-the-publi
 description: An AI Model So Good at Hacking That Anthropic Won&#8217;t Release It to the Public On April 7, Anthropic announced a new AI model called Mythos. Two weeks later, the company&#8217;s CEO was sitting in
 categories:
 - ai-coding-development
-featured: /wp-content/uploads/2026/04/blog-hero-33.jpg
+featured: /uploads/2026/04/blog-hero-33.jpg
 wpId: 667
 ---
 

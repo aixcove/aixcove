@@ -6,7 +6,7 @@ slug: viz-ai
 description: What Is Viz.ai? Viz.ai is an FDA-cleared AI-powered healthcare platform that uses advanced computer vision and deep learning to analyze medical images in real time. Designed to accelerate critical car
 categories:
 - ai-workflow-orchestration
-featured: /wp-content/uploads/2026/04/viz_ai.jpg
+featured: /uploads/2026/04/viz_ai.jpg
 wpId: 265
 ---
 

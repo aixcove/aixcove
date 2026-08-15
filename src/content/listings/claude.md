@@ -6,7 +6,7 @@ slug: claude
 description: What Is Claude? Claude is an advanced AI assistant created by Anthropic, a company focused on AI safety research. Known for its thoughtful, nuanced responses and strong emphasis on helpfulness and har
 categories:
 - general-purpose-llms-chat-assistants
-featured: /wp-content/uploads/2026/04/claude.jpg
+featured: /uploads/2026/04/claude.jpg
 wpId: 184
 ---
 

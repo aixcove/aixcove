@@ -6,7 +6,7 @@ slug: hermes-agent-vs-openclaw-the-new-open-source-ai-agent-that-learns-from-its
 description: An open-source AI agent that builds reusable skills from experience, ships 40+ built-in tools, and runs on a $5 VPS — or almost nothing when idle. Nous Research&#8217;s Hermes Agent has racked up 8,70
 categories:
 - ai-ethics-governance
-featured: /wp-content/uploads/2026/04/cover-529-1.jpg
+featured: /uploads/2026/04/cover-529-1.jpg
 wpId: 529
 ---
 

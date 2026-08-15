@@ -6,7 +6,7 @@ slug: openai-plans-to-burn-85-billion-in-2028-the-math-behind-that-number-is-wil
 description: The Numbers Are Out Confidential financial documents from OpenAI and Anthropic have found their way into a Wall Street Journal report, and the figures inside are staggering. OpenAI, the company behind
 categories:
 - ai-business-productivity
-featured: /wp-content/uploads/2026/04/blog-hero-3.jpg
+featured: /uploads/2026/04/blog-hero-3.jpg
 wpId: 511
 ---
 
