@@ -5,7 +5,7 @@ modified: '2026-08-11T19:14:59'
 slug: stanfords-2026-ai-index-china-caught-up-nobody-noticed-and-the-numbers-are-staggering
 description: 'Stanford&#8217;s 2026 AI Index: China Caught Up, Nobody Noticed, and the Numbers Are Staggering Stanford&#8217;s Human-Centered Artificial Intelligence institute dropped its ninth annual AI Index Repo'
 categories:
-- ai-business-productivity
+- ai-trends-news
 featured: /uploads/2026/04/blog-hero-21.jpg
 wpId: 574
 titleZh: "斯坦福2026 AI指数报告：中国已追上，数字惊人"

@@ -5,7 +5,7 @@ modified: '2026-08-11T19:14:53'
 slug: cerebras-is-going-public-at-exactly-the-moment-the-ai-chip-market-starts-looking-less-like-nvidias-private-kingdom
 description: Cerebras Is Going Public at Exactly the Moment the AI Chip Market Starts Looking Less Like Nvidia’s Private Kingdom Cerebras Systems filed publicly for a U.S. IPO on April 17, and the timing says more
 categories:
-- ai-business-productivity
+- ai-trends-news
 featured: /uploads/2026/04/blog-hero-32.jpg
 wpId: 599
 titleZh: "Cerebras上市之际AI芯片市场格局生变"

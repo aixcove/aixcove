@@ -5,7 +5,7 @@ modified: '2026-08-11T19:14:58'
 slug: openais-852-billion-question-why-investors-are-suddenly-worried-about-the-chatgpt-giant
 description: A Valuation Nobody Wants to Question — Until Now OpenAI sits at an $852 billion valuation after raising $122 billion last month, a round Reuters described as likely the largest fundraising round in Si
 categories:
-- ai-marketing-growth
+- ai-trends-news
 featured: /uploads/2026/04/blog-hero-22.jpg
 wpId: 576
 titleZh: "OpenAI估值8520亿美元：投资者为何突然担忧ChatGPT巨头"

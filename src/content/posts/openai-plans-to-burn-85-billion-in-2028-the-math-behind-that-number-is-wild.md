@@ -5,7 +5,7 @@ modified: '2026-08-11T19:15:06'
 slug: openai-plans-to-burn-85-billion-in-2028-the-math-behind-that-number-is-wild
 description: The Numbers Are Out Confidential financial documents from OpenAI and Anthropic have found their way into a Wall Street Journal report, and the figures inside are staggering. OpenAI, the company behind
 categories:
-- ai-business-productivity
+- ai-trends-news
 featured: /uploads/2026/04/blog-hero-3.jpg
 wpId: 511
 titleZh: "OpenAI 2028年预计亏损850亿美元，这笔账怎么算的"

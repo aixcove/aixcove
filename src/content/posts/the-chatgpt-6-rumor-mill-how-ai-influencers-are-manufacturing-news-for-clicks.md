@@ -5,7 +5,7 @@ modified: '2026-08-11T19:14:58'
 slug: the-chatgpt-6-rumor-mill-how-ai-influencers-are-manufacturing-news-for-clicks
 description: 'The ChatGPT-6 Rumor Mill: How AI Influencers Are Manufacturing News for Clicks April 15, 2026 April 14 came and went. No OpenAI blog post. No Sam Altman tweet. No dramatic product launch. The &#8220;c'
 categories:
-- ai-ethics-governance
+- ai-trends-news
 featured: /uploads/2026/04/the-chatgpt-6.jpg
 wpId: 579
 titleZh: "ChatGPT-6谣言：AI博主如何制造假新闻赚流量"

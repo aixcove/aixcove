@@ -5,7 +5,6 @@ modified: '2026-08-11T19:15:00'
 slug: the-eu-just-put-chatgpt-in-its-crosshairs-heres-what-the-digital-services-act-crackdown-means-for-ai
 description: 'On Friday, April 11, the European Commission confirmed it is formally assessing whether OpenAI&#8217;s ChatGPT should be classified as a Very Large Online Platform under the Digital Services Act. The '
 categories:
-- ai-ethics-governance
 - ai-trends-news
 featured: /uploads/2026/08/eu-chatgpt-dsa-featured.jpg
 wpId: 565

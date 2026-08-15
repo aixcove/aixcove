@@ -5,7 +5,7 @@ modified: '2026-08-11T19:15:03'
 slug: meta-dropped-14-billion-on-an-open-source-killer-and-it-actually-worked
 description: Meta Dropped $14 Billion on an Open-Source Killer, and It Actually Worked On April 8, 2026, Meta announced Muse Spark. The company&#8217;s first proprietary large language model since restructuring AI
 categories:
-- ai-business-productivity
+- ai-trends-news
 featured: /uploads/2026/04/cover-525.jpg
 wpId: 525
 titleZh: "Meta开源杀手级模型投入140亿美元，效果显著"

@@ -5,7 +5,7 @@ modified: '2026-08-11T19:15:05'
 slug: anthropic-just-locked-down-3-5-gigawatts-of-compute-and-the-numbers-behind-the-deal-are-staggering
 description: Something unusual showed up in a routine SEC filing on April 6. Broadcom disclosed an agreement to supply Anthropic with approximately 3.5 gigawatts of Google TPU compute capacity, starting in 2027. T
 categories:
-- ai-industry-guides
+- ai-trends-news
 featured: /uploads/2026/04/blog-hero-6.jpg
 wpId: 516
 titleZh: "Anthropic锁定35亿瓦算力，交易规模令人震撼"

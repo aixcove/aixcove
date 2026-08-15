@@ -5,7 +5,7 @@ modified: '2026-08-11T19:14:56'
 slug: tsmc-just-gave-the-ai-boom-a-hard-number-and-it-was-bigger-than-expected
 description: TSMC Just Gave the AI Boom a Hard Number, and It Was Bigger Than Expected For months, the AI market has run on a strange mix of hype, capex promises, flashy demos, and very expensive promises. On Apri
 categories:
-- ai-business-productivity
+- ai-trends-news
 featured: /uploads/2026/04/blog-hero-26.jpg
 wpId: 587
 titleZh: "台积电AI热潮数据超预期：TSMC业绩解读"

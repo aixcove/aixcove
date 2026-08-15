@@ -5,7 +5,7 @@ modified: '2026-08-11T19:14:55'
 slug: stanfords-2026-ai-index-has-some-good-news-some-bad-news-and-one-number-that-should-worry-every-junior-developer
 description: Stanford&#8217;s 2026 AI Index Has Some Good News, Some Bad News, and One Number That Should Worry Every Junior Developer Stanford&#8217;s Institute for Human-Centered AI just dropped its annual AI In
 categories:
-- ai-industry-guides
+- ai-trends-news
 featured: /uploads/2026/04/blog-hero-29.jpg
 wpId: 593
 titleZh: "斯坦福2026 AI指数报告：初级开发者需警惕"

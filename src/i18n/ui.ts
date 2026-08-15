@@ -81,7 +81,7 @@ export const catNamesZh: Record<string, string> = {
   'ai-marketing-growth': 'AI 营销与增长',
   'ai-tools-comparisons': 'AI 工具对比',
   'ai-tools-reviews': 'AI 工具评测',
-  'ai-trends-news': 'AI 趋势与新闻',
+  'ai-trends-news': 'AI 行业动态与分析',
   'ai-tutorials-how-tos': 'AI 教程与指南',
   // listing categories
   'ai-ad-creative-media': 'AI 广告创意与媒体',

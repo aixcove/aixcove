@@ -5,7 +5,7 @@ modified: '2026-08-11T19:14:56'
 slug: adobe-just-turned-its-entire-creative-suite-into-a-conversation
 description: Adobe Just Turned Its Entire Creative Suite Into a Conversation On April 16, 2026, Adobe released the Firefly AI Assistant, a chat-based interface that can operate across Photoshop, Illustrator, Premi
 categories:
-- ai-content-creation
+- ai-trends-news
 featured: /uploads/2026/04/blog-hero-27.jpg
 wpId: 589
 titleZh: "Adobe创意套件新增完整AI对话交互功能"
