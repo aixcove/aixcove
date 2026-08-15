@@ -35,8 +35,8 @@ const altUrl = lang === 'zh'
     <div class="grid cols-3">
       {items.map((it) => {
         const href = isPosts ? `${prefix}/${it.id}/` : `${prefix}/listing/${it.id}/`;
-        const t = (!isPosts && lang === 'zh' && it.data.titleZh) ? it.data.titleZh : it.data.title;
-        const d = (!isPosts && lang === 'zh' && it.data.descriptionZh) ? it.data.descriptionZh : (it.data.description || '');
+        const t = (lang === 'zh' && it.data.titleZh) ? it.data.titleZh : it.data.title;
+        const d = (lang === 'zh' && it.data.descriptionZh) ? it.data.descriptionZh : (it.data.description || '');
         return (
           <article class="card">
             {it.data.featured && <a href={href}><img class="thumb" src={it.data.featured} alt={t} loading="lazy" /></a>}

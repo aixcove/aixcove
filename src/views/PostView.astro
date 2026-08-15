@@ -25,7 +25,7 @@ const description = lang === 'zh' && post.data.descriptionZh ? post.data.descrip
       )}
     </div>
     {post.data.featured && <img class="hero-img" src={post.data.featured} alt={title} width="1200" height="630" />}
-    <div class="content" set:html={post.body} />
+    <div class="content" set:html={lang === 'zh' && post.data.bodyZh ? post.data.bodyZh : post.body} />
     <script type="application/ld+json" set:html={JSON.stringify({
       '@context': 'https://schema.org',
       '@type': 'Article',

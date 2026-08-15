@@ -14,6 +14,7 @@ const posts = defineCollection({
     wpId: z.number().optional(),
     titleZh: z.string().optional(),
     descriptionZh: z.string().optional(),
+    bodyZh: z.string().optional(),
   }),
 });
 

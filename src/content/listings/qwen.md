@@ -8,8 +8,25 @@ categories:
 - general-purpose-llms-chat-assistants
 featured: /uploads/2026/04/qwen-1.jpg
 wpId: 187
-titleZh: "Qwen"
-descriptionZh: "什么是QWen？QWen（通义千问）是阿里云的旗舰大语言模型家族，旨在提供强大的AI能力，涵盖文本理解、代码生成、数学"
+bodyZh: |
+  <h2>什么是QWen？</h2>
+  <p>QWen（通义千问）是阿里云推出的旗舰级大语言模型系列，旨在提供文本理解、代码生成、数学推理和多语言交流等强大AI能力。作为中国领先的AI模型之一，QWen在各大基准测试中持续位列全球顶尖大语言模型。其开源版本已被全球AI社区下载数百万次。</p>
+  <h2>核心功能与能力</h2>
+  <p>QWen提供全面的AI能力：</p>
+  <ul>
+  <li><strong>高级推理</strong> — 在数学、逻辑和分析基准测试中表现优异</li>
+  <li><strong>代码生成</strong> — 支持多种主流编程语言的代码编写与调试</li>
+  <li><strong>多语言精通</strong> — 中英文能力突出，同时支持数十种语言</li>
+  <li><strong>长上下文</strong> — 大上下文窗口可处理长篇文档和复杂对话</li>
+  <li><strong>视觉能力</strong> — 支持图文理解与图像分析（QWen-VL）</li>
+  <li><strong>开源版本</strong> — 多种模型尺寸可供自托管和定制部署</li>
+  </ul>
+  <h2>定价方案</h2>
+  <p>QWen通过通义（千问）网页版和移动应用提供免费使用层级。通过阿里云百炼（DashScope）提供的API定价具有竞争力，显著低于西方AI服务商。Hugging Face上的开源模型可免费下载和部署。面向高用量商业场景提供企业级定价方案。</p>
+  <h2>谁适合使用QWen？</h2>
+  <p>QWen特别适合中文用户以及在亚洲运营的企业。开发双语应用的工程师看重其强大的中英双语能力。预算有限的机构可受益于其有竞争力的API定价。研究人员可针对特定任务微调开源模型。中国境内的企业用户可通过熟悉的阿里云生态使用该服务。</p>
+  <h2>QWen vs ChatGPT vs DeepSeek</h2>
+  <p>在主流大语言模型中，QWen的中文能力最强，是中文应用场景的首选。ChatGPT提供最广泛的功能集，包括插件和图像生成。DeepSeek在编程任务上与QWen相当甚至更优，且成本更低。对于中文商业应用，QWen在质量、定价和生态集成之间提供了最佳平衡。</p>
 ---
 
 <h2>What Is QWen?</h2>
