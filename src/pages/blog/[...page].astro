@@ -6,15 +6,16 @@ export const prerender = true;
 
 export async function getStaticPaths() {
   const posts = (await getCollection('posts')).sort((a, b) => b.data.date.localeCompare(a.data.date));
-  const PER = 20;
+  const cats = (await getCollection('categories')).sort((a, b) => b.data.count - a.data.count);
+  const PER = 18;
   const total = Math.ceil(posts.length / PER);
   return Array.from({ length: total }, (_, i) => ({
     params: { page: i === 0 ? undefined : String(i + 1) },
-    props: { posts: posts.slice(i * PER, (i + 1) * PER), current: i + 1, total },
+    props: { posts: posts.slice(i * PER, (i + 1) * PER), cats, current: i + 1, total },
   }));
 }
 
-const { posts, current, total } = Astro.props;
+const { posts, cats, current, total } = Astro.props;
 ---
 
-<BlogIndex lang="en" posts={posts} page={{ current, total, base: '/blog/' }} />
+<BlogIndex lang="en" posts={posts} cats={cats} page={{ current, total, base: '/blog/' }} />

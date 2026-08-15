@@ -99,6 +99,10 @@ export const catNamesZh: Record<string, string> = {
   'ai-skills-function-libraries': 'AI 技能与函数库',
   'ai-social-media-management': 'AI 社媒管理',
   'ai-vertical-industry-solutions': 'AI 垂直行业方案',
+  // 博客分类(与listing重名slug, 恢复)
+  'ai-coding-development': 'AI 编程与开发',
+  'ai-agents-automation': 'AI 智能体与自动化',
+  'ai-business-productivity': 'AI 商业与效率',
   // listing 分类(2026-08 重组)
   'ai-coding': 'AI 编程工具',
   'llm-chat': 'AI 对话助手',

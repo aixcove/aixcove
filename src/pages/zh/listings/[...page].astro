@@ -9,7 +9,7 @@ export async function getStaticPaths() {
   const cats = (await getCollection('listingCategories'))
     .filter((c) => c.data.count > 0)
     .sort((a, b) => b.data.count - a.data.count);
-  const PER = 20;
+  const PER = 18;
   const total = Math.ceil(listings.length / PER);
   return Array.from({ length: total }, (_, i) => ({
     params: { page: i === 0 ? undefined : String(i + 1) },

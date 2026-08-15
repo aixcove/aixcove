@@ -55,9 +55,13 @@ img { max-width: 100%; height: auto; border-radius: var(--radius); }
 }
 
 .grid { display: grid; gap: 20px; }
-.grid.cols-3 { grid-template-columns: repeat(3, 1fr); }
+.grid.cols-3 { display:flex; flex-wrap:wrap; }
+.grid.cols-3 > * { flex:1 1 calc((100% - 40px) / 3); min-width:0; }
 .grid.cols-2 { grid-template-columns: repeat(2, 1fr); }
-@media (max-width: 800px) { .grid.cols-3, .grid.cols-2 { grid-template-columns: 1fr; } }
+@media (max-width: 800px) {
+  .grid.cols-3, .grid.cols-2 { display:flex; flex-direction:column; }
+  .grid.cols-3 > *, .grid.cols-2 > * { flex:1 1 100%; }
+}
 
 .card {
   background: var(--card); border: 1px solid var(--border);
@@ -142,3 +146,8 @@ article.prose th, article.prose td { border: 1px solid var(--border); padding: 8
 .page-link{display:inline-block;padding:8px 14px;border:1px solid var(--border,#ddd);border-radius:8px;color:var(--text,#333);text-decoration:none;font-size:.95rem;transition:all .15s}
 .page-link:hover{border-color:var(--accent,#667eea);color:var(--accent,#667eea)}
 .page-link.active{background:var(--accent,#667eea);border-color:var(--accent,#667eea);color:#fff;font-weight:600}
+
+/* 分类标签 chips */
+.chip-row{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 22px}
+.chip{display:inline-flex;align-items:center;padding:6px 14px;border:1px solid var(--border,#e2e8f0);border-radius:999px;background:#fff;color:var(--text,#334155);font-size:.88rem;text-decoration:none;line-height:1.2;transition:all .15s}
+.chip:hover{border-color:var(--accent,#667eea);color:var(--accent,#667eea);background:#f8f9ff;transform:translateY(-1px)}

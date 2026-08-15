@@ -6,10 +6,11 @@ import { ui, catName } from '../i18n/ui';
 interface Props {
   lang: 'en' | 'zh';
   posts: any[];
+  cats?: any[];
   page?: { current: number; total: number; base: string; };
 }
 
-const { lang, posts, page } = Astro.props;
+const { lang, posts, cats = [], page } = Astro.props;
 const L = ui[lang];
 const prefix = lang === 'zh' ? '/zh' : '';
 const pg = page ?? { current: 1, total: 1, base: `${prefix}/blog/` };
@@ -25,7 +26,14 @@ const pageUrl = (n: number) => (n <= 1 ? `${pg.base}` : `${pg.base}${n}/`);
 >
   <section class="section">
     <h1 style="font-size:1.9rem">{L.blog_h1}</h1>
-    <p style="color:var(--muted)">{L.blog_sub(pg.total * 20 > posts.length ? posts.length : posts.length)}</p>
+    <p style="color:var(--muted)">{L.blog_sub(pg.total * 18 >= posts.length ? pg.total * 18 - (pg.total * 18 - posts.length) : posts.length)}</p>
+    {cats.length > 0 && (
+      <div class="chip-row">
+        {cats.map((c) => (
+          <a class="chip" href={`${prefix}/category/${c.id}/`}>{catName(lang, c.id, c.data.name)}</a>
+        ))}
+      </div>
+    )}
     <div class="grid cols-3">
       {posts.map((p) => (
         <article class="card">
