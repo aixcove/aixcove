@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+export const prerender = true;
+---
+
+<BaseLayout title="Search | AIX Cove" description="Search AI tools and articles on AIX Cove.">
+  <div class="pagefind-wrap">
+    <h1 style="font-size:1.9rem">Search</h1>
+    <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+    <div id="search"></div>
+    <script is:inline>
+      (function () {
+        var q = new URLSearchParams(location.search).get('q') || '';
+        import('/pagefind/pagefind-ui.js').then(function ({ PagefindUI }) {
+          var ui = new PagefindUI({
+            element: '#search',
+            showImages: true,
+            showSubResults: true,
+          });
+          if (q) ui.triggerSearch(q);
+        });
+      })();
+    </script>
+  </div>
+</BaseLayout>

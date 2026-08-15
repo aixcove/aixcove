@@ -1,0 +1,53 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  // WP 静态页面（contact/privacy/terms）原来也在根路径，保持不变以保全 SEO
+  const wpPages = (await getCollection('pages')).filter((p) => p.id !== 'home');
+  return [
+    ...posts.map((p) => ({ params: { slug: p.id }, props: { post: p, wpPage: undefined } })),
+    ...wpPages.map((p) => ({ params: { slug: p.id }, props: { post: undefined, wpPage: p } })),
+  ];
+}
+
+const { post, wpPage } = Astro.props;
+---
+
+<BaseLayout
+  title={post ? `${post.data.title} | AIX Cove` : `${wpPage.data.title} | AIX Cove`}
+  description={post?.data.description || undefined}
+  image={post?.data.featured || undefined}
+>
+  {post ? (
+    <article class="prose">
+      <h1>{post.data.title}</h1>
+      <div class="meta">
+        <time datetime={post.data.date}>{post.data.date.slice(0, 10)}</time>
+        {post.data.categories.length > 0 && (
+          <span> · {post.data.categories.map((c) => <a href={`/category/${c}/`}>{c.replace(/-/g, ' ')}</a>).join(', ')}</span>
+        )}
+      </div>
+      {post.data.featured && <img class="hero-img" src={post.data.featured} alt={post.data.title} width="1200" height="630" />}
+      <div class="content" set:html={post.body} />
+      <script type="application/ld+json" set:html={JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: post.data.title,
+        description: post.data.description,
+        datePublished: post.data.date,
+        dateModified: post.data.modified || post.data.date,
+        image: post.data.featured ? new URL(post.data.featured, Astro.site).toString() : undefined,
+        mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).toString(),
+      })} />
+    </article>
+  ) : (
+    <article class="prose">
+      <h1>{wpPage.data.title}</h1>
+      <div class="content" set:html={wpPage.body} />
+    </article>
+  )}
+</BaseLayout>

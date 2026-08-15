@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export const prerender = true;
+
+const posts = (await getCollection('posts')).sort((a, b) => b.data.date.localeCompare(a.data.date));
+---
+
+<BaseLayout title="Blog | AIX Cove" description="AI tool reviews, comparisons, and practical guides.">
+  <section class="section">
+    <h1 style="font-size:1.9rem">Blog</h1>
+    <p style="color:var(--muted)">{posts.length} articles on AI tools, workflows, and industry trends.</p>
+    <div class="grid cols-3">
+      {posts.map((p) => (
+        <article class="card">
+          {p.data.featured && <a href={`/${p.id}/`}><img class="thumb" src={p.data.featured} alt={p.data.title} loading="lazy" /></a>}
+          <div class="body">
+            <h3><a href={`/${p.id}/`}>{p.data.title}</a></h3>
+            <p>{(p.data.description || '').slice(0, 130)}…</p>
+            <div class="badges">
+              <span class="badge">{p.data.date.slice(0, 10)}</span>
+              {p.data.categories.slice(0, 1).map((c) => <span class="badge">{c.replace(/-/g, ' ')}</span>)}
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

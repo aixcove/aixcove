@@ -1,0 +1,59 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  image?: string;
+}
+
+const { title, description = 'AIX Cove — Discover the best AI tools, curated and reviewed. AI agents, coding assistants, image generators, and more.', image } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+
+let jsonLd: string | undefined;
+const ld = Astro.props; // reserved for future per-page schema
+export const prerender = true;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {image && <meta property="og:image" content={new URL(image, Astro.site)} />}
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate" type="application/rss+xml" title="AIX Cove" href="/rss.xml" />
+    <slot name="head" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container inner">
+        <a href="/" class="site-logo">AIX<span>Cove</span></a>
+        <nav class="site-nav">
+          <a href="/listings/">AI Tools</a>
+          <a href="/blog/">Blog</a>
+          <a href="/search/">Search</a>
+          <a href="/contact-us/">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="container inner">
+        <div>© {new Date().getFullYear()} AIX Cove · AI tools directory &amp; reviews</div>
+        <div>
+          <a href="/privacy-policy/">Privacy</a> · <a href="/terms-of-use/">Terms</a> · <a href="/contact-us/">Contact</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
