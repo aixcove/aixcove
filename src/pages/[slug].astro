@@ -41,6 +41,16 @@ const { post, wpPage } = Astro.props;
         datePublished: post.data.date,
         dateModified: post.data.modified || post.data.date,
         image: post.data.featured ? new URL(post.data.featured, Astro.site).toString() : undefined,
+        author: {
+          '@type': 'Organization',
+          name: 'AIX Cove',
+          url: new URL('/', Astro.site).toString(),
+        },
+        publisher: {
+          '@type': 'Organization',
+          name: 'AIX Cove',
+          url: new URL('/', Astro.site).toString(),
+        },
         mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).toString(),
       })} />
     </article>

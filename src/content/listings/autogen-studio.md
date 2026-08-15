@@ -11,7 +11,7 @@ wpId: 649
 ---
 
 
-<h1 class="wp-block-heading">What Is AutoGen Studio?</h1>
+<h2 class="wp-block-heading">What Is AutoGen Studio?</h2>
 
 
 
@@ -19,7 +19,7 @@ wpId: 649
 
 
 
-<h1 class="wp-block-heading">Key Features and Capabilities</h1>
+<h2 class="wp-block-heading">Key Features and Capabilities</h2>
 
 
 
@@ -53,7 +53,7 @@ wpId: 649
 
 
 
-<h1 class="wp-block-heading">Pricing Plans</h1>
+<h2 class="wp-block-heading">Pricing Plans</h2>
 
 
 
@@ -61,7 +61,7 @@ wpId: 649
 
 
 
-<h1 class="wp-block-heading">Who Should Use AutoGen Studio?</h1>
+<h2 class="wp-block-heading">Who Should Use AutoGen Studio?</h2>
 
 
 
@@ -69,7 +69,7 @@ wpId: 649
 
 
 
-<h1 class="wp-block-heading">AutoGen Studio vs LangGraph vs CrewAI</h1>
+<h2 class="wp-block-heading">AutoGen Studio vs LangGraph vs CrewAI</h2>
 
 
 

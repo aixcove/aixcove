@@ -28,6 +28,12 @@ const { item } = Astro.props;
       description: item.data.description,
       applicationCategory: 'AI Tool',
       image: item.data.featured ? new URL(item.data.featured, Astro.site).toString() : undefined,
+      url: new URL(Astro.url.pathname, Astro.site).toString(),
+      author: {
+        '@type': 'Organization',
+        name: 'AIX Cove',
+        url: new URL('/', Astro.site).toString(),
+      },
     })} />
   </article>
 </BaseLayout>

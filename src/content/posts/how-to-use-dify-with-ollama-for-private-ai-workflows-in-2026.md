@@ -10,7 +10,7 @@ featured: /wp-content/uploads/2026/05/dify-ollama-hero-4efb261c-00af-4485-ae9a-0
 wpId: 762
 ---
 
-<h1>How to Use Dify with Ollama for Private AI Workflows in 2026</h1>
+<h2>How to Use Dify with Ollama for Private AI Workflows in 2026</h2>
 <p>If you want to use Dify with Ollama, the short answer is this: self-host Dify, run Ollama on a machine Dify can reach, add the Ollama model provider inside Dify, then build your workflow around a local model that your hardware can actually handle. That setup makes sense when you want more control than a hosted AI builder gives you, but you do not want to wire every app flow from raw code.</p>
 <p>It also comes with real tradeoffs. Dify is not a tiny tool. Its <a href="https://docs.dify.ai/en/self-host/quick-start/docker-compose">official Docker Compose deployment</a> spins up a full stack, and the minimum documented requirement is 2 CPU cores and 4 GiB RAM. <a href="https://ollama.com/">Ollama</a> is free to run locally, and Dify’s self-hosted edition avoids a monthly SaaS bill for the platform itself, but your cost shifts to hardware, storage, maintenance, and model performance.</p>
 <h2>Who should actually use Dify with Ollama</h2>

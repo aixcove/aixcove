@@ -5,9 +5,10 @@ interface Props {
   title: string;
   description?: string;
   image?: string;
+  noindex?: boolean;
 }
 
-const { title, description = 'AIX Cove — Discover the best AI tools, curated and reviewed. AI agents, coding assistants, image generators, and more.', image } = Astro.props;
+const { title, description = 'AIX Cove — Discover the best AI tools, curated and reviewed. AI agents, coding assistants, image generators, and more.', image, noindex = false } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 
 let jsonLd: string | undefined;
@@ -22,11 +23,14 @@ export const prerender = true;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex,follow" />}
     <link rel="canonical" href={canonical} />
     {image && <meta property="og:image" content={new URL(image, Astro.site)} />}
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content="AIX Cove" />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="alternate" type="application/rss+xml" title="AIX Cove" href="/rss.xml" />

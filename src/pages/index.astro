@@ -12,9 +12,28 @@ const listCats = (await getCollection('listingCategories'))
 
 const latestPosts = posts.slice(0, 6);
 const latestListings = [...listings].sort((a, b) => b.data.date.localeCompare(a.data.date)).slice(0, 9);
+const siteUrl = new URL('/', Astro.site).toString();
+const orgSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'AIX Cove',
+  url: siteUrl,
+  description: 'AIX Cove — curated AI tools directory and reviews.',
+};
+const webSiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'AIX Cove',
+  url: siteUrl,
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: new URL('search/?q={search_term_string}', Astro.site).toString(),
+    'query-input': 'required name=search_term_string',
+  },
+};
 ---
 
-<BaseLayout title="AIX Cove — AI Tools Directory & Reviews">
+<BaseLayout title="AIX Cove — AI Tools Directory & Reviews" image="/wp-content/uploads/2026/04/cropped-banner-scaled-1.jpg">
   <section class="hero">
     <h1>Discover the Best AI Tools</h1>
     <p>Curated AI tools directory — agents, coding assistants, image & video generators, and productivity boosters. Hand-picked, honestly reviewed.</p>
@@ -67,4 +86,6 @@ const latestListings = [...listings].sort((a, b) => b.data.date.localeCompare(a.
     </div>
     <p style="text-align:center;margin-top:24px"><a class="more-link" href="/blog/">All articles →</a></p>
   </section>
+  <script type="application/ld+json" set:html={JSON.stringify(orgSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(webSiteSchema)} />
 </BaseLayout>

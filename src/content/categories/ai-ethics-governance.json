@@ -1,7 +1,7 @@
 {
- "id": 1,
- "name": "AI Ethics &amp; Governance",
- "slug": "ai-ethics-governance",
- "count": 3,
- "parent": 0
+  "id": 1,
+  "name": "AI Ethics & Governance",
+  "slug": "ai-ethics-governance",
+  "count": 3,
+  "parent": 0
 }
