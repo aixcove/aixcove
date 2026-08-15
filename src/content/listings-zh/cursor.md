@@ -8,7 +8,7 @@ categories:
 - ai-coding
 wpId: 202
 image: /uploads/2026/04/cursor.jpg
-featured: true
+featured: false
 ---
 <h2>什么是 Cursor？</h2>
 <p>Cursor 是一款基于 VS Code 构建的 AI 优先代码编辑器，将强大的 AI 能力直接集成到开发工作流中。它不需要开发者在 IDE 和独立的 AI 聊天工具之间来回切换，而是将智能代码补全、自然语言编辑和上下文感知建议直接嵌入到开发者编写代码的地方。它已迅速成为专业软件工程师中最受欢迎的 AI 编程工具之一。</p>

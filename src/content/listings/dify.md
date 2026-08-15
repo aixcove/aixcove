@@ -55,7 +55,7 @@ bodyZh: '<h2 class="wp-block-heading">什么是 Dify？</h2>
 titleZh: Dify
 descriptionZh: Dify是什么？Dify是一个开源平台，用于构建和运营AI应用程序、助手和工作流。它将提示管理、数据集、工具集成和应用程序部署结合到
 image: /uploads/2026/04/dify-4.jpg
-featured: true
+featured: false
 ---
 <h2 class="wp-block-heading">What Is Dify?</h2>
 

@@ -43,7 +43,7 @@ bodyZh: '<h2>什么是Midjourney？</h2>
 titleZh: Midjourney
 descriptionZh: 什么是Midjourney？Midjourney是一款由AI驱动的图像生成工具，能够根据文本描述创作出令人惊艳的视觉艺术作品。它以其独特的艺术风格和高品质的输出而闻名，
 image: /uploads/2026/04/midjourney-1.jpg
-featured: true
+featured: false
 ---
 <h2>What Is Midjourney?</h2>
 <p>Midjourney is an AI-powered image generation tool that creates stunning visual artwork from text descriptions. Known for its distinctive artistic aesthetic and high-quality output, Midjourney has become the go-to AI art generator for designers, artists, marketers, and creative professionals. Its latest versions produce photorealistic images, detailed illustrations, and conceptual art that rival professional human-created work.</p>

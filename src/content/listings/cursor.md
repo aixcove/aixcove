@@ -43,7 +43,7 @@ bodyZh: '<h2>什么是 Cursor？</h2>
 titleZh: Cursor
 descriptionZh: 什么是Cursor？Cursor是一个基于VS Code构建的AI优先代码编辑器，将强大的AI功能直接集成到开发工作流程中。而不是要求开发者切换
 image: /uploads/2026/04/cursor.jpg
-featured: true
+featured: false
 ---
 <h2>What Is Cursor?</h2>
 <p>Cursor is an AI-first code editor built on top of VS Code that integrates powerful AI capabilities directly into the development workflow. Rather than requiring developers to switch between an IDE and a separate AI chat tool, Cursor embeds intelligent code completion, natural language editing, and context-aware suggestions right where developers write code. It has quickly become one of the most popular AI coding tools among professional software engineers.</p>

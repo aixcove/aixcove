@@ -8,7 +8,7 @@ categories:
 - llm-chat
 wpId: 199
 image: /uploads/2026/04/kimi.jpg
-featured: false
+featured: true
 ---
 <h2>Kimi是什么？</h2>
 <p>Kimi是Moonshot AI推出的AI助手，以长文本阅读、中文及多语言能力见长，同时支持通用对话。适合需要文档理解、研究辅助、内容总结以及日常AI帮助的用户。</p>

@@ -45,7 +45,7 @@ bodyZh: '<h2>什么是Runway？</h2>
 titleZh: Runway
 descriptionZh: Runway是什么？Runway是一个领先的AI驱动创意套件，它使电影制作人、设计师和内容创作者能够使用人工智能生成和编辑视频、图像和音频。了解
 image: /uploads/2026/04/runway-1.jpg
-featured: true
+featured: false
 ---
 <h2>What Is Runway?</h2>
 <p>Runway is a leading AI-powered creative suite that enables filmmakers, designers, and content creators to generate and edit video, images, and audio using artificial intelligence. Known for its groundbreaking Gen-3 video generation model, Runway makes professional-grade creative tools accessible to everyone. From text-to-video generation to AI-powered editing features, it has become the standard tool for AI-assisted visual content creation.</p>

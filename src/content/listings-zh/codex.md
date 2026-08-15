@@ -8,7 +8,7 @@ categories:
 - ai-coding
 wpId: 200
 image: /uploads/2026/04/codex.jpg
-featured: false
+featured: true
 ---
 <h2>什么是 Codex？</h2>
 <p>Codex 是 OpenAI 推出的智能体 AI 编程工具，可在沙盒云环境中自主运行。给定自然语言任务描述后，Codex 能独立完成规划、编写、测试和提交代码变更。它会为你的代码仓库启动一个隔离容器，执行命令、安装依赖、运行测试，并生成完整的拉取请求——全程无需逐步人工指导。</p>

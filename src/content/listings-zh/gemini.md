@@ -8,7 +8,7 @@ categories:
 - llm-chat
 wpId: 186
 image: /uploads/2026/04/gemini.jpg
-featured: true
+featured: false
 ---
 <h2>什么是 Google Gemini？</h2>
 <p>Gemini 是 Google 的旗舰 AI 模型系列，设计上原生支持多模态——这意味着它可以在单个对话中理解和生成文本、图像、音频和视频。Gemini 深度集成于 Google 的生态系统，包括搜索、Workspace 和 Android，代表了 Google 最强大的 AI 技术，是下一代 AI 应用的基础。</p>

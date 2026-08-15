@@ -8,7 +8,7 @@ categories:
 - ai-coding
 wpId: 278
 image: /uploads/2026/04/github_copilot.jpg
-featured: true
+featured: false
 ---
 <h2>什么是 GitHub Copilot？</h2>
 <p>GitHub Copilot 是由 GitHub 和 OpenAI 开发的 AI 代码补全工具，可直接集成到主流代码编辑器和 IDE 中。Copilot 基于数十亿行公共代码训练，能够建议完整函数、编写样板代码，并帮助开发者更快实现功能。作为最早且应用最广泛的 AI 编程助手之一，它从根本上改变了开发者编写软件的方式。</p>

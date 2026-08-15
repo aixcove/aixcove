@@ -45,7 +45,7 @@ bodyZh: '<h2>什么是 Codex？</h2>
 titleZh: Codex
 descriptionZh: 什么是Codex？Codex是OpenAI的代理式AI编程工具，它在沙盒云环境中自主运行。给定自然语言任务描述，Codex可以独立规划、编写
 image: /uploads/2026/04/codex.jpg
-featured: false
+featured: true
 ---
 <h2>What Is Codex?</h2>
 <p>Codex is OpenAI&#8217;s agentic AI coding tool that operates autonomously in a sandboxed cloud environment. Given a natural language task description, Codex can independently plan, write, test, and submit code changes. It spins up an isolated container with your repository, executes commands, installs dependencies, runs tests, and produces a complete pull request — all without requiring step-by-step human guidance.</p>

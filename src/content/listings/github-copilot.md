@@ -43,7 +43,7 @@ bodyZh: '<h2>什么是 GitHub Copilot？</h2>
 titleZh: GitHub Copilot
 descriptionZh: 什么是 GitHub Copilot？GitHub Copilot 是一个由人工智能驱动的代码补全工具，由 GitHub 和 OpenAI 开发，可以直接集成到流行的代码编辑器和 IDE 中。在数十亿行代码上训练
 image: /uploads/2026/04/github_copilot.jpg
-featured: true
+featured: false
 ---
 <h2>What Is GitHub Copilot?</h2>
 <p>GitHub Copilot is an AI-powered code completion tool developed by GitHub and OpenAI that integrates directly into popular code editors and IDEs. Trained on billions of lines of public code, Copilot suggests entire functions, writes boilerplate code, and helps developers implement features faster. As one of the earliest and most widely adopted AI coding assistants, it has fundamentally changed how developers write software.</p>

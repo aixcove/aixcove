@@ -8,7 +8,7 @@ categories:
 - ai-agents
 wpId: 548
 image: /uploads/2026/04/hermes-agent.jpg
-featured: false
+featured: true
 ---
 <h2>Hermes Agent 是什么？</h2>
 <p>Hermes Agent 是由 Nous Research 开发的开源、自我改进型 AI 代理。它内置原生学习循环，能够自主从经验中创建、优化和复用技能，同时保持跨会话的持久记忆。Hermes Agent 支持 40 多种内置工具，包括网络搜索、文件操作、终端控制和多模态任务，并统一了 Telegram、Discord、Slack、WhatsApp、电子邮件和 CLI 接口的访问方式。</p>
