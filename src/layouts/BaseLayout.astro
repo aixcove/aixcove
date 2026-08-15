@@ -49,6 +49,12 @@ const alt = altUrl ? new URL(altUrl, Astro.site) : undefined;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="alternate" type="application/rss+xml" title="AIX Cove" href="/rss.xml" />
     <slot name="head" />
+    <script is:inline>
+      (function () {
+        var t = localStorage.getItem('aix-theme');
+        if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+      })();
+    </script>
   </head>
   <body>
     <header class="site-header">
@@ -65,11 +71,32 @@ const alt = altUrl ? new URL(altUrl, Astro.site) : undefined;
             {L.switch_label}
           </a>
         )}
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark / light mode" title="Toggle dark / light mode">
+          <span class="icon-moon">🌙</span><span class="icon-sun">☀️</span>
+        </button>
       </div>
     </header>
     <main class="container">
       <slot />
     </main>
+    <script is:inline>
+      (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        function sync() {
+          var light = document.documentElement.getAttribute('data-theme') === 'light';
+          document.documentElement.classList.toggle('light-mode', light);
+        }
+        btn.addEventListener('click', function () {
+          var el = document.documentElement;
+          var light = el.getAttribute('data-theme') === 'light';
+          if (light) { el.removeAttribute('data-theme'); localStorage.setItem('aix-theme','dark'); }
+          else { el.setAttribute('data-theme','light'); localStorage.setItem('aix-theme','light'); }
+          sync();
+        });
+        sync();
+      })();
+    </script>
     <footer class="site-footer">
       <div class="container inner">
         <div>© {new Date().getFullYear()} AIX Cove · {L.footer_tag}</div>
