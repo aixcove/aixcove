@@ -1,6 +1,7 @@
 ---
 // 工具详情视图（en/zh 共用）
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { localeUrl } from '../i18n/utils';
 import { ui, catName } from '../i18n/ui';
 
 interface Props {
@@ -9,7 +10,7 @@ interface Props {
 }
 const { lang, item } = Astro.props;
 const L = ui[lang];
-const prefix = lang === 'zh' ? '/zh' : '';
+const prefix = localeUrl(lang, '');
 const title = lang === 'zh' && item.data.titleZh ? item.data.titleZh : item.data.title;
 const description = lang === 'zh' && item.data.descriptionZh ? item.data.descriptionZh : item.data.description;
 const bodyZh = lang === 'zh' && item.data.bodyZh ? item.data.bodyZh : item.body;

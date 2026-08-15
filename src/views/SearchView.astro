@@ -1,6 +1,7 @@
 ---
 // 搜索视图（en/zh 共用）
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { localeUrl } from '../i18n/utils';
 import { ui } from '../i18n/ui';
 
 interface Props {
@@ -10,7 +11,7 @@ const { lang } = Astro.props;
 const L = ui[lang];
 ---
 
-<BaseLayout title={L.search_title} description={L.search_desc} noindex lang={lang} altUrl={lang === 'zh' ? '/search/' : '/zh/search/'}>
+<BaseLayout title={L.search_title} description={L.search_desc} noindex lang={lang} altUrl={localeUrl(lang, '/search/')}>
   <div class="pagefind-wrap">
     <h1 style="font-size:1.9rem">{L.nav_search}</h1>
     <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />

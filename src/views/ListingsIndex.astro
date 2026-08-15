@@ -1,6 +1,7 @@
 ---
 // 工具目录视图（en/zh 共用，支持分页）
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { localeUrl } from '../i18n/utils';
 import { ui, catName } from '../i18n/ui';
 
 interface Props {
@@ -12,7 +13,7 @@ interface Props {
 
 const { lang, listings, cats, page } = Astro.props;
 const L = ui[lang];
-const prefix = lang === 'zh' ? '/zh' : '';
+const prefix = localeUrl(lang, '');
 const pg = page ?? { current: 1, total: 1, base: `${prefix}/listings/` };
 
 const pageUrl = (n: number) => (n <= 1 ? `${pg.base}` : `${pg.base}${n}/`);
@@ -22,7 +23,7 @@ const pageUrl = (n: number) => (n <= 1 ? `${pg.base}` : `${pg.base}${n}/`);
   title={pg.current > 1 ? `${L.tools_h1} - ${lang === 'zh' ? `第${pg.current}页` : `Page ${pg.current}`} | AIX Cove` : `${L.tools_h1} | AIX Cove`}
   description={L.tools_sub(listings.length)}
   lang={lang}
-  altUrl={lang === 'zh' ? '/listings/' : '/zh/listings/'}
+  altUrl={localeUrl(lang, '/listings/')}
 >
   <section class="section">
     <h1 style="font-size:1.9rem">{L.tools_h1}</h1>

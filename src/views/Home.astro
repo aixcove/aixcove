@@ -1,6 +1,7 @@
 ---
 // 首页视图（en/zh 共用）
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { localeUrl } from '../i18n/utils';
 import { ui, catName } from '../i18n/ui';
 
 interface Props {
@@ -11,10 +12,10 @@ interface Props {
 }
 const { lang, posts, listings, listCats } = Astro.props;
 const L = ui[lang];
-const prefix = lang === 'zh' ? '/zh' : '';
+const prefix = localeUrl(lang, '');
 const latestPosts = posts.slice(0, 6);
 const latestListings = [...listings].sort((a, b) => b.data.date.localeCompare(a.data.date)).slice(0, 9);
-const siteUrl = new URL(prefix + '/', Astro.site).toString();
+const siteUrl = new URL(prefix, Astro.site).toString();
 const orgSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
@@ -32,11 +33,11 @@ const webSiteSchema = {
   inLanguage: lang === 'zh' ? 'zh-CN' : 'en',
   potentialAction: {
     '@type': 'SearchAction',
-    target: new URL(`search/?q={search_term_string}`, new URL(prefix + '/', Astro.site)).toString(),
+    target: new URL(`search/?q={search_term_string}`, new URL(prefix, Astro.site)).toString(),
     'query-input': 'required name=search_term_string',
   },
 };
-const altUrl = lang === 'zh' ? '/' : '/zh/';
+const altUrl = localeUrl(lang, '/');
 ---
 
 <BaseLayout

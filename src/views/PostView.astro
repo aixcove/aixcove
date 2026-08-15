@@ -1,6 +1,7 @@
 ---
 // 文章详情视图（en/zh 共用）— zh 版暂用英文正文+中文 meta（后续翻译）
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { localeUrl } from '../i18n/utils';
 import { ui, catName } from '../i18n/ui';
 
 interface Props {
@@ -9,7 +10,7 @@ interface Props {
 }
 const { lang, post } = Astro.props;
 const L = ui[lang];
-const prefix = lang === 'zh' ? '/zh' : '';
+const prefix = localeUrl(lang, '');
 const title = lang === 'zh' && post.data.titleZh ? post.data.titleZh : post.data.title;
 const description = lang === 'zh' && post.data.descriptionZh ? post.data.descriptionZh : post.data.description;
 ---

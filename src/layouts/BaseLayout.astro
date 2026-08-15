@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import { localeUrl } from '../i18n/utils';
 import { ui } from '../i18n/ui';
 
 interface Props {
@@ -59,11 +60,11 @@ const alt = altUrl ? new URL(altUrl, Astro.site) : undefined;
   <body>
     <header class="site-header">
       <div class="container inner">
-        <a href={lang === 'zh' ? '/zh/' : '/'} class="site-logo">AIX<span>Cove</span></a>
+        <a href={localeUrl(lang, '/')} class="site-logo">AIX<span>Cove</span></a>
         <nav class="site-nav" id="site-nav">
-          <a href={lang === 'zh' ? '/zh/listings/' : '/listings/'}>{L.nav_tools}</a>
-          <a href={lang === 'zh' ? '/zh/blog/' : '/blog/'}>{L.nav_blog}</a>
-          <a href={lang === 'zh' ? '/zh/search/' : '/search/'}>{L.nav_search}</a>
+          <a href={localeUrl(lang, '/listings/')}>{L.nav_tools}</a>
+          <a href={localeUrl(lang, '/blog/')}>{L.nav_blog}</a>
+          <a href={localeUrl(lang, '/search/')}>{L.nav_search}</a>
           <a href="/contact-us/">{L.nav_contact}</a>
         </nav>
         <div class="header-actions">

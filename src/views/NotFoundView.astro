@@ -1,6 +1,7 @@
 ---
 // 404 视图（en/zh 共用）
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { localeUrl } from '../i18n/utils';
 import { ui } from '../i18n/ui';
 
 interface Props {
@@ -8,7 +9,7 @@ interface Props {
 }
 const { lang } = Astro.props;
 const L = ui[lang];
-const prefix = lang === 'zh' ? '/zh' : '';
+const prefix = localeUrl(lang, '');
 ---
 
 <BaseLayout title={lang === 'zh' ? '页面不存在 | AIX Cove' : 'Page Not Found | AIX Cove'} lang={lang}>

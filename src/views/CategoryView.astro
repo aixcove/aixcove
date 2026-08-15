@@ -1,6 +1,7 @@
 ---
 // 分类列表视图（posts category / listing category 共用）
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { localeUrl } from '../i18n/utils';
 import { ui, catName } from '../i18n/ui';
 
 interface Props {
@@ -12,7 +13,7 @@ interface Props {
 }
 const { lang, kind, catId, catNameEn, items } = Astro.props;
 const L = ui[lang];
-const prefix = lang === 'zh' ? '/zh' : '';
+const prefix = localeUrl(lang, '');
 const cname = catName(lang, catId, catNameEn);
 const isPosts = kind === 'posts';
 const altUrl = lang === 'zh'
