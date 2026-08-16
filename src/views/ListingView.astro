@@ -11,7 +11,6 @@ interface Props {
 }
 const { lang, item } = Astro.props;
 const L = ui[lang];
-const prefix = localeUrl(lang, '');
 const title = item.data.title;
 const description = item.data.description;
 const breadcrumbCat = item.data.categories[0] ? catName(lang, item.data.categories[0], item.data.categories[0]) : '';
@@ -26,7 +25,7 @@ const { Content } = await render(item);
   altUrl={lang === 'zh' ? `/listing/${item.id}/` : `/zh/listing/${item.id}/`}
 >
   <article class="prose">
-    <div class="breadcrumb"><a href={`${prefix}/listings/`}>{L.nav_tools}</a> / {breadcrumbCat}</div>
+    <div class="breadcrumb"><a href={localeUrl(lang, '/listings/')}>{L.nav_tools}</a> / {breadcrumbCat}</div>
     <h1>{title}</h1>
     <div class="meta">
       <span>{L.reviewed_by}</span>
@@ -35,7 +34,7 @@ const { Content } = await render(item);
     {item.data.image && <img class="hero-img" src={item.data.image} alt={title} width="1200" height="630" />}
     {item.data.featured && <span class="featured-badge">{lang === 'zh' ? '精选工具' : 'Featured tool'}</span>}
     <div class="badges">
-      {item.data.categories.map((c) => <a class="badge" href={`${prefix}/listing-category/${c}/`}>{catName(lang, c, c)}</a>)}
+      {item.data.categories.map((c) => <a class="badge" href={localeUrl(lang, `/listing-category/${c}/`)}>{catName(lang, c, c)}</a>)}
     </div>
     <div class="content" style="margin-top:20px"><Content /></div>
     <script type="application/ld+json" set:html={JSON.stringify({

@@ -9,10 +9,8 @@ export type Lang = keyof typeof languages;
 
 export const defaultLang = 'en';
 
-/** Official helper wrapper: locale-aware URL (/blog/ or /zh/blog/) */
+/** Thin wrapper around Astro's official locale URL helper. */
 export function localeUrl(lang: Lang, path: string): string {
-  // Views use an empty path as a concatenation prefix. It must not add a second slash.
-  if (path === '') return lang === 'zh' ? '/zh' : '';
-  const clean = path === '/' ? '' : path.replace(/\/+$/, '');
+  const clean = path === '/' ? '' : path.replace(/^\/+|\/+$/g, '');
   return getRelativeLocaleUrl(lang, clean);
 }

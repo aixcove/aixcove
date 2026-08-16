@@ -13,8 +13,7 @@ interface Props {
 
 const { lang, listings, cats, page } = Astro.props;
 const L = ui[lang];
-const prefix = localeUrl(lang, '');
-const pg = page ?? { current: 1, total: 1, base: `${prefix}/listings/` };
+const pg = page ?? { current: 1, total: 1, base: localeUrl(lang, '/listings/') };
 
 const pageUrl = (n: number) => (n <= 1 ? `${pg.base}` : `${pg.base}${n}/`);
 ---
@@ -31,7 +30,7 @@ const pageUrl = (n: number) => (n <= 1 ? `${pg.base}` : `${pg.base}${n}/`);
     {cats.length > 0 && (
       <div class="chip-row">
         {cats.map((c) => (
-          <a class="chip" href={`${prefix}/listing-category/${c.data.slug}/`}>{catName(lang, c.data.slug, c.data.name)}</a>
+          <a class="chip" href={localeUrl(lang, `/listing-category/${c.data.slug}/`)}>{catName(lang, c.data.slug, c.data.name)}</a>
         ))}
       </div>
     )}
@@ -39,9 +38,9 @@ const pageUrl = (n: number) => (n <= 1 ? `${pg.base}` : `${pg.base}${n}/`);
       {listings.map((l) => (
         <article class:list={['card', { 'is-featured': l.data.featured }]}>
           {l.data.featured && <span class="featured-badge">{lang === 'zh' ? '精选工具' : 'Featured tool'}</span>}
-          {l.data.image && <a href={`${prefix}/listing/${l.id}/`}><img class="thumb" src={l.data.image} alt={l.data.title} loading="lazy" /></a>}
+          {l.data.image && <a href={localeUrl(lang, `/listing/${l.id}/`)}><img class="thumb" src={l.data.image} alt={l.data.title} loading="lazy" /></a>}
           <div class="body">
-            <h3><a href={`${prefix}/listing/${l.id}/`}>{l.data.title}</a></h3>
+            <h3><a href={localeUrl(lang, `/listing/${l.id}/`)}>{l.data.title}</a></h3>
             <p>{l.data.description.slice(0, 130)}…</p>
           </div>
         </article>

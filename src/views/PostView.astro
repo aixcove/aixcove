@@ -11,7 +11,6 @@ interface Props {
 }
 const { lang, post } = Astro.props;
 const L = ui[lang];
-const prefix = localeUrl(lang, '');
 const title = post.data.title;
 const description = post.data.description;
 const { Content } = await render(post);
@@ -24,7 +23,7 @@ const { Content } = await render(post);
       <time datetime={post.data.date}>{post.data.date.slice(0, 10)}</time>
       <span> · {L.by_author}</span>
       {post.data.categories.length > 0 && (
-        <span> · {post.data.categories.map((c) => <a href={`${prefix}/category/${c}/`}>{catName(lang, c, c)}</a>)}</span>
+        <span> · {post.data.categories.map((c) => <a href={localeUrl(lang, `/category/${c}/`)}>{catName(lang, c, c)}</a>)}</span>
       )}
     </div>
     {post.data.featured && <img class="hero-img" src={post.data.featured} alt={title} width="1200" height="630" />}

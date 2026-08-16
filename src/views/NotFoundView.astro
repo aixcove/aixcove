@@ -9,7 +9,6 @@ interface Props {
 }
 const { lang } = Astro.props;
 const L = ui[lang];
-const prefix = localeUrl(lang, '');
 ---
 
 <BaseLayout title={lang === 'zh' ? '页面不存在 | AIX Cove' : 'Page Not Found | AIX Cove'} lang={lang}>
@@ -17,7 +16,7 @@ const prefix = localeUrl(lang, '');
     <h1>{L.notfound_h1}</h1>
     <p>{L.notfound_p}</p>
     <p>
-      <a href={`${prefix}/`}>{L.notfound_back}</a> · <a href={`${prefix}/listings/`}>{L.notfound_tools}</a> · <a href={`${prefix}/search/`}>{L.nav_search}</a>
+      <a href={localeUrl(lang, '/')}>{L.notfound_back}</a> · <a href={localeUrl(lang, '/listings/')}>{L.notfound_tools}</a> · <a href={localeUrl(lang, '/search/')}>{L.nav_search}</a>
     </p>
   </section>
 </BaseLayout>

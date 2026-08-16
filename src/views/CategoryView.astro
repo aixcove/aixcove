@@ -13,7 +13,6 @@ interface Props {
 }
 const { lang, kind, catId, catNameEn, items } = Astro.props;
 const L = ui[lang];
-const prefix = localeUrl(lang, '');
 const cname = catName(lang, catId, catNameEn);
 const isPosts = kind === 'posts';
 const altUrl = lang === 'zh'
@@ -29,13 +28,13 @@ const altUrl = lang === 'zh'
 >
   <section class="section">
     <div class="breadcrumb">
-      <a href={`${prefix}${isPosts ? '/blog/' : '/listings/'}`}>{isPosts ? L.blog_h1 : L.nav_tools}</a> / {cname}
+      <a href={localeUrl(lang, isPosts ? '/blog/' : '/listings/')}>{isPosts ? L.blog_h1 : L.nav_tools}</a> / {cname}
     </div>
     <h1 style="font-size:1.9rem">{cname}</h1>
     <p style="color:var(--muted)">{isPosts ? L.articles_count(items.length) : L.tools_count(items.length)}</p>
     <div class="grid cols-3">
       {items.map((it) => {
-        const href = isPosts ? `${prefix}/${it.id}/` : `${prefix}/listing/${it.id}/`;
+        const href = isPosts ? localeUrl(lang, `/${it.id}/`) : localeUrl(lang, `/listing/${it.id}/`);
         const t = it.data.title;
         const d = it.data.description || '';
         const image = isPosts ? it.data.featured : it.data.image;

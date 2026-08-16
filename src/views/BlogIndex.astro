@@ -13,8 +13,7 @@ interface Props {
 
 const { lang, posts, cats = [], page } = Astro.props;
 const L = ui[lang];
-const prefix = localeUrl(lang, '');
-const pg = page ?? { current: 1, total: 1, base: `${prefix}/blog/` };
+const pg = page ?? { current: 1, total: 1, base: localeUrl(lang, '/blog/') };
 
 const pageUrl = (n: number) => (n <= 1 ? `${pg.base}` : `${pg.base}${n}/`);
 ---
@@ -31,16 +30,16 @@ const pageUrl = (n: number) => (n <= 1 ? `${pg.base}` : `${pg.base}${n}/`);
     {cats.length > 0 && (
       <div class="chip-row">
         {cats.map((c) => (
-          <a class="chip" href={`${prefix}/category/${c.id}/`}>{catName(lang, c.id, c.data.name)}</a>
+          <a class="chip" href={localeUrl(lang, `/category/${c.id}/`)}>{catName(lang, c.id, c.data.name)}</a>
         ))}
       </div>
     )}
     <div class="grid cols-3">
       {posts.map((p) => (
         <article class="card">
-          {p.data.featured && <a href={`${prefix}/${p.id}/`}><img class="thumb" src={p.data.featured} alt={p.data.title} loading="lazy" /></a>}
+          {p.data.featured && <a href={localeUrl(lang, `/${p.id}/`)}><img class="thumb" src={p.data.featured} alt={p.data.title} loading="lazy" /></a>}
           <div class="body">
-            <h3><a href={`${prefix}/${p.id}/`}>{p.data.title}</a></h3>
+            <h3><a href={localeUrl(lang, `/${p.id}/`)}>{p.data.title}</a></h3>
             <p>{(p.data.description || '').slice(0, 130)}…</p>
             <div class="badges">
               <span class="badge">{p.data.date.slice(0, 10)}</span>
