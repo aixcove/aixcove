@@ -11,6 +11,8 @@ export const defaultLang = 'en';
 
 /** Official helper wrapper: locale-aware URL (/blog/ or /zh/blog/) */
 export function localeUrl(lang: Lang, path: string): string {
+  // Views use an empty path as a concatenation prefix. It must not add a second slash.
+  if (path === '') return lang === 'zh' ? '/zh' : '';
   const clean = path === '/' ? '' : path.replace(/\/+$/, '');
   return getRelativeLocaleUrl(lang, clean);
 }
