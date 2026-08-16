@@ -182,7 +182,7 @@ html[data-theme="light"] .theme-toggle .icon-moon{display:none}
 /* 顶部导航布局 */
 .site-header .inner { gap: 12px; }
 .header-actions { margin-left: auto; display: flex; align-items: center; gap: 10px; flex-wrap: nowrap; }
-.site-nav { margin-left: 0; }
+.site-nav { margin-left: 20px; }
 .nav-toggle {
   display: none; margin: 0; padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px;
   background: var(--bg-soft); cursor: pointer; flex-direction: column; gap: 4px; align-items: center; justify-content: center;
