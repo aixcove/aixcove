@@ -1,15 +1,30 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import PostView from '../../views/PostView.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 
 export const prerender = true;
 
 export async function getStaticPaths() {
   const posts = await getCollection('postsZh');
-  return posts.map((p) => ({ params: { slug: p.id }, props: { post: p } }));
+  const pages = (await getCollection('pagesZh')).filter((p) => p.id !== 'home');
+  return [
+    ...posts.map((p) => ({ params: { slug: p.id }, props: { post: p, wpPage: undefined } })),
+    ...pages.map((p) => ({ params: { slug: p.id }, props: { post: undefined, wpPage: p } })),
+  ];
 }
 
-const { post } = Astro.props;
+const { post, wpPage } = Astro.props;
+const { Content } = wpPage ? await render(wpPage) : { Content: undefined };
 ---
 
-<PostView lang="zh" post={post} />
+{post ? (
+  <PostView lang="zh" post={post} />
+) : (
+  <BaseLayout lang="zh" title={`${wpPage.data.title} | AIX Cove`} altUrl={`/${wpPage.id}/`}>
+    <article class="prose">
+      <h1>{wpPage.data.title}</h1>
+      <div class="content"><Content /></div>
+    </article>
+  </BaseLayout>
+)}

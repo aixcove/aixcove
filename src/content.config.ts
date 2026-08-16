@@ -58,6 +58,16 @@ const pages = defineCollection({
   }),
 });
 
+const pagesZh = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/pages-zh' }),
+  schema: z.object({
+    title: z.string(),
+    date: z.string().optional(),
+    slug: z.string().optional(),
+    wpId: z.number().optional(),
+  }),
+});
+
 const categories = defineCollection({
   loader: glob({ pattern: '**/*.json', base: './src/content/categories' }),
   schema: z.object({
@@ -80,4 +90,4 @@ const listingCategories = defineCollection({
   }),
 });
 
-export const collections = { posts, postsZh, listings, listingsZh, pages, categories, listingCategories };
+export const collections = { posts, postsZh, listings, listingsZh, pages, pagesZh, categories, listingCategories };

@@ -65,7 +65,7 @@ const alt = altUrl ? new URL(altUrl, Astro.site) : undefined;
           <a href={localeUrl(lang, '/listings/')}>{L.nav_tools}</a>
           <a href={localeUrl(lang, '/blog/')}>{L.nav_blog}</a>
           <a href={localeUrl(lang, '/search/')}>{L.nav_search}</a>
-          <a href="/contact-us/">{L.nav_contact}</a>
+          <a href={localeUrl(lang, '/contact-us/')}>{L.nav_contact}</a>
         </nav>
         <div class="header-actions">
           {altUrl && (
@@ -116,7 +116,7 @@ const alt = altUrl ? new URL(altUrl, Astro.site) : undefined;
       <div class="container inner">
         <div>© {new Date().getFullYear()} AIX Cove · {L.footer_tag}</div>
         <div>
-          <a href="/privacy-policy/">{L.footer_privacy}</a> · <a href="/terms-of-use/">{L.footer_terms}</a> · <a href="/contact-us/">{L.footer_contact}</a>
+          <a href="/privacy-policy/">{L.footer_privacy}</a> · <a href="/terms-of-use/">{L.footer_terms}</a> · <a href={localeUrl(lang, '/contact-us/')}>{L.footer_contact}</a>
         </div>
       </div>
     </footer>

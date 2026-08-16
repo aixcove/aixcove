@@ -8,13 +8,14 @@ export const prerender = true;
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
   const wpPages = (await getCollection('pages')).filter((p) => p.id !== 'home');
+  const pageZhIds = new Set((await getCollection('pagesZh')).map((p) => p.id));
   return [
-    ...posts.map((p) => ({ params: { slug: p.id }, props: { post: p, wpPage: undefined } })),
-    ...wpPages.map((p) => ({ params: { slug: p.id }, props: { post: undefined, wpPage: p } })),
+    ...posts.map((p) => ({ params: { slug: p.id }, props: { post: p, wpPage: undefined, hasZhPage: false } })),
+    ...wpPages.map((p) => ({ params: { slug: p.id }, props: { post: undefined, wpPage: p, hasZhPage: pageZhIds.has(p.id) } })),
   ];
 }
 
-const { post, wpPage } = Astro.props;
+const { post, wpPage, hasZhPage } = Astro.props;
 const entry = post ?? wpPage;
 const { Content } = await render(entry);
 ---
@@ -23,7 +24,7 @@ const { Content } = await render(entry);
   title={post ? `${post.data.title} | AIX Cove` : `${wpPage.data.title} | AIX Cove`}
   description={post?.data.description || undefined}
   image={post?.data.featured || undefined}
-  altUrl={post ? `/zh/${post.id}/` : undefined}
+  altUrl={post ? `/zh/${post.id}/` : hasZhPage ? `/zh/${wpPage.id}/` : undefined}
 >
   {post ? (
     <article class="prose">
