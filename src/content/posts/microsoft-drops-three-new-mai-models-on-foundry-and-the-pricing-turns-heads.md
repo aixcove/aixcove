@@ -8,33 +8,6 @@ categories:
 - ai-tools-reviews
 featured: /uploads/2026/04/blog-hero-5.jpg
 wpId: 514
-titleZh: "微软MAI模型上线Foundry，定价引关注"
-descriptionZh: "微软在Foundry平台发布三款自研AI模型，定价激进，竞争压力陡增。2026年4月8日推出MAI-Transcribe-1、MAI-V，功能与价格详情一览。"
-bodyZh: |
-  <p>微软刚刚在Microsoft Foundry上发布了三款自研AI模型，定价激进到让竞争对手坐不住。2026年4月8日，公司推出MAI-Transcribe-1、MAI-Voice-1和MAI-Image-2，覆盖语音识别、语音生成和图像创建。三款模型现已通过Microsoft Foundry和MAI Playground向美国用户开放。</p>
-  <p>这不是研究预览，也不是排队候补。开发者今天就能开始构建。</p>
-  <h2>语音识别在谷歌的主场击败谷歌</h2>
-  <p>MAI-Transcribe-1是三款中的佼佼者。微软用FLEURS基准在25种语言上做了测试，结果很明确：在11种核心语言中排名第一，在其余14种语言中超过OpenAI的Whisper-large-v3。它还在其中11种语言上优于Gemini 3.1 Flash。</p>
-  <p>这是个相当具体的说法，微软发布了模型卡来支撑这一结论。</p>
-  <p>模型能处理嘈杂的真实音频，这一点很关键，因为干净的录音环境是例外，不是常态。批量转录速度比微软现有的Azure Fast快2.5倍。每小时的音频处理价格为0.36美元，低于多数主流云服务商。</p>
-  <p>微软已把MAI-Transcribe-1整合进Copilot的语音模式和Microsoft Teams。如果你最近用过其中任何一个，可能已经在不知情的情况下和它打过交道。</p>
-  <p>对开发者来说，应用场景很广：字幕生成、播客转录、呼叫中心质检、法律取证、可搜索音频库、实时会议字幕。延迟低到能支撑实时应用，听写和隐藏式字幕都跑得动。</p>
-  <h2>语音生成带情绪变化</h2>
-  <p>MAI-Voice-1把文本转成自然语音。它和一堆TTS模型拉开差距的地方在于内置的情绪变化。模型能根据上下文调整语气、语速和重音，在较长音频段落中保持说话人身份一致。</p>
-  <p>有个数字很扎眼：MAI-Voice-1用一秒生成60秒音频。也就是60倍实时速度。</p><p>定价为每100万字符22美元。微软还在Foundry中新增了自定义语音创建功能，开发者可以用一段短音频样本构建特定语音。这一功能为品牌语音助手、有声书制作和游戏对话打开了大门。</p>
-  <p>将MAI-Transcribe-1与MAI-Voice-1以及一个LLM搭配使用，你就拥有了完整的语音代理栈。语音转文字、推理、文字转语音。微软显然在将这两个模型定位为配套组件。</p>
-  <h2>图像生成更快、更逼真</h2>
-  <p>MAI-Image-2已经在Copilot中投入生产。微软表示，根据实际生产流量数据（而非实验室基准），其速度至少是上一代的两倍。</p>
-  <p>该模型针对AI图像生成中的一个具体缺口：逼真的光照、准确的肤色，以及图像内可读的文字。任何尝试用AI生成图表或标志的人都知道文字问题。MAI-Image-2直接解决了这个问题。</p>
-  <p>Bing和PowerPoint中的部署正在进行中。文本输入定价为每100万token 5美元，图像输出为每100万token 33美元。</p>
-  <p>广告巨头WPP是早期客户。WPP全球首席创意官Rob Reilly表示，该模型回应了“生成真实、可投放广告的图像所需的纯粹工艺”。这是营销话术还是真心认可，取决于实际产出，但WPP在公告中署名本身就是一个信号。</p>
-  <h2>更大的布局：微软的全栈AI野心</h2>
-  <p>发布转录、语音和图像三个模型，看起来像是一次分散的发布。仔细看，模式就浮现了。微软正在内部构建AI栈的每一层：理解语音，用LLM推理，生成语音回复，创建配套视觉内容。</p>
-  <p>这种全栈方法很重要，因为它减少了对外部供应商的依赖。微软已向OpenAI投资数十亿美元，但依赖单一合作伙伴提供核心AI能力存在风险。这些MAI模型给了微软自己的基础。</p>
-  <p>定价策略是另一个信号。转录每小时0.36美元，语音生成每100万字符22美元，微软在定价上意在赢得规模。这些不是溢价费率。它们具有足够的竞争力，能把开发者从AWS和Google Cloud吸引过来。</p><p>这三款模型均在微软负责任AI流程下完成开发、测试和红队演练。Foundry客户可获得内置护栏与治理控制，这对面临合规要求的企业至关重要。</p>
-  <p>微软表示更多MAI模型即将推出。从今天的发布来看，公司不只是追赶，而是在试图设定竞争规则。</p>
-  <p>转录模型在谷歌自家地盘（语音识别）上击败谷歌基准测试，这类细节在开发者圈子里很受关注。加上激进定价以及Copilot和Teams中的生产部署，这次发布有实质内容支撑。</p>
-  <p>本周要在云AI供应商之间做选择的开发者，算盘得重新打了。</p>
 ---
 
 <p>Microsoft just dropped three new in-house AI models on Microsoft Foundry, and the pricing is aggressive enough to make competitors sweat. On April 8, 2026, the company released MAI-Transcribe-1, MAI-Voice-1, and MAI-Image-2, covering speech recognition, voice generation, and image creation. All three are available now through Microsoft Foundry and the MAI Playground for US users.</p>
