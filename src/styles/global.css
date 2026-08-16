@@ -108,13 +108,24 @@ article.prose .meta { color: var(--muted); font-size: .9rem; margin: 8px 0 24px;
 article.prose .hero-img { margin: 0 0 24px; }
 article.prose h2 { margin-top: 2em; font-size: 1.4rem; }
 article.prose h3 { margin-top: 1.6em; font-size: 1.15rem; }
-article.prose pre, article.prose code {
-  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-  background: var(--bg-soft); border-radius: 6px;
+article.prose pre, article.prose code, .listing-body pre, .listing-body code {
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-feature-settings: "calt" 1;
+  font-variant-ligatures: contextual;
 }
-article.prose code { padding: 2px 6px; font-size: .9em; }
-article.prose pre { padding: 16px; overflow-x: auto; }
-article.prose pre code { padding: 0; background: none; }
+article.prose code, .listing-body code {
+  padding: 2px 6px; font-size: .86em;
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+  border: 1px solid color-mix(in srgb, var(--border) 70%, transparent);
+  border-radius: 6px;
+}
+article.prose pre, .listing-body pre {
+  padding: 16px 18px; overflow-x: auto; border-radius: 10px;
+  background: color-mix(in srgb, var(--bg-soft) 92%, black);
+  border: 1px solid var(--border);
+  font-size: .88rem; line-height: 1.65;
+}
+article.prose pre code, .listing-body pre code { padding: 0; background: none; border: 0; font-size: 1em; }
 article.prose blockquote {
   border-left: 3px solid var(--accent); margin: 1.5em 0; padding: .5em 1.2em;
   color: var(--muted); background: var(--bg-soft); border-radius: 0 8px 8px 0;
