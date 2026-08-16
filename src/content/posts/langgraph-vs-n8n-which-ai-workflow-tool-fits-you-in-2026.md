@@ -1,5 +1,5 @@
 ---
-title: 'LangGraph vs n8n: Which AI Workflow Tool Fits You in 2026?'
+title: 'LangGraph vs n8n in 2026: Which One Should You Actually Build On?'
 date: '2026-05-09T09:12:01'
 modified: '2026-08-11T19:14:37'
 slug: langgraph-vs-n8n-which-ai-workflow-tool-fits-you-in-2026

@@ -1,5 +1,5 @@
 ---
-title: 'Flowise Review 2026: Pricing, Pros, Cons, and Best Use Cases'
+title: 'Flowise Review 2026: Is It Worth It? Pricing, Limits and Honest Pros and Cons'
 date: '2026-05-02T00:02:17'
 modified: '2026-08-11T19:14:43'
 slug: flowise-review-2026-pricing-pros-cons-and-best-use-cases
