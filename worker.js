@@ -7,6 +7,14 @@ const LEGACY_REDIRECTS = {
   '/best-dify-alternatives-in-2026-3/': '/best-dify-alternatives-in-2026/',
   '/best-n8n-alternatives-in-2026-6-picks-by-workflow-fit/': '/best-n8n-alternatives-for-ai-workflow-automation-in-2026/',
   '/best-n8n-alternatives-in-2026-7-picks-for-ai-workflows-and-self-hosting/': '/best-n8n-alternatives-for-ai-workflow-automation-in-2026/',
+  // 2026-08-19 Bing PageStats 审计补充 (旧 slug 变体 -> 现有 canonical)
+  '/anythingllm-review-2026-pricing-pros-cons-and-best-alternatives-2/': '/anythingllm-review-2026-pricing-pros-cons-and-best-alternatives/',
+  '/anythingllm-review-pricing-pros-cons-and-best-alternatives-2/': '/anythingllm-review-2026-pricing-pros-cons-and-best-alternatives/',
+  '/best-anythingllm-alternatives-in-2026-3/': '/best-anythingllm-alternatives-in-2026-2/',
+  '/best-anythingllm-alternatives-in-2026-6-picks-by-workflow-fit/': '/best-anythingllm-alternatives-in-2026-2/',
+  '/best-anythingllm-alternatives-in-2026/': '/best-anythingllm-alternatives-in-2026-2/',
+  '/best-dify-alternatives-in-2026-2/': '/best-dify-alternatives-in-2026/',
+  '/best-dify-alternatives-in-2026-6-picks-by-workflow-fit/': '/best-dify-alternatives-in-2026/',
 };
 
 export default {
