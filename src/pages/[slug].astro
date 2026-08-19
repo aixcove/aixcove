@@ -50,6 +50,19 @@ const { Content } = await render(entry);
         publisher: { '@type': 'Organization', name: 'AIX Cove', url: new URL('/', Astro.site).toString() },
         mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).toString(),
       })} />
+      <script type="application/ld+json" set:html={JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: new URL('/', Astro.site).toString() },
+          ...(post.data.categories.length > 0 ? [{
+            '@type': 'ListItem', position: 2,
+            name: catName('en', post.data.categories[0], post.data.categories[0]),
+            item: new URL(`/category/${post.data.categories[0]}/`, Astro.site).toString(),
+          }] : []),
+          { '@type': 'ListItem', position: post.data.categories.length > 0 ? 3 : 2, name: post.data.title, item: new URL(Astro.url.pathname, Astro.site).toString() },
+        ],
+      })} />
     </article>
   ) : (
     <article class="prose">
