@@ -15,6 +15,9 @@ export default defineConfig({
       defaultLocale: 'en',
       locales: { en: 'en', zh: 'zh-CN' },
     },
+    changefreq: 'weekly',
+    priority: 0.7,
+    lastmod: new Date(),
   }), indexnow({
     key: '35d48f77e19f633cd5ff531c0e851f35',
     submissionMode: 'changed',
