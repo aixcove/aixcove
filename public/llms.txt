@@ -1,0 +1,16 @@
+# AIXCove
+
+> AI tools directory with hands-on reviews: Claude Code, n8n, Flowise and other AI automation and coding tools — pricing, free tiers, pros/cons and alternatives. 中文版 /zh/.
+
+## Categories
+
+- [AI Tools Directory](https://aixcove.com/listings/): Browse all reviewed tools
+- [Claude Code Alternatives](https://aixcove.com/best-claude-code-alternatives-in-2026-7-practical-picks/): 7 practical picks compared
+- [OpenClaw vs n8n](https://aixcove.com/openclaw-vs-n8n-which-ai-automation-tool-should-you-use-in-2026/): Automation tool showdown
+- [Flowise Review](https://aixcove.com/flowise-review-2026-pricing-pros-cons-and-alternatives/): Pricing, pros, cons
+
+## Payment Guides
+
+- [Virtual credit cards for AI subscriptions](https://virtualcardx.com/en/): Pay for overseas AI tools from anywhere
+
+中文目录: https://aixcove.com/zh/listings/
