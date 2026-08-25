@@ -1,74 +1,37 @@
 ---
 title: 欧盟将ChatGPT列为监管目标：数字服务法对AI的影响
 date: '2026-04-12T18:23:41'
-modified: '2026-08-11T19:15:00'
+modified: '2026-08-25T12:40:00'
 slug: the-eu-just-put-chatgpt-in-its-crosshairs-heres-what-the-digital-services-act-crackdown-means-for-ai
-description: 4月11日，欧盟委员会确认正评估是否将OpenAI的ChatGPT依据《数字服务法》归类为超大型在线平台。
+description: 欧盟委员会确认 ChatGPT 与 Roblox 或被列为 DSA 超大型平台：10亿周活早已越过4500万门槛。VLOP 义务包、四个月合规窗口、以及"算不算搜索引擎"的定义难题，本文一次讲清。
 categories:
 - ai-trends-news
 featured: /uploads/2026/08/eu-chatgpt-dsa-featured.jpg
 wpId: 565
 ---
-<p class="wp-block-paragraph">4月11日星期五，欧盟委员会确认正在正式评估是否应将OpenAI的ChatGPT依据《数字服务法》归类为超大型在线平台。触发原因？ChatGPT报告其在欧盟的月活跃用户超过1.2亿，远高于触发最严格监管审查的4500万门槛。</p>
+<p>ChatGPT 正站在一部它此前一直躲开的法规的边缘。2026年7月30日，欧盟委员会发言人向路透社确认，ChatGPT 与 Roblox 都可能被纳入《数字服务法》（DSA）下的"超大型在线平台"（VLOP）名单——这是欧盟内容治理最严的一档，门槛是欧盟月活 4500 万以上。彭博援引匿名人士称指定程序已在准备中。到 8 月下旬又开了一条新战线：欧盟官员在评估 ChatGPT 的搜索功能是否也让它构成"超大型在线搜索引擎"（VLOSE）——一个法律上更棘手的问题，政策通讯 Table.Briefings 称之为一个正在成形的里程碑式裁决。</p>
 
+<h2>用户规模把问题逼上了台面</h2>
+<p>DSA 的 VLOP 门槛是欧盟月均用户 4500 万——这个门槛 ChatGPT 早就越过了。2025 年 10 月，Sam Altman 宣布 ChatGPT 周活达到 8 亿。The Information 2026 年 7 月 28 日援引内部数据报道其周活逼近 10 亿；7 月 31 日，WSJ 与 OpenAI 自己的《Building abundant intelligence》文章都确认了 10 亿用户里程碑；The Verge 8 月 11 日报道 ChatGPT 与 Gemini 双双突破 10 亿用户。即便只算欧盟份额，也远高于门槛——这就是为什么委员会的审查已经从"要不要管"进入了"怎么管"。</p>
 
-
-<h2 class="wp-block-heading">事件经过</h2>
-
-
-
-<p class="wp-block-paragraph">委员会发言人托马斯·雷尼耶表示，“OpenAI公布的ChatGPT用户数量超过了DSA规定的4500万指定门槛”，委员会“目前正在评估这一信息”。</p>
-
-
-
-<p class="wp-block-paragraph">德国《商报》最先报道称，ChatGPT将被归类为超大型搜索引擎，这将使其在DSA下承担更严格的合规、透明度和风险管理要求。这一监管框架已适用于谷歌、Meta和X等平台。</p>
-
-
-
-<h2 class="wp-block-heading">为何重要</h2>
-
-
-
-<p class="wp-block-paragraph">如果委员会正式将ChatGPT指定为VLOP，OpenAI将面临以下义务：</p>
-
-
-
-<ul class="wp-block-list">
-<li><strong>年度风险评估</strong>，针对其AI系统相关的系统性风险</li>
-<li><strong>独立审计</strong>，针对其内容审核和推荐算法</li>
-<li><strong>透明度报告</strong>，说明其模型如何呈现和排序信息</li>
-<li><strong>危机应对协议</strong>，在选举或公共卫生事件期间AI生成内容放大虚假信息时启动</li>
-<li><strong>研究人员访问权限</strong>，允许独立分析平台数据</li>
+<h2>VLOP 身份实际要求什么</h2>
+<p>DSA 最高档不是一套罚款机制，而是一整套义务包。被指定的平台必须：</p>
+<ul>
+<li>每年做独立的系统性内容风险评估，并接受外部审计；</li>
+<li>向监管机构和通过审核的研究者提供平台数据 API 访问；</li>
+<li>建立用户投诉系统和庭外争议解决机制；</li>
+<li>评估并缓解对未成年人的风险——对一款青少年重度使用的服务，这是最有牙齿的一条；</li>
+<li>发布审核透明度报告；对 ChatGPT 而言，大概率还要覆盖生成式回答如何呈现有问题的内容。</li>
 </ul>
+<p>目前的指定名单（共 26 个服务，委员会页面 2026 年 7 月 24 日更新）包括 X、TikTok、Facebook、Instagram、YouTube、Google 搜索、Bing、维基百科和 Amazon Store。值得注意的是 ChatGPT 尚未在列——指定仍在走流程，而这正是 7 月报道的核心内容。</p>
 
+<h2>悬而未决：ChatGPT 算搜索引擎吗</h2>
+<p>更有意思的法律难题是定性。ChatGPT 回答问题、引用来源、越来越像搜索的替代品——但它是生成式的、非确定性的、也不是作为网页索引构建的。DSA 按"功能"定义 VLOSE，欧盟监管者必须裁决一个 AI 对话界面是否算数。一旦说"是"，第二套义务随之而来，并为每个在欧盟运营的 AI 答案引擎——Perplexity、Gemini、Grok——立下先例。Table.Briefings 把 8 月的这场讨论定性为：欧盟面临一个影响远超单一产品的定义性决定。</p>
 
-
-<h2 class="wp-block-heading">更广泛的背景</h2>
-
-
-
-<p class="wp-block-paragraph">这是生成式AI产品——而非传统社交媒体或搜索平台——首次被纳入DSA最严格的监管层级。这开创了一个先例，可能重塑AI公司在欧洲的运营方式。</p><p class="wp-block-paragraph">这一举措也表明，欧盟监管机构不再将对话式AI仅视为一种工具，而是将其视为与搜索引擎和社交网络具有同等社会影响力的信息中介。ChatGPT在欧盟拥有1.2亿用户，影响着数百万人获取新闻、研究课题和形成观点的方式——在欧盟委员会看来，这使其成为一个需要承担公共责任平台。</p>
-
-
-
-<h2 class="wp-block-heading">OpenAI的回应</h2>
-
-
-
-<p class="wp-block-paragraph">OpenAI回应称，已“按照现有义务公布了ChatGPT搜索的月均活跃用户数”，并补充说该数字指的是过去六个月内的欧盟用户。该公司尚未对可能被指定为VLOP一事发表评论。</p>
-
-
-
-<h2 class="wp-block-heading">这对AI行业意味着什么</h2>
-
-
-
-<p class="wp-block-paragraph">对于正在构建面向消费者产品的AI公司来说，这是一个警钟。欧盟明确表示，规模带来责任——无论你的产品是社交信息流、搜索引擎还是聊天机器人。预计未来几个月，其他拥有大量欧洲用户基础的AI平台也将面临类似的审查。</p>
-
-
-
-<p class="wp-block-paragraph">指定过程可能需要数月时间。如果确认，OpenAI将有四个月时间全面遵守VLOP要求。不合规将面临最高达全球收入6%的罚款。</p>
-
-
-
-<p class="wp-block-paragraph"><em>更新于2026年4月13日。</em></p>
+<h2>对旁观者的三个要点</h2>
+<ul>
+<li><strong>布鲁塞尔按用户规模监管，不按产品类目。</strong>当一项 AI 服务达到 DSA 量级，"它只是个聊天机器人"就不再是抗辩理由。所有面向欧盟的消费者 AI 产品，现在就该开始建设风险评估与数据访问能力。</li>
+<li><strong>未成年人是最锋利的切点。</strong>Roblox 被纳入同一轮审查，说明委员会注意力所在：儿童安全、成瘾性设计、有害内容接触。ChatGPT 的青少年使用率让同一副眼镜同样适用。</li>
+<li><strong>时间窗口很短。</strong>被指定后，平台只有四个月时间满足完整义务包。如果指定在今年秋天落地，ChatGPT 的合规冲刺立刻开始。</li>
+</ul>
+<p>信息来源：路透社（2026-07-30）、彭博（2026-07-30）、The Information（2026-07-28）、WSJ（2026-07-31）、The Verge（2026-08-11）、欧盟委员会指定 VLOP 名单（2026-07-24 更新）、Table.Briefings（2026-08-24）。</p>

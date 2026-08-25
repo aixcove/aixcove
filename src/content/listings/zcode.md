@@ -3,7 +3,7 @@ title: ZCode
 date: '2026-06-19T04:20:52'
 modified: '2026-08-25T12:01:41'
 slug: zcode
-description: ZCode is Z.ai agentic dev environment tuned for GLM-5.3 — Goal Mode loops, browser self-verification, memory, subagents, MCP, Feishu/WeChat bots. Pricing and limits explained.
+description: "ZCode is Z.ai's GLM-5.3 coding environment with goal loops, browser verification, memory, subagents, MCP, Bot channels, and clear pricing limits."
 categories:
 - ai-coding
 wpId: 869
