@@ -9,6 +9,9 @@ categories:
 wpId: 259
 image: /uploads/2026/04/midjourney-1.jpg
 featured: false
+author: AIX Cove
+source: Official docs & pricing pages; hands-on testing where noted. Verified Aug 2026.
+reviewed: AIX Cove
 ---
 <h2>What Is Midjourney?</h2>
 <p>Midjourney is a paid image-generation service rather than a free tool. You describe an image in text, and it returns several stylised options you can vary, upscale, or edit by region. It is strongest for moodboards, concept art, editorial illustration, and open-ended visual exploration where many directions are welcome before you pick a final image.</p>

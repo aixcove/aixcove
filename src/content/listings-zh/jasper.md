@@ -9,6 +9,9 @@ categories:
 wpId: 250
 image: /uploads/2026/04/jasper-1.jpg
 featured: false
+author: AIX Cove 出品
+source: 官方文档与定价页、标注的实测。2026 年 8 月核实。
+reviewed: AIX Cove
 ---
 <h2>什么是Jasper？</h2>
 <p>Jasper是一款专为企业营销团队设计的人工智能营销副驾。它通过学习并保持所有输出内容中一致的品牌语调，帮助组织大规模创建符合品牌形象的内容。从博客文章、社交媒体内容到广告文案和邮件营销活动，Jasper提供理解营销语境的专业AI工具，生成符合品牌准则的内容。</p>

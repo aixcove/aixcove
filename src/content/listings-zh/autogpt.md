@@ -9,6 +9,9 @@ categories:
 wpId: 270
 image: /uploads/2026/04/autogpt-1.jpg
 featured: false
+author: AIX Cove 出品
+source: 官方文档与定价页、标注的实测。2026 年 8 月核实。
+reviewed: AIX Cove
 ---
 <h2>什么是 AutoGPT？</h2>
 <p>AutoGPT 是最早展示大模型能在没有人工一步步指挥的情况下、跨很多步骤去追一个目标的项目之一。它于 2023 年开源，把模型调用和工具使用连在一起：搜索网页、读写文件、运行代码，以及把笔记记进记忆。你给它一个目标，它会拆成子任务、逐一完成，然后循环，直到它觉得自己做完了。</p>

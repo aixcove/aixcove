@@ -32,12 +32,14 @@ const { Content } = await render(entry);
       <div class="meta">
         <time datetime={post.data.date}>{post.data.date.slice(0, 10)}</time>
         <span> · By AIX Cove</span>
+        <span> · Reviewed by AIX Cove</span>
         {post.data.categories.length > 0 && (
           <span> · {post.data.categories.map((c) => <a href={`/category/${c}/`}>{catName('en', c, c)}</a>)}</span>
         )}
       </div>
       {post.data.featured && <img class="hero-img" src={post.data.featured} alt={post.data.title} width="1200" height="630" />}
       <div class="content"><Content /></div>
+      <div class="source-note">Sources: official docs &amp; pricing pages, hands-on testing where noted, and community feedback. Prices verified August 2026 and may change.</div>
       <script type="application/ld+json" set:html={JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Article',
@@ -46,7 +48,7 @@ const { Content } = await render(entry);
         datePublished: post.data.date,
         dateModified: post.data.modified || post.data.date,
         image: post.data.featured ? new URL(post.data.featured, Astro.site).toString() : undefined,
-        author: { '@type': 'Organization', name: 'AIX Cove', url: new URL('/', Astro.site).toString() },
+        author: post.data.author ? { '@type': 'Person', name: post.data.author, url: new URL('/', Astro.site).toString() } : { '@type': 'Organization', name: 'AIX Cove', url: new URL('/', Astro.site).toString() },
         publisher: { '@type': 'Organization', name: 'AIX Cove', url: new URL('/', Astro.site).toString() },
         mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).toString(),
       })} />

@@ -9,6 +9,9 @@ categories:
 wpId: 274
 image: /uploads/2026/04/langchain-1.jpg
 featured: false
+author: AIX Cove 出品
+source: 官方文档与定价页、标注的实测。2026 年 8 月核实。
+reviewed: AIX Cove
 ---
 <h2>什么是 LangChain？</h2>
 <p>LangChain 是目前使用最广的开源框架，专门用来在大语言模型之上搭建应用。它位于你的产品和模型供应商之间，提供可复用的部件：提示词模板、工具调用、记忆、检索，以及智能体的执行循环。现在有两块内容归在同一屋檐下：一个是你自己运行的开源框架，另一个是 LangSmith，一个用于追踪、评估和部署智能体的托管平台。</p>

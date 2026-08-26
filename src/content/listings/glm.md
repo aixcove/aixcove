@@ -9,6 +9,9 @@ categories:
 wpId: 188
 image: /uploads/2026/04/glm.jpg
 featured: false
+author: AIX Cove
+source: Official docs & pricing pages; hands-on testing where noted. Verified Aug 2026.
+reviewed: AIX Cove
 ---
 <h2>What Is GLM?</h2>
 <p>GLM is the model family from Zhipu AI (Z.ai), built for Chinese-language tasks and available both as hosted chat and as open weights. GLM Coding is its coding-optimised release, aimed at developers who want strong code generation and agentic workflows. It is a practical choice for Chinese-language products and for coding work where a local or hosted open model fits.</p>

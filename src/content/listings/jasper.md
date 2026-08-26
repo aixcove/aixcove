@@ -9,6 +9,9 @@ categories:
 wpId: 250
 image: /uploads/2026/04/jasper-1.jpg
 featured: false
+author: AIX Cove
+source: Official docs & pricing pages; hands-on testing where noted. Verified Aug 2026.
+reviewed: AIX Cove
 ---
 <h2>What Is Jasper?</h2>
 <p>Jasper is a marketing-focused AI platform organised around brand voice, campaign creation, collaboration, templates, and chat. It helps a team turn a brief into first drafts for ads, email, social, web, and supporting assets while keeping approved language close at hand.</p>

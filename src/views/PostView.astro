@@ -21,13 +21,15 @@ const { Content } = await render(post);
     <h1>{title}</h1>
     <div class="meta">
       <time datetime={post.data.date}>{post.data.date.slice(0, 10)}</time>
-      <span> · {L.by_author}</span>
+      <span> · {post.data.author ? `By ${post.data.author}` : L.by_author}</span>
+      <span> · {L.reviewed_by}</span>
       {post.data.categories.length > 0 && (
         <span> · {post.data.categories.map((c) => <a href={localeUrl(lang, `/category/${c}/`)}>{catName(lang, c, c)}</a>)}</span>
       )}
     </div>
     {post.data.featured && <img class="hero-img" src={post.data.featured} alt={title} width="1200" height="630" />}
     <div class="content"><Content /></div>
+    <div class="source-note">{L.source_line}</div>
     <script type="application/ld+json" set:html={JSON.stringify({
       '@context': 'https://schema.org',
       '@type': 'Article',
@@ -37,7 +39,11 @@ const { Content } = await render(post);
       datePublished: post.data.date,
       dateModified: post.data.modified || post.data.date,
       image: post.data.featured ? new URL(post.data.featured, Astro.site).toString() : undefined,
-      author: {
+      author: post.data.author ? {
+        '@type': 'Person',
+        name: post.data.author,
+        url: new URL('/', Astro.site).toString(),
+      } : {
         '@type': 'Organization',
         name: 'AIX Cove',
         url: new URL('/', Astro.site).toString(),
@@ -47,6 +53,14 @@ const { Content } = await render(post);
         name: 'AIX Cove',
         url: new URL('/', Astro.site).toString(),
       },
+      mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).toString(),
+    })} />
+    <script type="application/ld+json" set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'Dataset',
+      name: title,
+      description: description,
+      inLanguage: lang === 'zh' ? 'zh-CN' : 'en',
       mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).toString(),
     })} />
     <script type="application/ld+json" set:html={JSON.stringify({

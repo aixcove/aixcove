@@ -9,6 +9,9 @@ categories:
 wpId: 256
 image: /uploads/2026/04/zapier.jpg
 featured: false
+author: AIX Cove 出品
+source: 官方文档与定价页、标注的实测。2026 年 8 月核实。
+reviewed: AIX Cove
 ---
 <h2>什么是 Zapier AI？</h2>
 <p>Zapier AI 是 Zapier 这个老牌工作流自动化平台里的 AI 层。它不只是连接应用的触发器和动作，还让你能用自然语言描述需求、用 AI 步骤转换数据，并添加基于你业务数据行动的聊天机器人和智能体。它建立在数千个应用集成之上，所以吸引力在于广加易上——一个不懂技术的运营也能搭出来，需要时又能塞进代码步骤。</p>

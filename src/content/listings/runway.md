@@ -9,6 +9,9 @@ categories:
 wpId: 260
 image: /uploads/2026/04/runway-1.jpg
 featured: false
+author: AIX Cove
+source: Official docs & pricing pages; hands-on testing where noted. Verified Aug 2026.
+reviewed: AIX Cove
 ---
 <h2>What Is Runway?</h2>
 <p>Runway is an AI video creation suite offering text-to-video and image-to-video generation, video transformation, image generation, audio tools, editing utilities, and upscaling. Credits are spent across models with different rates, so a plan’s headline number is not a predictable count of finished clips.</p>

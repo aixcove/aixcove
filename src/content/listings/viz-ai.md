@@ -9,6 +9,9 @@ categories:
 wpId: 265
 image: /uploads/2026/04/viz_ai.jpg
 featured: false
+author: AIX Cove
+source: Official docs & pricing pages; hands-on testing where noted. Verified Aug 2026.
+reviewed: AIX Cove
 ---
 <h2>What Is Viz.ai?</h2>
 <p>Viz.ai is an AI-powered medical imaging platform used by hospitals and care teams. It analyses scans — most notably stroke and other time-critical imaging — to detect conditions and speed up care-team communication. Its goal is earlier detection and faster triage in workflows where minutes matter.</p>

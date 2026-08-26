@@ -37,6 +37,7 @@ const { Content } = await render(item);
       {item.data.categories.map((c) => <a class="badge" href={localeUrl(lang, `/listing-category/${c}/`)}>{catName(lang, c, c)}</a>)}
     </div>
     <div class="content" style="margin-top:20px"><Content /></div>
+    <div class="source-note">{L.source_line}</div>
     <script type="application/ld+json" set:html={JSON.stringify({
       '@context': 'https://schema.org',
       '@type': 'SoftwareApplication',

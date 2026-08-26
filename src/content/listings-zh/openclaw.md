@@ -9,6 +9,9 @@ categories:
 wpId: 213
 image: /uploads/2026/04/openclaw.jpg
 featured: false
+author: AIX Cove 出品
+source: 官方文档与定价页、标注的实测。2026 年 8 月核实。
+reviewed: AIX Cove
 ---
 <h2>什么是 OpenClaw？</h2>
 <p>OpenClaw 是一个你自己来运行的开源 AI 助手。它被设计成部署在你的电脑或服务器上，接入你真正在用的系统：聊天应用、日历、邮件、本地文件、浏览器，以及你已有的各种脚本。它不是被困在某一家公司的聊天窗口里，而是变成一个有长期权限、能接触你工具和账号的个人智能体。</p>

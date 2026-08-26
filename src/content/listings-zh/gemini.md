@@ -9,6 +9,9 @@ categories:
 wpId: 186
 image: /uploads/2026/04/gemini.jpg
 featured: false
+author: AIX Cove 出品
+source: 官方文档与定价页、标注的实测。2026 年 8 月核实。
+reviewed: AIX Cove
 ---
 <h2>Gemini 是什么？</h2>
 <p>Gemini 是 Google 的旗舰大模型家族，覆盖消费者聊天、Gemini 应用、Google Workspace 以及付费 API。它天生多模态，能处理文本、图像、音频、视频和代码，并与 Google 搜索、Drive、Workspace 深度集成。对已身处 Google 生态的人来说是顺理成章的默认选择。</p>

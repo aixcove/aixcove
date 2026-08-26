@@ -9,6 +9,9 @@ categories:
 wpId: 187
 image: /uploads/2026/04/qwen-1.jpg
 featured: false
+author: AIX Cove
+source: Official docs & pricing pages; hands-on testing where noted. Verified Aug 2026.
+reviewed: AIX Cove
 ---
 <h2>What Is Qwen?</h2>
 <p>Qwen is Alibaba’s open-weights LLM family, covering a range of sizes and modalities including text, coding, and a dedicated code CLI. The open-weights releases let you run models locally or on your own infrastructure, while the hosted web and API access give you a zero-setup option. Qwen models are especially strong on Chinese-language tasks and multilingual work.</p>

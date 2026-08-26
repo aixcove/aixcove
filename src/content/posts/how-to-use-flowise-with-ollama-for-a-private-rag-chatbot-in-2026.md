@@ -8,6 +8,9 @@ categories:
 - ai-tutorials-how-tos
 featured: /uploads/2026/05/image-1-40f6212a-92d9-4970-b4d9-df74c4610939.jpg
 wpId: 754
+author: AIX Cove
+source: Official docs, hands-on testing where noted, community feedback. Verified Aug 2026.
+reviewed: AIX Cove
 ---
 
 <p>If you want to use Flowise with Ollama, the short version is this: run Ollama locally, start Flowise, connect a ChatOllama model node, then add a document store if you want private RAG instead of a plain chatbot. It is one of the better setups for people who want more control than a simple chat app but do not want to wire every LangChain component by hand.</p>

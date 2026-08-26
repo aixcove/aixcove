@@ -12,6 +12,9 @@ const posts = defineCollection({
     categories: z.array(z.string()).default([]),
     featured: z.string().default(''),
     wpId: z.number().optional(),
+    author: z.string().optional(),
+    source: z.string().optional(),
+    reviewed: z.string().optional(),
   }),
 });
 
@@ -27,6 +30,9 @@ const listings = defineCollection({
     image: z.string().default(''),
     featured: z.boolean().default(false),
     wpId: z.number().optional(),
+    author: z.string().optional(),
+    source: z.string().optional(),
+    reviewed: z.string().optional(),
   }),
 });
 
@@ -36,6 +42,9 @@ const postsZh = defineCollection({
     title: z.string(), date: z.string(), modified: z.string().optional(), slug: z.string().optional(),
     description: z.string().default(''), categories: z.array(z.string()).default([]),
     featured: z.string().default(''), wpId: z.number().optional(),
+    author: z.string().optional(),
+    source: z.string().optional(),
+    reviewed: z.string().optional(),
   }),
 });
 
@@ -45,6 +54,9 @@ const listingsZh = defineCollection({
     title: z.string(), date: z.string(), modified: z.string().optional(), slug: z.string().optional(),
     description: z.string().default(''), categories: z.array(z.string()).default([]),
     image: z.string().default(''), featured: z.boolean().default(false), wpId: z.number().optional(),
+    author: z.string().optional(),
+    source: z.string().optional(),
+    reviewed: z.string().optional(),
   }),
 });
 

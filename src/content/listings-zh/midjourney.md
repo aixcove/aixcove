@@ -9,6 +9,9 @@ categories:
 wpId: 259
 image: /uploads/2026/04/midjourney-1.jpg
 featured: false
+author: AIX Cove 出品
+source: 官方文档与定价页、标注的实测。2026 年 8 月核实。
+reviewed: AIX Cove
 ---
 <h2>什么是Midjourney？</h2>
 <p>Midjourney是一款AI图像生成工具，能够根据文字描述创作出令人惊艳的视觉艺术作品。凭借其独特的艺术风格和高品质输出，Midjourney已成为设计师、艺术家、营销人员和创意专业人士的首选AI艺术生成器。其最新版本能够生成媲美专业人工创作的照片级真实图像、精细插画和概念艺术。</p>

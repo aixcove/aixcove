@@ -9,6 +9,9 @@ categories:
 wpId: 272
 image: /uploads/2026/04/crewai-1.jpg
 featured: false
+author: AIX Cove 出品
+source: 官方文档与定价页、标注的实测。2026 年 8 月核实。
+reviewed: AIX Cove
 ---
 <h2>CrewAI 是什么？</h2>
 <p>CrewAI 是一个开源框架，用来组建一起完成任务的 AI 智能体团队。你定义每个智能体的角色、目标与可用工具，再把它们串起来，让一个智能体把工作交给下一个。它是代码优先的框架：你用 Python 写 Crew 定义，因此能控制每个智能体做什么、能碰什么。</p>

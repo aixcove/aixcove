@@ -9,6 +9,9 @@ categories:
 wpId: 253
 image: /uploads/2026/04/semrush.jpg
 featured: false
+author: AIX Cove 出品
+source: 官方文档与定价页、标注的实测。2026 年 8 月核实。
+reviewed: AIX Cove
 ---
 <h2>什么是 Semrush Copilot？</h2>
 <p>Semrush Copilot 是集成在 Semrush 数字营销平台中的 AI 助手。它会自动分析你网站的 SEO 表现，识别问题和机会，并提供个性化的可操作建议来提升搜索排名。借助 Semrush 庞大的搜索数据库与 AI 分析相结合，Copilot 能提供原本需要数小时人工研究才能发现的洞察。</p>

@@ -9,6 +9,9 @@ categories:
 wpId: 270
 image: /uploads/2026/04/autogpt-1.jpg
 featured: false
+author: AIX Cove
+source: Official docs & pricing pages; hands-on testing where noted. Verified Aug 2026.
+reviewed: AIX Cove
 ---
 <h2>What Is AutoGPT?</h2>
 <p>AutoGPT is one of the first projects to show an LLM chasing a goal across many steps without a human steering every move. Released as open source in 2023, it chains model calls together with tool use: web searching, reading and writing files, running code, and keeping notes in memory. You give it an objective, and it breaks the objective into subtasks, works through them, and loops until it decides it is done.</p>

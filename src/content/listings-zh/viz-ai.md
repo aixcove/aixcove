@@ -9,6 +9,9 @@ categories:
 wpId: 265
 image: /uploads/2026/04/viz_ai.jpg
 featured: false
+author: AIX Cove 出品
+source: 官方文档与定价页、标注的实测。2026 年 8 月核实。
+reviewed: AIX Cove
 ---
 <h2>Viz.ai 是什么？</h2>
 <p>Viz.ai 是一个供医院与护理团队使用的 AI 医学影像平台。它分析扫描图像——尤其是脑卒中等时间敏感影像——以发现病症并加快护理团队沟通。其目标是让关键时刻更早被发现、更快分诊。</p>

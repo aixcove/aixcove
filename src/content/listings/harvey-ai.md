@@ -9,6 +9,9 @@ categories:
 wpId: 264
 image: /uploads/2026/04/harvey_ai.jpg
 featured: false
+author: AIX Cove
+source: Official docs & pricing pages; hands-on testing where noted. Verified Aug 2026.
+reviewed: AIX Cove
 ---
 <h2>What Is Harvey AI?</h2>
 <p>Harvey AI is an AI assistant built for legal work. It helps law firms and in-house teams draft, summarise, research, and review legal documents, drawing on a firm’s own materials and a legal-tuned model. It is designed to assist lawyers with tasks like contract analysis and due-diligence review rather than to replace legal judgement.</p>

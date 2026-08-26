@@ -9,6 +9,9 @@ categories:
 wpId: 257
 image: /uploads/2026/04/otter_ai.jpg
 featured: false
+author: AIX Cove
+source: Official docs & pricing pages; hands-on testing where noted. Verified Aug 2026.
+reviewed: AIX Cove
 ---
 <h2>What Is Otter.ai?</h2>
 <p>Otter.ai records or joins supported meetings, produces live transcripts, labels speakers, creates summaries and action items, supports search and export, and offers mobile apps and integrations. Its newer workflow and MCP options make meeting content easier to route into a team’s systems, provided the team decides what is safe to automate.</p>

@@ -9,6 +9,9 @@ categories:
 wpId: 252
 image: /uploads/2026/04/surfer_seo.jpg
 featured: false
+author: AIX Cove
+source: Official docs & pricing pages; hands-on testing where noted. Verified Aug 2026.
+reviewed: AIX Cove
 ---
 <h2>What Is Surfer SEO?</h2>
 <p>Surfer SEO is a content optimisation platform that compares a draft with search-result patterns and AI-search visibility data. Its Content Editor builds a query-specific brief from ranking pages and gives a live coverage score while a writer edits. It also offers outlines, audits, content planning, collaboration, plagiarism checking, rank-drop detection, and AI Search Analytics.</p>

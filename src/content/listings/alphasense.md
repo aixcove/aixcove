@@ -9,6 +9,9 @@ categories:
 wpId: 266
 image: /uploads/2026/04/alpha_sense.jpg
 featured: false
+author: AIX Cove
+source: Official docs & pricing pages; hands-on testing where noted. Verified Aug 2026.
+reviewed: AIX Cove
 ---
 <h2>What Is AlphaSense?</h2>
 <p>AlphaSense is an AI-powered financial and market research platform used by investment professionals, corporate strategists, and analysts. It searches across millions of documents — filings, transcripts, expert calls, news, and research — and surfaces the passages that matter for a decision. The differentiator is coverage and search depth, not a chat interface alone.</p>

@@ -8,6 +8,9 @@ categories:
 - ai-tutorials-how-tos
 featured: /uploads/2026/05/anythingllm-ollama-local-ai-chatbot-hero-fc0c0805-f501-4e32-b698-e4d9380ceade.jpg
 wpId: 848
+author: AIX Cove
+source: Official docs, hands-on testing where noted, community feedback. Verified Aug 2026.
+reviewed: AIX Cove
 ---
 
 <h2>AnythingLLM Ollama Tutorial: Build a Local AI Chatbot in 2026</h2>

@@ -9,6 +9,9 @@ categories:
 wpId: 261
 image: /uploads/2026/04/elevenlabs-1.jpg
 featured: false
+author: AIX Cove 出品
+source: 官方文档与定价页、标注的实测。2026 年 8 月核实。
+reviewed: AIX Cove
 ---
 <h2>什么是 ElevenLabs？</h2>
 <p>ElevenLabs 是行业领先的 AI 语音合成平台，能从文本生成极其逼真的人类语音。借助先进的深度学习模型，ElevenLabs 能生成带有恰当情感、语调和节奏的自然语音，几乎与真人录音难以区分。它已成为有声书、播客、视频解说和对话式 AI 应用领域 AI 语音生成的标准。</p>

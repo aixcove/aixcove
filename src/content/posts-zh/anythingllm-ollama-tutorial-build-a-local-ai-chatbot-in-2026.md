@@ -8,6 +8,9 @@ categories:
 - ai-tutorials-how-tos
 featured: /uploads/2026/05/anythingllm-ollama-local-ai-chatbot-hero-fc0c0805-f501-4e32-b698-e4d9380ceade.jpg
 wpId: 848
+author: AIX Cove 出品
+source: 官方文档、标注的实测与社区反馈。2026 年 8 月核实。
+reviewed: AIX Cove
 ---
 <h2>AnythingLLM Ollama 教程：2026年搭建本地AI聊天机器人</h2>
 <p>如果你想为自己的文档搭建一个私密AI聊天机器人，AnythingLLM加Ollama是其中比较简洁的方案。AnythingLLM提供工作区、文档上传、RAG、聊天界面、代理和多用户产品层。Ollama负责运行本地模型，因此你的提示词和文件在基本文档问答时不需要离开你的机器。</p>

@@ -9,6 +9,9 @@ categories:
 wpId: 188
 image: /uploads/2026/04/glm.jpg
 featured: false
+author: AIX Cove 出品
+source: 官方文档与定价页、标注的实测。2026 年 8 月核实。
+reviewed: AIX Cove
 ---
 <h2>GLM 是什么？</h2>
 <p>GLM 是智谱 AI（Z.ai）的模型家族，专为中文任务打造，同时提供托管对话与开放权重两种方式。GLM Coding 是面向开发者的编程优化版本，擅长代码生成与智能体工作流。它是中文产品以及希望本地或托管运行开放模型进行编码时的实用选择。</p>

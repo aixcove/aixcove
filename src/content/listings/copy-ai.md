@@ -9,6 +9,9 @@ categories:
 wpId: 251
 image: /uploads/2026/04/copy.ai_.jpg
 featured: false
+author: AIX Cove
+source: Official docs & pricing pages; hands-on testing where noted. Verified Aug 2026.
+reviewed: AIX Cove
 ---
 <h2>What Is Copy.ai?</h2>
 <p>Copy.ai is a go-to-market AI workspace that combines multi-model chat, shared projects, brand and knowledge context, and workflow automation. Teams use it to turn a source record into account research, sales enablement, product copy, outreach variants, or content operations with approvals and connected systems instead of running isolated prompts.</p>

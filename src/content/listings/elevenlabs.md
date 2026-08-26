@@ -9,6 +9,9 @@ categories:
 wpId: 261
 image: /uploads/2026/04/elevenlabs-1.jpg
 featured: false
+author: AIX Cove
+source: Official docs & pricing pages; hands-on testing where noted. Verified Aug 2026.
+reviewed: AIX Cove
 ---
 <h2>What Is ElevenLabs?</h2>
 <p>ElevenLabs is an AI voice platform providing text-to-speech, speech-to-text, voice design, sound effects, dubbing, studio projects, APIs, and voice-cloning options. Credits are shared across products, so the useful question is not just minutes of narration but which voices, languages, quality settings, dubbing, or generation tools a production needs.</p>

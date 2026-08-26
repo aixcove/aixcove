@@ -9,6 +9,9 @@ categories:
 wpId: 284
 image: /uploads/2026/04/perplexity-1.jpg
 featured: false
+author: AIX Cove 出品
+source: 官方文档与定价页、标注的实测。2026 年 8 月核实。
+reviewed: AIX Cove
 ---
 <h2>Perplexity 是什么？</h2>
 <p>Perplexity 是一款答案引擎：你提问，它返回一段带引文的简短答案，而不是一排蓝色链接。它把大语言模型与实时搜索结合，每个回答都附上可点开的来源。它最适合快速、可溯源的研究，也适合替代在搜索结果里翻找。</p>

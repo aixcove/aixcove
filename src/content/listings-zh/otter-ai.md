@@ -9,6 +9,9 @@ categories:
 wpId: 257
 image: /uploads/2026/04/otter_ai.jpg
 featured: false
+author: AIX Cove 出品
+source: 官方文档与定价页、标注的实测。2026 年 8 月核实。
+reviewed: AIX Cove
 ---
 <h2>什么是 Otter.ai？</h2>
 <p>Otter.ai 是一款基于 AI 的会议转录与协作工具，能够自动录制、转写并实时总结会议内容。借助先进的语音识别和自然语言处理技术，Otter.ai 将口头对话转化为可搜索的文本，支持说话人识别、要点提取和自动生成行动项。对于希望提升会议效率和执行力的团队来说，它已成为不可或缺的工具。</p>

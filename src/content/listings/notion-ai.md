@@ -9,6 +9,9 @@ categories:
 wpId: 255
 image: /uploads/2026/04/notion.jpg
 featured: false
+author: AIX Cove
+source: Official docs & pricing pages; hands-on testing where noted. Verified Aug 2026.
+reviewed: AIX Cove
 ---
 <h2>What Is Notion AI?</h2>
 <p>Notion AI adds AI capabilities inside Notion’s workspace for drafting, rewriting, summarising, extracting actions, database autofill, meeting notes, enterprise search, and agent-like tasks on higher plans. The useful design is not “ask AI everything,” but a maintained workspace with owners, permissions, source links, and clear page structures.</p>

@@ -9,6 +9,9 @@ categories:
 wpId: 264
 image: /uploads/2026/04/harvey_ai.jpg
 featured: false
+author: AIX Cove 出品
+source: 官方文档与定价页、标注的实测。2026 年 8 月核实。
+reviewed: AIX Cove
 ---
 <h2>Harvey AI 是什么？</h2>
 <p>Harvey AI 是专为法律工作打造的 AI 助手，帮助律所与法务团队起草、摘要、研究和审阅法律文档，并依托律所自身材料与法律调优的模型。它被设计来辅助律师处理合同分析与尽调复核等任务，而非取代法律判断。</p>

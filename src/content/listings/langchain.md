@@ -9,6 +9,9 @@ categories:
 wpId: 274
 image: /uploads/2026/04/langchain-1.jpg
 featured: false
+author: AIX Cove
+source: Official docs & pricing pages; hands-on testing where noted. Verified Aug 2026.
+reviewed: AIX Cove
 ---
 <h2>What Is LangChain?</h2>
 <p>LangChain is the most widely used open-source framework for building applications on top of large language models. It sits below your product and above the model provider, giving you reusable pieces for prompt templates, tool calling, memory, retrieval, and agent loops. Two pieces now live under the same roof: the open-source framework you run yourself, and LangSmith, a hosted platform for tracing, evaluating, and deploying agents.</p>

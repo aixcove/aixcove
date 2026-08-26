@@ -9,6 +9,9 @@ categories:
 wpId: 263
 image: /uploads/2026/04/descript-1.jpg
 featured: false
+author: AIX Cove
+source: Official docs & pricing pages; hands-on testing where noted. Verified Aug 2026.
+reviewed: AIX Cove
 ---
 <h2>What Is Descript?</h2>
 <p>Descript is a transcript-first audio and video editor. It transcribes a recording and lets you cut audio or video by editing the transcript text. It also offers multitrack editing, screen recording, captions, filler-word removal, Studio Sound, clips, stock media, AI speech, voice cloning, and selected generative video tools.</p>

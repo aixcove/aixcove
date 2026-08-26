@@ -9,6 +9,9 @@ categories:
 wpId: 268
 image: /uploads/2026/04/sana_aI.jpg
 featured: false
+author: AIX Cove
+source: Official docs & pricing pages; hands-on testing where noted. Verified Aug 2026.
+reviewed: AIX Cove
 ---
 <h2>What Is Sana AI?</h2>
 <p>Sana AI is an AI assistant for enterprise learning and knowledge. It searches across a company’s internal documents, courses, and tools to answer employee questions and help create training content. It is marketed to organisations that want to make institutional knowledge findable and to accelerate learning and onboarding.</p>

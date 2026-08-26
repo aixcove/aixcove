@@ -9,6 +9,9 @@ categories:
 wpId: 266
 image: /uploads/2026/04/alpha_sense.jpg
 featured: false
+author: AIX Cove 出品
+source: 官方文档与定价页、标注的实测。2026 年 8 月核实。
+reviewed: AIX Cove
 ---
 <h2>AlphaSense 是什么？</h2>
 <p>AlphaSense 是一个 AI 驱动的金融与市场研究平台，供投资专业人士、企业战略与分析师使用。它跨数百万份文档搜索——备案、电话会纪要、专家访谈、新闻与研究——并推出对决策真正重要的片段。其差异化在于覆盖与搜索深度，而非仅一个聊天界面。</p>

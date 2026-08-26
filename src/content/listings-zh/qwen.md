@@ -9,6 +9,9 @@ categories:
 wpId: 187
 image: /uploads/2026/04/qwen-1.jpg
 featured: false
+author: AIX Cove 出品
+source: 官方文档与定价页、标注的实测。2026 年 8 月核实。
+reviewed: AIX Cove
 ---
 <h2>Qwen 是什么？</h2>
 <p>Qwen 是阿里的开源权重大模型系列，覆盖多种参数规模与模态，包括文本、代码和专门的代码 CLI。开放权重让你能在本地或自己的基础设施上运行，托管的网页版与 API 则提供零部署选项。Qwen 在中文任务和多语言工作上尤其出色。</p>

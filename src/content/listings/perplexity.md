@@ -9,6 +9,9 @@ categories:
 wpId: 284
 image: /uploads/2026/04/perplexity-1.jpg
 featured: false
+author: AIX Cove
+source: Official docs & pricing pages; hands-on testing where noted. Verified Aug 2026.
+reviewed: AIX Cove
 ---
 <h2>What Is Perplexity?</h2>
 <p>Perplexity is an answer engine: you ask a question and it returns a short, cited answer rather than a list of blue links. It combines large language models with live web search and shows inline sources you can open. It is best for quick, source-checkable research and for an alternative to trawling search results.</p>

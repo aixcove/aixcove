@@ -9,6 +9,9 @@ categories:
 wpId: 256
 image: /uploads/2026/04/zapier.jpg
 featured: false
+author: AIX Cove
+source: Official docs & pricing pages; hands-on testing where noted. Verified Aug 2026.
+reviewed: AIX Cove
 ---
 <h2>What Is Zapier AI?</h2>
 <p>Zapier AI is the AI layer inside Zapier, the long-standing workflow automation platform. Instead of only chaining app triggers and actions, it lets you describe what you want in plain language, transform data with AI steps, and add chatbots and agents that act on your business data. It sits on top of thousands of app integrations, so the appeal is breadth plus accessibility: automation that a non-technical operator can build, with code steps available when you need them.</p>

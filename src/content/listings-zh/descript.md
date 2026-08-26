@@ -9,6 +9,9 @@ categories:
 wpId: 263
 image: /uploads/2026/04/descript-1.jpg
 featured: false
+author: AIX Cove 出品
+source: 官方文档与定价页、标注的实测。2026 年 8 月核实。
+reviewed: AIX Cove
 ---
 <h2>什么是 Descript？</h2>
 <p>Descript 是一款基于 AI 的视频和播客编辑平台，通过将媒体编辑视为文本编辑来彻底改变创作流程。无需处理复杂的时间线和波形，你只需编辑转录文本即可完成音视频剪辑——删除文字中的某个词，对应媒体内容也会被移除。结合 AI 功能，如填充词移除、屏幕录制和模板化编辑，Descript 让每个人都能轻松制作专业品质的媒体内容。</p>

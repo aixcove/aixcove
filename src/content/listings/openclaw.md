@@ -9,6 +9,9 @@ categories:
 wpId: 213
 image: /uploads/2026/04/openclaw.jpg
 featured: false
+author: AIX Cove
+source: Official docs & pricing pages; hands-on testing where noted. Verified Aug 2026.
+reviewed: AIX Cove
 ---
 <h2>What Is OpenClaw?</h2>
 <p>OpenClaw is an open-source AI assistant you run yourself. It is built to sit on your own machine or server and connect to the systems you actually use: messaging apps, calendars, email, a local file system, a browser, and any scripts you already have. Rather than living inside one company's chat window, it becomes a personal agent with standing access to your tools and accounts.</p>

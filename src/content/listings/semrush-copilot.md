@@ -9,6 +9,9 @@ categories:
 wpId: 253
 image: /uploads/2026/04/semrush.jpg
 featured: false
+author: AIX Cove
+source: Official docs & pricing pages; hands-on testing where noted. Verified Aug 2026.
+reviewed: AIX Cove
 ---
 <h2>What Is Semrush Copilot?</h2>
 <p>Semrush Copilot is an AI recommendation layer inside Semrush for prioritising SEO work across a site. It surfaces changes and tasks from connected projects, including Site Audit findings, position tracking movement, backlink signals, competitor observations, and content opportunities. The value is prioritisation: it turns several reports into a short work queue rather than replacing the underlying reports.</p>

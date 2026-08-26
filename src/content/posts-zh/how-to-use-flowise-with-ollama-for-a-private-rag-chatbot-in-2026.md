@@ -8,6 +8,9 @@ categories:
 - ai-tutorials-how-tos
 featured: /uploads/2026/05/image-1-40f6212a-92d9-4970-b4d9-df74c4610939.jpg
 wpId: 754
+author: AIX Cove 出品
+source: 官方文档、标注的实测与社区反馈。2026 年 8 月核实。
+reviewed: AIX Cove
 ---
 <p>如果你想将Flowise与Ollama配合使用，简单来说就是：本地运行Ollama，启动Flowise，连接一个ChatOllama模型节点，然后如果你想要私有RAG而不是普通聊天机器人，再添加一个文档存储。对于想要比简单聊天应用更多控制权，但又不想手动连接每个LangChain组件的人来说，这是较好的方案之一。</p>
 <p>这个方案也有取舍，我们先把这些说清楚。<a href="/listing/flowise/">Flowise是开源且免费自托管的</a>。Ollama本地运行也是免费的。这让软件成本很有吸引力，但并不意味着这套技术栈不费力。你仍然要付出硬件限制、模型速度和设置时间的代价。如果你想要最简单的私有文档聊天体验，<a href="/zh/anythingllm-ollama-tutorial-build-a-local-ai-chatbot-in-2026/">AnythingLLM与Ollama的组合</a>通常更简单。如果你想要更产品化的应用层并带有托管选项，<a href="/zh/how-to-use-dify-to-build-your-first-ai-workflow-in-2026/">Dify</a>可能更合适。</p>

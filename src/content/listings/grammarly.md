@@ -9,6 +9,9 @@ categories:
 wpId: 258
 image: /uploads/2026/04/grammarly-1.jpg
 featured: false
+author: AIX Cove
+source: Official docs & pricing pages; hands-on testing where noted. Verified Aug 2026.
+reviewed: AIX Cove
 ---
 <h2>What Is Grammarly?</h2>
 <p>Grammarly is an English writing assistant that runs in its own editor plus supported browser, desktop, and mobile surfaces. It flags spelling, grammar, punctuation, clarity, and tone, and on paid plans rewrites whole sentences. It is best used as an explicit review pass after you have settled the argument, not as the writer of first draft.</p>

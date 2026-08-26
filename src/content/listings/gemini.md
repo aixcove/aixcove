@@ -9,6 +9,9 @@ categories:
 wpId: 186
 image: /uploads/2026/04/gemini.jpg
 featured: false
+author: AIX Cove
+source: Official docs & pricing pages; hands-on testing where noted. Verified Aug 2026.
+reviewed: AIX Cove
 ---
 <h2>What Is Gemini?</h2>
 <p>Gemini is Google’s flagship AI model family, available across consumer chat, the Gemini app, Google Workspace, and a paid API. It is multimodal by design — capable of working with text, images, audio, video, and code — and benefits from tight integration with Google Search, Drive, and Workspace. It is a strong default for anyone already in the Google ecosystem.</p>

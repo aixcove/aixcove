@@ -9,6 +9,9 @@ categories:
 wpId: 272
 image: /uploads/2026/04/crewai-1.jpg
 featured: false
+author: AIX Cove
+source: Official docs & pricing pages; hands-on testing where noted. Verified Aug 2026.
+reviewed: AIX Cove
 ---
 <h2>What Is CrewAI?</h2>
 <p>CrewAI is an open-source framework for building teams of AI agents that work together on a task. You define roles, goals, and the tools each agent can use, then chain them so an agent can hand work to the next one. It is a code-first framework: you write Python to define the crew, which gives you control over what each agent does and what it can touch.</p>

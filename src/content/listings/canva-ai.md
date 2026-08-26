@@ -9,6 +9,9 @@ categories:
 wpId: 262
 image: /uploads/2026/04/canva.jpg
 featured: false
+author: AIX Cove
+source: Official docs & pricing pages; hands-on testing where noted. Verified Aug 2026.
+reviewed: AIX Cove
 ---
 <h2>What Is Canva AI?</h2>
 <p>Canva AI is the AI-assisted design layer inside Canva’s editable visual workspace. It includes prompt-based design and media assistance alongside templates, brand assets, collaboration, presentation, document, video, and social-design tools. The key advantage is that an AI-generated starting point remains in a familiar editable layout, where a teammate can replace copy, adjust a brand kit, resize formats, and export.</p>

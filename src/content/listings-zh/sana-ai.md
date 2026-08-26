@@ -9,6 +9,9 @@ categories:
 wpId: 268
 image: /uploads/2026/04/sana_aI.jpg
 featured: false
+author: AIX Cove 出品
+source: 官方文档与定价页、标注的实测。2026 年 8 月核实。
+reviewed: AIX Cove
 ---
 <h2>Sana AI 是什么？</h2>
 <p>Sana AI 是面向企业学习与知识管理的 AI 助手。它在公司的内部文档、课程与工具中检索，回答员工问题，并帮助生成培训内容。它面向希望让机构知识更容易被找到、加快学习与入职的组织。</p>
