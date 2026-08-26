@@ -3,7 +3,7 @@ title: Bolt
 date: '2026-04-06T06:14:25'
 modified: '2026-08-26T12:00:00'
 slug: bolt
-description: 'Bolt 是 StackBlitz 的 AI Web 应用构建工具，包含提示词生成、浏览器运行时、预览、编辑和部署。 价格、免费层、限制与适用开发工作流概览。'
+description: Bolt 是浏览器里的 AI 应用构建器。已核实定价、功能、限制与替代方案。
 categories:
 - ai-coding
 wpId: 282

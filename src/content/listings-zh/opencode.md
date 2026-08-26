@@ -3,7 +3,7 @@ title: OpenCode
 date: '2026-04-05T14:37:52'
 modified: '2026-08-26T12:00:00'
 slug: opencode
-description: 'OpenCode 是开源终端 AI 编程代理，可接入多家服务商或本地模型；Zen 提供按量托管模型。 价格、免费层、限制与适用开发工作流概览。'
+description: OpenCode 是开源的终端编码智能体，支持本地或自托管。已核实定价、功能、限制与替代方案。
 categories:
 - ai-coding
 wpId: 214

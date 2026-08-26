@@ -3,7 +3,7 @@ title: Zapier AI
 date: '2026-04-06T06:09:42'
 modified: '2026-08-26T12:00:00'
 slug: zapier-ai
-description: Zapier AI 把 AI 融入无代码自动化：免费版每月 100 个任务，专业版每月 19.99 美元起，团队版每月 69 美元，企业版定制报价。
+description: Zapier AI 在成千上万应用间加入智能体自动化。已核实功能、定价、限制与替代方案。
 categories:
 - ai-agents
 wpId: 256

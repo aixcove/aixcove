@@ -3,7 +3,7 @@ title: CodeBuddy
 date: '2026-04-05T13:03:36'
 modified: '2026-08-26T12:00:00'
 slug: codebuddy
-description: 'Tencent CodeBuddy is Tencent’s AI programming assistant and agentic coding environment for completion, chat, repository changes, and tool integration.'
+description: CodeBuddy is an agentic coding assistant for IDEs and the terminal. Verified pricing, features, limits, and how it compares to Cursor and Copilot.
 categories:
 - ai-coding
 wpId: 206

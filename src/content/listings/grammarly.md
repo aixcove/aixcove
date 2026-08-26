@@ -3,7 +3,7 @@ title: Grammarly
 date: '2026-04-06T06:10:15'
 modified: '2026-04-17T15:38:20'
 slug: grammarly
-description: 'What Is Grammarly? Grammarly is the world&#8217;s most widely used AI writing assistant, helping millions of people communicate more clearly and effectively in English. Beyond basic grammar and spell '
+description: Grammarly is an English writing assistant with a free tier and Pro from $12/month. Verified features, limits, and who it fits.
 categories:
 - ai-writing-marketing
 wpId: 258

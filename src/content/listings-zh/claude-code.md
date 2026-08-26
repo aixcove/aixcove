@@ -3,7 +3,7 @@ title: Claude Code
 date: '2026-04-05T08:47:09'
 modified: '2026-08-26T12:00:00'
 slug: claude-code
-description: 'Claude Code 是 Anthropic 的终端代理，可检查仓库、修改文件、运行命令和测试并产出可审阅 diff。 价格、免费层、限制与适用开发工作流概览。'
+description: Claude Code 是 Anthropic 的终端编码智能体，专注于本地仓库与智能体。已核实定价、功能、限制与定位。
 categories:
 - ai-coding
 wpId: 168

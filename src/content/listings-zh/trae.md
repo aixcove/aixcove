@@ -3,7 +3,7 @@ title: Trae
 date: '2026-04-05T13:02:56'
 modified: '2026-08-26T12:00:00'
 slug: trae
-description: 'Trae 是字节跳动的 AI 开发环境，含类 VS Code 编辑器、补全、聊天、多文件代理和 TraeWork 任务。 价格、免费层、限制与适用开发工作流概览。'
+description: Trae 是字节跳动的智能体 AI 编码 IDE。已核实定价、功能、限制，并与 Cursor、Copilot 对比。
 categories:
 - ai-coding
 wpId: 204

@@ -3,7 +3,7 @@ title: Midjourney
 date: '2026-04-06T06:10:32'
 modified: '2026-04-17T15:38:20'
 slug: midjourney
-description: 什么是Midjourney？Midjourney是一款由AI驱动的图像生成工具，能够根据文本描述创作出令人惊艳的视觉艺术作品。它以其独特的艺术风格和高品质的输出而闻名，
+description: Midjourney 是付费图像生成服务，无免费层，每月 10 美元起。已核实定价、功能、限制与适用人群。
 categories:
 - ai-creative
 wpId: 259

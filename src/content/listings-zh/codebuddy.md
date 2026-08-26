@@ -3,7 +3,7 @@ title: CodeBuddy
 date: '2026-04-05T13:03:36'
 modified: '2026-08-26T12:00:00'
 slug: codebuddy
-description: '腾讯 CodeBuddy 是支持补全、聊天、仓库修改和开发工具集成的 AI 编程助手与代理环境。 价格、免费层、限制与适用开发工作流概览。'
+description: CodeBuddy 是面向 IDE 与终端的智能体编码助手。已核实定价、功能、限制，并与 Cursor、Copilot 对比。
 categories:
 - ai-coding
 wpId: 206

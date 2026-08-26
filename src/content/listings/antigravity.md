@@ -3,7 +3,7 @@ title: Antigravity
 date: '2026-04-05T13:04:47'
 modified: '2026-08-26T12:00:00'
 slug: antigravity
-description: 'Google Antigravity is Google’s agentic IDE preview for planning, editing, running, and verifying repository tasks. Pricing, free-tier limits, paid plans,'
+description: Google Antigravity is an agentic IDE that runs AI coding agents asynchronously. Verified August 2026 pricing, features, limits, and who it fits.
 categories:
 - ai-coding
 wpId: 208

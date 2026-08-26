@@ -3,7 +3,7 @@ title: Claude Code
 date: '2026-04-05T08:47:09'
 modified: '2026-08-26T12:00:00'
 slug: claude-code
-description: 'Claude Code is Anthropic’s terminal agent for inspecting repositories, editing files, running commands and tests, and producing reviewable diffs. Pricing,'
+description: Claude Code is Anthropic’s terminal coding agent for local repositories and agents. Verified pricing, features, limits, and fit.
 categories:
 - ai-coding
 wpId: 168

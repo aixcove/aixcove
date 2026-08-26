@@ -3,7 +3,7 @@ title: Grammarly
 date: '2026-04-06T06:10:15'
 modified: '2026-04-17T15:38:20'
 slug: grammarly
-description: Grammarly是什么？Grammarly是全球使用最广泛的AI写作助手，帮助数百万人更清晰、更有效地用英语交流。除了基本的语法和拼写
+description: Grammarly 是英文写作助手，提供免费层，Pro 每月 12 美元起。已核实功能、限制与适用人群。
 categories:
 - ai-writing-marketing
 wpId: 258

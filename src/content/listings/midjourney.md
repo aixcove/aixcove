@@ -3,7 +3,7 @@ title: Midjourney
 date: '2026-04-06T06:10:32'
 modified: '2026-04-17T15:38:20'
 slug: midjourney
-description: What Is Midjourney? Midjourney is an AI-powered image generation tool that creates stunning visual artwork from text descriptions. Known for its distinctive artistic aesthetic and high-quality output,
+description: Midjourney is a paid image generator with no free tier, from $10/month. Verified pricing, features, limits, and fit.
 categories:
 - ai-creative
 wpId: 259

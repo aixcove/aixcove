@@ -3,7 +3,7 @@ title: GitHub Copilot
 date: '2026-04-06T06:13:52'
 modified: '2026-08-26T12:00:00'
 slug: github-copilot
-description: 'GitHub Copilot covers completion, chat, agents, pull requests, and organization controls across major editors and GitHub. Pricing, free-tier limits, paid'
+description: GitHub Copilot is a widely used AI pair programmer across IDE and agent modes. Verified plans, features, limits, and pricing.
 categories:
 - ai-coding
 wpId: 278

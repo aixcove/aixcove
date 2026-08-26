@@ -3,7 +3,7 @@ title: Notion AI
 date: '2026-04-06T06:09:25'
 modified: '2026-04-17T15:38:19'
 slug: notion-ai
-description: 什么是 Notion AI？Notion AI 是一个直接集成到 Notion 工作区平台的 AI 助手。它不需要用户在笔记应用和单独的 AI 工具之间切换，No
+description: Notion AI 在 Notion 内加入草稿、搜索、会议纪要与会话智能体。已核实定价、功能、限制与适用人群。
 categories:
 - ai-productivity
 wpId: 255

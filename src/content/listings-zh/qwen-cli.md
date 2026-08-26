@@ -3,7 +3,7 @@ title: Qwen CLI
 date: '2026-04-05T13:02:11'
 modified: '2026-08-26T12:00:00'
 slug: qwen-cli
-description: 'Qwen Code CLI 是阿里通义的命令行编程代理，适合仓库工作、结合 Shell 的修改和工具调用。 价格、免费层、限制与适用开发工作流概览。'
+description: Qwen Code CLI 是阿里的开源编码智能体，用于终端与 VSCode。已核实功能、定价、限制与自托管选项。
 categories:
 - ai-coding
 wpId: 203

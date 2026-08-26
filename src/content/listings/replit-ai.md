@@ -3,7 +3,7 @@ title: Replit AI
 date: '2026-04-06T06:14:09'
 modified: '2026-08-26T12:00:00'
 slug: replit-ai
-description: 'Replit AI combines an agent, browser IDE, collaboration, hosted runtimes, and deployment tools in Replit’s platform. Pricing, free-tier limits, paid'
+description: Replit AI builds and hosts apps from a prompt in the browser. Verified pricing, features, limits, and who it fits.
 categories:
 - ai-coding
 wpId: 280

@@ -3,7 +3,7 @@ title: Kimi Code
 date: '2026-06-19T04:21:37'
 modified: '2026-08-26T12:00:00'
 slug: kimi-code
-description: 'Kimi Code 是月之暗面的终端代理，支持仓库修改、命令执行、MCP、技能、钩子和子代理。 价格、免费层、限制与适用开发工作流概览。'
+description: Kimi Code 不是只有自动补全，而是能独立完成任务的编码智能体。已核实功能、定价、限制与定位。
 categories:
 - ai-coding
 wpId: 871

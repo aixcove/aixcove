@@ -3,7 +3,7 @@ title: Antigravity
 date: '2026-04-05T13:04:47'
 modified: '2026-08-26T12:00:00'
 slug: antigravity
-description: 'Google Antigravity 是 Google 的智能体 IDE 预览产品，面向仓库规划、修改、运行和验证任务。 价格、免费层、限制与适用开发工作流概览。'
+description: Google Antigravity 是异步运行 AI 编码智能体的 IDE。已核实 2026 年 8 月定价、功能、限制与适用人群。
 categories:
 - ai-coding
 wpId: 208

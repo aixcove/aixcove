@@ -3,7 +3,7 @@ title: Gemini
 date: '2026-04-05T10:19:38'
 modified: '2026-04-17T15:38:27'
 slug: gemini
-description: What Is Google Gemini? Gemini is Google&#8217;s flagship AI model family, designed to be natively multimodal — meaning it can understand and generate text, images, audio, and video within a single con
+description: Gemini is Google’s multimodal AI across chat, Workspace, and API. Free tier, AI Pro pricing, features, limits, and fit.
 categories:
 - llm-chat
 wpId: 186

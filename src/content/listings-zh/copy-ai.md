@@ -3,7 +3,7 @@ title: Copy.ai
 date: '2026-04-06T06:08:18'
 modified: '2026-04-17T15:38:10'
 slug: copy-ai
-description: 什么是Copy.ai？Copy.ai是一个由人工智能驱动的平台，帮助上市团队创建高转化率的营销和销售内容。最初作为AI文案写作工具推出，Copy.ai已经发展演变
+description: Copy.ai 是面向销售营销团队、带聊天与工作流自动化的 AI 工作区。已核实 2026 年 8 月定价、功能与限制。
 categories:
 - ai-writing-marketing
 wpId: 251

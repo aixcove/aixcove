@@ -3,7 +3,7 @@ title: Bolt
 date: '2026-04-06T06:14:25'
 modified: '2026-08-26T12:00:00'
 slug: bolt
-description: 'Bolt is StackBlitz’s AI web-app builder with prompt generation, browser runtime, preview, editing, and deployment workflows. Pricing, free-tier limits,'
+description: Bolt is a browser-based AI app builder. Verified pricing, features, limits, and alternatives for building from a prompt.
 categories:
 - ai-coding
 wpId: 282

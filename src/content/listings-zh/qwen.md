@@ -3,7 +3,7 @@ title: Qwen
 date: '2026-04-05T10:22:01'
 modified: '2026-04-17T15:38:29'
 slug: qwen
-description: 什么是QWen？QWen（通义千问）是阿里云的旗舰大语言模型家族，旨在提供强大的AI能力，涵盖文本理解、代码生成、数学
+description: Qwen 是阿里开放权重的 LLM 系列，中文与多语言强。免费自托管、API 计价与限制。
 categories:
 - llm-chat
 wpId: 187

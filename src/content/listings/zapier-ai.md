@@ -3,7 +3,7 @@ title: Zapier AI
 date: '2026-04-06T06:09:42'
 modified: '2026-08-26T12:00:00'
 slug: zapier-ai
-description: "Zapier AI wraps AI into no-code automation: free at 100 tasks/month, Professional from $19.99/month, Team $69/month, Enterprise custom."
+description: Zapier AI adds agentic automation across thousands of apps. Verified features, pricing, limits, and alternatives.
 categories:
 - ai-agents
 wpId: 256

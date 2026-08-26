@@ -3,7 +3,7 @@ title: Runway
 date: '2026-04-06T06:10:48'
 modified: '2026-04-17T15:38:22'
 slug: runway
-description: Runway是什么？Runway是一个领先的AI驱动创意套件，它使电影制作人、设计师和内容创作者能够使用人工智能生成和编辑视频、图像和音频。了解
+description: Runway 是 AI 视频套件，提供免费层，每月 12 美元起。已核实定价、功能、限制与替代方案。
 categories:
 - ai-creative
 wpId: 260

@@ -3,7 +3,7 @@ title: AutoGPT
 date: '2026-04-06T06:13:02'
 modified: '2026-08-26T12:00:00'
 slug: autogpt
-description: "AutoGPT is a free, open-source autonomous-agent pioneer (~187k stars) that chains LLM calls with tool access to chase goals. You pay only for the model API."
+description: AutoGPT is the pioneering open-source autonomous agent project. Verified features, limits, and modern alternatives.
 categories:
 - ai-agents
 wpId: 270

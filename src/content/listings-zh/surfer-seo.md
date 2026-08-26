@@ -3,7 +3,7 @@ title: Surfer SEO
 date: '2026-04-06T06:08:35'
 modified: '2026-04-17T15:38:09'
 slug: surfer-seo
-description: 什么是Surfer SEO？Surfer SEO是一个由AI驱动的内容优化平台，帮助网站在谷歌搜索结果中获得更高的排名。它可以分析任何关键词的顶级排名页面，并提供数据...
+description: Surfer SEO 提供按查询定制的内容简报与实时覆盖率评分。已核实 2026 年 8 月定价、功能与限制。
 categories:
 - ai-writing-marketing
 wpId: 252

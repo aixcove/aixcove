@@ -3,7 +3,7 @@ title: OpenClaw
 date: '2026-04-05T13:38:48'
 modified: '2026-08-26T12:00:00'
 slug: openclaw
-description: OpenClaw 是一款免费、开源自托管的个人 AI 助手（约 38.7 万星标），你只需为你接入的模型 API 付费。
+description: OpenClaw 是开源自托管 AI 助手，能从经验中学习可复用技能。已核实功能、限制与替代方案。
 categories:
 - ai-agents
 wpId: 213

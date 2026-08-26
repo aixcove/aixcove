@@ -3,7 +3,7 @@ title: Sana AI
 date: '2026-04-06T06:12:45'
 modified: '2026-04-17T14:58:33'
 slug: sana-ai
-description: What Is Sana AI? Sana AI is an AI-powered learning and knowledge platform designed for enterprise teams. It combines adaptive learning, knowledge management, and AI-assisted content creation into a si
+description: Sana AI is an enterprise learning and knowledge assistant. Verified features, free tier and Pro pricing, limits, and fit.
 categories:
 - vertical-ai
 wpId: 268

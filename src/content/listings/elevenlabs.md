@@ -3,7 +3,7 @@ title: ElevenLabs
 date: '2026-04-06T06:11:05'
 modified: '2026-04-17T15:38:24'
 slug: elevenlabs
-description: 'What Is ElevenLabs? ElevenLabs is the industry-leading AI voice synthesis platform that generates remarkably realistic human speech from text. Using advanced deep learning models, ElevenLabs produces '
+description: ElevenLabs is an AI voice platform with a free tier and plans from $6/month. Verified pricing, features, limits, and fit.
 categories:
 - ai-creative
 wpId: 261

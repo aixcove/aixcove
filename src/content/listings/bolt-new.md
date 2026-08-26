@@ -3,7 +3,7 @@ title: Bolt.new
 date: '2026-04-19T14:40:58'
 modified: '2026-08-26T12:00:00'
 slug: bolt-new
-description: 'Bolt.new is StackBlitz’s browser prompt-to-web-app builder using WebContainers for JavaScript projects without local setup. Pricing, free-tier limits,'
+description: Bolt.new is a browser-based app builder that generates working code from a prompt. Verified pricing, features, limits, and who it fits.
 categories:
 - ai-coding
 wpId: 635

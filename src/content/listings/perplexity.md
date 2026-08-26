@@ -3,7 +3,7 @@ title: Perplexity
 date: '2026-04-06T06:14:42'
 modified: '2026-04-17T15:38:02'
 slug: perplexity
-description: What Is Perplexity? Perplexity is an AI-powered search engine that provides direct, cited answers to questions rather than returning a list of links. Combining large language models with real-time web
+description: Perplexity is an answer engine with cited sources and live web search. Free tier and Pro from ~$20/month. Features and limits.
 categories:
 - llm-chat
 wpId: 284

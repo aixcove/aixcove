@@ -3,7 +3,7 @@ title: GLM
 date: '2026-04-05T10:24:34'
 modified: '2026-04-17T15:38:30'
 slug: glm
-description: 什么是GLM？GLM（通用语言模型）是智谱AI的旗舰大型语言模型系列，由中国顶尖的AI研究公司之一开发，该公司源自清华大学。Kno
+description: GLM 是智谱面向中文任务与编程的模型家族。免费层、定价、功能、限制与替代方案。
 categories:
 - llm-chat
 wpId: 188

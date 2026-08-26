@@ -3,7 +3,7 @@ title: Gemini CLI
 date: '2026-04-05T12:58:28'
 modified: '2026-08-26T12:00:00'
 slug: gemini-cli
-description: 'Gemini CLI 是 Google 开源终端代理，提供代码库分析、文件和 Shell 工具、网页检索、扩展及脚本。 价格、免费层、限制与适用开发工作流概览。'
+description: Gemini CLI 是 Google 的开源终端智能体编码工具。已核实定价、功能、限制与对比。
 categories:
 - ai-coding
 wpId: 201

@@ -3,7 +3,7 @@ title: Kiro
 date: '2026-04-05T13:03:51'
 modified: '2026-08-26T12:00:00'
 slug: kilo
-description: 'Kiro 是 AWS 的规格驱动 AI IDE，可把功能工作转化为需求、设计、任务、修改和验证。 价格、免费层、限制与适用开发工作流概览。'
+description: Kilo 是基于 Kiro 引擎的 AWS 智能体编码 IDE。已核实定价、功能、限制与在 AWS 技术栈中的定位。
 categories:
 - ai-coding
 wpId: 207

@@ -3,7 +3,7 @@ title: LangChain
 date: '2026-04-06T06:13:35'
 modified: '2026-08-26T12:00:00'
 slug: langchain
-description: LangChain 是基于 MIT 协议的开源框架（约14.5万星标），用于搭建大模型应用。LangSmith 开发者版免费，Plus 版每席位每月 39 美元。
+description: LangChain 是构建 LLM 应用的主流开源框架。已核实 LangSmith 定价、功能、限制与替代方案。
 categories:
 - ai-agents
 wpId: 274

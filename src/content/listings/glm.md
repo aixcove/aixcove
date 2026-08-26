@@ -3,7 +3,7 @@ title: GLM
 date: '2026-04-05T10:24:34'
 modified: '2026-04-17T15:38:30'
 slug: glm
-description: What Is GLM? GLM (General Language Model) is Zhipu AI&#8217;s flagship large language model family, developed by one of China&#8217;s leading AI research companies spun out of Tsinghua University. Kno
+description: GLM is Zhipu AI’s model family for Chinese tasks and coding. Free tier, pricing, features, limits, and alternatives.
 categories:
 - llm-chat
 wpId: 188

@@ -3,7 +3,7 @@ title: LangChain
 date: '2026-04-06T06:13:35'
 modified: '2026-08-26T12:00:00'
 slug: langchain
-description: "LangChain is the open-source framework (MIT, ~145k stars) for building LLM apps. LangSmith starts free at $0/seat and Plus is $39/seat/month."
+description: LangChain is the leading open-source framework for building LLM apps. LangSmith pricing, features, limits, and alternatives.
 categories:
 - ai-agents
 wpId: 274

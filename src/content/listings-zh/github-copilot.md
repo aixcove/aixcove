@@ -3,7 +3,7 @@ title: GitHub Copilot
 date: '2026-04-06T06:13:52'
 modified: '2026-08-26T12:00:00'
 slug: github-copilot
-description: 'GitHub Copilot 覆盖主流编辑器和 GitHub 中的补全、聊天、代理、拉取请求与组织管理。 价格、免费层、限制与适用开发工作流概览。'
+description: GitHub Copilot 是广泛使用的 AI 结对编程工具，支持 IDE 与智能体模式。已核实套餐、功能、限制与定价。
 categories:
 - ai-coding
 wpId: 278

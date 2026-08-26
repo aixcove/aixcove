@@ -3,7 +3,7 @@ title: Notion AI
 date: '2026-04-06T06:09:25'
 modified: '2026-04-17T15:38:19'
 slug: notion-ai
-description: What Is Notion AI? Notion AI is an integrated AI assistant built directly into the Notion workspace platform. Rather than requiring users to switch between a note-taking app and a separate AI tool, No
+description: Notion AI adds drafting, search, meeting notes, and agents inside Notion. Verified pricing, features, limits, and fit.
 categories:
 - ai-productivity
 wpId: 255

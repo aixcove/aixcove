@@ -3,7 +3,7 @@ title: Copy.ai
 date: '2026-04-06T06:08:18'
 modified: '2026-04-17T15:38:10'
 slug: copy-ai
-description: 'What Is Copy.ai? Copy.ai is an AI-powered platform that helps go-to-market teams create high-converting marketing and sales content. Originally launched as an AI copywriting tool, Copy.ai has evolved '
+description: Copy.ai is a go-to-market AI workspace with chat and workflow automation. Verified August 2026 pricing, features, and limits.
 categories:
 - ai-writing-marketing
 wpId: 251

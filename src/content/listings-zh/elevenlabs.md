@@ -3,7 +3,7 @@ title: ElevenLabs
 date: '2026-04-06T06:11:05'
 modified: '2026-04-17T15:38:24'
 slug: elevenlabs
-description: ElevenLabs是什么？ElevenLabs是行业领先的AI语音合成平台，可以从文本生成极其逼真的人声。使用先进的深度学习模型，ElevenLabs能够生产
+description: ElevenLabs 是 AI 语音平台，提供免费层，每月 6 美元起。已核实定价、功能、限制与适用人群。
 categories:
 - ai-creative
 wpId: 261

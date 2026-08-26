@@ -3,7 +3,7 @@ title: Semrush Copilot
 date: '2026-04-06T06:08:51'
 modified: '2026-04-17T14:53:17'
 slug: semrush-copilot
-description: 什么是 Semrush 助手？Semrush 助手是集成到 Semrush 数字营销平台中的 AI 驱动的助手。它会自动分析您网站的 SEO 性能，识别 '
+description: Semrush Copilot 把审计、排名与反链报告整理成可按优先级处理的 SEO 工作队列。已核实内含定价与限制。
 categories:
 - ai-writing-marketing
 wpId: 253

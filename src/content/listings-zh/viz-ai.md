@@ -3,7 +3,7 @@ title: Viz.ai
 date: '2026-04-06T06:12:12'
 modified: '2026-04-17T15:38:15'
 slug: viz-ai
-description: Viz.ai是什么？Viz.ai是一个获得FDA批准的AI驱动医疗平台，利用先进的计算机视觉和深度学习技术实时分析医学影像。旨在加速关键...
+description: Viz.ai 分析时间敏感医学影像，加快护理团队响应。临床销售定价、功能与限制。
 categories:
 - vertical-ai
 wpId: 265

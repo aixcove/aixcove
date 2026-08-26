@@ -3,7 +3,7 @@ title: Perplexity
 date: '2026-04-06T06:14:42'
 modified: '2026-04-17T15:38:02'
 slug: perplexity
-description: 什么是Perplexity？Perplexity是一款由人工智能驱动的搜索引擎，它提供直接且有引用来源的答案，而不是返回链接列表。结合大型语言模型与实时网络
+description: Perplexity 是带引文与实时搜索的答案引擎。免费层，Pro 约每月 20 美元。功能与限制。
 categories:
 - llm-chat
 wpId: 284

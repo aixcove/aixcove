@@ -3,7 +3,7 @@ title: Runway
 date: '2026-04-06T06:10:48'
 modified: '2026-04-17T15:38:22'
 slug: runway
-description: What Is Runway? Runway is a leading AI-powered creative suite that enables filmmakers, designers, and content creators to generate and edit video, images, and audio using artificial intelligence. Know
+description: Runway is an AI video suite with a free tier and plans from $12/month. Verified pricing, features, limits, and alternatives.
 categories:
 - ai-creative
 wpId: 260

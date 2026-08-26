@@ -3,7 +3,7 @@ title: AlphaSense
 date: '2026-04-06T06:12:28'
 modified: '2026-04-17T15:38:14'
 slug: alphasense
-description: 'What Is AlphaSense? AlphaSense is an AI-powered financial research platform that helps investment professionals, corporate strategists, and analysts find critical insights across millions of business '
+description: AlphaSense is an AI financial research platform for institutions. Enterprise sales-led pricing, features, limits, and fit.
 categories:
 - vertical-ai
 wpId: 266

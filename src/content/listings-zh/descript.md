@@ -3,7 +3,7 @@ title: Descript
 date: '2026-04-06T06:11:38'
 modified: '2026-04-17T15:38:23'
 slug: descript
-description: 什么是 Descript？Descript 是一个由人工智能驱动的视频和播客编辑平台，它通过将媒体编辑视为文本文档来革新媒体编辑方式。而不是处理复杂的时间线和波形
+description: Descript 是以文稿为核心的音视频编辑器，提供免费层。已核实定价、功能、限制与适用人群。
 categories:
 - ai-creative
 wpId: 263

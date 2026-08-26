@@ -3,7 +3,7 @@ title: Gemini
 date: '2026-04-05T10:19:38'
 modified: '2026-04-17T15:38:27'
 slug: gemini
-description: 什么是 Google Gemini？Gemini 是 Google 的旗舰 AI 模型系列，设计为原生多模态 — 意味着它可以在单一环境中理解和生成文本、图像、音频和视频
+description: Gemini 是 Google 的多模态 AI，覆盖对话、Workspace 与 API。免费层、AI Pro 定价、功能与限制。
 categories:
 - llm-chat
 wpId: 186

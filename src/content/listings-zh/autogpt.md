@@ -3,7 +3,7 @@ title: AutoGPT
 date: '2026-04-06T06:13:02'
 modified: '2026-08-26T12:00:00'
 slug: autogpt
-description: AutoGPT 是一款免费开源、开创自主智能体先河的项目（约 18.7 万星标），把大模型调用与工具访问连在一起完成任务。只按模型 API 计费。
+description: AutoGPT 是开源的先驱自主智能体项目。已核实功能、限制与现代替代方案。
 categories:
 - ai-agents
 wpId: 270

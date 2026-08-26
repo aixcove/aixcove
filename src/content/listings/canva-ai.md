@@ -3,7 +3,7 @@ title: Canva AI
 date: '2026-04-06T06:11:22'
 modified: '2026-04-17T15:38:21'
 slug: canva-ai
-description: What Is Canva AI? Canva AI refers to the suite of artificial intelligence features integrated into Canva, the world&#8217;s most popular online design platform. These AI tools enable users to create p
+description: Canva AI adds prompt design and media tools inside an editable workspace. Verified pricing, features, limits, and alternatives.
 categories:
 - ai-creative
 wpId: 262

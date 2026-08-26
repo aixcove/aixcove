@@ -3,7 +3,7 @@ title: Gemini CLI
 date: '2026-04-05T12:58:28'
 modified: '2026-08-26T12:00:00'
 slug: gemini-cli
-description: 'Gemini CLI is Google’s open-source terminal agent with codebase analysis, file and shell tools, web grounding, extensions, and scripts. Pricing, free-tier'
+description: Gemini CLI is Google’s open agentic coding tool for the terminal. Verified pricing, features, limits, and comparisons.
 categories:
 - ai-coding
 wpId: 201

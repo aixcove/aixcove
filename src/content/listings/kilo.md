@@ -3,7 +3,7 @@ title: Kiro
 date: '2026-04-05T13:03:51'
 modified: '2026-08-26T12:00:00'
 slug: kilo
-description: 'Kiro is AWS’s spec-driven AI IDE that turns feature work into requirements, design, tasks, changes, and verification. Pricing, free-tier limits, paid'
+description: Kilo is AWS’s agentic coding IDE built on the Kiro engine. Verified pricing, features, limits, and how it fits an AWS stack.
 categories:
 - ai-coding
 wpId: 207
