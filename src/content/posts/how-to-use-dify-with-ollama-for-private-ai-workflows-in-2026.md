@@ -1,9 +1,9 @@
 ---
-title: How to Use Dify with Ollama for Private AI Workflows (2026 Guide)
+title: 'Dify + Ollama: Private AI Workflows in 6 Steps (2026)'
 date: '2026-05-06T00:07:10'
 modified: '2026-08-11T19:14:40'
 slug: how-to-use-dify-with-ollama-for-private-ai-workflows-in-2026
-description: Set up Dify with Ollama for fully local AI workflows — install, connect models, build a RAG pipeline, and keep everything on your own hardware.
+description: 'Self-host Dify, connect Ollama, and run RAG fully on your own hardware. A step-by-step setup guide with a config table and the limits to check first.'
 categories:
 - ai-tutorials-how-tos
 featured: /uploads/2026/05/dify-ollama-hero-4efb261c-00af-4485-ae9a-06f8ea390cbe.jpg

@@ -1,9 +1,9 @@
 ---
-title: Dify怎么用：2026年创建第一个AI工作流教程
+title: 'Dify入门教程：5步搭出第一个AI工作流（2026）'
 date: '2026-05-11T00:05:37'
 modified: '2026-08-11T19:14:36'
 slug: how-to-use-dify-to-build-your-first-ai-workflow-in-2026
-description: Dify是一款低代码AI工作流搭建工具，适合快速构建内部问答机器人、简单RAG应用和轻量级智能体，无需编写大量代码即可上手使用。
+description: '少代码搭出能用的AI工作流：从问答机器人到RAG应用共5步，附新手常见错误与该换工具的判断标准。'
 categories:
 - ai-tutorials-how-tos
 featured: /uploads/2026/05/image-1-16b5d0f3-ad42-4770-bb83-c8a4c9b4ee15.jpg

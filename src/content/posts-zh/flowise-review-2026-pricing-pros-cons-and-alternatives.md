@@ -1,9 +1,9 @@
 ---
-title: Flowise评测2026：价格、优缺点及替代品
+title: 'Flowise评测2026：价格、优缺点与适用团队'
 date: '2026-04-27T00:02:40'
 modified: '2026-08-11T19:14:47'
 slug: flowise-review-2026-pricing-pros-cons-and-alternatives
-description: 拖拽式节点编排LLM应用，开源可自托管，但深度定制要写代码。实测Flowise的真实能力边界、成本与适用团队。
+description: '自托管免费，云端$35/月起。实测Flowise拖拽编排能力边界、深度定制仍需写代码的场景，以及更适合的替代选择。'
 categories:
 - ai-tools-reviews
 featured: /uploads/2026/04/blog-hero-47.jpg

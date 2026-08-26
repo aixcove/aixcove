@@ -1,9 +1,9 @@
 ---
-title: Dify Ollama教程：搭建私有AI工作流（2026）
+title: 'Dify+Ollama教程：6步搭建私有AI工作流（2026）'
 date: '2026-05-06T00:07:10'
 modified: '2026-08-11T19:14:40'
 slug: how-to-use-dify-with-ollama-for-private-ai-workflows-in-2026
-description: 用 Ollama 本地部署 Dify，搭建完全离线的 AI 工作流。从安装、连接模型到构建 RAG 管道，全程数据留在自己的硬件上。
+description: '自托管Dify并接入Ollama，RAG全程留在自己硬件上。含分步安装、配置表与动手前需核对的价格与限制。'
 categories:
 - ai-tutorials-how-tos
 featured: /uploads/2026/05/dify-ollama-hero-4efb261c-00af-4485-ae9a-06f8ea390cbe.jpg

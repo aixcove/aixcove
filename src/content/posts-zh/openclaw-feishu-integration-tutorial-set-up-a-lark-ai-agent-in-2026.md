@@ -1,9 +1,9 @@
 ---
-title: OpenClaw飞书集成教程：2026年搭建Lark AI智能体
+title: 'OpenClaw飞书集成：5步搭好Lark AI智能体'
 date: '2026-05-22T00:03:33'
 modified: '2026-08-11T19:14:28'
 slug: openclaw-feishu-integration-tutorial-set-up-a-lark-ai-agent-in-2026
-description: 飞书集成值得配置，如果你的团队已在用飞书或Lark，并希望在群聊、私信和内部流程中使用AI代理。它并非万能，但适合现有工作流。
+description: '跑通频道向导、配权限、取群ID、低风险测试再到真实工作流。5步教程附常见报错与Telegram方案对比。'
 categories:
 - ai-tutorials-how-tos
 featured: /uploads/2026/05/openclaw-feishu-integration-hero-28259837-26ea-4c95-8d99-ceed31aec0ee.jpg

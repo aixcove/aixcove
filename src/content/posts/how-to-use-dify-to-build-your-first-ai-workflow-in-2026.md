@@ -1,9 +1,9 @@
 ---
-title: How to Use Dify to Build Your First AI Workflow in 2026
+title: 'Dify Tutorial: Build Your First AI Workflow (2026)'
 date: '2026-05-11T00:05:37'
 modified: '2026-08-11T19:14:36'
 slug: how-to-use-dify-to-build-your-first-ai-workflow-in-2026
-description: If you want the short version, Dify is one of the fastest ways to build a usable AI workflow without writing much code.
+description: 'Build a usable AI workflow in Dify without heavy coding: 5 steps from Q&A bot to a RAG app, plus the mistakes beginners make and when to switch tools.'
 categories:
 - ai-tutorials-how-tos
 featured: /uploads/2026/05/image-1-16b5d0f3-ad42-4770-bb83-c8a4c9b4ee15.jpg

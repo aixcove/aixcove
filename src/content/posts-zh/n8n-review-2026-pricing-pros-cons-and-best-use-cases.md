@@ -1,9 +1,9 @@
 ---
-title: n8n评测2026：价格、优缺点及最佳使用场景
+title: 'n8n评测2026：价格、优缺点与适用场景'
 date: '2026-04-28T09:02:53'
 modified: '2026-08-11T19:14:46'
 slug: n8n-review-2026-pricing-pros-cons-and-best-use-cases
-description: n8n是面向技术团队的自动化工具，比Zapier和Make更灵活可控，适合需要深度定制的用户。上手约十分钟后，其优势与局限便会显现。
+description: '比Zapier/Make更灵活可控的自动化工具：2026价格体系、上手十分钟就会遇到的局限，以及真正适合它的使用场景。'
 categories:
 - ai-tools-reviews
 featured: /uploads/2026/04/blog-hero-50.jpg

@@ -1,9 +1,9 @@
 ---
-title: 'OpenClaw Feishu Integration Tutorial: Set Up a Lark AI Agent in 2026'
+title: 'OpenClaw + Feishu: Set Up a Lark AI Agent (5 Steps)'
 date: '2026-05-22T00:03:33'
 modified: '2026-08-11T19:14:28'
 slug: openclaw-feishu-integration-tutorial-set-up-a-lark-ai-agent-in-2026
-description: 'Quick answer: OpenClaw’s Feishu integration is worth setting up if your team already works in Feishu or Lark and wants an AI agent inside group chats.'
+description: 'Run the Feishu channel wizard, configure access, grab group IDs, test safely, then add a real workflow. A practical 5-step Lark AI agent tutorial.'
 categories:
 - ai-tutorials-how-tos
 featured: /uploads/2026/05/openclaw-feishu-integration-hero-28259837-26ea-4c95-8d99-ceed31aec0ee.jpg
