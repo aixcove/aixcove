@@ -1,9 +1,9 @@
 ---
-title: OpenHands评测2026：价格、优缺点及替代品
+title: OpenHands评测2026：价格、优缺点与适用场景
 date: '2026-04-25T09:02:15'
 modified: '2026-08-11T19:14:48'
 slug: openhands-review-2026-pricing-pros-cons-and-alternatives
-description: 如果你在找OpenHands评测，简单说：OpenHands是能自己运行的开源AI编程助手里最认真的之一，但上手不算最容易。
+description: 深度评测开源AI编程智能体OpenHands：真实能力、成本、限制，以及何时优于Cline等替代品。价格核对于2026年8月。
 categories:
 - ai-tools-reviews
 featured: /uploads/2026/04/blog-hero-44.jpg

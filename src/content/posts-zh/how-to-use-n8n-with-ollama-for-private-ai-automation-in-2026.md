@@ -1,9 +1,9 @@
 ---
-title: n8n与Ollama集成教程：2026私有AI自动化怎么用
+title: n8n+Ollama私有AI自动化：5步接入(2026)
 date: '2026-05-08T00:09:24'
 modified: '2026-08-11T19:14:38'
 slug: how-to-use-n8n-with-ollama-for-private-ai-automation-in-2026
-description: 在n8n中接入Ollama，实现本地AI自动化。本文介绍安装配置、工作流模式、限制及替代方案，帮你判断是否适合私有化部署。
+description: 在n8n中接入Ollama，5步实现本地AI自动化。附工作流模式、配置表与搭建前需知的限制。价格核对于2026年8月。
 categories:
 - ai-tutorials-how-tos
 featured: /uploads/2026/05/image-1-37424c07-415e-4f0f-8c18-774145792cb6-1.jpg

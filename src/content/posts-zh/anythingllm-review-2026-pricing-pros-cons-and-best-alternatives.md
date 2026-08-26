@@ -1,9 +1,9 @@
 ---
-title: AnythingLLM评测2026：优缺点与价格分析
+title: AnythingLLM评测2026：定价、优缺点与适用边界
 date: '2026-05-02T09:02:20'
 modified: '2026-08-11T19:14:43'
 slug: anythingllm-review-2026-pricing-pros-cons-and-best-alternatives
-description: AnythingLLM自托管AI工作区深度评测：功能、文档对话质量、定价及最佳替代方案全面解析，助你判断是否值得选择。
+description: 深度评测AnythingLLM：免费桌面版与Docker版真实成本、适合谁用，以及何时该选Dify或OpenClaw。价格核对于2026年8月。
 categories:
 - ai-tools-reviews
 featured: /uploads/2026/05/blog-hero-3.jpg

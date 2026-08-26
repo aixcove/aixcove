@@ -1,9 +1,9 @@
 ---
-title: OpenClaw与Dify对比：2026年AI智能体平台怎么选
+title: OpenClaw与Dify对比：2026 AI智能体平台怎么选
 date: '2026-05-21T09:04:39'
 modified: '2026-08-11T19:14:28'
 slug: openclaw-vs-dify-which-ai-agent-platform-should-you-use-in-2026
-description: 快速结论：想用可视化平台搭建AI应用、RAG工作流和内部聊天机器人，选Dify；想自托管个人AI助手，选OpenClaw。
+description: 快速结论：想要可视化AI应用平台选Dify，想要自托管个人助手选OpenClaw。用一张对比表看清定价格与适用场景。
 categories:
 - ai-tools-comparisons
 featured: /uploads/2026/05/openclaw-vs-dify-hero-14825df4-f90b-40bd-af94-3da92119549b.jpg

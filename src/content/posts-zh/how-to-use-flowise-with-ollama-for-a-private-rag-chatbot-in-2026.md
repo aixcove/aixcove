@@ -1,9 +1,9 @@
 ---
-title: Flowise搭配Ollama搭建私有RAG聊天机器人教程
+title: Flowise+Ollama搭建私有RAG聊天机器人(2026)
 date: '2026-05-04T00:15:52'
 modified: '2026-08-11T19:14:41'
 slug: how-to-use-flowise-with-ollama-for-a-private-rag-chatbot-in-2026
-description: 本地运行 Ollama 后启动 Flowise，连接 ChatOllama 模型节点，即可实现私有大模型对话；如需私有 RAG，可添加文档存储。
+description: 本地运行Ollama后连接Flowise，搭建私有RAG聊天机器人。附对比表与答案不准时的排查思路。价格核对于2026年8月。
 categories:
 - ai-tutorials-how-tos
 featured: /uploads/2026/05/image-1-40f6212a-92d9-4970-b4d9-df74c4610939.jpg

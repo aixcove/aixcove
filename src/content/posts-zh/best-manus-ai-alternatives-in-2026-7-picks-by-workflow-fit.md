@@ -1,9 +1,9 @@
 ---
-title: Manus AI替代品2026：7款工作流适配工具推荐
+title: 2026年7款Manus AI替代品（按工作流推荐）
 date: '2026-05-22T09:08:32'
 modified: '2026-08-11T19:14:27'
 slug: best-manus-ai-alternatives-in-2026-7-picks-by-workflow-fit
-description: 寻找 Manus AI 替代品？首要问题不是哪个工具最自主，而是你想真正自动化什么工作。Manus AI 在处理特定任务时表现最佳，尤其擅长自动化重复性工作...
+description: 按你的实际工作流推荐Manus AI替代品，不是只看自主性。附对比表与每款的真实权衡。价格核对于2026年8月。
 categories:
 - ai-tools-comparisons
 featured: /uploads/2026/05/manus-ai-alternatives-hero-3b5dc427-4a0a-445e-8f42-edb70af24a69.jpg

@@ -1,9 +1,9 @@
 ---
-title: How to Use n8n with Ollama for Private AI Automation in 2026
+title: 'n8n + Ollama: Private AI Automation in 5 Steps (2026)'
 date: '2026-05-08T00:09:24'
 modified: '2026-08-11T19:14:38'
 slug: how-to-use-n8n-with-ollama-for-private-ai-automation-in-2026
-description: Learn how to connect n8n and Ollama for private AI automation, including local setup, workflow patterns, limits, and when to use alternatives.
+description: Connect n8n and Ollama for private AI automation in 5 steps — local workflow patterns, a setup table, and the limits to know before you build.
 categories:
 - ai-tutorials-how-tos
 featured: /uploads/2026/05/image-1-37424c07-415e-4f0f-8c18-774145792cb6-1.jpg

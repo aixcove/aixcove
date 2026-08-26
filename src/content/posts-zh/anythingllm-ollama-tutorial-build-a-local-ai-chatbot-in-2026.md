@@ -1,9 +1,9 @@
 ---
-title: AnythingLLM+Ollama本地AI聊天机器人教程(2026)
+title: AnythingLLM+Ollama搭建本地AI聊天机器人：7步教程(2026)
 date: '2026-05-24T01:58:57'
 modified: '2026-07-26T19:09:41'
 slug: anythingllm-ollama-tutorial-build-a-local-ai-chatbot-in-2026
-description: 本地部署AI聊天机器人教程：用AnythingLLM和Ollama搭建私有ChatGPT，安装配置模型、上传文档即可对话，无需云端。
+description: 用AnythingLLM和Ollama在7个步骤内搭建私有文档AI聊天机器人，附配置对比表与常见坑。价格核对于2026年8月。
 categories:
 - ai-tutorials-how-tos
 featured: /uploads/2026/05/anythingllm-ollama-local-ai-chatbot-hero-fc0c0805-f501-4e32-b698-e4d9380ceade.jpg

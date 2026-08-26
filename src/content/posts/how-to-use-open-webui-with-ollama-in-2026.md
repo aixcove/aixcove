@@ -1,9 +1,9 @@
 ---
-title: 'Open WebUI + Ollama: Run Your Own AI Chatbot Locally (2026)'
+title: 'Open WebUI + Ollama: Private AI Chat in 2026 (Setup Guide)'
 date: '2026-05-05T00:06:04'
 modified: '2026-08-11T19:14:41'
 slug: how-to-use-open-webui-with-ollama-in-2026
-description: Complete setup guide for Open WebUI with Ollama — install, configure local models, enable document chat, and get a private ChatGPT alternative running.
+description: Run your own private ChatGPT with Open WebUI and Ollama. Full local setup, model config, document chat, and a no-cloud comparison table for 2026.
 categories:
 - ai-tutorials-how-tos
 featured: /uploads/2026/05/image-1-006fde99-6bc5-4cd7-a222-62aafcb1924c.jpg

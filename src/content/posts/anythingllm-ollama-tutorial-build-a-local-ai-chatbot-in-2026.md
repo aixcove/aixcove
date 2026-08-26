@@ -1,9 +1,9 @@
 ---
-title: 'AnythingLLM + Ollama: Complete Local AI Chatbot Tutorial (2026)'
+title: 'AnythingLLM + Ollama: Local AI Chatbot in 7 Steps (2026)'
 date: '2026-05-24T01:58:57'
 modified: '2026-07-26T19:09:41'
 slug: anythingllm-ollama-tutorial-build-a-local-ai-chatbot-in-2026
-description: Step-by-step guide to building a private AI chatbot with AnythingLLM and Ollama. Install, configure models, upload documents, and start chatting — no cloud needed.
+description: Build a private document chatbot with AnythingLLM and Ollama in 7 concrete steps, plus a config table and the common pitfalls. Prices checked August 2026.
 categories:
 - ai-tutorials-how-tos
 featured: /uploads/2026/05/anythingllm-ollama-local-ai-chatbot-hero-fc0c0805-f501-4e32-b698-e4d9380ceade.jpg

@@ -1,9 +1,9 @@
 ---
-title: Open WebUI + Ollama：本地运行AI聊天机器人教程（2026）
+title: Open WebUI+Ollama：2026本地私有AI聊天教程
 date: '2026-05-05T00:06:04'
 modified: '2026-08-11T19:14:41'
 slug: how-to-use-open-webui-with-ollama-in-2026
-description: Open WebUI与Ollama完整安装配置指南：本地模型部署、文档对话开启，搭建私有ChatGPT替代方案。
+description: 用Open WebUI和Ollama搭建私有ChatGPT：本地部署、模型配置、文档对话，附无云对比表。价格核对于2026年8月。
 categories:
 - ai-tutorials-how-tos
 featured: /uploads/2026/05/image-1-006fde99-6bc5-4cd7-a222-62aafcb1924c.jpg
