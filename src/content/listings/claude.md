@@ -3,7 +3,7 @@ title: Claude
 date: '2026-04-05T10:23:27'
 modified: '2026-08-16T14:10:00'
 slug: claude
-description: Claude is Anthropic's AI assistant for careful writing, long-document work, analysis, and coding. See its practical strengths, common limits, and a workflow that keeps answers verifiable.
+description: Claude is Anthropic’s AI assistant for careful writing, long-document work, analysis, and coding. See practical strengths, common limits, and a.
 categories:
 - llm-chat
 wpId: 184

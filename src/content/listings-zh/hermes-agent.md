@@ -3,7 +3,7 @@ title: Hermes Agent
 date: '2026-04-11T11:27:04'
 modified: '2026-08-16T14:10:00'
 slug: hermes-agent
-description: Hermes Agent 是 Nous Research 开源的工具型 AI 助手。本文介绍技能、记忆、渠道、定时任务如何组合，以及自托管时必须先做好的权限控制。
+description: Hermes Agent 是 Nous Research 开源的工具型 AI 助手。本文介绍技能、记忆、渠道、定时任务如何组合，以及如何自托管扩展。
 categories:
 - ai-agents
 wpId: 548

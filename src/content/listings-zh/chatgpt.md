@@ -3,7 +3,7 @@ title: ChatGPT
 date: '2026-04-05T10:18:24'
 modified: '2026-08-25T12:30:00'
 slug: chatgpt
-description: ChatGPT is OpenAI's general-purpose assistant for writing, coding, research, file analysis, and agent tasks. See current plans, practical strengths, limits, and who should pay.
+description: ChatGPT 是 OpenAI 的通用助手，用于写作、编程、研究与分析。本文讲清 Free、Plus、Pro、Business 各档的额度、用量与真实限制。
 categories:
 - llm-chat
 wpId: 185

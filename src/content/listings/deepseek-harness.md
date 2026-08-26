@@ -3,7 +3,7 @@ title: DeepSeek Harness
 date: '2026-08-16T18:00:00'
 modified: '2026-08-16T18:00:00'
 slug: deepseek-harness
-description: DeepSeek Harness (dsh) is DeepSeek's open-source MIT-licensed agent harness where models, tools, sessions, sandbox, and even the agent loop are replaceable Cordis plugins. Developer preview with breaking changes expected.
+description: DeepSeek Harness is DeepSeek’s open-source MIT-licensed agent harness where models, tools, sessions, sandbox, and the agent loop are replaceable Cordis.
 categories:
 - ai-agents
 image: /uploads/2026/08/deepseek-harness-review-hero.jpg

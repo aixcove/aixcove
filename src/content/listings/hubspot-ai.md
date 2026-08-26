@@ -3,7 +3,7 @@ title: HubSpot AI
 date: '2026-04-06T06:09:08'
 modified: '2026-08-25T10:40:00'
 slug: hubspot-ai
-description: HubSpot AI now centers on Agent Hub, with credits-based pricing from $0.50 per resolution. See what agents do, what plans include them, limits, and when to look elsewhere.
+description: HubSpot AI now centres on Agent Hub with credits-based pricing from $0.50 per dialogue. See what each agent does, plan gates, and real limits.
 categories:
 - ai-writing-marketing
 wpId: 254

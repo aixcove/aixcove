@@ -3,7 +3,7 @@ title: ChatGPT
 date: '2026-04-05T10:18:24'
 modified: '2026-08-25T12:30:00'
 slug: chatgpt
-description: "ChatGPT review: current GPT-5.6 features, Free, Plus, Pro, Business and Enterprise plans, agent mode, deep research, limits, and best-fit workflows."
+description: 'ChatGPT is OpenAI’s general-purpose assistant for writing, coding, research, and analysis. See the Free, Plus, Pro, Business tiers, usage, and limits.'
 categories:
 - llm-chat
 wpId: 185

@@ -3,7 +3,7 @@ title: Flowise
 date: '2026-04-19T14:39:27'
 modified: '2026-08-22T10:30:00'
 slug: flowise
-description: Flowise is a visual, open-source LLM app builder that was archived in August 2026. See what it did well, why it shut down, its security record, and where to migrate.
+description: Flowise is a visual, open-source LLM app builder that was archived in August 2026. See what it did well, why it shut down, its security record, and where to.
 categories:
 - ai-agents
 wpId: 633

@@ -3,7 +3,7 @@ title: OpenAI Codex
 date: '2026-04-05T12:55:03'
 modified: '2026-08-16T14:10:00'
 slug: codex
-description: OpenAI Codex 是面向真实代码仓库的 AI 编程智能体。本文说明它适合做什么、常见评价、如何写任务和如何把风险留在可审查的范围内。
+description: OpenAI Codex 是面向真实代码仓库的 AI 编程智能体。本文说明它适合做什么、常见评价、如何写任务以及如何把风险留在可审查范围内。
 categories:
 - ai-coding
 wpId: 200

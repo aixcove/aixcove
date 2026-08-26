@@ -3,7 +3,7 @@ title: OpenAI Codex
 date: '2026-04-05T12:55:03'
 modified: '2026-08-16T14:10:00'
 slug: codex
-description: OpenAI Codex is a coding agent for repository work in the terminal, IDE, web, and cloud. Learn where it helps, where review is essential, and practical ways to use it safely.
+description: OpenAI Codex is a coding agent for repository work in the terminal, IDE, and cloud. See its strengths, common limits, and how to keep it reviewable.
 categories:
 - ai-coding
 wpId: 200

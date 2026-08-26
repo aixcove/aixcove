@@ -3,7 +3,7 @@ title: Kimi
 date: '2026-04-05T12:50:26'
 modified: '2026-08-16T14:10:00'
 slug: kimi
-description: Kimi is Moonshot AI's assistant for Chinese and bilingual reading, writing, research, and long-document workflows. See its strengths, limits, and practical document-review habits.
+description: Kimi is Moonshot AI’s assistant for Chinese and bilingual reading, writing, research, and long-document workflows. See its strengths, limits, and.
 categories:
 - llm-chat
 wpId: 199

@@ -3,7 +3,7 @@ title: Dify
 date: '2026-04-19T14:42:28'
 modified: '2026-08-25T12:30:00'
 slug: dify
-description: "Dify review: visual AI app workflows, RAG, agents, model integrations, cloud pricing, self-hosting tradeoffs, setup limits, and best-fit teams."
+description: Dify is an open-source platform for visual AI app workflows, RAG, agents, and model integrations. See practical strengths, limits, and self-hosting.
 categories:
 - ai-agents
 wpId: 638

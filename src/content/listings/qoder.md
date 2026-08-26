@@ -3,7 +3,7 @@ title: Qoder
 date: '2026-04-05T13:03:15'
 modified: '2026-08-22T10:30:00'
 slug: qoder
-description: Qoder is an agentic coding platform from Alibaba's Qwen team with an IDE, CLI, and JetBrains plugin. See its Editor and Quest workspaces, credits pricing, real limits, and setup tips.
+description: Qoder is an agentic coding platform from Alibaba’s Qwen team with an IDE, CLI, and JetBrains plugin. See Editor and Quest workspaces, credits pricing,.
 categories:
 - ai-coding
 wpId: 205

@@ -3,7 +3,7 @@ title: DeepSeek Harness
 date: '2026-08-16T18:00:00'
 modified: '2026-08-16T18:00:00'
 slug: deepseek-harness
-description: DeepSeek Harness（dsh）是 DeepSeek 2026 年 8 月开源的 MIT 许可 Agent 框架，模型、工具、会话、沙箱乃至 Agent 循环都是可替换的 Cordis 插件。开发者预览期，预期会有破坏性变更。
+description: DeepSeek Harness（dsh）是 DeepSeek 2026 年 8 月开源的 MIT 许可 Agent 框架，模型、工具、会话、沙箱乃至 Agent.
 categories:
 - ai-agents
 image: /uploads/2026/08/deepseek-harness-review-hero.jpg

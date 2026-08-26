@@ -3,7 +3,7 @@ title: Dify
 date: '2026-04-19T14:42:28'
 modified: '2026-08-25T12:30:00'
 slug: dify
-description: 'Dify is an open-source platform for AI apps: visual workflows, RAG, agents, Docker self-hosting or cloud. Current pricing, plan limits, and fit explained.'
+description: Dify 是开源平台，用于可视化 AI 应用工作流、RAG、智能体与模型集成。本文讲实际操作优势、限制与自托管要点。
 categories:
 - ai-agents
 wpId: 638

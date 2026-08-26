@@ -3,7 +3,7 @@ title: HubSpot AI
 date: '2026-04-06T06:09:08'
 modified: '2026-08-25T10:40:00'
 slug: hubspot-ai
-description: HubSpot AI 的核心是 Agent Hub，按结果用积分计价，解决一次对话 0.5 美元起。本文讲清各智能体能做什么、套餐门槛、限制与替代选择。
+description: HubSpot AI 的核心是 Agent Hub，按结果用积分计价，解决一次对话 0.5 美元起。本文讲清各智能体能做什么、套餐门槛与真实限制。
 categories:
 - ai-writing-marketing
 wpId: 254

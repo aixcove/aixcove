@@ -3,7 +3,7 @@ title: Hapax
 date: '2026-05-11T02:20:34'
 modified: '2026-08-20T10:30:00'
 slug: hapax-ai
-description: Hapax is an AI agent platform for banks, credit unions, and operations-heavy teams. It maps business workflows, auto-builds agents, and connects 20+ tools. Pricing, strengths, limits, and tips.
+description: Hapax is an AI agent platform for banks, credit unions, and operations-heavy teams. It maps workflows, auto-builds agents, connects 20+ tools.
 categories:
 - vertical-ai
 wpId: 788

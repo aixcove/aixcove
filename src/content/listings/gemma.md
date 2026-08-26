@@ -3,7 +3,7 @@ title: Gemma
 date: '2026-04-05T15:31:53'
 modified: '2026-08-22T10:30:00'
 slug: gemma
-description: Gemma is Google DeepMind's open-weight model family, now at Gemma 4 with sizes from E2B to 31B. See the model lineup, how to run them locally, license notes, and real community reception.
+description: Gemma is Google DeepMind’s open-weight model family, now at Gemma 4 with sizes from E2B to 31B. See the model lineup, local running, license notes, and.
 categories:
 - llm-chat
 wpId: 237

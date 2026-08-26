@@ -3,7 +3,7 @@ title: AutoGen Studio
 date: '2026-04-19T16:08:18'
 modified: '2026-08-25T10:35:00'
 slug: autogen-studio
-description: AutoGen Studio is Microsoft's open-source UI for prototyping multi-agent workflows. See what it does well, its hard security limits, the move to maintenance mode, and who should still use it.
+description: AutoGen Studio is Microsoft’s open-source UI for prototyping multi-agent workflows. See what it does well, its hard security limits, the move to.
 categories:
 - ai-agents
 wpId: 649

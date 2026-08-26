@@ -3,7 +3,7 @@ title: DeepSeek
 date: '2026-04-06T06:14:59'
 modified: '2026-08-16T14:10:00'
 slug: deepseek
-description: DeepSeek provides chat and API models known for strong reasoning, coding interest, and open-weight releases. Learn the practical trade-offs, verification habits, and deployment choices.
+description: DeepSeek provides chat and API models known for strong reasoning, coding, and open-weight releases. Learn practical trade-offs, verification habits,.
 categories:
 - llm-chat
 wpId: 286

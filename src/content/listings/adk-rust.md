@@ -3,7 +3,7 @@ title: ADK-Rust
 date: '2026-05-11T02:20:22'
 modified: '2026-08-20T10:30:00'
 slug: adk-rust
-description: ADK-Rust is an open-source Rust framework for building AI agents, with 42 crates covering models, tools, memory, RAG, realtime voice, and durable graph workflows. See its strengths, limits, and setup tips.
+description: ADK-Rust is an open-source Rust framework for building AI agents, with 42 crates covering models, tools, memory, RAG, realtime voice, and durable graph.
 categories:
 - ai-coding
 wpId: 786

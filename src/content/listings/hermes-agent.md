@@ -3,7 +3,7 @@ title: Hermes Agent
 date: '2026-04-11T11:27:04'
 modified: '2026-08-16T14:10:00'
 slug: hermes-agent
-description: Hermes Agent is an open-source, tool-using AI assistant from Nous Research. Learn how skills, memory, channels, and approval-aware automation fit together in real deployments.
+description: Hermes Agent is an open-source, tool-using AI assistant from Nous Research. See skills, memory, channels, cron, and how to self-host it and extend it.
 categories:
 - ai-agents
 wpId: 548

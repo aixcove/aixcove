@@ -3,7 +3,7 @@ title: LangGraph
 date: '2026-04-19T14:39:23'
 modified: '2026-08-25T10:30:00'
 slug: langgraph
-description: LangGraph is an open-source MIT-licensed orchestration framework for long-running stateful agents. See what it actually adds over plain code, where it fits, its limits, and how to start.
+description: LangGraph is an open-source MIT-licensed orchestration framework for long-running stateful agents. See what it adds over plain code, where it fits, its.
 categories:
 - ai-agents
 wpId: 631
