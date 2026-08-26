@@ -1,9 +1,9 @@
 ---
-title: ChatGPT
+title: ChatGPT评测2026：Free、Plus、Pro套餐与限制
 date: '2026-04-05T10:18:24'
 modified: '2026-08-25T12:30:00'
 slug: chatgpt
-description: ChatGPT 是 OpenAI 的通用助手，用于写作、编程、研究与分析。本文讲清 Free、Plus、Pro、Business 各档的额度、用量与真实限制。
+description: ChatGPT 适合写作、编程、研究与分析。对比 Free、Plus、Pro、Business 各档额度、用量限制，以及什么情况值得升级。
 categories:
 - llm-chat
 wpId: 185

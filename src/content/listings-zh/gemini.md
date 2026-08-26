@@ -1,9 +1,9 @@
 ---
-title: Gemini
+title: Gemini评测2026：Google AI Pro定价、Workspace与API
 date: '2026-04-05T10:19:38'
 modified: '2026-04-17T15:38:27'
 slug: gemini
-description: Gemini 是 Google 的多模态 AI，覆盖对话、Workspace 与 API。已核实免费层、AI Pro 定价、功能与限制。
+description: Google Gemini 覆盖对话、Workspace 与 API。对比免费层和 AI Pro 定价、多模态优势、实际限制与最适合的使用场景。
 categories:
 - llm-chat
 wpId: 186

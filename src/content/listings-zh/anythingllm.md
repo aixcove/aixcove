@@ -1,9 +1,9 @@
 ---
-title: AnythingLLM
+title: AnythingLLM评测2026：私有RAG、本地模型与适用性
 date: '2026-04-19T16:08:23'
 modified: '2026-05-03T11:11:37'
 slug: anythingllm
-description: 什么是AnythingLLM？AnythingLLM是一个开源平台，旨在帮助团队使用本地或托管模型构建私有AI工作空间。它提供了一个实用、用户友好的解决方案
+description: AnythingLLM 是免费开源的私有文档对话、RAG 与本地模型工作区。本文评测自托管取舍，并与 Open WebUI 对比适用场景。
 categories:
 - local-self-hosted
 wpId: 651

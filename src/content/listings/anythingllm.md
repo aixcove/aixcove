@@ -1,9 +1,9 @@
 ---
-title: AnythingLLM
+title: 'AnythingLLM Review 2026: Private RAG, Local Models & Fit'
 date: '2026-04-19T16:08:23'
 modified: '2026-05-03T11:11:37'
 slug: anythingllm
-description: AnythingLLM is an open-source platform for private AI workspaces with local or hosted models, RAG-ready design, and self-hosted deployment. See.
+description: AnythingLLM is a free open-source workspace for private document chat, RAG, and local models. Review its self-hosting trade-offs and fit versus Open WebUI.
 categories:
 - local-self-hosted
 wpId: 651

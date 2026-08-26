@@ -1,9 +1,9 @@
 ---
-title: QwenPaw
+title: 'QwenPaw Review 2026: Local AI Assistant with Memory'
 date: '2026-05-11T02:20:01'
 modified: '2026-08-20T10:30:00'
 slug: qwenpaw
-description: QwenPaw is a free open-source personal AI assistant for local or cloud use, with multi-channel chat, three-layer memory, skills, and local-model.
+description: QwenPaw is a free open-source personal AI assistant with three-layer memory, skills, local models, and multi-channel chat. Review, limits, and setup fit.
 categories:
 - local-self-hosted
 wpId: 784

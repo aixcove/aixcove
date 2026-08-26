@@ -1,9 +1,9 @@
 ---
-title: Gemini
+title: 'Gemini Review 2026: Google AI Pro Pricing, Workspace & API'
 date: '2026-04-05T10:19:38'
 modified: '2026-04-17T15:38:27'
 slug: gemini
-description: 'Gemini is Google’s multimodal AI across chat, Workspace, and API. Verified Aug 2026 free tier and AI Pro pricing, features, limits, and fit.'
+description: 'Google Gemini across chat, Workspace, and API: compare the free tier and AI Pro plan, multimodal strengths, practical limits, and the best fit.'
 categories:
 - llm-chat
 wpId: 186

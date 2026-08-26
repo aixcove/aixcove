@@ -1,9 +1,9 @@
 ---
-title: QwenPaw
+title: QwenPaw评测2026：带记忆的开源本地AI助手
 date: '2026-05-11T02:20:01'
 modified: '2026-08-20T10:30:00'
 slug: qwenpaw
-description: QwenPaw 是 AgentScope 团队开源的个人 AI 助手，可本地或云端部署，支持钉钉、飞书、微信等多渠道，记忆、技能、本地模型都齐全。本文讲它适合谁、怎么用、有哪些坑。
+description: QwenPaw 是带三层记忆、技能、本地模型与多渠道对话的免费开源个人 AI 助手。本文讲清适用场景、限制与上手要点。
 categories:
 - local-self-hosted
 wpId: 784
