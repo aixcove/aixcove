@@ -33,7 +33,7 @@ wpId: 509
 
 
 
-<p class="wp-block-paragraph">核心问题是速度。Anthropic、OpenAI、Google等公司的技术让攻击者识别计算机系统安全漏洞的速度，比一年前快得多。《纽约时报》4月6日发布的一篇报道详细说明了这些新系统如何改变网络安全中攻击者与防御者之间的基本动态。</p><p class="wp-block-paragraph">员工自身也在制造越来越多的攻击面。现在很多员工用Claude和Copilot这类工具搭建自定义AI代理，这些代理经常连接到公司内部基础设施。这些连接就成了网络犯罪分子可以探测的入口。一家公司部署的自主AI代理越多，可能被人撬锁的门就越多。</p>
+<p class="wp-block-paragraph">核心问题是速度。Anthropic、OpenAI、Google等公司的技术让攻击者识别计算机系统安全漏洞的速度，比一年前快得多。《纽约时报》4月6日发布的一篇报道详细说明了这些新系统如何改变网络安全中攻击者与防御者之间的基本动态。</p><p class="wp-block-paragraph">员工自身也在制造越来越多的攻击面。现在很多员工用<a href="/zh/listing/claude/">Claude</a>和Copilot这类工具搭建自定义AI代理，这些代理经常连接到公司内部基础设施。这些连接就成了网络犯罪分子可以探测的入口。一家公司部署的自主AI代理越多，可能被人撬锁的门就越多。</p>
 
 
 
@@ -86,3 +86,4 @@ wpId: 509
 
 
 <p class="wp-block-paragraph">Anthropic尚未公布Mythos的发布日期。该公司表示希望在推进之前完全了解该模型的短期网络安全风险。但发布的竞争压力巨大。Google、OpenAI和其他公司都在竞相达到相同的能力门槛。没有哪家公司能在竞争对手前进的同时无限期暂停。</p><p class="wp-block-paragraph">一个让人不舒服的事实是，Mythos本身不是问题所在。Mythos只是一个预演。各大实验室后续推出的模型，都会具备类似能力。现在还有时间窗口去构建跟得上攻击速度的防御体系，但这个窗口不会一直开着。CISA的人员编制只有四成，而前沿AI模型几秒钟就能学会找漏洞，这种速度差很快就会酿成非常糟糕的后果。</p>
+<p>如需逐工具对比，可查看<a href="/zh/listing-category/ai-coding/">AI编程工具清单</a>与<a href="/zh/category/ai-tools-comparisons/">对比评测栏目</a>。</p>

@@ -39,7 +39,7 @@ wpId: 509
 
 
 
-<p class="wp-block-paragraph">There is also a growing attack surface created by employees themselves. Many workers now build custom AI agents using tools like Claude and Copilot, and these agents frequently connect to internal company infrastructure. Those connections become entry points that cybercriminals can probe. The more autonomous AI agents a company deploys, the more potential doors exist for someone to pick the lock.</p>
+<p class="wp-block-paragraph">There is also a growing attack surface created by employees themselves. Many workers now build custom AI agents using tools like <a href="/listing/claude/">Claude</a> and Copilot, and these agents frequently connect to internal company infrastructure. Those connections become entry points that cybercriminals can probe. The more autonomous AI agents a company deploys, the more potential doors exist for someone to pick the lock.</p>
 
 
 
@@ -100,4 +100,4 @@ wpId: 509
 
 
 <p class="wp-block-paragraph">The uncomfortable truth is that Mythos is not the problem. Mythos is a preview. The models coming after it, from every major lab, will share these capabilities. The window to build defensive systems that match offensive speed is open now, but it will not stay open forever. CISA running at 40 percent staffing while frontier AI models learn to find vulnerabilities in seconds is the kind of mismatch that produces very bad outcomes very quickly.</p>
-
+<p>For tool-by-tool comparisons, see our <a href="/listing-category/ai-coding/">AI coding listings</a> and the <a href="/category/ai-tools-comparisons/">comparisons section</a>.</p>

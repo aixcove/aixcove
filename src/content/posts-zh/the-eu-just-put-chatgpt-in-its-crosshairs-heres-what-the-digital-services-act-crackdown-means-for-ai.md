@@ -9,10 +9,10 @@ categories:
 featured: /uploads/2026/08/eu-chatgpt-dsa-featured.jpg
 wpId: 565
 ---
-<p>ChatGPT 正站在一部它此前一直躲开的法规的边缘。2026年7月30日，欧盟委员会发言人向路透社确认，ChatGPT 与 Roblox 都可能被纳入《数字服务法》（DSA）下的"超大型在线平台"（VLOP）名单——这是欧盟内容治理最严的一档，门槛是欧盟月活 4500 万以上。彭博援引匿名人士称指定程序已在准备中。到 8 月下旬又开了一条新战线：欧盟官员在评估 ChatGPT 的搜索功能是否也让它构成"超大型在线搜索引擎"（VLOSE）——一个法律上更棘手的问题，政策通讯 Table.Briefings 称之为一个正在成形的里程碑式裁决。</p>
+<p><a href="/zh/listing/chatgpt/">ChatGPT</a> 正站在一部它此前一直躲开的法规的边缘。2026年7月30日，欧盟委员会发言人向路透社确认，ChatGPT 与 Roblox 都可能被纳入《数字服务法》（DSA）下的"超大型在线平台"（VLOP）名单——这是欧盟内容治理最严的一档，门槛是欧盟月活 4500 万以上。彭博援引匿名人士称指定程序已在准备中。到 8 月下旬又开了一条新战线：欧盟官员在评估 ChatGPT 的搜索功能是否也让它构成"超大型在线搜索引擎"（VLOSE）——一个法律上更棘手的问题，政策通讯 Table.Briefings 称之为一个正在成形的里程碑式裁决。</p>
 
 <h2>用户规模把问题逼上了台面</h2>
-<p>DSA 的 VLOP 门槛是欧盟月均用户 4500 万——这个门槛 ChatGPT 早就越过了。2025 年 10 月，Sam Altman 宣布 ChatGPT 周活达到 8 亿。The Information 2026 年 7 月 28 日援引内部数据报道其周活逼近 10 亿；7 月 31 日，WSJ 与 OpenAI 自己的《Building abundant intelligence》文章都确认了 10 亿用户里程碑；The Verge 8 月 11 日报道 ChatGPT 与 Gemini 双双突破 10 亿用户。即便只算欧盟份额，也远高于门槛——这就是为什么委员会的审查已经从"要不要管"进入了"怎么管"。</p>
+<p>DSA 的 VLOP 门槛是欧盟月均用户 4500 万——这个门槛 ChatGPT 早就越过了。2025 年 10 月，Sam Altman 宣布 ChatGPT 周活达到 8 亿。The Information 2026 年 7 月 28 日援引内部数据报道其周活逼近 10 亿；7 月 31 日，WSJ 与 OpenAI 自己的《Building abundant intelligence》文章都确认了 10 亿用户里程碑；The Verge 8 月 11 日报道 ChatGPT 与 <a href="/zh/listing/gemini/">Gemini</a> 双双突破 10 亿用户。即便只算欧盟份额，也远高于门槛——这就是为什么委员会的审查已经从"要不要管"进入了"怎么管"。</p>
 
 <h2>VLOP 身份实际要求什么</h2>
 <p>DSA 最高档不是一套罚款机制，而是一整套义务包。被指定的平台必须：</p>
@@ -35,3 +35,4 @@ wpId: 565
 <li><strong>时间窗口很短。</strong>被指定后，平台只有四个月时间满足完整义务包。如果指定在今年秋天落地，ChatGPT 的合规冲刺立刻开始。</li>
 </ul>
 <p>信息来源：路透社（2026-07-30）、彭博（2026-07-30）、The Information（2026-07-28）、WSJ（2026-07-31）、The Verge（2026-08-11）、欧盟委员会指定 VLOP 名单（2026-07-24 更新）、Table.Briefings（2026-08-24）。</p>
+<p>如需逐工具对比，可查看<a href="/zh/listing-category/ai-coding/">AI编程工具清单</a>与<a href="/zh/category/ai-tools-comparisons/">对比评测栏目</a>。</p>

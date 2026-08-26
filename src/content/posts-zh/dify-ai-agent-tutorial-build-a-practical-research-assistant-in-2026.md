@@ -12,7 +12,7 @@ wpId: 836
 <h2>Dify AI Agent教程：2026年构建实用研究助手</h2>
 <p>如果你想构建AI Agent，又不想从头组装一整套自定义技术栈，Dify是一个比较实际的起点。它把可视化工作流构建器、模型提供商设置、知识库检索、工具、API发布、日志和部署选项整合在一个产品里。这对需要内部助手、客服机器人、内容运营帮手或可后续转为生产应用的工作流原型的团队来说很有用。</p>
 <p>这个Dify AI Agent教程会带你走一遍真实构建流程：一个研究助手，接收用户问题，检索小型知识库，用LLM起草回答，并返回带注意事项的清晰回复。这不是玩具聊天机器人设置。目标是构建一个能用你自己的文档测试、然后通过检索、提示词调整和工作流日志来改进的东西。</p>
-<p><strong>快速判断：</strong>如果你想要一个可视化、适合团队协作的方式来构建LLM应用和Agent工作流，用Dify。如果你主要想要底层框架控制、自定义Python编排或代码优先的Agent图，跳过它。那种情况下，可以参考我们的<a href="/langgraph-vs-crewai-which-agent-framework-should-you-use-in-2026/">LangGraph vs CrewAI指南</a>，对比LangGraph和CrewAI这类框架。</p>
+<p><strong>快速判断：</strong>如果你想要一个可视化、适合团队协作的方式来构建LLM应用和Agent工作流，用Dify。如果你主要想要底层框架控制、自定义Python编排或代码优先的Agent图，跳过它。那种情况下，可以参考我们的<a href="/zh/langgraph-vs-crewai-which-agent-framework-should-you-use-in-2026/">LangGraph vs CrewAI指南</a>，对比LangGraph和CrewAI这类框架。</p>
 <h2>开始前需要准备什么</h2>
 <p>你可以用Dify Cloud或自托管Dify安装。Dify当前的云定价包括免费Sandbox计划（有积分和应用/存储上限）、Professional计划（每个工作区每月59美元）和Team计划（每个工作区每月159美元）。免费计划足够学习工作流，但生产使用通常需要付费计划或自托管，因为你很快会关心消息积分、存储、日志历史、速率限制和团队访问权限。</p>
 <p>构建之前，准备三样东西：</p>
@@ -20,7 +20,7 @@ wpId: 836
 <li>一个Dify账户或自托管工作区。</li>
 <li>至少配置一个模型提供商，比如OpenAI、Anthropic、Azure OpenAI、Hugging Face、Replicate，或本地/兼容OpenAI的模型端点。</li>
 <li>一小套测试文档，最好五到二十页真实内部材料，而不是通用示例文本。</li>
-</ul><p>如果你还在对比各种自动化工具，Dify 更接近一个 AI 应用构建器，而不是经典的流程自动化产品。对于事件驱动的自动化和应用集成，你可能也想读一下我们的<a href="/n8n-ai-agent-tutorial-build-a-practical-workflow/">n8n AI 智能体教程</a>和<a href="/openclaw-vs-n8n-which-ai-automation-tool-should-you-use-in-2026/">OpenClaw 与 n8n 对比</a>。</p>
+</ul><p>如果你还在对比各种自动化工具，Dify 更接近一个 AI 应用构建器，而不是经典的流程自动化产品。对于事件驱动的自动化和应用集成，你可能也想读一下我们的<a href="/zh/n8n-ai-agent-tutorial-build-a-practical-workflow/">n8n AI 智能体教程</a>和<a href="/zh/openclaw-vs-n8n-which-ai-automation-tool-should-you-use-in-2026/">OpenClaw 与 n8n 对比</a>。</p>
 <h2>第一步：创建正确类型的应用</h2>
 <p>在 Dify 中，从 <strong>Studio</strong> 开始，创建一个新应用。本教程中，选择工作流或聊天流类型的应用，而不是简单的提示词应用。基础提示词应用适合一次性生成，但智能体风格的助手需要更多结构：用户输入、检索、模型推理、条件逻辑和最终答案。</p>
 <p>给应用起一个平淡但清晰的名字，比如“研究助手 – 内部文档”。当你同时有多个测试应用、多个模型提供商和不同实验的日志时，清晰的命名很重要。它也有助于你之后将应用发布为 Web 应用或 API。</p>
@@ -68,7 +68,7 @@ wpId: 836
 <p>如果助手用于支持、合规、产品文档或购买决策，猜测比说“信息不足”更糟。尽早添加接地规则。</p>
 <h3>忽略定价和速率限制</h3>
 <p>Dify的免费Sandbox计划适合探索，但生产使用取决于积分、知识存储、文档限制、工作流执行和API限制。在邀请整个团队之前先估算用量。</p>
-<h3>需要代码级控制时却选择Dify</h3><p>Dify在可视化编排、RAG、部署和团队迭代方面表现最强。如果你需要自定义状态机、深度代码控制或实验性智能体架构，框架可能更合适。我们的<a href="/best-openclaw-alternatives-in-2026-7-picks-by-workflow-fit/">OpenClaw替代方案指南</a>在按工作流适配度比较本地助手、自动化工具和智能体构建器时很有用。</p>
+<h3>需要代码级控制时却选择Dify</h3><p>Dify在可视化编排、RAG、部署和团队迭代方面表现最强。如果你需要自定义状态机、深度代码控制或实验性智能体架构，框架可能更合适。我们的<a href="/zh/best-openclaw-alternatives-in-2026-7-picks-by-workflow-fit/">OpenClaw替代方案指南</a>在按工作流适配度比较本地助手、自动化工具和智能体构建器时很有用。</p>
 <h2>结论：Dify适合AI智能体吗？</h2>
 <p>Dify是实用AI智能体的强起点，因为它打包了枯燥但必要的部分：模型设置、工作流编排、检索、应用发布、API访问和可观测性。它特别适合那些想快速交付内部工具、而不把每个原型变成定制工程项目的团队。</p>
 <p>代价是控制力。如果你想手写每个智能体循环或深度定制编排逻辑，Dify不是最佳选择。但对于研究助手、支持机器人、内容运营帮手或内部知识应用，它提供了足够的结构来构建有用的东西，也提供了足够的可见性，让真实用户使用后能改进。</p>

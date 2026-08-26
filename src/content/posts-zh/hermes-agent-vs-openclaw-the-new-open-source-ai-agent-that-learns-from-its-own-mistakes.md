@@ -9,7 +9,7 @@ categories:
 featured: /uploads/2026/04/cover-529-1.jpg
 wpId: 529
 ---
-<p><em>一款开源AI智能体，从经验中构建可复用技能，自带40多种内置工具，在5美元的VPS上就能跑——空闲时几乎不耗资源。Nous Research的Hermes Agent几周内就收获了8700个GitHub星标。但它真的能取代OpenClaw吗？</em></p>
+<p><em>一款开源AI智能体，从经验中构建可复用技能，自带40多种内置工具，在5美元的VPS上就能跑——空闲时几乎不耗资源。Nous Research的Hermes Agent几周内就收获了8700个GitHub星标。但它真的能取代<a href="/zh/listing/openclaw/">OpenClaw</a>吗？</em></p>
 <p>AI智能体赛道越来越拥挤。每周都有新框架宣称要做你的“个人AI助手”。大多数只是套了工具调用的聊天机器人外壳——演示时惊艳，实际用起来平平无奇。</p>
 <p>Hermes Agent由Nous Research于2026年初发布，走的是另一条路。它的核心卖点不只是“能用工具”，而是“用工具会越用越好”。完成一项复杂任务后，智能体会自动生成一份可复用的技能文档。下次遇到类似场景，它直接加载这份技能，而不是从头摸索。技能用多了，还会开始自我优化。</p>
 <p>这个说法口气不小。我花时间翻了代码库、文档和社区讨论，看看它是否站得住脚——以及和OpenClaw相比表现如何。OpenClaw是2025年以来一直在背后支撑个人AI智能体的框架。</p>
@@ -144,3 +144,4 @@ hermes gateway        # 启动消息网关（Telegram、Discord 等）</code></p
 <li><strong>OpenClaw 文档：</strong> <a href="https://docs.openclaw.ai">docs.openclaw.ai</a></li>
 <li><strong>OpenClaw GitHub：</strong> <a href="https://github.com/openclaw/openclaw">github.com/openclaw/openclaw</a></li>
 </ul>
+<p>如需逐工具对比，可查看<a href="/zh/listing-category/ai-coding/">AI编程工具清单</a>与<a href="/zh/category/ai-tools-comparisons/">对比评测栏目</a>。</p>

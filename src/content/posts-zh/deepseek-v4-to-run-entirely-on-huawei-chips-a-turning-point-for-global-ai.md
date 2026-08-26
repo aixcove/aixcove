@@ -11,7 +11,7 @@ wpId: 426
 ---
 <p><em>2026年4月6日</em> — 路透社4月4日确认，<strong>DeepSeek即将推出的V4模型将完全运行在华为Ascend 950PR芯片上</strong>，这可能是今年最具影响力的AI硬件消息——首次有前沿规模的AI模型在不依赖NVIDIA GPU的情况下，基于中国半导体基础设施构建。</p>
 <h2>为什么重要</h2>
-<p>目前所有主流前沿模型——GPT-5、Claude、Gemini——都运行在NVIDIA硬件上。DeepSeek V4打破了这种依赖。如果该模型达到报道中的基准测试成绩，将证明中国制造的芯片能够支撑尖端AI，直接挑战美国对先进半导体出口管制背后的假设。</p>
+<p>目前所有主流前沿模型——GPT-5、<a href="/zh/listing/claude/">Claude</a>、<a href="/zh/listing/gemini/">Gemini</a>——都运行在NVIDIA硬件上。DeepSeek V4打破了这种依赖。如果该模型达到报道中的基准测试成绩，将证明中国制造的芯片能够支撑尖端AI，直接挑战美国对先进半导体出口管制背后的假设。</p>
 <p>据路透社报道，包括<strong>阿里巴巴、字节跳动和腾讯</strong>在内的中国科技巨头已批量订购数十万颗华为Ascend芯片，为V4的发布做准备。仅这一需求就推动芯片价格在近几周上涨20%。</p>
 <h2>关于DeepSeek V4的已知信息</h2>
 <p>DeepSeek V4是一个<strong>混合专家（MoE）模型，总参数约1万亿</strong>，每个token激活约370亿参数。目前报道的关键规格：</p>
@@ -41,3 +41,4 @@ wpId: 426
 <p>随着发布临近，我们将密切关注。V4发布后，请回来查看更新的基准测试和实际测试结果。</p>
 <hr />
 <p><em>来源：路透社、The Information、FindSkill.ai、华为中央、TechWire Asia</em></p>
+<p>如需逐工具对比，可查看<a href="/zh/listing-category/ai-coding/">AI编程工具清单</a>与<a href="/zh/category/ai-tools-comparisons/">对比评测栏目</a>。</p>

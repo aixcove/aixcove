@@ -21,7 +21,7 @@ wpId: 856
 <li><strong>隐私和模型控制很重要。</strong> 一些团队想要本地模型、自带密钥的设置，或者对哪个提供商能看到代码有更严格的控制。</li>
 <li><strong>企业治理是一个单独的问题。</strong> 一旦团队规模扩大，单点登录(SSO)、审计日志、座位管理、数据控制和成本报告就变得更加重要。</li>
 </ul>
-<p>获取更多目录背景信息，可以查看aixcove的<a href="/listing-category/ai-coding-development/">AI编程与开发列表</a>。如果你的实际用例是应用原型设计，最近的<a href="/best-bolt-new-alternatives-in-2026-7-picks/">Bolt.new替代品指南</a>可能更适合。</p>
+<p>获取更多目录背景信息，可以查看aixcove的<a href="/listing-category/ai-coding-development/">AI编程与开发列表</a>。如果你的实际用例是应用原型设计，最近的<a href="/zh/best-bolt-new-alternatives-in-2026-7-picks/">Bolt.new替代品指南</a>可能更适合。</p>
 <h2>快速清单：按用例分类的最佳Cursor替代品</h2>
 <ul>
 <li><strong>最接近的Cursor替代品：</strong> Windsurf</li><li><strong>最适合现有VS Code、JetBrains和GitHub工作流程：</strong> GitHub Copilot</li>

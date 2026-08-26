@@ -36,7 +36,7 @@ n8n仍然是一款强大的工具。它灵活、可自托管，广泛用于API�
 <p><a href="https://dify.ai/pricing">Dify</a>是n8n最令人信服的替代品，如果你的自动化工作实际上是AI产品工作的伪装。它将工作流编排、知识库、应用发布和模型路由整合在一个堆栈中。这使其更接近AI应用平台而非通用自动化工具。</p><p>相比之下，定价简单明了。Dify Cloud提供免费沙盒版，专业版每工作区59美元，团队版每工作区159美元。还有自托管版本，适合想要控制权但又不愿放弃AI原生界面的用户。</p>
 <p><strong>选择Dify如果：</strong>您正在构建聊天应用、内部Copilot、检索工作流或代理系统，这些系统需要在同一位置处理提示、知识文档和可观测性。</p>
 <p><strong>跳过它如果：</strong>您的工作主要是传统的应用间自动化，涉及数千个简单的业务集成。</p>
-<p>如果您需要更多背景信息，aixcove已经有完整的<a href="/dify-review-2026-pricing-pros-cons-and-best-alternatives/">Dify评测</a>和<a href="/best-dify-alternatives-in-2026/">Dify替代品</a>的单独指南。</p>
+<p>如果您需要更多背景信息，aixcove已经有完整的<a href="/zh/dify-review-2026-pricing-pros-cons-and-best-alternatives/">Dify评测</a>和<a href="/zh/best-dify-alternatives-in-2026/">Dify替代品</a>的单独指南。</p>
 <h3>2. Activepieces – 精简团队的最佳开源替代品</h3>
 <p><a href="https://www.activepieces.com/">Activepieces</a>瞄准的是想要Zapier式自动化但不愿支付Zapier价格的市场部分。其主张很简单：云部署或自托管部署，比n8n更易上手的自动化构建器，以及对业务更友好的定价模式。</p>
 <p>其定价页面将云产品定位为免费，然后每活跃工作流每月5美元。这与n8n以执行为重点的框架有很大不同，一些团队会立即选择它，因为账单更容易预测。</p>
@@ -75,4 +75,4 @@ n8n仍然是一款强大的工具。它灵活、可自托管，广泛用于API�
 <p>如果必须快速缩小范围，我会将市场分为两类。</p>
 <p><strong>对于AI原生工作，Dify是目前最强大的n8n替代品。</strong>它围绕知识、提示、应用和工作流提供了足够的结构，使您花在自行组装堆栈上的时间更少。</p><p><strong>通用自动化领域，Make是最安全的选择。</strong>它成熟、功能全面，混合技术团队更容易采用。</p>
 <p><strong>对于开源购买者，Activepieces值得关注。</strong>它不需要在每一个高级边缘案例上都超越n8n。它只需要对大多数团队实际运行的工作流程来说更容易且更便宜。</p>
-<p>如果您正在比较围绕本地知识库和代理的更多AI工具，这些aixcove关于<a href="/anythingllm-review-2026-pricing-pros-cons-and-best-alternatives/">AnythingLLM</a>和<a href="/best-anythingllm-alternatives-in-2026/">AnythingLLM替代品</a>的指南值得阅读。您也可以在<a href="/category/ai-agents-automation/">AI代理与自动化</a>和<a href="/category/ai-tools-comparisons/">AI工具比较</a>中浏览更多选项。</p>
+<p>如果您正在比较围绕本地知识库和代理的更多AI工具，这些aixcove关于<a href="/zh/anythingllm-review-2026-pricing-pros-cons-and-best-alternatives/">AnythingLLM</a>和<a href="/best-anythingllm-alternatives-in-2026/">AnythingLLM替代品</a>的指南值得阅读。您也可以在<a href="/category/ai-agents-automation/">AI代理与自动化</a>和<a href="/category/ai-tools-comparisons/">AI工具比较</a>中浏览更多选项。</p>

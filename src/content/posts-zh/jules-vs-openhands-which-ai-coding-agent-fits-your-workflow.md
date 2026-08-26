@@ -36,7 +36,7 @@ featured: /uploads/2026/08/jules-vs-openhands-which-ai-coding-agent-fits-your-wo
 <li><strong>选 OpenHands</strong>。适合想自选模型、做本地试验、需要自托管，且愿意维护代理运行栈的开发者和团队。</li>
 <li><strong>先别急着选</strong>。需求说不清、测试不可靠、团队没人负责审查时，代理只会更快地放大这些问题。</li>
 </ul>
-<p>偏好在终端里持续互动的开发者，可以看看我们的 <a href="/aider-vs-cline-which-ai-coding-agent-fits-your-workflow-in-2026/">Aider 与 Cline 对比</a>。想先控制预算，<a href="/best-free-ai-coding-tools-in-2026/">免费 AI 编程工具指南</a>梳理了编辑器、终端和代理工具的成本差异。还在选订阅方案，可继续读 <a href="/best-claude-code-alternatives-in-2026-7-practical-picks/">Claude Code 替代方案</a>，或浏览 <a href="/listing-category/ai-coding-development/">AI 编程与开发分类</a>。</p>
+<p>偏好在终端里持续互动的开发者，可以看看我们的 <a href="/zh/aider-vs-cline-which-ai-coding-agent-fits-your-workflow-in-2026/">Aider 与 Cline 对比</a>。想先控制预算，<a href="/zh/best-free-ai-coding-tools-in-2026/">免费 AI 编程工具指南</a>梳理了编辑器、终端和代理工具的成本差异。还在选订阅方案，可继续读 <a href="/zh/best-claude-code-alternatives-in-2026-7-practical-picks/">Claude Code 替代方案</a>，或浏览 <a href="/listing-category/ai-coding-development/">AI 编程与开发分类</a>。</p>
 
 <h2>最后的选择方法</h2>
 <p>Jules 的价值在于让你暂时离开键盘，OpenHands 的价值在于让你掌握执行系统。拿一个有测试、验收标准明确的小任务各跑一次，记录审查花了多久、模型账单多少、最后撤回了多少改动。这个结果比任何笼统的跑分都更接近你的答案。</p>

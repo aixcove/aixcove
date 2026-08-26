@@ -11,7 +11,7 @@ wpId: 830
 ---
 <p>如果你喜欢OpenClaw的理念，但对设置、权限或"一个连接一切的助手"模式犹豫不决，你并非过度谨慎。OpenClaw很强大，因为它将聊天应用转变为AI代理的网关。正是这种广泛性也让一些团队寻找替代方案。</p>
 <p><strong>快速结论：</strong> 最佳的OpenClaw替代方案取决于你要替换的功能。对于编程，可以从Claude Code或Cursor开始。对于业务工作流程自动化，n8n是最实用的选择。对于自定义代理系统，LangGraph为开发者提供更多控制权。对于可视化AI应用构建，Dify和Flowise更容易向团队解释。如果你的主要关注点是本地隐私，Jan比广泛的多渠道助手更合适。</p>
-<p>本指南面向已经了解OpenClaw吸引力，现在需要更简洁清单的读者。如果你想先了解完整背景，请阅读我们的<a href="/openclaw-review-2026-is-this-local-ai-assistant-worth-using/">OpenClaw评测</a>或<a href="/openclaw-tutorial-build-a-telegram-ai-agent-in-2026/">OpenClaw Telegram教程</a>。</p>
+<p>本指南面向已经了解OpenClaw吸引力，现在需要更简洁清单的读者。如果你想先了解完整背景，请阅读我们的<a href="/zh/openclaw-review-2026-is-this-local-ai-assistant-worth-using/">OpenClaw评测</a>或<a href="/zh/openclaw-tutorial-build-a-telegram-ai-agent-in-2026/">OpenClaw Telegram教程</a>。</p>
 <h2>人们寻找OpenClaw替代方案的原因</h2>
 <p>OpenClaw是一个用于AI代理的自托管网关。其官方文档描述它是一种通过一个网关将Telegram、Slack、Discord、WhatsApp、飞书/Lark、iMessage、Microsoft Teams和WebChat等聊天界面连接到代理会话的方式。这就是核心吸引力：你可以从已使用的应用程序向助手发送消息，代理可以从那里工作。</p>
 <p>问题在于这种广泛性需要做出决策。你需要Node.js、模型提供商API密钥、运行中的网关、频道配置、允许列表、群组策略，以及对代理可以访问内容的信心。对于技术操作员来说，这种权衡可能没问题。但对于只需要一项工作出色完成的创始人、营销人员或开发者来说，OpenClaw可能显得过于庞大。</p>
@@ -28,7 +28,7 @@ wpId: 830
 <p><strong>局限性：</strong>它不能替代OpenClaw在消息平台上始终可用的助手模型。</p>
 <h3>3. n8n：最适合工作流自动化和业务运营</h3>
 <p>如果您因为想要自动化重复性工作而比较OpenClaw，<a href="https://n8n.io/pricing/" rel="nofollow">n8n</a>值得认真考虑。它是一个工作流自动化平台，提供托管和自托管选项，付费云计划上无限制用户和工作流，定价基于工作流执行而非单个步骤。其Starter计划标价为每月20欧元（按年计费），Pro计划为每月50欧元（按年计费）。</p>区别在于理念不同。OpenClaw从对话助手出发，n8n从工作流图表出发。对于SEO发布、线索路由、信息丰富、提醒、CRM更新和内容运营，基于图表的模型通常更容易测试和维护。
-我们在<a href="/openclaw-vs-n8n-which-ai-automation-tool-should-you-use-in-2026/">OpenClaw vs n8n</a>中涵盖了更广泛的比较。简而言之：当人类对话是核心时使用OpenClaw，当流程本身是核心时使用n8n。
+我们在<a href="/zh/openclaw-vs-n8n-which-ai-automation-tool-should-you-use-in-2026/">OpenClaw vs n8n</a>中涵盖了更广泛的比较。简而言之：当人类对话是核心时使用OpenClaw，当流程本身是核心时使用n8n。
 <strong>最适合：</strong>操作员、代理机构和自动化可重复业务流程的小团队。
 <strong>局限性：</strong>自然对话不是其主要界面。您先构建工作流，然后在有帮助的地方添加AI。
 <h3>4. LangGraph：最适合自定义代理编排</h3>

@@ -12,7 +12,7 @@ wpId: 426
 
 <p><em>April 6, 2026</em> — In what may prove to be the most consequential AI hardware announcement of the year, Reuters confirmed on April 4 that <strong>DeepSeek’s upcoming V4 model will run entirely on Huawei’s Ascend 950PR chips</strong> — marking the first time a frontier-scale AI model has been built to operate on Chinese semiconductor infrastructure without relying on NVIDIA GPUs.</p>
 <h2>Why This Matters</h2>
-<p>Every major frontier model to date — GPT-5, Claude, Gemini — runs on NVIDIA hardware. DeepSeek V4 breaks that dependency. If the model delivers on its reported benchmarks, it demonstrates that Chinese-made chips can support cutting-edge AI, directly challenging the assumptions behind US export controls on advanced semiconductors.</p>
+<p>Every major frontier model to date — GPT-5, <a href="/listing/claude/">Claude</a>, <a href="/listing/gemini/">Gemini</a> — runs on NVIDIA hardware. DeepSeek V4 breaks that dependency. If the model delivers on its reported benchmarks, it demonstrates that Chinese-made chips can support cutting-edge AI, directly challenging the assumptions behind US export controls on advanced semiconductors.</p>
 <p>According to Reuters, Chinese tech giants including <strong>Alibaba, ByteDance, and Tencent</strong> have already placed bulk orders for hundreds of thousands of Huawei Ascend chips in preparation for V4’s launch. Chip prices have surged 20% in recent weeks on the back of this demand alone.</p>
 <h2>What We Know About DeepSeek V4</h2>
 <p>DeepSeek V4 is a <strong>Mixture-of-Experts (MoE) model with approximately 1 trillion total parameters</strong>, activating roughly 37 billion per token. Key specs reported so far:</p>
@@ -43,4 +43,4 @@ wpId: 426
 <p>We’ll be tracking this closely as the launch approaches. Check back for updated benchmarks and hands-on testing once V4 drops.</p>
 <hr />
 <p><em>Sources: Reuters, The Information, FindSkill.ai, Huawei Central, TechWire Asia</em></p>
-
+<p>For tool-by-tool comparisons, see our <a href="/listing-category/ai-coding/">AI coding listings</a> and the <a href="/category/ai-tools-comparisons/">comparisons section</a>.</p>

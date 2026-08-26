@@ -12,7 +12,7 @@ wpId: 514
 <p>微软刚刚在Microsoft Foundry上发布了三款自研AI模型，定价激进到让竞争对手坐不住。2026年4月8日，公司推出MAI-Transcribe-1、MAI-Voice-1和MAI-Image-2，覆盖语音识别、语音生成和图像创建。三款模型现已通过Microsoft Foundry和MAI Playground向美国用户开放。</p>
 <p>这不是研究预览，也不是排队候补。开发者今天就能开始构建。</p>
 <h2>语音识别在谷歌的主场击败谷歌</h2>
-<p>MAI-Transcribe-1是三款中的佼佼者。微软用FLEURS基准在25种语言上做了测试，结果很明确：在11种核心语言中排名第一，在其余14种语言中超过OpenAI的Whisper-large-v3。它还在其中11种语言上优于Gemini 3.1 Flash。</p>
+<p>MAI-Transcribe-1是三款中的佼佼者。微软用FLEURS基准在25种语言上做了测试，结果很明确：在11种核心语言中排名第一，在其余14种语言中超过OpenAI的Whisper-large-v3。它还在其中11种语言上优于<a href="/zh/listing/gemini/">Gemini</a> 3.1 Flash。</p>
 <p>这是个相当具体的说法，微软发布了模型卡来支撑这一结论。</p>
 <p>模型能处理嘈杂的真实音频，这一点很关键，因为干净的录音环境是例外，不是常态。批量转录速度比微软现有的Azure Fast快2.5倍。每小时的音频处理价格为0.36美元，低于多数主流云服务商。</p>
 <p>微软已把MAI-Transcribe-1整合进Copilot的语音模式和Microsoft Teams。如果你最近用过其中任何一个，可能已经在不知情的情况下和它打过交道。</p>
@@ -33,3 +33,4 @@ wpId: 514
 <p>微软表示更多MAI模型即将推出。从今天的发布来看，公司不只是追赶，而是在试图设定竞争规则。</p>
 <p>转录模型在谷歌自家地盘（语音识别）上击败谷歌基准测试，这类细节在开发者圈子里很受关注。加上激进定价以及Copilot和Teams中的生产部署，这次发布有实质内容支撑。</p>
 <p>本周要在云AI供应商之间做选择的开发者，算盘得重新打了。</p>
+<p>如需逐工具对比，可查看<a href="/zh/listing-category/ai-coding/">AI编程工具清单</a>与<a href="/zh/category/ai-tools-comparisons/">对比评测栏目</a>。</p>

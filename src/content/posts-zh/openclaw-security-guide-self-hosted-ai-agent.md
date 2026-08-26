@@ -39,20 +39,20 @@ openclaw security audit --json</code></pre>
 <p>别把它当成一次性安装步骤。每当你添加通道、改远程访问、编辑工具权限、暴露仪表板，或接入新的自动化面时，都跑一遍。</p>
 <h2>先锁聊天通道</h2><p>大多数OpenClaw用户会通过聊天来交互，因此频道访问是第一个需要加固的地方。配置文档展示了跨Telegram、WhatsApp、Discord、Slack和飞书等频道的共享私信策略模式。</p>
 <p>更安全的默认设置是配对或白名单。开放访问方便测试，但对一个能使用工具的主体来说，长期来看不是好姿态。在群聊中，要求提及，这样代理就不会对每条随意消息都做出反应。如果频道支持发送者白名单，就用起来。如果支持账号分离，就把个人、团队和测试账号分开。</p>
-<p>如果你在设置商务消息频道，我们的<a href="/openclaw-feishu-integration-tutorial-set-up-a-lark-ai-agent-in-2026/">OpenClaw飞书集成教程</a>是下一步值得读的内容。安全原则在各频道中一致：只有受信任的发送者才能操控助手。</p>
+<p>如果你在设置商务消息频道，我们的<a href="/zh/openclaw-feishu-integration-tutorial-set-up-a-lark-ai-agent-in-2026/">OpenClaw飞书集成教程</a>是下一步值得读的内容。安全原则在各频道中一致：只有受信任的发送者才能操控助手。</p>
 <h2>谨慎对待远程访问</h2>
 <p>远程访问是许多自托管工具容易出风险的地方。OpenClaw也不例外。本地仪表盘是一回事，暴露在公共互联网上的网关或浏览器控制界面是另一回事。</p>
 <p>如果需要远程访问，优先选择私有网络模式，比如受信任的tailnet、VPN、SSH隧道，或经过严格认证的反向代理。避免那种悄悄变成永久状态的“临时”公共暴露。如果确实要暴露任何东西，在改动前先记录回滚路径。</p>
 <p>官方安全文档引导用户在更改远程访问、私信策略、反向代理或公共暴露之前查看暴露运行手册。这个方向是对的。把暴露变更当作生产变更来对待，哪怕部署只服务于一个人。</p>
 <h2>分离工作区和凭据</h2>
-<p>当高风险工作被隔离时，OpenClaw会更安全。一个查日历的个人助手，不应该自动拥有与能编辑仓库、运行命令的编码代理相同的权限。一个内容自动化机器人，不应该与个人财务工作流共享不受限制的凭据。</p><p>当影响范围不同时，应使用独立的工作区、独立的代理、独立的API密钥和独立的主机。如果你正在将OpenClaw与工作流自动化工具进行比较，这就是OpenClaw无法直接替代每个n8n或Dify配置的原因之一。请参阅我们的<a href="/openclaw-vs-n8n-which-ai-automation-tool-should-you-use-in-2026/">OpenClaw与n8n对比</a>和<a href="/openclaw-vs-dify-which-ai-agent-platform-should-you-use-in-2026/">OpenClaw与Dify对比</a>，了解更全面的权衡。</p>
+<p>当高风险工作被隔离时，OpenClaw会更安全。一个查日历的个人助手，不应该自动拥有与能编辑仓库、运行命令的编码代理相同的权限。一个内容自动化机器人，不应该与个人财务工作流共享不受限制的凭据。</p><p>当影响范围不同时，应使用独立的工作区、独立的代理、独立的API密钥和独立的主机。如果你正在将OpenClaw与工作流自动化工具进行比较，这就是OpenClaw无法直接替代每个n8n或Dify配置的原因之一。请参阅我们的<a href="/zh/openclaw-vs-n8n-which-ai-automation-tool-should-you-use-in-2026/">OpenClaw与n8n对比</a>和<a href="/zh/openclaw-vs-dify-which-ai-agent-platform-should-you-use-in-2026/">OpenClaw与Dify对比</a>，了解更全面的权衡。</p>
 <h2>关注日志、密钥和文件</h2>
 <p>OpenClaw配置位于本地OpenClaw状态和配置路径下，通常是<code>~/.openclaw/openclaw.json</code>。将该目录视为敏感目录。它可能包含提供商设置、渠道配置、工作区引用和其他操作细节。</p>
 <p>使用密钥脱敏。保持文件权限严格。不要随意将长期有效的令牌粘贴到提示词或公开笔记中。如果自动化需要凭据，请将其范围缩小，并在工作流变化时轮换。这听起来很基础，因为它确实很基础。基础错误仍然是最容易造成伤害的。</p>
 <h2>OpenClaw何时适合安全需求</h2>
 <p>当操作者了解自托管并希望掌控时，OpenClaw是一个合适的选择。它适用于单一技术用户、可信的小团队、专用自动化机器，或每个网关都有明确用途的分段代理设置。</p>
 <p>当许多不受信任的用户需要访问同一个启用工具助手的权限时，当合规性要求强租户隔离时，或者当团队期望SaaS供应商承担大部分安全模型时，它就不太合适。在这些情况下，托管自动化平台或自定义内部服务可能是更清晰的选择。</p>
-<p>如果你仍在决定OpenClaw是否是正确的工具，请从我们的<a href="/best-openclaw-alternatives-in-2026-7-picks-by-workflow-fit/">最佳OpenClaw替代品</a>指南开始。</p>
+<p>如果你仍在决定OpenClaw是否是正确的工具，请从我们的<a href="/zh/best-openclaw-alternatives-in-2026-7-picks-by-workflow-fit/">最佳OpenClaw替代品</a>指南开始。</p>
 <h2>实用的OpenClaw安全清单</h2>
 <ul>
 <li>在设置后和每次重大配置更改后运行<code>openclaw security audit</code>。</li>

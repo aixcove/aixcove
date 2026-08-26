@@ -12,7 +12,7 @@ wpId: 511
 
 <h2 class="wp-block-heading">The Numbers Are Out</h2>
 
-<p>Confidential financial documents from OpenAI and Anthropic have found their way into a Wall Street Journal report, and the figures inside are staggering. OpenAI, the company behind ChatGPT, projects it will burn through <strong>$85 billion in cash during 2028 alone</strong> before reaching profitability around 2030. Anthropic, its closest competitor, tells a similar story with smaller numbers: peak losses this year, a path to green by 2029.</p>
+<p>Confidential financial documents from OpenAI and Anthropic have found their way into a Wall Street Journal report, and the figures inside are staggering. OpenAI, the company behind <a href="/listing/chatgpt/">ChatGPT</a>, projects it will burn through <strong>$85 billion in cash during 2028 alone</strong> before reaching profitability around 2030. Anthropic, its closest competitor, tells a similar story with smaller numbers: peak losses this year, a path to green by 2029.</p>
 
 <p>Both companies shared these projections with investors during recent funding rounds. Neither has filed official IPO paperwork yet. But the sheer scale of the spending tells the real story of what it costs to compete at the frontier of artificial intelligence.</p>
 
@@ -38,7 +38,7 @@ wpId: 511
 
 <p>That consumer number is ambitious. For comparison, Apple’s entire Services division, which includes the App Store, Apple Music, iCloud, and Apple TV+, generated about $96 billion in fiscal 2025. OpenAI expects its consumer AI products alone to outpace that within five years.</p>
 
-<p>Anthropic’s revenue path runs more through enterprise. The company projects strong growth from corporate customers who embed Claude into workflows, customer service, code generation, and document analysis. Cloud partnerships mean Anthropic does not have to build the distribution itself. It piggybacks on infrastructure that already exists inside big companies.</p>
+<p>Anthropic’s revenue path runs more through enterprise. The company projects strong growth from corporate customers who embed <a href="/listing/claude/">Claude</a> into workflows, customer service, code generation, and document analysis. Cloud partnerships mean Anthropic does not have to build the distribution itself. It piggybacks on infrastructure that already exists inside big companies.</p>
 
 <h2 class="wp-block-heading">Why This Matters for Everyone Else</h2>
 
@@ -67,3 +67,4 @@ wpId: 511
 <p>GPU pricing remains the key variable. Any breakthrough in training efficiency, whether through better algorithms, custom silicon, or alternative architectures, could significantly alter the cost trajectory. Both companies are investing in this area, but so far, no one has cracked the code on making frontier training cheap.</p>
 
 <p>The AI industry has operated on faith for three years: faith that models will keep improving, faith that customers will keep paying, faith that the economics will eventually work. The Wall Street Journal report is the first detailed look at exactly what that faith costs. The number is $121 billion a year in compute alone. Whether that faith is rewarded or punished will define the next decade of technology.
+<p>For tool-by-tool comparisons, see our <a href="/listing-category/ai-coding/">AI coding listings</a> and the <a href="/category/ai-tools-comparisons/">comparisons section</a>.</p>

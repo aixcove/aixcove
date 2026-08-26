@@ -11,7 +11,7 @@ featured: /uploads/2026/08/best-free-ai-coding-tools-in-2026-hero.jpg
 <h2>2026 年最好用的免费 AI 编程工具，7 个实用选择</h2>
 <p>如果你在 2026 年想先用免费的 AI 编程工具，我会先看 Cline、Continue、Aider、OpenCode 和 GitHub Copilot Free。它们解决的问题不太一样。Cline 和 Continue 更适合 VS Code 里的日常开发，Aider 和 OpenCode 更适合习惯终端的人，Copilot Free 的门槛最低，打开就能试。</p>
 <p>先把免费这两个字讲清楚。这里说的免费，很多时候只代表工具本身不收订阅费。模型调用、云端额度、本地显卡、服务器时间，仍然可能花钱。我在 2026 年 8 月 17 日核对了各工具的官方价格页、文档和公开仓库，这篇只写可以长期判断的成本边界，不写临时优惠码，也不把试用期当成长期方案。</p>
-<p>如果你已经在比较更重的付费编程代理，可以看 AI X Cove 之前的 <a href="/best-openai-codex-alternatives-in-2026-8-practical-picks/">OpenAI Codex 替代工具</a>、<a href="/best-claude-code-alternatives-in-2026-7-practical-picks/">Claude Code 替代工具</a> 和 <a href="/best-cursor-alternatives-in-2026-6-practical-picks/">Cursor 替代工具</a>。这一篇只处理一个更具体的问题。学生、个人开发者和小团队，怎样在不马上买月费套餐的情况下，把 AI 编程助手先用起来。</p>
+<p>如果你已经在比较更重的付费编程代理，可以看 AI X Cove 之前的 <a href="/zh/best-openai-codex-alternatives-in-2026-8-practical-picks/">OpenAI Codex 替代工具</a>、<a href="/zh/best-claude-code-alternatives-in-2026-7-practical-picks/">Claude Code 替代工具</a> 和 <a href="/zh/best-cursor-alternatives-in-2026-6-practical-picks/">Cursor 替代工具</a>。这一篇只处理一个更具体的问题。学生、个人开发者和小团队，怎样在不马上买月费套餐的情况下，把 AI 编程助手先用起来。</p>
 <h2>我怎样判断免费层</h2>
 <p>我看四件事。工具本身是否收订阅费。官方是否给了可用的免费额度。能不能接自己的 API key 或本地模型。最后，工具是不是认真服务编程工作流，能读项目、改文件、跑命令、看 diff，而不是在编辑器旁边放一个聊天框。</p>
 <p>信用卡要求也要算进去。GitHub Copilot Free 在公开价格页里写了 no credit card required。Cline 的开源扩展对个人开发者免费，但用托管模型或外部模型时，推理费用会开始计算。Aider、Continue、OpenCode 和 Roo Code 这一类 BYOK 工具，工具侧未必要求信用卡，但你接入的模型提供商可能会要求。</p>

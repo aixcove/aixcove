@@ -21,7 +21,7 @@ Slug: n8n-ai-agent-tutorial-build-practical-workflow
 <h2>这篇教程适合谁</h2>
 <p>本指南适合已经懂基础自动化、想加一层AI决策的运营、技术型营销人员、创始人和开发者。典型场景包括线索分类、客服回复草稿、研究摘要、文档路由、CRM信息补全或内部请求处理。</p>
 <p>当agent嵌在更大工作流中时，n8n尤其好用。聊天机器人只能回答。n8n工作流可以接收webhook、拉取账户历史、让AI agent分类请求、更新Airtable或HubSpot、发送Slack审批并记录结果。</p>
-<p>如果你的主要目标是构建面向客户的AI应用，需要提示词版本管理、数据集和应用部署，<a href="/listing/dify/">Dify</a>可能更接近产品形态。如果你想要可视化LLM流水线构建器来做RAG和agent流程，<a href="/listing/flowise/">Flowise</a>值得对比。如果你想要一个住在Telegram里、能跑定时任务的本地个人助手，可以读Aixcove的<a href="/openclaw-tutorial-build-a-telegram-ai-agent-in-2026/">OpenClaw教程</a>。</p>
+<p>如果你的主要目标是构建面向客户的AI应用，需要提示词版本管理、数据集和应用部署，<a href="/listing/dify/">Dify</a>可能更接近产品形态。如果你想要可视化LLM流水线构建器来做RAG和agent流程，<a href="/listing/flowise/">Flowise</a>值得对比。如果你想要一个住在Telegram里、能跑定时任务的本地个人助手，可以读Aixcove的<a href="/zh/openclaw-tutorial-build-a-telegram-ai-agent-in-2026/">OpenClaw教程</a>。</p>
 <h2>开始前需要准备什么</h2><p>你需要一个n8n账户或自托管实例、一个聊天模型凭证，以及一个真实的工作流目标。不要从一个模糊的通用助手开始。从一个有输入、有决策、有动作的任务开始。</p>
 <ul>
 <li>一个n8n Cloud工作区或自托管的n8n安装</li>

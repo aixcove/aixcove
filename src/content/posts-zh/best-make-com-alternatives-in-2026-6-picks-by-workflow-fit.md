@@ -27,10 +27,10 @@ wpId: 815
 <p>定价是人们转向其他工具的另一个原因。Make提供免费计划和付费层级，但实际成本取决于操作次数、场景频率以及每个工作流处理的数据量。这对简单自动化来说没问题。但当AI工作流开始反复调用外部模型时，体验就不那么愉快了。</p>
 <p>所以真正的问题不是"哪个工具比Make更好？"而是更具体的问题：你是想省钱、自托管、添加AI代理、简化设置，还是给非技术队友一个他们真正可以维护的工作流？</p>
 <h2>1. n8n：面向技术AI自动化的最佳Make.com替代品</h2>
-<p><a href="/n8n-ai-agent-tutorial-build-a-practical-workflow/">n8n</a>是我会首先考虑的Make替代品，如果你的团队具备技术能力并希望获得更多控制权。它是开源的，可以自托管，并且非常适合需要自定义逻辑而非仅使用预构建应用操作的API密集型工作流。</p>
+<p><a href="/zh/n8n-ai-agent-tutorial-build-a-practical-workflow/">n8n</a>是我会首先考虑的Make替代品，如果你的团队具备技术能力并希望获得更多控制权。它是开源的，可以自托管，并且非常适合需要自定义逻辑而非仅使用预构建应用操作的API密集型工作流。</p>
 <p>与Make相比，n8n对于纯商业用户来说感觉不够完善，但对开发人员和运维团队来说则灵活得多。你可以在需要时使用JavaScript或Python，连接到LLM，构建多步骤AI自动化，并将敏感工作流保持在更接近自己基础设施的位置。</p>
 <p>权衡之处在于设置。托管的n8n更简单，但自托管仍然意味着你需要负责服务器、更新、凭据和可靠性。如果团队中没有人愿意承担这个责任，n8n可能会变成另一个需要照看的系统。</p>
-<p><strong>选择n8n如果：</strong>你想要具有更深技术控制、自托管和更多AI工作流实验空间的Make风格自动化。更多详情，请阅读Aixcove的<a href="/best-n8n-alternatives-in-2026-6-picks-by-workflow-fit/">n8n替代品指南</a>和<a href="/how-to-use-n8n-with-ollama-for-private-ai-automation-in-2026/">n8n与Ollama教程</a>。</p>
+<p><strong>选择n8n如果：</strong>你想要具有更深技术控制、自托管和更多AI工作流实验空间的Make风格自动化。更多详情，请阅读Aixcove的<a href="/best-n8n-alternatives-in-2026-6-picks-by-workflow-fit/">n8n替代品指南</a>和<a href="/zh/how-to-use-n8n-with-ollama-for-private-ai-automation-in-2026/">n8n与Ollama教程</a>。</p>
 <h2>2. Zapier：最适合希望减少设置工作的团队</h2>对于更注重速度而非控制的团队，Zapier 仍然是 Make.com 的明显替代品。其最大优势是应用程序目录。如果您的 workflow 涉及营销、销售、支持、表单、电子表格、电子邮件和项目管理工具，Zapier 通常是实现从想法到工作自动化最快的方式。
 
 它对非技术用户也更友好。与复杂的 Make 场景相比，Zaps 更易于理解，特别是当维护工作流程的人员来自营销或运营部门时。
@@ -65,7 +65,7 @@ Make 可以通过一些变通方法处理审批，但 Relay 使这种模式更�
 <h2>竞争对手列表常忽略的内容</h2>
 <p>大多数Make.com替代品页面变成了长长的目录。这有助于发现，但可能掩盖了实际决策。</p>
 <p>这里有更清晰的思考方式：如果Make感觉太复杂，转向Zapier或Relay。如果Make感觉太封闭，转向n8n或Activepieces。如果Make感觉太贵，测试Pabbly。如果Make感觉对代码密集型工作流太有限，测试Pipedream。如果你的真正问题是构建带有仪表板或客户门户的应用，那么自动化工具可能根本不是正确的类别。</p>
-<p>如果工作流特别关注本地AI、私有文档或自托管LLM工具，请密切关注n8n和Ollama生态系统。如果你的自动化栈正在转向私有AI工作流，Aixcove还有<a href="/how-to-use-dify-with-ollama-for-private-ai-workflows-in-2026/">Dify与Ollama</a>和<a href="/how-to-use-flowise-with-ollama-for-a-private-rag-chatbot-in-2026/">Flowise与Ollama</a>的指南。</p><h2>Make.com替代品选择指南</h2>
+<p>如果工作流特别关注本地AI、私有文档或自托管LLM工具，请密切关注n8n和Ollama生态系统。如果你的自动化栈正在转向私有AI工作流，Aixcove还有<a href="/zh/how-to-use-dify-with-ollama-for-private-ai-workflows-in-2026/">Dify与Ollama</a>和<a href="/zh/how-to-use-flowise-with-ollama-for-a-private-rag-chatbot-in-2026/">Flowise与Ollama</a>的指南。</p><h2>Make.com替代品选择指南</h2>
 <h3>需要控制？从n8n开始</h3>
 <p>当你需要控制托管、凭据、模型调用和自定义逻辑时，n8n是最合理的第一选择。它不总是最简单的工具，但它为技术团队提供了构建的空间。</p>
 <h3>需要简便？从Zapier开始</h3>

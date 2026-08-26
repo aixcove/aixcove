@@ -10,7 +10,7 @@ featured: /uploads/2026/05/openclaw-feishu-integration-hero-28259837-26ea-4c95-8
 wpId: 844
 ---
 <p><strong>快速回答：</strong>如果你的团队已经在用飞书或Lark，并且希望在群聊、私聊和内部工作流里放一个AI代理，OpenClaw的飞书集成值得配置。它不是最容易配置的OpenClaw渠道，但它提供了Telegram没有的东西：一个适合工作场景的地方，用来处理审批、状态查询、团队提问和重复性自动化。</p>
-<p>这篇OpenClaw飞书集成教程聚焦实际配置路径：开始前需要准备什么，怎么连接机器人，怎么锁定访问权限，以及怎么排查常见故障。如果你只想要一个个人助手，<a href="/openclaw-tutorial-build-a-telegram-ai-agent-in-2026/">OpenClaw Telegram教程</a>仍然是更轻量的首选。如果你的助手需要放在团队工作区里，飞书/Lark是更认真的选择。</p>
+<p>这篇OpenClaw飞书集成教程聚焦实际配置路径：开始前需要准备什么，怎么连接机器人，怎么锁定访问权限，以及怎么排查常见故障。如果你只想要一个个人助手，<a href="/zh/openclaw-tutorial-build-a-telegram-ai-agent-in-2026/">OpenClaw Telegram教程</a>仍然是更轻量的首选。如果你的助手需要放在团队工作区里，飞书/Lark是更认真的选择。</p>
 <h2>这个配置适合谁</h2>
 <p>飞书适合那些已经把飞书或Lark作为日常工作区的技术运营、创始人、SEO团队、支持团队和内部自动化搭建者。用例不是“跟AI机器人聊天好玩”。真正的价值是一个团队代理，能回答状态问题、运行已批准的工作流、总结上下文、触发研究，并把结果汇报回团队已经在用的地方。</p>
 <p>定价需要跟配置分开看。<a href="/listing/openclaw/">OpenClaw</a>本身是开源的，所以自托管软件不需要平台订阅。你可能仍需支付模型API使用费、托管费、飞书/Lark工作区成本、图像生成、外部API，以及维护服务器的时间。这在软件层面算便宜，但在运营层面不是免费的。</p>
@@ -75,7 +75,7 @@ openclaw logs --follow</code></pre>
 <p>按真实凭据泄露处理。在飞书开放平台或Lark开发者后台重置App Secret，更新OpenClaw配置，重启网关。不要只删掉旧消息就当没事发生。</p>
 <h2>什么时候飞书比Telegram更合适</h2><p>当助手需要融入团队工作流时，飞书是更好的选择。它支持群组协作、内部审批和共享运营上下文，同时能在个人聊天和工作自动化之间建立更清晰的边界。</p>
 <p>如果你追求最快的个人部署，Telegram更合适。它更容易测试，手机端发消息更方便，通常也不受工作区管理员权限的约束。这也是为什么Telegram路线适合作为OpenClaw的首次实验。当助手需要成为团队工作方式的一部分时，飞书是下一步。</p>
-<p>如果你还在犹豫OpenClaw是否适合作为基础层，可以阅读<a href="/openclaw-review-2026-is-this-local-ai-assistant-worth-using/">OpenClaw评测</a>以及<a href="/openclaw-vs-dify-which-ai-agent-platform-should-you-use-in-2026/">OpenClaw与Dify的对比</a>。如果部署负担让你觉得过高，<a href="/best-openclaw-alternatives-in-2026-7-picks-by-workflow-fit/">最佳OpenClaw替代方案</a>指南按工作流匹配度列出了更简洁的选项。</p>
+<p>如果你还在犹豫OpenClaw是否适合作为基础层，可以阅读<a href="/zh/openclaw-review-2026-is-this-local-ai-assistant-worth-using/">OpenClaw评测</a>以及<a href="/zh/openclaw-vs-dify-which-ai-agent-platform-should-you-use-in-2026/">OpenClaw与Dify的对比</a>。如果部署负担让你觉得过高，<a href="/zh/best-openclaw-alternatives-in-2026-7-picks-by-workflow-fit/">最佳OpenClaw替代方案</a>指南按工作流匹配度列出了更简洁的选项。</p>
 <h2>最终结论</h2>
 <p>OpenClaw的飞书集成不是尝试AI代理最轻量的方式。当你希望代理真正进入团队工作区，需要私信、群组提及、访问控制、日志以及基于审批的工作流时，飞书是更合适的路径。</p>
 <p>从小处着手：连接频道，锁定私信和群组权限，测试状态命令，然后添加一个不会造成损害的工作流。一旦机器人证明自己能在飞书中正常运作，你就可以将其扩展到研究、报告、支持分类或内容运营。这才是这个集成真正发挥价值的地方。</p>

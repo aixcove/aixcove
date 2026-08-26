@@ -11,7 +11,7 @@ wpId: 737
 ---
 <p>如果你正在n8n和Dify之间做选择，简短的回答是：需要跨多个应用自动化业务流程时选<strong>n8n</strong>，需要构建并上线AI应用、聊天机器人或RAG助手时选<strong>Dify</strong>。</p>
 <p>这个说法听起来干脆，但实际决策通常取决于定价模式、工作流匹配度，以及你真正需要多少AI原生工具。n8n提供广泛的自动化能力、大量集成和可靠的自托管方案。Dify提供更明确的AI构建器，内置提示词编排、知识库和应用发布功能。两者都支持自托管，都能调用主流模型供应商。它们只是解决不同的问题。</p>
-<p>想先了解更深入的产品背景，可以看我们的<a href="/n8n-review-2026-pricing-pros-cons-and-best-use-cases/">n8n评测</a>和<a href="/dify-review-2026-pricing-pros-cons-and-best-alternatives/">Dify评测</a>。本页聚焦两者的直接对比。</p>
+<p>想先了解更深入的产品背景，可以看我们的<a href="/zh/n8n-review-2026-pricing-pros-cons-and-best-use-cases/">n8n评测</a>和<a href="/zh/dify-review-2026-pricing-pros-cons-and-best-alternatives/">Dify评测</a>。本页聚焦两者的直接对比。</p>
 <h2>快速结论：n8n vs Dify</h2>
 <p><strong>选n8n的情况：</strong>你需要连接Slack、Gmail、Notion、CRM、数据库、webhook和内部系统，AI只是更大自动化流程中的一步。</p>
 <p><strong>选Dify的情况：</strong>你想更快推出AI产品，尤其是聊天机器人、内部知识助手或依赖提示词、检索和模型管理的智能体工作流，而不是广泛的应用集成。</p>
@@ -28,11 +28,11 @@ wpId: 737
 <p>这是两者之间最大的差距。</p>
 <p>n8n有数百个集成和一个通用HTTP层，所以它可以放在真实运营栈的中间。想想CRM更新、线索路由、定时任务、数据库同步、Slack提醒、表单接收、支持工作流，以及AI增强，都在一个流程里。</p>
 <p>Dify也能连接工具和数据源，但这不是它的强项。它的生态更以AI为中心。如果你的项目依赖广泛的SaaS自动化，n8n是更稳妥的选择。</p>
-<p>如果你还在这个类别里比较，我们的<a href="/best-n8n-alternatives-for-ai-workflow-automation-in-2026/">最佳n8n替代品</a>指南展示了其他工作流工具的适用场景。</p>
+<p>如果你还在这个类别里比较，我们的<a href="/zh/best-n8n-alternatives-for-ai-workflow-automation-in-2026/">最佳n8n替代品</a>指南展示了其他工作流工具的适用场景。</p>
 <h3>2. AI原生产品构建</h3>
 <p>这是Dify领先的地方。</p>
 <p>Dify在提示词工作流、知识库、检索、模型切换、评估和应用发布方面有更强的内置支持。你可以搭建一个文档问答助手或面向客户的AI应用，而不用拼接那么多独立组件。</p><p>n8n完全可以对接OpenAI、Anthropic以及其他模型提供商，也支持AI工作流和智能体模式。但用下来的感觉更像是在搭一个恰好包含AI的自动化流程。Dify则更像先把AI搭好，再决定外围需要哪些自动化。</p>
-<p>这也是为什么拿Dify和其他AI构建工具对比的团队，通常也会看看<a href="/dify-vs-flowise-which-ai-workflow-builder-fits-you-in-2026/">Dify vs Flowise</a>。两者之间的重叠度比n8n高得多。</p>
+<p>这也是为什么拿Dify和其他AI构建工具对比的团队，通常也会看看<a href="/zh/dify-vs-flowise-which-ai-workflow-builder-fits-you-in-2026/">Dify vs Flowise</a>。两者之间的重叠度比n8n高得多。</p>
 <h3>3. RAG与知识库工作流</h3>
 <p>如果你的场景围绕文档、内部知识和有依据的回答，Dify开箱即用的体验更干净。它的定价页面和文档都重点放在知识文档、请求限制、处理层级和应用部署上。这是一个信号。对Dify来说这不是附加功能，而是产品的核心。</p>
 <p>n8n也能支撑RAG工作流，尤其是你想在向量库、数据库和外部应用之间做自定义编排时。但你可能需要自己拼装更多组件。有些团队喜欢这样，有些团队完全不想碰。</p>
@@ -57,7 +57,7 @@ wpId: 737
 <li><strong>知识库工作流：</strong>在基于文档的助手和RAG场景中更简洁。</li>
 <li><strong>团队AI实验：</strong>当产品、运营和非开发人员需要一起迭代AI应用时，Dify更容易上手。</li>
 </ul>
-<p>如果你正在评估这个领域的开源替代方案，我们的<a href="/best-dify-alternatives-in-2026/">最佳Dify替代品</a>列表也值得一看。</p>
+<p>如果你正在评估这个领域的开源替代方案，我们的<a href="/zh/best-dify-alternatives-in-2026/">最佳Dify替代品</a>列表也值得一看。</p>
 <h2>常见使用场景：哪个工具适合哪种情况？</h2>
 <p><strong>选n8n的场景：</strong>AI线索筛选、CRM数据丰富、多步骤支持工单分流、内部告警、内容管道、定时数据任务，以及需要对接多个业务系统的工作流。</p>
 <p><strong>选Dify的场景：</strong>内部文档助手、AI支持机器人、面向客户的嵌入式聊天、AI产品原型，以及希望在提示词、模型和检索设置上快速迭代的团队。</p>

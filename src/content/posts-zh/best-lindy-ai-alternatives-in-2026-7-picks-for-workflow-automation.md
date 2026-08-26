@@ -45,7 +45,7 @@ wpId: 867
 <h2>3. n8n：最佳自托管 Lindy 替代品</h2>
 <p><a href="https://n8n.io/" target="_blank" rel="nofollow noopener">n8n</a> 是注重控制而非表面光洁度的实用选择。它是一个工作流程自动化平台，提供云计划和自托管选项，这使得技术团队具有吸引力，因为他们可以拥有自己的数据路径，连接不寻常的 API，并将 AI 纳入更广泛的业务工作流程中。</p>
 <p>这不是最简单的 Lindy 替代品。它是可控性最强的。当团队中有人熟悉工作流程、webhook、凭据、错误处理以及偶尔的 JavaScript 时，n8n 效果最佳。作为回报，你获得一个可以连接 CRM、数据库、Slack、电子邮件、内部 API、模型提供商和本地 AI 工具的系统。</p>
-<p>Aixcove 已经在 <a href="/best-n8n-alternatives-in-2026-7-picks-for-ai-workflows-and-self-hosting/">n8n 替代品指南</a> 和 <a href="/how-to-use-n8n-with-ollama-for-private-ai-automation-in-2026/">n8n 与 Ollama 教程</a> 中更详细地介绍了这一分支。简而言之：n8n 并不是想成为你的 AI 助手。它想成为你的 AI 助手可能接入的自动化层。</p>
+<p>Aixcove 已经在 <a href="/best-n8n-alternatives-in-2026-7-picks-for-ai-workflows-and-self-hosting/">n8n 替代品指南</a> 和 <a href="/zh/how-to-use-n8n-with-ollama-for-private-ai-automation-in-2026/">n8n 与 Ollama 教程</a> 中更详细地介绍了这一分支。简而言之：n8n 并不是想成为你的 AI 助手。它想成为你的 AI 助手可能接入的自动化层。</p>
 <p><strong>选择 n8n 而非 Lindy</strong> 如果你需要自托管、复杂的工作流程逻辑或私有 AI 自动化。如果你的团队想要友好的助手界面和最少的设置，请避免使用它。</p>
 <h2>4. Zapier：最佳应用覆盖和简单自动化</h2>
 <p><a href="https://zapier.com/" target="_blank" rel="nofollow noopener">Zapier</a> 不是最令人兴奋的 Lindy 替代品，但它仍然是注重应用覆盖的团队的首选。Zapier 表示它可以连接超过 9,000 个应用，当任务是"在我们已经使用的工具之间移动数据"时，这种广度很重要。</p><p>Zapier 现在在其自动化工具栈中加入了 AI 功能，但其核心吸引力仍然是可靠性和易用性。非技术团队可以快速构建 Zaps，模板生态系统足够大，常见工作流程很少需要从空白页面开始。</p>

@@ -11,7 +11,7 @@ wpId: 775
 ---
 <p>如果你想要一个简短的回答，那就是：LangGraph 是在你需要真正控制路由、记忆、工具使用和人工审批时，构建 AI 智能体工作流的最佳方式之一。它基于 MIT 许可证免费开源，但并不是最容易上手的起点。你用可视化构建器换来了代码级控制，因此它最适合开发人员和技术团队，而不是无代码的普通用户。</p>
 <p>这种取舍就是全部关键。很多“LangGraph 教程”页面展示一个玩具计算器智能体就结束了。有用，当然。但人们转向 LangGraph 的原因不是想要另一个演示。他们想要一个在工作流变得混乱时真正能掌控的智能体。</p>
-<p>如果这听起来像你，本指南会让你动起来。如果你还在代码优先和可视化工具之间犹豫，看完这里后可以查看 <a href="/listing/langgraph/">LangGraph 列表</a>、<a href="/listing/flowise/">Flowise 列表</a>，以及我们的 <a href="/dify-vs-flowise-which-ai-workflow-builder-fits-you-in-2026/">Dify 与 Flowise 对比</a>。</p>
+<p>如果这听起来像你，本指南会让你动起来。如果你还在代码优先和可视化工具之间犹豫，看完这里后可以查看 <a href="/listing/langgraph/">LangGraph 列表</a>、<a href="/listing/flowise/">Flowise 列表</a>，以及我们的 <a href="/zh/dify-vs-flowise-which-ai-workflow-builder-fits-you-in-2026/">Dify 与 Flowise 对比</a>。</p>
 <h2>LangGraph 擅长什么，哪里让人头疼</h2>
 <p>LangGraph 是 LangChain 技术栈中的底层编排框架。它不把智能体当作一个长提示循环，而是让你将工作流建模为节点、边和共享状态。官方快速入门提供了 Graph API 和 Functional API 两种方式，这很有帮助，因为不是每个团队都想立刻用图原语来思考。</p>
 <p>实际适用场景如下：</p>
@@ -55,7 +55,7 @@ wpId: 775
 <h3>流式输出和追踪</h3>
 <p>流式输出改善用户体验。追踪改善你的理智。一旦agent碰到多个工具，你会想要日志显示每一步发生了什么。</p>
 <h2>第五步：知道什么时候该停止在LangGraph里构建</h2>
-<p>很多教程跳过这部分：有时候LangGraph是杀鸡用牛刀。</p><p>如果你的工作流主要是内部原型的可视化流程，像Flowise这样的构建器能让你更快上手。如果你的团队需要应用脚手架、提示词管理和更顺畅的无代码层，Dify通常更容易交接。我们在<a href="/dify-vs-flowise-which-ai-workflow-builder-fits-you-in-2026/">Dify与Flowise对比</a>中已经讨论过这种取舍。</p>
+<p>很多教程跳过这部分：有时候LangGraph是杀鸡用牛刀。</p><p>如果你的工作流主要是内部原型的可视化流程，像Flowise这样的构建器能让你更快上手。如果你的团队需要应用脚手架、提示词管理和更顺畅的无代码层，Dify通常更容易交接。我们在<a href="/zh/dify-vs-flowise-which-ai-workflow-builder-fits-you-in-2026/">Dify与Flowise对比</a>中已经讨论过这种取舍。</p>
 <p>当你需要分支逻辑、持久状态、显式控制或审批门控，而这些在拖拽画布中显得别扭时，用LangGraph。当瓶颈是速度而非控制时，用可视化构建器。</p>
 <h2>第一个LangGraph项目中的常见错误</h2>
 <ul>

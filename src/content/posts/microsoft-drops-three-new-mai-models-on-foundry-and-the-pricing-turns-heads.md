@@ -13,7 +13,7 @@ wpId: 514
 <p>Microsoft just dropped three new in-house AI models on Microsoft Foundry, and the pricing is aggressive enough to make competitors sweat. On April 8, 2026, the company released MAI-Transcribe-1, MAI-Voice-1, and MAI-Image-2, covering speech recognition, voice generation, and image creation. All three are available now through Microsoft Foundry and the MAI Playground for US users.</p>
 <p>This isn’t a research preview or a waitlist situation. Developers can start building today.</p>
 <h2>Speech Recognition That Beats Google at Its Own Game</h2>
-<p>MAI-Transcribe-1 is the standout of the three. Microsoft tested it against the FLEURS benchmark across 25 languages, and the results are clear: it ranks first in 11 core languages and beats OpenAI’s Whisper-large-v3 in the remaining 14. It also outperforms Gemini 3.1 Flash in 11 of those 14 languages.</p>
+<p>MAI-Transcribe-1 is the standout of the three. Microsoft tested it against the FLEURS benchmark across 25 languages, and the results are clear: it ranks first in 11 core languages and beats OpenAI’s Whisper-large-v3 in the remaining 14. It also outperforms <a href="/listing/gemini/">Gemini</a> 3.1 Flash in 11 of those 14 languages.</p>
 <p>That’s a pretty specific claim, and Microsoft published the model card to back it up.</p>
 <p>The model handles noisy, real-world audio, which matters because clean recording conditions are the exception, not the rule. Batch transcription runs 2.5 times faster than Azure Fast, the existing Microsoft offering. At $0.36 per hour of audio, it undercuts most major cloud providers on price.</p>
 <p>Microsoft is already rolling MAI-Transcribe-1 into Copilot’s Voice mode and Microsoft Teams. If you’ve used either recently, you might have already interacted with it without knowing.</p>
@@ -36,4 +36,4 @@ wpId: 514
 <p>Microsoft says more MAI models are coming. If today’s release is any indication, the company isn’t just catching up. It’s trying to set the terms of competition.</p>
 <p>The transcription model beating Google’s own benchmarks on Google’s home turf (speech recognition) is the kind of detail that gets attention in developer circles. Combined with aggressive pricing and production deployment in Copilot and Teams, this launch has substance behind the marketing.</p>
 <p>For developers choosing between cloud AI providers this week, the math just got more interesting.</p>
-
+<p>For tool-by-tool comparisons, see our <a href="/listing-category/ai-coding/">AI coding listings</a> and the <a href="/category/ai-tools-comparisons/">comparisons section</a>.</p>

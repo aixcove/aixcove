@@ -57,7 +57,7 @@ wpId: 777
 <li>需要代码级控制而非无代码速度的代理产品</li>
 </ul>
 <p>它特别适合那些已经以服务、SDK和可测试代码为思考方式的团队。</p>
-<p>如果这听起来像你的配置，你还应该阅读我们的指南<a href="/how-to-use-langgraph-for-ai-agent-workflows-in-2026/">如何在2026年使用LangGraph进行AI代理工作流</a>。</p>
+<p>如果这听起来像你的配置，你还应该阅读我们的指南<a href="/zh/how-to-use-langgraph-for-ai-agent-workflows-in-2026/">如何在2026年使用LangGraph进行AI代理工作流</a>。</p>
 <h2>谁应该选择n8n</h2>
 <p>如果你正在构建以下之一，选择n8n：</p>
 <ul>
@@ -72,7 +72,7 @@ wpId: 777
 <p>你不一定非要选出一个赢家。</p>
 <p>一个实际的配置是这样的：n8n 处理 webhook、调度器、Slack 触发器、CRM 更新和通知记录。LangGraph 在中间处理代理循环、工具调用、记忆和决策逻辑。这种分工往往比强迫一个工具做所有事更清晰。</p>
 <p>如果你的自动化层越来越乱，这种混合模式能帮你避免日后推倒重来。</p>
-<p>相关阅读：<a href="/how-to-use-n8n-with-ollama-for-private-ai-automation-in-2026/">如何将 n8n 与 Ollama 配合使用</a>、<a href="/dify-vs-flowise-which-ai-workflow-builder-fits-you-in-2026/">Dify 对比 Flowise</a>，以及<a href="/best-langflow-alternatives-in-2026/">最佳 Langflow 替代品</a>。</p>
+<p>相关阅读：<a href="/zh/how-to-use-n8n-with-ollama-for-private-ai-automation-in-2026/">如何将 n8n 与 Ollama 配合使用</a>、<a href="/zh/dify-vs-flowise-which-ai-workflow-builder-fits-you-in-2026/">Dify 对比 Flowise</a>，以及<a href="/zh/best-langflow-alternatives-in-2026/">最佳 Langflow 替代品</a>。</p>
 <h2>最终建议</h2>
 <p>这里说个简洁版。</p>
 <p>如果你想最快在真实业务系统里跑通有用的 AI 工作流，选 n8n。</p>

@@ -10,7 +10,7 @@ featured: /uploads/2026/04/cover-529-1.jpg
 wpId: 529
 ---
 
-<p><em>An open-source AI agent that builds reusable skills from experience, ships 40+ built-in tools, and runs on a $5 VPS — or almost nothing when idle. Nous Research’s Hermes Agent has racked up 8,700 GitHub stars in weeks. But does it actually dethrone OpenClaw?</em></p>
+<p><em>An open-source AI agent that builds reusable skills from experience, ships 40+ built-in tools, and runs on a $5 VPS — or almost nothing when idle. Nous Research’s Hermes Agent has racked up 8,700 GitHub stars in weeks. But does it actually dethrone <a href="/listing/openclaw/">OpenClaw</a>?</em></p>
 <p>The AI agent space is getting crowded. Every week brings another framework promising to be your “personal AI assistant.” Most of them are chatbot wrappers with tool calling bolted on — impressive for a demo, underwhelming in practice.</p>
 <p>Hermes Agent, released by Nous Research in early 2026, takes a different approach. Its core pitch isn’t just “it can use tools” — it’s “it gets better at using them over time.” After completing a complex task, the agent automatically generates a reusable skill document. Next time it encounters something similar, it loads that skill instead of figuring things out from scratch. Use the skill enough, and it starts refining itself.</p>
 <p>It’s an ambitious claim. I spent time digging through the codebase, documentation, and community discussions to see whether it holds up — and how it compares to OpenClaw, the framework that’s been quietly powering personal AI agents since 2025.</p>
@@ -149,4 +149,4 @@ hermes gateway        # start messaging gateway (Telegram, Discord, etc.)</code>
 <li><strong>OpenClaw Documentation:</strong> <a href="https://docs.openclaw.ai">docs.openclaw.ai</a></li>
 <li><strong>OpenClaw GitHub:</strong> <a href="https://github.com/openclaw/openclaw">github.com/openclaw/openclaw</a></li>
 </ul>
-
+<p>For tool-by-tool comparisons, see our <a href="/listing-category/ai-coding/">AI coding listings</a> and the <a href="/category/ai-tools-comparisons/">comparisons section</a>.</p>

@@ -43,7 +43,7 @@ wpId: 858
 <h2>如何选择合适的AutoGen替代品</h2>
 <p>从故障模式开始，而不是功能列表。如果调试和恢复很困难，请使用LangGraph。如果您的团队从角色和委托任务的角度思考，CrewAI更容易建模。如果您想要一个可视化的自托管产品层，Dify是更直接的路线。如果业务系统和集成占主导地位，n8n通常比多代理框架更实用。</p>
 <p>也有理由保留AutoGen。其当前堆栈已包含团队、GraphFlow、内存、日志记录和可观察性功能。仅仅因为另一个框架有更简洁的主页就重建一个正在运行的系统，这不是工程策略。</p>
-<p>为了更广泛的浏览，请使用Aixcove的<a href="/listing-category/ai-agents-automation/">AI代理与自动化目录</a>。如果自托管是您决策的一部分，也请阅读<a href="/openclaw-security-guide-self-hosted-ai-agent/">OpenClaw安全指南</a>。具体软件会变化，但基础设施问题不变：谁能触发代理，它能访问什么，以及凭据存储在哪里？</p>
+<p>为了更广泛的浏览，请使用Aixcove的<a href="/listing-category/ai-agents-automation/">AI代理与自动化目录</a>。如果自托管是您决策的一部分，也请阅读<a href="/zh/openclaw-security-guide-self-hosted-ai-agent/">OpenClaw安全指南</a>。具体软件会变化，但基础设施问题不变：谁能触发代理，它能访问什么，以及凭据存储在哪里？</p>
 <h2>最终结论</h2>
 <p>对于大多数比较AutoGen替代品的开发者，LangGraph和CrewAI应该是首先打开的两个选项。当控制是优先考虑时，LangGraph胜出。当基于角色的思维模型帮助团队更快前进时，CrewAI胜出。对于可视化的自托管应用层，Dify是更好的捷径，而当真正目标是业务自动化时，n8n则是务实的解决方案。</p>
 <p>不要选择功能列表最长的工具。选择当出现问题时能让您最容易理解代理下一步行动的工具。</p>

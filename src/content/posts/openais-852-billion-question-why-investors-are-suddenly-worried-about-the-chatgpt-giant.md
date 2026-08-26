@@ -12,7 +12,7 @@ wpId: 576
 
 <h2>A Valuation Nobody Wants to Question — Until Now</h2>
 <p>OpenAI sits at an $852 billion valuation after raising $122 billion last month, a round Reuters described as likely the largest fundraising round in Silicon Valley history. The numbers are staggering. The problem is that some of the people who wrote those checks are now wondering where the money actually goes.</p>
-<p>One early backer put it bluntly to the Financial Times: “You have ChatGPT, a 1 billion-user business growing 50-100 per cent a year, what are you doing talking about enterprise and code?” The same investor called OpenAI “a deeply unfocused company.”</p>
+<p>One early backer put it bluntly to the Financial Times: “You have <a href="/listing/chatgpt/">ChatGPT</a>, a 1 billion-user business growing 50-100 per cent a year, what are you doing talking about enterprise and code?” The same investor called OpenAI “a deeply unfocused company.”</p>
 <h2>Two Roadmap Redraws in Six Months</h2>
 <p>Sources familiar with the matter say OpenAI has redrawn its product roadmap twice in the past six months. The first revision came in response to competitive pressure from Google. The second followed Anthropic aggressive push into enterprise tooling and coding assistants.</p>
 <p>Rewriting strategy once can look like agility. Doing it twice in half a year starts to look like a company that cannot decide what it wants to be when it grows up. The shifting priorities have left some investors questioning whether management has a coherent plan or is simply reacting to every competitor press release.</p>
@@ -25,4 +25,4 @@ wpId: 576
 <h2>What the Backlash Reveals</h2>
 <p>The investor frustration says something important about the current AI moment. Even companies with the best fundamentals in the sector — massive user bases, accelerating revenue, brand recognition that rivals Google — face skepticism when their strategic direction looks muddled.</p>
 <p>OpenAI is not in trouble. An $852 billion valuation with $122 billion in fresh capital is the opposite of trouble. But the gap between what the company has and what it seems to want is where the anxiety lives. Investors did not fund a consulting firm. They funded the thing a billion people use every day. The question is whether OpenAI leadership remembers that.</p>
-
+<p>For tool-by-tool comparisons, see our <a href="/listing-category/ai-coding/">AI coding listings</a> and the <a href="/category/ai-tools-comparisons/">comparisons section</a>.</p>

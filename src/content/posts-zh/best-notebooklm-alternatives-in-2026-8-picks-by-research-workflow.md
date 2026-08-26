@@ -70,5 +70,5 @@ wpId: 903
 <li><a href="/listing-category/general-purpose-llms-chat-assistants/">通用大语言模型与聊天助手</a></li>
 <li><a href="/listing-category/ai-business-productivity/">AI 商业与生产力</a></li>
 <li><a href="/listing-category/ai-content-creation/">AI 内容创作</a></li>
-<li><a href="/blog/">Aixcove 博客上的更多 AI 工具比较</a></li>
+<li><a href="/zh/blog/">Aixcove 博客上的更多 AI 工具比较</a></li>
 </ul>

@@ -10,7 +10,7 @@ featured: /uploads/2026/05/image-1-40f6212a-92d9-4970-b4d9-df74c4610939.jpg
 wpId: 754
 ---
 <p>如果你想将Flowise与Ollama配合使用，简单来说就是：本地运行Ollama，启动Flowise，连接一个ChatOllama模型节点，然后如果你想要私有RAG而不是普通聊天机器人，再添加一个文档存储。对于想要比简单聊天应用更多控制权，但又不想手动连接每个LangChain组件的人来说，这是较好的方案之一。</p>
-<p>这个方案也有取舍，我们先把这些说清楚。<a href="/listing/flowise/">Flowise是开源且免费自托管的</a>。Ollama本地运行也是免费的。这让软件成本很有吸引力，但并不意味着这套技术栈不费力。你仍然要付出硬件限制、模型速度和设置时间的代价。如果你想要最简单的私有文档聊天体验，<a href="/anythingllm-ollama-tutorial-build-a-local-ai-chatbot-in-2026/">AnythingLLM与Ollama的组合</a>通常更简单。如果你想要更产品化的应用层并带有托管选项，<a href="/how-to-use-dify-to-build-your-first-ai-workflow-in-2026/">Dify</a>可能更合适。</p>
+<p>这个方案也有取舍，我们先把这些说清楚。<a href="/listing/flowise/">Flowise是开源且免费自托管的</a>。Ollama本地运行也是免费的。这让软件成本很有吸引力，但并不意味着这套技术栈不费力。你仍然要付出硬件限制、模型速度和设置时间的代价。如果你想要最简单的私有文档聊天体验，<a href="/zh/anythingllm-ollama-tutorial-build-a-local-ai-chatbot-in-2026/">AnythingLLM与Ollama的组合</a>通常更简单。如果你想要更产品化的应用层并带有托管选项，<a href="/zh/how-to-use-dify-to-build-your-first-ai-workflow-in-2026/">Dify</a>可能更合适。</p>
 <h2>这个方案适合谁</h2>
 <p>Flowise与Ollama的组合最适合三类人：</p>
 <ul>
@@ -18,7 +18,7 @@ wpId: 754
 <li>测试内部知识助手，但不想把每个文档都发送给SaaS供应商的团队</li>
 <li>想要比从零写代码更快地原型化RAG或代理流程的开发者</li>
 </ul>
-<p>如果你主要想在投入之前比较可视化构建器，请阅读<a href="/langflow-vs-flowise-which-ai-workflow-builder-fits-you-in-2026/">我们的Langflow与Flowise对比</a>。如果你已经确定要本地模型和基于节点的构建器，继续往下看。</p>
+<p>如果你主要想在投入之前比较可视化构建器，请阅读<a href="/zh/langflow-vs-flowise-which-ai-workflow-builder-fits-you-in-2026/">我们的Langflow与Flowise对比</a>。如果你已经确定要本地模型和基于节点的构建器，继续往下看。</p>
 <h2>开始前需要准备什么</h2>
 <p>根据官方Flowise文档，最快的本地设置仍然很直接：安装Flowise，启动它，然后在浏览器中打开。文档列出Node 18.15或Node 20+为受支持版本，基本的本地安装是<em>npm install -g flowise</em>，然后运行<em>npx flowise start</em>。Flowise也支持Docker，如果你更喜欢用这种方式运行本地工具。</p>
 <p>对于Ollama，要求也很简单：安装Ollama，拉取一个模型，确保运行Flowise的机器或容器能访问Ollama服务。Flowise有专门的ChatOllama集成，所以不需要奇怪的变通方法就能让模型连接正常工作。</p><p>我的实际建议是：先选一个你确定机器能流畅运行的小型本地模型。不要一开始就用显卡勉强能带动的最大模型。首次运行卡顿会让排查问题变得比实际更困难。</p>

@@ -9,7 +9,7 @@ categories:
 featured: /uploads/2026/04/the-chatgpt-6.jpg
 wpId: 579
 ---
-<h2>ChatGPT-6传闻工厂：AI网红如何为流量编造新闻</h2>
+<h2><a href="/zh/listing/chatgpt/">ChatGPT</a>-6传闻工厂：AI网红如何为流量编造新闻</h2>
 <p><em>2026年4月15日</em></p>
 <p>4月14日过去了。OpenAI没有发布博客，Sam Altman没有发推，也没有戏剧性的产品发布会。那个让科技圈推特陷入狂热的“确认”发布日期——配上令人窒息的倒计时帖子和猜测性的功能列表——结果正如头脑清醒的观察者所料：一个建立在空气上的虚构。</p>
 <p>欢迎来到AI网红经济，在这里谣言是货币，你的注意力是商品。</p>
@@ -49,3 +49,4 @@ wpId: 579
 <p>真正的 AI 革命已经足够令人印象深刻，不需要再虚构一个假的。</p>
 <hr />
 <p><em>作者运营一个 AI 工具和资源网站，已经厌倦了每周都要辟谣同样的传闻。</em></p>
+<p>如需逐工具对比，可查看<a href="/zh/listing-category/ai-coding/">AI编程工具清单</a>与<a href="/zh/category/ai-tools-comparisons/">对比评测栏目</a>。</p>

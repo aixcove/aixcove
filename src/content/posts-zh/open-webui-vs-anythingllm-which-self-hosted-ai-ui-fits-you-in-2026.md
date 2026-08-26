@@ -42,10 +42,10 @@ wpId: 764
 <h2>哪个和Ollama配合更好？</h2>
 <p>两者都能和Ollama配合。这部分很简单。</p><p>Open WebUI 与 Ollama 的绑定更深，因为它在这个生态中成长起来，至今用起来依然很顺手。如果你的计划是运行本地模型、对比输出、暴露工具，并持续迭代周边技术栈，Open WebUI 是长期扩展性更强的选择。</p>
 <p>AnythingLLM 对 Ollama 的支持也不错，但它更适合那些不太在意平台灵活性、更想快速部署一个能读文档的私有助手的用户。</p>
-<p>如果你还在琢磨怎么把 Open WebUI 接入本地技术栈，可以先看这篇 <a href="/how-to-use-open-webui-with-ollama-in-2026/">2026 年如何将 Open WebUI 与 Ollama 配合使用</a>。想了解对比的另一方，可以查看 <a href="/listing/anythingllm/">Aixcove 上的 AnythingLLM 条目</a>。</p>
+<p>如果你还在琢磨怎么把 Open WebUI 接入本地技术栈，可以先看这篇 <a href="/zh/how-to-use-open-webui-with-ollama-in-2026/">2026 年如何将 Open WebUI 与 Ollama 配合使用</a>。想了解对比的另一方，可以查看 <a href="/listing/anythingllm/">Aixcove 上的 AnythingLLM 条目</a>。</p>
 <h2>最终建议</h2>
 <p>下面说点实际的。</p>
 <p>选 <strong>Open WebUI</strong>，如果你在搭建真正的内部 AI 层，而不只是文档聊天机器人。它的产品面更广，企业级认证方案更完善，扩展性更强，成长空间也更大。</p>
 <p>选 <strong>AnythingLLM</strong>，如果你想要最快实现私有文档对话，工作区组织更清晰，并且适合小团队或个人使用。</p>
-<p>如果你特别关注文档处理，想听听另一个角度的意见，可以读我们更详细的 <a href="/anythingllm-review-2026-pricing-pros-cons-and-best-alternatives/">AnythingLLM 评测</a> 和 <a href="/best-anythingllm-alternatives-in-2026-3/">最佳 AnythingLLM 替代品</a> 汇总。如果你的对比对象上升到工作流构建器层面，<a href="/dify-vs-flowise-which-ai-workflow-builder-fits-you-in-2026/">Dify 与 Flowise 对比</a> 更值得一读。</p>
+<p>如果你特别关注文档处理，想听听另一个角度的意见，可以读我们更详细的 <a href="/zh/anythingllm-review-2026-pricing-pros-cons-and-best-alternatives/">AnythingLLM 评测</a> 和 <a href="/best-anythingllm-alternatives-in-2026-3/">最佳 AnythingLLM 替代品</a> 汇总。如果你的对比对象上升到工作流构建器层面，<a href="/zh/dify-vs-flowise-which-ai-workflow-builder-fits-you-in-2026/">Dify 与 Flowise 对比</a> 更值得一读。</p>
 <p>说到底，这两款工具没有抽象的“更好”。Open WebUI 在灵活性、生态认同和平台广度上占优。AnythingLLM 在你想第一天就用上能干的私有助手时胜出。大多数买家不是在好工具和坏工具之间做选择，而是在控制力和速度之间做取舍。</p>

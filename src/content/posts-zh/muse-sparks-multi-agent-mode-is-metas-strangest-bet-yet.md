@@ -11,10 +11,10 @@ wpId: 521
 ---
 <h2>多智能体技巧</h2>
 <p>Muse Spark 是一个推理模型。它逐步解决问题，而不是靠模式匹配直接给出答案。这在 2026 年属于常规操作。不寻常的是 Meta 所称的“沉思”模式。</p>
-<p>给 Muse Spark 一个真正困难的问题，比如复杂的医学鉴别诊断或多部分逻辑谜题，它会启动多个子智能体。每个子智能体并行处理不同角度。一个模型，内部一组专家。它们分工、独立处理、合并结果。Meta 的技术博客称，这让 Muse Spark“能与 Gemini Deep Think 和 GPT Pro 等前沿模型的极限推理模式竞争”。</p>
+<p>给 Muse Spark 一个真正困难的问题，比如复杂的医学鉴别诊断或多部分逻辑谜题，它会启动多个子智能体。每个子智能体并行处理不同角度。一个模型，内部一组专家。它们分工、独立处理、合并结果。Meta 的技术博客称，这让 Muse Spark“能与 <a href="/zh/listing/gemini/">Gemini</a> Deep Think 和 GPT Pro 等前沿模型的极限推理模式竞争”。</p>
 <p>该模型还开箱即用地支持文本、图像和语音输入。它支持工具调用和视觉思维链推理。对于一个基于全新 AI 技术栈构建的 v1.0 版本，功能列表异常广泛。</p>
 <h2>基准测试：足以引起重视，但不足以领先</h2>
-<p>Muse Spark 在 Artificial Analysis Intelligence Index v4.0 上得分为 52。全球前五。落后于 GPT-5.4 和 Gemini 3.1 Pro（均为 57 分）以及 Claude Opus 4.6（53 分）。接近 Opus，但离领先者还有距离。</p>
+<p>Muse Spark 在 Artificial Analysis Intelligence Index v4.0 上得分为 52。全球前五。落后于 GPT-5.4 和 Gemini 3.1 Pro（均为 57 分）以及 <a href="/zh/listing/claude/">Claude</a> Opus 4.6（53 分）。接近 Opus，但离领先者还有距离。</p>
 <p>GPQA Diamond 测试博士级推理能力：Muse Spark 达到 89.5%。Gemini 3.1 Pro 得分 94.3%。GPT-5.4 为 92.8%，Claude Opus 4.6 为 92.7%。对于首次亮相来说，差距还算体面。</p>
 <p>然后是 HealthBench Hard。Muse Spark 以 42.8% 击败全场。高于 Opus 4.6，高于 Gemini 3.1 Pro，略领先于 GPT-5.4。Meta 称该模型“足以推理科学、数学和健康领域的复杂问题”。健康基准测试确实支持这一说法。</p>
 <p>路透社报道称，独立评估显示 Muse Spark 在语言和视觉理解方面与顶级模型持平，但在编码和抽象推理方面落后。这些是真实差距，不是致命问题，但确实是差距。</p>
@@ -36,3 +36,4 @@ wpId: 521
 <p>Meta对此很直白：Muse Spark是验证步骤，不是终点。“下一代已经在开发中。”架构跑通了。训练方法被验证了。现在他们要规模化。</p>
 <p>如果算力效率的说法站得住脚，多智能体模式能扛过第三方测试，Meta就有了地基。但闭源策略砍掉了让Llama成功的开发者飞轮。社区微调、第三方工具、草根采用。这些都需要访问权限。Meta赌的是，自家应用的海量分发能替代开源传统上提供的东西。</p>
 <p>这就是赌注。AI市场到目前为止奖励的是开放。Meta自己的Llama模型证明了这条路走得通。现在公司抛弃了自己的证据，理由不明。Wang的团队做出了技术上可信的东西。把它锁进围墙花园是不是对的，这个问题一年内不会有答案。</p>
+<p>如需逐工具对比，可查看<a href="/zh/listing-category/ai-coding/">AI编程工具清单</a>与<a href="/zh/category/ai-tools-comparisons/">对比评测栏目</a>。</p>

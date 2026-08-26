@@ -12,7 +12,7 @@ wpId: 593
 
 <h2>Stanford’s 2026 AI Index Has Some Good News, Some Bad News, and One Number That Should Worry Every Junior Developer</h2>
 <p>Stanford’s Institute for Human-Centered AI just dropped its annual AI Index Report, and the 2026 edition is a mixed bag. The report tracks AI progress across research, industry, and societal impact, and this year’s findings paint a picture of a technology moving faster than anyone predicted while the people supposed to govern it fall further behind.</p>
-<p>Some numbers first. AI models now outperform human baselines on PhD-level science questions and competition-level math. On the SWE-bench Verified coding benchmark, performance jumped from 60% to nearly 100% in a single year. Google’s Gemini Deep Think won a gold medal at the International Mathematical Olympiad. These are the headlines you’ve probably seen.</p>
+<p>Some numbers first. AI models now outperform human baselines on PhD-level science questions and competition-level math. On the SWE-bench Verified coding benchmark, performance jumped from 60% to nearly 100% in a single year. Google’s <a href="/listing/gemini/">Gemini</a> Deep Think won a gold medal at the International Mathematical Olympiad. These are the headlines you’ve probably seen.</p>
 <h3>The Clock Test Problem</h3>
 <p>But here’s what makes this report genuinely interesting rather than just impressive. The same models acing olympiad math can only read analog clocks correctly 50.1% of the time. The report calls this the “jagged frontier” phenomenon, and it refuses to go away. A model that solves graduate-level physics might struggle with something a six-year-old handles. This isn’t a footnote. It tells you something important about how these systems actually work, and why trusting them as general-purpose reasoning engines remains risky.</p>
 <h3>The US-China Gap That Wasn’t</h3>
@@ -31,4 +31,4 @@ wpId: 593
 <h3>What the Numbers Don’t Tell You</h3>
 <p>The Stanford report is thorough, well-sourced, and worth reading in full. But the gap between what’s measurable and what matters is growing. Benchmark scores tell you about model capability. They don’t tell you about the 22-year-old who can’t find a junior dev job, the teacher trying to set rules for tools nobody trained them on, or the 69% of Americans who don’t trust their government to handle any of this.</p>
 <p>The technology is moving fast. The institutions meant to govern it are not. That’s the real story of the 2026 AI Index, even if it doesn’t show up in the headline benchmarks.</p>
-
+<p>For tool-by-tool comparisons, see our <a href="/listing-category/ai-coding/">AI coding listings</a> and the <a href="/category/ai-tools-comparisons/">comparisons section</a>.</p>

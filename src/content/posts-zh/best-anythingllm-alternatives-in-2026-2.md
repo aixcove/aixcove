@@ -34,13 +34,13 @@ wpId: 725
 <p><strong>适合：</strong> 想要 ChatGPT 式体验，同时对提供商、认证和扩展有更多控制权的公司。</p>
 <p><strong>主要限制：</strong> 它在私有知识工作区方面的打包不如 AnythingLLM 清晰。</p>
 <h3>3. Dify：适合构建 AI 应用的团队，不只是私人助手</h3><p><a href="/listing/dify/">Dify</a>适合在AnythingLLM开始显得局限时使用。Dify将提示词管理、数据集、工具集成、工作流和应用部署整合在一个产品层中。对于需要交付多个AI应用的团队来说，这比仅运行内部文档聊天更有用。</p>
-<p>如果你已经读过我们的<a href="/best-dify-alternatives-in-2026/">Dify替代方案指南</a>，你会知道其中的取舍：Dify更偏运营和产品导向。当产品经理、运营人员和开发人员都需要操作同一系统时，它表现良好。</p>
+<p>如果你已经读过我们的<a href="/zh/best-dify-alternatives-in-2026/">Dify替代方案指南</a>，你会知道其中的取舍：Dify更偏运营和产品导向。当产品经理、运营人员和开发人员都需要操作同一系统时，它表现良好。</p>
 <p><strong>定价：</strong>开源可自托管，根据部署方式提供托管版和企业版选项。</p>
 <p><strong>适合：</strong>内部AI平台团队、SaaS构建者，以及希望标准化AI应用交付流程的公司。</p>
 <p><strong>主要限制：</strong>如果你主要想要一个快速搭建的私有AI工作区，Dify可能超出你的需求。</p>
 <h3>4. Flowise：最适合可视化RAG和智能体工作流</h3>
 <p><a href="/listing/flowise/">Flowise</a>适合习惯用节点思维而非聊天窗口思维的人。它是一个开源的LLM应用、检索管道、聊天机器人和智能体流程的可视化构建器。对于想检查提示词、记忆、工具和检索之间如何连接的开发者来说，它是最强的AnythingLLM替代方案之一。</p>
-<p>AnythingLLM确实包含无代码和智能体功能，但Flowise更明显围绕工作流组合设计。如果你在搭建多步骤助手原型或测试多种RAG设计，Flowise能提供更好的机制可见性。我们在<a href="/flowise-review-2026-pricing-pros-cons-and-alternatives/">Flowise评测</a>和<a href="/best-flowise-alternatives-in-2026/">Flowise替代方案汇总</a>中有更详细的讨论。</p>
+<p>AnythingLLM确实包含无代码和智能体功能，但Flowise更明显围绕工作流组合设计。如果你在搭建多步骤助手原型或测试多种RAG设计，Flowise能提供更好的机制可见性。我们在<a href="/zh/flowise-review-2026-pricing-pros-cons-and-alternatives/">Flowise评测</a>和<a href="/zh/best-flowise-alternatives-in-2026/">Flowise替代方案汇总</a>中有更详细的讨论。</p>
 <p><strong>定价：</strong>开源且免费部署；成本来自托管、存储和连接的模型API。</p>
 <p><strong>适合：</strong>希望为RAG和智能体逻辑提供拖拽式工作流层的构建者。</p>
 <p><strong>主要限制：</strong>对于只想获得私有AI工作区的非技术团队来说，它不够开箱即用。</p>
