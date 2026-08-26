@@ -27,6 +27,7 @@ reviewed: AIX Cove
 </ul>
 <h2>定价方案</h2>
 <p>ElevenLabs 提供免费套餐，每月 10,000 个字符。Starter 套餐每月 5 美元，提供 30,000 个字符。Creator 套餐每月 22 美元，提供 100,000 个字符并包含商业使用权。Pro 套餐每月 99 美元，提供 500,000 个字符和优先生成权限。企业套餐提供无限用量、定制模型和专属支持。</p>
+<table><thead><tr><th>套餐</th><th>价格</th><th>积分</th></tr></thead><tbody><tr><td>Free</td><td>$0/月</td><td>10,000</td></tr><tr><td>Starter</td><td>$6/月</td><td>30,000</td></tr><tr><td>Creator</td><td>$22/月</td><td>121,000</td></tr><tr><td>Pro</td><td>$99/月</td><td>600,000</td></tr></tbody></table>
 <h2>谁应该使用 ElevenLabs？</h2>
 <p>ElevenLabs 满足广泛的语音内容需求。有声书出版商无需录音棚即可制作专业旁白。视频制作人可生成多语言配音。播客创作者能以一致的语音质量制作节目。游戏开发者可大规模创建角色对话。内容创作者可为 YouTube 和社交媒体视频添加解说。无障碍团队为视障用户提供文本转语音服务。</p>
 <h2>ElevenLabs 与其他 TTS 服务的对比</h2><p>ElevenLabs 持续产出目前市面上最自然的 AI 语音，在质量上明显优于 Google TTS、Amazon Polly 和 Microsoft Azure TTS。其声音克隆功能在准确度上无出其右。虽然竞品可能在语言数量或价格上更有优势，但 ElevenLabs 仍是专业语音制作领域的质量标杆。</p>

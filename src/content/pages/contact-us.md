@@ -6,6 +6,24 @@ wpId: 492
 ---
 
 
+<h2 class="wp-block-heading">Our Editorial Standard</h2>
+
+
+
+<p class="wp-block-paragraph">Every review and article on AIX Cove follows a simple, verifiable process:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Official sources first</strong> — pricing, features, and limits are checked against the vendor's own docs and pricing page, and dated (e.g. "Prices checked August 2026").</li>
+<li><strong>Tested where we can</strong> — hands-on walkthroughs are written from real runs; where we could not test a platform ourselves, we say so rather than inventing a first-person account.</li>
+<li><strong>Honest about gaps</strong> — "no public pricing", "sold through sales", and real limitations are stated plainly rather than hidden.</li>
+<li><strong>Reviewed by an editor</strong> — every piece carries a byline and is reviewed before publishing; we link sources so you can check the claim yourself.</li>
+<li><strong>No invented authority</strong> — we do not fabricate authors, tests, or numbers.</li>
+</ul>
+
+
+
 <h2 class="wp-block-heading">Welcome to AI X Cove</h2>
 
 

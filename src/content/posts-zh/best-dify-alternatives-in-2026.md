@@ -44,7 +44,17 @@ reviewed: AIX Cove
 <p>需要注意范围。Botpress 不是我处理内部多应用 AI 操作的首选。它更适合代理本身作为产品体验的场景。</p>
 <p><strong>最适合：</strong>支持自动化、潜在客户生成、网页聊天和面向客户的 AI 代理。</p>
 <h2>按使用场景，哪个 Dify 替代品最好？</h2>
-<p>如果你想要最快答案：</p>
+<p>想要最快答案，可以浓缩成一张表：</p>
+<table>
+<thead><tr><th>工具</th><th>适合何种场景</th><th>定价（2026年8月）</th><th>主要权衡</th></tr></thead>
+<tbody>
+<tr><td><strong>n8n</strong></td><td>跨大量应用的自动化最重要</td><td>开源/自托管；云版约 $20/月起</td><td>RAG 精细度需自行搭建</td></tr>
+<tr><td><strong>Flowise</strong></td><td>视觉化代理构建，留足试验空间</td><td>免费层；Starter $35/月；Pro $65/月</td><td>更偏技术，跨职能较弱</td></tr>
+<tr><td><strong>AnythingLLM</strong></td><td>私有知识工作与本地部署</td><td>免费 Docker；Basic $50/月；Pro $99/月</td><td>综合应用编排较弱</td></tr>
+<tr><td><strong>Langflow</strong></td><td>低代码开发者想要更多控制</td><td>开源/自托管</td><td>面向业务的治理较弱</td></tr>
+<tr><td><strong>Botpress</strong></td><td>面向客户的 AI 代理</td><td>按量计费；更高档含人工交接</td><td>不适合内部多应用运维</td></tr>
+</tbody>
+</table>
 <ul>
 <li>选择 <strong>n8n</strong>，如果自动化比 RAG 精细度更重要。</li>
 <li>选择 <strong>Flowise</strong>，如果你想要开源可视化代理构建器，感觉灵活且价格合理。</li>

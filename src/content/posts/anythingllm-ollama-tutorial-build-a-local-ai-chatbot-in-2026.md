@@ -58,6 +58,15 @@ reviewed: AIX Cove
 <h2>Step 4: Choose an Embedder</h2>
 <p>For document chat, the language model is only half the system. AnythingLLM also needs embeddings so it can search relevant chunks before generating an answer. AnythingLLM supports local and cloud embedding options, including Ollama as an embedder.</p>
 <p>If privacy is the point, use a local embedder too. Otherwise you have a half-private system: local chat model, cloud embeddings. That may be acceptable, but it should be a deliberate choice.</p>
+<table>
+<thead><tr><th>Choice</th><th>Use when</th><th>Trade-off</th></tr></thead>
+<tbody>
+<tr><td><strong>Local model + local embedder</strong></td><td>Privacy &amp; offline control are the goal</td><td>Needs hardware; quality depends on model size</td></tr>
+<tr><td><strong>Local model + cloud embeddings</strong></td><td>Better retrieval quality, limited GPU</td><td>Documents still leave the machine for embedding</td></tr>
+<tr><td><strong>Small model (e.g. llama3.2)</strong></td><td>Quick summaries, light Q&amp;A, weak hardware</td><td>Lower answer quality on complex docs</td></tr>
+<tr><td><strong>Larger local model</strong></td><td>Daily team use, document-heavy work</td><td>More RAM; slower on modest machines</td></tr>
+</tbody>
+</table>
 <h2>Step 5: Create One Focused Workspace</h2>
 <p>AnythingLLM workspaces help separate contexts. Use that structure. Create one workspace for one job: support docs, product docs, HR policies, sales enablement, or personal research notes.</p>
 <p>A workspace called “Company Knowledge” usually turns into a junk drawer. A workspace called “Support Macros and Refund Policy” is more useful because the retrieved chunks are more likely to match the question.</p>

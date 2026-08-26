@@ -26,6 +26,7 @@ reviewed: AIX Cove
 <p>Confirm recording consent before each call, then export the summary into a decision log. Label speakers and review action items so the automation does not bury the decisions that matter.</p>
 <h2>Pricing</h2>
 <p>Otter lists <strong>Basic at $0</strong> with <strong>300 monthly transcription minutes</strong>. Public annual prices are <strong>Pro $8.33/user/month</strong> and <strong>Business $19.99/user/month</strong>; displayed monthly prices are higher. Pro includes 1,200 in-app recording minutes and 10 monthly file imports. Prices checked August 2026 — see <a href="https://otter.ai/pricing" target="_blank" rel="noopener noreferrer">Otter pricing</a>.</p>
+<table><thead><tr><th>Plan</th><th>Price</th><th>Minutes</th></tr></thead><tbody><tr><td>Basic</td><td>$0</td><td>300/mo transcription</td></tr><tr><td>Pro</td><td>$8.33/user/mo</td><td>1,200 record + 10 imports</td></tr><tr><td>Business</td><td>$19.99/user/mo</td><td>Team features</td></tr></tbody></table>
 <h2>Limitations and Trade-offs</h2>
 <p>A transcript is a convenience record, not a legal or factual record. Accuracy falls with crosstalk, accents, names, jargon, weak microphones, and poor network audio. Meeting bots can be unwelcome or prohibited by policy, and recording consent requirements differ by jurisdiction. Import, recording, member, and integration limits vary by plan.</p>
 <h2>Who Should Use Otter.ai?</h2>

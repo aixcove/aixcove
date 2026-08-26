@@ -26,6 +26,7 @@ reviewed: AIX Cove
 <p>Audition multiple voices on a short line before committing to a full script. Keep approved pronunciation and identity controls for cloned voices, and retain records of consent.</p>
 <h2>Pricing</h2>
 <p>ElevenLabs lists <strong>Free at $0/month with 10,000 credits</strong>, <strong>Starter $6/month with 30,000</strong>, <strong>Creator $22/month with 121,000</strong>, and <strong>Pro $99/month with 600,000</strong>; Scale is $299/month and Business $990/month, with lower annual equivalents. Prices checked August 2026 — see <a href="https://www.elevenlabs.io/pricing" target="_blank" rel="noopener noreferrer">ElevenLabs pricing</a>.</p>
+<table><thead><tr><th>Plan</th><th>Price</th><th>Credits</th></tr></thead><tbody><tr><td>Free</td><td>$0/mo</td><td>10,000</td></tr><tr><td>Starter</td><td>$6/mo</td><td>30,000</td></tr><tr><td>Creator</td><td>$22/mo</td><td>121,000</td></tr><tr><td>Pro</td><td>$99/mo</td><td>600,000</td></tr></tbody></table>
 <h2>Limitations and Trade-offs</h2>
 <p>The free plan does not include the same commercial rights as paid plans, and credit use varies by product and settings. Voice cloning requires consent and careful identity controls. Synthetic narration can still mispronounce names, mishandle emphasis, or sound unnatural; a human producer should audition lines and retain approval records.</p>
 <h2>Who Should Use ElevenLabs?</h2>

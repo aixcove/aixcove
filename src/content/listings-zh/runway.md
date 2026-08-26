@@ -27,6 +27,7 @@ reviewed: AIX Cove
 </ul>
 <h2>定价方案</h2>
 <p>Runway提供免费Basic方案，包含有限积分。Standard方案每月12美元，提供更多积分和更高分辨率。Pro方案每月28美元，增加4K导出和优先生成功能。Unlimited方案每月76美元，提供无限视频生成。企业方案提供定制集成和团队功能。</p>
+<table><thead><tr><th>套餐</th><th>价格</th><th>积分</th></tr></thead><tbody><tr><td>Free</td><td>$0</td><td>125 一次性</td></tr><tr><td>Standard</td><td>$12/月</td><td>625/月</td></tr><tr><td>Pro</td><td>$28/月</td><td>2,250/月</td></tr><tr><td>Max</td><td>$76/月</td><td>9,500/月</td></tr></tbody></table>
 <h2>谁适合使用Runway？</h2>
 <p>Runway是探索AI内容创作的创意专业人士的必备工具。电影制作人用它进行概念可视化和VFX原型制作。社交媒体创作者生成吸睛的视频内容。设计师制作动态视觉素材。营销团队无需传统制作预算即可产出视频广告。艺术家尝试AI辅助创意表达的新形式。</p>
 <h2>Runway vs Pika vs Sora</h2>

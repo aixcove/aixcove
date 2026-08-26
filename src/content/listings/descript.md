@@ -26,6 +26,7 @@ reviewed: AIX Cove
 <p>Record clean audio and check the transcript before editing, since cuts are only as good as the text. Name speakers where possible, then review visual continuity and captions after the edit pass.</p>
 <h2>Pricing</h2>
 <p>Descript lists <strong>Free at $0</strong>. With annual billing, <strong>Hobbyist is $16/person/month</strong> (10 media hours, 400 AI credits), <strong>Creator $24</strong> (30 hours, 800 credits), and <strong>Business $50</strong> (40 hours, 1,500 credits); monthly billing is higher. Prices checked August 2026 — see <a href="https://www.descript.com/pricing" target="_blank" rel="noopener noreferrer">Descript pricing</a>.</p>
+<table><thead><tr><th>Plan</th><th>Price (annual)</th><th>Hours / credits</th></tr></thead><tbody><tr><td>Free</td><td>$0</td><td>Limited</td></tr><tr><td>Hobbyist</td><td>$16/person/mo</td><td>10 hr / 400 credits</td></tr><tr><td>Creator</td><td>$24/mo</td><td>30 hr / 800 credits</td></tr><tr><td>Business</td><td>$50/mo</td><td>40 hr / 1,500 credits</td></tr></tbody></table>
 <h2>Limitations and Trade-offs</h2>
 <p>Media hours and AI credits are hard limits, and advanced tools consume them at different rates. Transcript-based editing does not remove the need to check cuts, timing, room tone, visual continuity, or captions. Automatic speaker recognition and cleanup make mistakes with overlapping voices, names, technical terms, and noisy audio.</p>
 <h2>Who Should Use Descript?</h2>

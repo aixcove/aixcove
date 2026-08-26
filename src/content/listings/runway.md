@@ -26,6 +26,7 @@ reviewed: AIX Cove
 <p>Generate short takes rather than long clips, pick the best, and finish in an editor. Track credit cost per model and duration so you are not surprised by a plan limit mid-production.</p>
 <h2>Pricing</h2>
 <p>Runway lists <strong>Free at $0</strong> with <strong>125 one-time credits</strong> and 5GB storage. Annual-billing plans are <strong>Standard $12/month</strong> (625 credits/month), <strong>Pro $28/month</strong> (2,250), and <strong>Max $76/month</strong> (9,500); monthly prices are higher. Prices checked August 2026 — see <a href="https://runwayml.com/pricing" target="_blank" rel="noopener noreferrer">Runway pricing</a>.</p>
+<table><thead><tr><th>Plan</th><th>Price</th><th>Credits</th></tr></thead><tbody><tr><td>Free</td><td>$0</td><td>125 one-time</td></tr><tr><td>Standard</td><td>$12/mo</td><td>625/mo</td></tr><tr><td>Pro</td><td>$28/mo</td><td>2,250/mo</td></tr><tr><td>Max</td><td>$76/mo</td><td>9,500/mo</td></tr></tbody></table>
 <h2>Limitations and Trade-offs</h2>
 <p>Credit consumption changes by model, duration, resolution, and feature, so a plan’s headline number is not a predictable number of finished clips. The free allocation is one-time rather than a recurring monthly production budget. Generated motion can break continuity, text, hands, product details, and brand accuracy; commercial work needs shot review and rights checks.</p>
 <h2>Who Should Use Runway?</h2>

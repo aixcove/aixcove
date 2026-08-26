@@ -27,6 +27,7 @@ reviewed: AIX Cove
 </ul>
 <h2>定价方案</h2>
 <p>Descript 提供免费的 Hobbyist 方案，功能有限且带水印。Creator 方案每月 24 美元，提供完整编辑功能和更多时长。Business 方案每月 40 美元，增加团队协作和优先处理。企业方案提供定制部署、SSO 和专属支持。</p>
+<table><thead><tr><th>套餐</th><th>价格（年付）</th><th>时长/积分</th></tr></thead><tbody><tr><td>Free</td><td>$0</td><td>受限</td></tr><tr><td>Hobbyist</td><td>$16/人/月</td><td>10 小时 / 400 积分</td></tr><tr><td>Creator</td><td>$24/月</td><td>30 小时 / 800 积分</td></tr><tr><td>Business</td><td>$50/月</td><td>40 小时 / 1,500 积分</td></tr></tbody></table>
 <h2>谁适合使用 Descript？</h2>
 <p>Descript 适合定期制作视频或音频内容的内容创作者。播客主播利用基于转录的工作流程高效剪辑节目。YouTube 创作者无需专业剪辑技能即可制作精良的视频。企业团队制作内部培训和沟通视频。营销团队从长内容中剪辑社交媒体短片。教育工作者以最低的制作成本创建有吸引力的课程材料。</p>
 <h2>Descript 与 Premiere Pro 和 CapCut 的对比</h2><p>Descript 基于文本的剪辑方式与 Premiere Pro 或 CapCut 这类基于时间轴的编辑器有本质区别。对于以人物口播或访谈为主的素材，Descript 的效率要高得多。而在涉及特效和转场的复杂视觉剪辑中，传统编辑器仍然更胜一筹。许多创作者先用 Descript 完成粗剪和清理，再回到自己惯用的编辑器中进行精修。</p>

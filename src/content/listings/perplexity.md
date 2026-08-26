@@ -26,6 +26,7 @@ reviewed: AIX Cove
 <p>To get reliable answers, phrase questions with context and open the cited link before relying on a number or a claim. Use focus modes to narrow a search to academic sources or a specific domain, and cross-check key figures against the primary source rather than the summary.</p>
 <h2>Pricing</h2>
 <p>Perplexity offers a <strong>Free tier</strong> and a <strong>Pro plan at around $20/month</strong> (annual billing is cheaper) that adds higher query limits, more advanced models, and file uploads. Enterprise options are quoted through sales. Prices checked August 2026 — see <a href="https://www.perplexity.ai/pricing" target="_blank" rel="noopener noreferrer">Perplexity pricing</a>.</p>
+<table><thead><tr><th>Plan</th><th>Price</th><th>Includes</th></tr></thead><tbody><tr><td>Free</td><td>$0</td><td>Basic queries</td></tr><tr><td>Pro</td><td>~$20/mo</td><td>Higher limits, advanced models</td></tr></tbody></table>
 <h2>Limitations and Trade-offs</h2>
 <p>Answer quality depends on the sources it returns, and citations are not a guarantee of authority. Free-tier query limits can interrupt heavy research, and it is built for answers, not for deep interactive writing or a long-term personal memory. For sustained project research, verify key numbers against primary sources.</p>
 <h2>Who Should Use Perplexity?</h2>

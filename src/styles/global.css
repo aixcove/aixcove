@@ -131,8 +131,9 @@ article.prose blockquote {
   border-left: 3px solid var(--accent); margin: 1.5em 0; padding: .5em 1.2em;
   color: var(--muted); background: var(--bg-soft); border-radius: 0 8px 8px 0;
 }
-article.prose table { border-collapse: collapse; width: 100%; }
-article.prose th, article.prose td { border: 1px solid var(--border); padding: 8px 12px; }
+article.prose table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; margin: 1.2em 0; }
+article.prose th, article.prose td { border: 1px solid var(--border); padding: 8px 12px; text-align: left; vertical-align: top; }
+article.prose thead th { background: var(--surface, #f6f7f9); font-weight: 600; }
 
 .site-footer {
   border-top: 1px solid var(--border); margin-top: 60px; padding: 32px 0;
