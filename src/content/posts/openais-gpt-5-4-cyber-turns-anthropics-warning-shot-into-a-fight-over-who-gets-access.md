@@ -3,7 +3,7 @@ title: OpenAI’s GPT-5.4-Cyber Turns Anthropic’s Warning Shot Into a Fight Ov
 date: '2026-04-15T09:02:42'
 modified: '2026-08-11T19:14:57'
 slug: openais-gpt-5-4-cyber-turns-anthropics-warning-shot-into-a-fight-over-who-gets-access
-description: 'OpenAI’s GPT-5.4-Cyber Turns Anthropic’s Warning Shot Into a Fight Over Who Gets Access OpenAI spent April 14 trying to do two things at once. The company unveiled GPT-5.4-Cyber, a version of GPT-5.4 '
+description: GPT-5.4-Cyber matches Mythos-class hacking skills with open availability. The fight is no longer capability — it is who gets licensed access.
 categories:
 - ai-trends-news
 featured: /uploads/2026/04/blog-hero-24.jpg

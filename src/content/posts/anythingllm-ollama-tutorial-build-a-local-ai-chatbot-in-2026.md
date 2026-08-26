@@ -40,7 +40,7 @@ wpId: 848
 <p>Install Ollama from the official site, then confirm it works from your terminal. For a first test, pull a small model:</p>
 <pre><code>ollama run llama3.2</code></pre>
 <p>Ollama lists Llama 3.2 in 1B and 3B sizes, with the default model around 2GB. That makes it a reasonable smoke test. It will not be the best model for every task, but it is light enough to verify that the local model runtime works.</p>
-<p>Once the model responds, leave Ollama running. If you later run AnythingLLM in Docker, remember that a container&#8217;s <code>localhost</code> is not always your host machine&#8217;s <code>localhost</code>.</p>
+<p>Once the model responds, leave Ollama running. If you later run AnythingLLM in Docker, remember that a container’s <code>localhost</code> is not always your host machine’s <code>localhost</code>.</p>
 <h2>Step 2: Install AnythingLLM</h2>
 <p>You have two sensible options. The desktop app is easiest if you are testing on your own computer: install it, choose providers, create a workspace, upload documents, and start asking questions.</p>
 <p>The Docker version is better if you want a service other people can access, or if the setup should live on a server. Use Docker when you care about repeatability and uptime. Use desktop when you care about getting a useful answer today.</p>
@@ -57,13 +57,13 @@ wpId: 848
 <p>If privacy is the point, use a local embedder too. Otherwise you have a half-private system: local chat model, cloud embeddings. That may be acceptable, but it should be a deliberate choice.</p>
 <h2>Step 5: Create One Focused Workspace</h2>
 <p>AnythingLLM workspaces help separate contexts. Use that structure. Create one workspace for one job: support docs, product docs, HR policies, sales enablement, or personal research notes.</p>
-<p>A workspace called &#8220;Company Knowledge&#8221; usually turns into a junk drawer. A workspace called &#8220;Support Macros and Refund Policy&#8221; is more useful because the retrieved chunks are more likely to match the question.</p>
+<p>A workspace called “Company Knowledge” usually turns into a junk drawer. A workspace called “Support Macros and Refund Policy” is more useful because the retrieved chunks are more likely to match the question.</p>
 <p>Upload your test files, wait for processing, then ask grounded questions such as:</p>
 <ul>
-<li>&#8220;What is our refund policy for annual plans?&#8221;</li>
-<li>&#8220;Summarize the onboarding steps for a new support agent.&#8221;</li>
-<li>&#8220;Which document mentions SOC 2?&#8221;</li>
-<li>&#8220;Find contradictions between these two policies.&#8221;</li>
+<li>“What is our refund policy for annual plans?”</li>
+<li>“Summarize the onboarding steps for a new support agent.”</li>
+<li>“Which document mentions SOC 2?”</li>
+<li>“Find contradictions between these two policies.”</li>
 </ul>
 <p>RAG does not repair vague writing. If the document never states the answer clearly, the chatbot will hedge, guess, or sound more confident than it should.</p>
 <h2>Step 6: Tune the Prompt and Retrieval</h2>

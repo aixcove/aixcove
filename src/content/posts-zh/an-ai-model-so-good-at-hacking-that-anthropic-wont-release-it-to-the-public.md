@@ -3,7 +3,7 @@ title: Anthropic黑客AI模型不公开原因深度解析
 date: '2026-04-20T00:03:03'
 modified: '2026-08-11T19:14:53'
 slug: an-ai-model-so-good-at-hacking-that-anthropic-wont-release-it-to-the-public
-description: Anthropic发布AI模型Mythos，黑客能力过强暂不公开。4月7日宣布，两周后CEO出席安全会议讨论风险。
+description: Mythos在红队测试中攻破多项安全靶场，Anthropic因此拒绝公开发布。两周后其CEO将出席安全会议讨论风险边界。
 categories:
 - ai-coding-development
 featured: /uploads/2026/04/blog-hero-33.jpg

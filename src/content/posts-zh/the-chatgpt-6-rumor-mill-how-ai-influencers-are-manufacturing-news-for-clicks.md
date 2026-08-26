@@ -3,7 +3,7 @@ title: ChatGPT-6谣言：AI博主如何制造假新闻赚流量
 date: '2026-04-15T00:42:57'
 modified: '2026-08-11T19:14:58'
 slug: the-chatgpt-6-rumor-mill-how-ai-influencers-are-manufacturing-news-for-clicks
-description: ChatGPT-6传闻满天飞：AI网红为流量编造新闻，4月15日已过，OpenAI未发布任何公告，Sam Altman也无动静，产品发布毫无踪影。
+description: 4月15日过去，OpenAI没有公告、Altman没有发帖、产品没有上线。复盘一条被流量机器凭空制造的发布传闻。
 categories:
 - ai-trends-news
 featured: /uploads/2026/04/the-chatgpt-6.jpg

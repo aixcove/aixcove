@@ -3,7 +3,7 @@ title: Anthropic遭美国政府起诉仍被求用AI
 date: '2026-04-15T00:02:11'
 modified: '2026-08-11T19:14:58'
 slug: the-us-government-is-suing-anthropic-and-begging-to-use-its-ai-at-the-same-time
-description: 美国政府一边起诉Anthropic，一边又求着用它的AI。Anthropic联合创始人Jack Clark在2026年4月14日Semafor世界经济峰会上证实了这一点。
+description: 一边起诉，一边采购。Jack Clark在Semafor峰会上亲口证实华盛顿对Anthropic的矛盾姿态，背后是监管与算力的两难。
 categories:
 - ai-agents-automation
 featured: /uploads/2026/04/blog-hero-23.jpg

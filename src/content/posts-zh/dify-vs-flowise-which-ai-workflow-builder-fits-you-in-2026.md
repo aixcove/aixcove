@@ -3,7 +3,7 @@ title: Dify与Flowise对比：2026年AI工作流工具怎么选
 date: '2026-05-05T09:09:20'
 modified: '2026-08-11T19:14:40'
 slug: dify-vs-flowise-which-ai-workflow-builder-fits-you-in-2026
-description: Dify与Flowise对比：2026年该选哪个AI工作流工具？需要完整AI应用平台和内置知识库选Dify，侧重灵活定制选Flowise。
+description: 一个走全栈AI应用平台路线，一个走自由拼装画布路线。从知识库、部署、许可证到团队技能要求，逐项对比帮你定夺。
 categories:
 - ai-tools-comparisons
 featured: /uploads/2026/05/image-1-92c8740a-ebb9-4e52-af2e-c136f8458872.jpg

@@ -2,7 +2,7 @@
 title: DeepSeek Harness Review 2026
 date: '2026-08-16T18:00:00'
 slug: deepseek-harness-review-2026-everything-is-a-plugin
-description: DeepSeek open-sourced its agent harness dsh in August 2026. This hands-on review covers the Cordis plugin architecture, run modes, web UI workflow, limits of the developer preview, and who should try it.
+description: DeepSeek open-sourced its agent harness dsh in August 2026. This hands-on review covers the Cordis plugin architecture, run modes, web UI workflow, limits.
 categories:
 - ai-agents-automation
 featured: /uploads/2026/08/deepseek-harness-review-hero.jpg

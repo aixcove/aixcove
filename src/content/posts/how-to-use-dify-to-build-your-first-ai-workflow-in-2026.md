@@ -3,7 +3,7 @@ title: How to Use Dify to Build Your First AI Workflow in 2026
 date: '2026-05-11T00:05:37'
 modified: '2026-08-11T19:14:36'
 slug: how-to-use-dify-to-build-your-first-ai-workflow-in-2026
-description: If you want the short version, Dify is one of the fastest ways to build a usable AI workflow without writing much code. It is a good fit for internal Q&amp;A bots, simple RAG apps, and lightweight age
+description: If you want the short version, Dify is one of the fastest ways to build a usable AI workflow without writing much code.
 categories:
 - ai-tutorials-how-tos
 featured: /uploads/2026/05/image-1-16b5d0f3-ad42-4770-bb83-c8a4c9b4ee15.jpg
@@ -15,7 +15,7 @@ wpId: 783
 <h2>What Dify is good at, and where it gets awkward</h2>
 <p>Dify is an open-source platform for building AI-native apps with a visual interface. In practice, that means chatbots, knowledge assistants, workflow apps, and agent-style tools that combine prompts, files, retrieval, and model calls in one place.</p>
 <p>The appeal is obvious. You get a visual builder, built-in knowledge features, app publishing, API access, logs, and support for major model providers without stitching everything together yourself.</p>
-<p>But there is a tradeoff. Dify is more focused than a general automation platform. According to Dify&#8217;s official pricing and docs, the platform is built around apps, knowledge, triggers, model providers, and workflow execution. If you need deep process automation across a huge stack of SaaS tools, Dify can feel narrow.</p>
+<p>But there is a tradeoff. Dify is more focused than a general automation platform. According to Dify’s official pricing and docs, the platform is built around apps, knowledge, triggers, model providers, and workflow execution. If you need deep process automation across a huge stack of SaaS tools, Dify can feel narrow.</p>
 <ul>
 <li><strong>Best for:</strong> internal copilots, document Q&amp;A, AI workflows, fast prototypes, no-code or low-code app builders</li>
 <li><strong>Less ideal for:</strong> heavy back-office automation, large connector libraries, advanced branching across non-AI business systems</li>

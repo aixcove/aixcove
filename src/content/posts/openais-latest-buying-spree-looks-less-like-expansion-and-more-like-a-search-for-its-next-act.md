@@ -3,7 +3,7 @@ title: OpenAI’s Latest Buying Spree Looks Less Like Expansion and More Like a 
 date: '2026-04-20T09:02:47'
 modified: '2026-08-11T19:14:52'
 slug: openais-latest-buying-spree-looks-less-like-expansion-and-more-like-a-search-for-its-next-act
-description: 'OpenAI’s Latest Buying Spree Looks Less Like Expansion and More Like a Search for Its Next Act OpenAI spent the past few weeks buying two very different companies, and that pairing says more than any '
+description: Two very different acquisitions in one month say more about OpenAI's strategy anxiety than its expansion. A close read of what each deal buys.
 categories:
 - ai-agents-automation
 featured: /uploads/2026/04/blog-hero-34.jpg

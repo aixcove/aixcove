@@ -1,9 +1,9 @@
 ---
-title: 7 Best AnythingLLM Alternatives in 2026 (Free &#038; Self-Hosted)
+title: 7 Best AnythingLLM Alternatives in 2026 (Free & Self-Hosted)
 date: '2026-04-27T09:02:51'
 modified: '2026-08-11T19:14:47'
 slug: best-anythingllm-alternatives-in-2026-2
-description: Looking beyond AnythingLLM? Here are 7 tested alternatives for local AI chat, document Q&#038;A, and self-hosted workflows — with pricing, pros, cons, and which to pick.
+description: Looking beyond AnythingLLM? Here are 7 tested alternatives for local AI chat, document Q&A, and self-hosted workflows — with pricing, pros, cons, and which to pick.
 categories:
 - ai-tools-comparisons
 featured: /uploads/2026/04/blog-hero-48.jpg

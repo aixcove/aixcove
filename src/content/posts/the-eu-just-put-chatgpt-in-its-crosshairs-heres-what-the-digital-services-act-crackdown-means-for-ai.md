@@ -1,9 +1,9 @@
 ---
-title: The EU Just Put ChatGPT in Its Crosshairs. Here&#8217;s What the Digital Services Act Crackdown Means for AI
+title: The EU Just Put ChatGPT in Its Crosshairs. Here’s What the Digital Services Act Crackdown Means for AI
 date: '2026-04-12T18:23:41'
 modified: '2026-08-25T12:40:00'
 slug: the-eu-just-put-chatgpt-in-its-crosshairs-heres-what-the-digital-services-act-crackdown-means-for-ai
-description: The EU Commission confirmed ChatGPT and Roblox may be designated very large online platforms under the DSA. With 1 billion weekly users confirmed, here is what VLOP status requires and the search-engine question ahead.
+description: The EU Commission confirmed ChatGPT and Roblox may be designated very large online platforms under the DSA.
 categories:
 - ai-trends-news
 featured: /uploads/2026/08/eu-chatgpt-dsa-featured.jpg

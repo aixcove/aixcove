@@ -3,7 +3,7 @@ title: Google Built a DeepMind Strike Team After Sergey Brin Decided Anthropic�
 date: '2026-04-21T00:01:43'
 modified: '2026-08-11T19:14:52'
 slug: google-built-a-deepmind-strike-team-after-sergey-brin-decided-anthropics-coding-agents-were-winning
-description: 'Google’s Emergency Coding Team Says the Quiet Part Out Loud: Anthropic Is Ahead Google does not usually admit weakness in public, even by implication. That is what makes Monday’s reports about a DeepM'
+description: 'Google’s Emergency Coding Team Says the Quiet Part Out Loud: Anthropic Is Ahead Google does not usually admit weakness in public, even by implication.'
 categories:
 - ai-tools-comparisons
 featured: /uploads/2026/04/blog-hero-35.jpg

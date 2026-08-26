@@ -3,7 +3,7 @@ title: Anthropic’s 00 Billion AWS Bet Turns the AI Race Into a Power Contest
 date: '2026-04-21T09:03:39'
 modified: '2026-08-11T19:14:51'
 slug: anthropics-00-billion-aws-bet-turns-the-ai-race-into-a-power-contest
-description: 'Anthropic’s $100 Billion AWS Bet Turns the AI Race Into a Power Contest Anthropic made one point painfully clear on April 20: the next stage of the AI fight will not be won with clever demos or vague '
+description: 'AWS is putting up to $100B into Anthropic. The April 20 term sheet shows AI competition now hinges on compute contracts, not demos.'
 categories:
 - ai-trends-news
 featured: /uploads/2026/04/blog-hero-36.jpg

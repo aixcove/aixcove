@@ -3,7 +3,7 @@ title: Dify评测2026：价格、优缺点及最佳替代品
 date: '2026-05-07T09:09:56'
 modified: '2026-08-11T19:14:39'
 slug: dify-review-2026-pricing-pros-cons-and-best-alternatives
-description: Dify评测2026：价格、优缺点及最佳替代方案。如果你需要在一个平台上构建AI工作流、RAG应用、内部助手和API工具，Dify值得一试。
+description: 'Dify把工作流、RAG、智能体和API发布打包进一个开源平台。它在哪里省心、哪里难缠、实际要花多少钱，这篇评测讲清楚。'
 categories:
 - ai-tools-reviews
 featured: /uploads/2026/05/image-1-959d12aa-671e-404c-bb6e-c9340a7d2ce7.jpg

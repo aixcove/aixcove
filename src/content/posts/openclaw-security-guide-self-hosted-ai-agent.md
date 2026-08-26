@@ -3,7 +3,7 @@ title: 'OpenClaw Security Guide 2026: How to Run a Self-Hosted AI Agent Safely'
 date: '2026-05-24T09:05:30'
 modified: '2026-07-26T19:09:41'
 slug: openclaw-security-guide-self-hosted-ai-agent
-description: 'Quick answer: OpenClaw can be safe enough for serious personal and small-team workflows, but only if you treat it like infrastructure, not like a casual chatbot. The important question is not “Is Open'
+description: 'Quick answer: OpenClaw can be safe enough for serious personal and small-team workflows, but only if you treat it like infrastructure, not like a casual.'
 categories:
 - ai-tutorials-how-tos
 featured: /uploads/2026/05/openclaw-security-guide-hero-dfaaf3d6-54a9-4517-a9fe-855f65d40574.jpg

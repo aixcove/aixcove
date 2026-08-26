@@ -3,7 +3,7 @@ title: Anthropic百亿美元AWS押注，AI竞赛变权力之争
 date: '2026-04-21T09:03:39'
 modified: '2026-08-11T19:14:51'
 slug: anthropics-00-billion-aws-bet-turns-the-ai-race-into-a-power-contest
-description: Anthropic获AWS百亿美元投资，AI竞赛转向算力比拼。4月20日，Anthropic明确表态：下一阶段AI竞争不再靠巧妙演示或模糊承诺取胜。
+description: '4月20日条款清单曝光：AWS向Anthropic注资至多千亿美元。AI竞争的胜负手已从模型演示转向算力合同。'
 categories:
 - ai-trends-news
 featured: /uploads/2026/04/blog-hero-36.jpg

@@ -3,7 +3,7 @@ title: Muse Spark多智能体模式：Meta最奇怪的赌注
 date: '2026-04-09T16:13:05'
 modified: '2026-08-11T19:15:04'
 slug: muse-sparks-multi-agent-mode-is-metas-strangest-bet-yet
-description: Muse Spark是Meta推出的推理模型，通过逐步拆解问题而非直接匹配答案来工作。2026年这已属常规，但Meta所称的特殊之处在于其多智能体协作机制。
+description: 推理模型拆步求解已属常规，Meta的赌注是让多个Muse Spark实例互查答案。这个多智能体机制有何特别之处。
 categories:
 - ai-agents-automation
 featured: /uploads/2026/04/blog-hero-8.jpg

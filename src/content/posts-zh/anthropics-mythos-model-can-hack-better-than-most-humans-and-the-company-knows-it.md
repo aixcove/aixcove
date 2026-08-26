@@ -3,7 +3,7 @@ title: Anthropic“Mythos”模型：黑客能力超人类，公司知情
 date: '2026-04-07T00:40:34'
 modified: '2026-08-11T19:15:07'
 slug: anthropics-mythos-model-can-hack-better-than-most-humans-and-the-company-knows-it
-description: 福布斯获取的Anthropic内部草稿显示，其未发布模型“Mythos”在网络安全能力上“远超其他任何AI模型”。
+description: 福布斯获取的内部草稿显示，Mythos的网络安全能力“远超其他任何AI模型”。Anthropic自己也清楚这意味着什么。
 categories:
 - ai-coding-development
 featured: /uploads/2026/04/blog-hero-2.jpg

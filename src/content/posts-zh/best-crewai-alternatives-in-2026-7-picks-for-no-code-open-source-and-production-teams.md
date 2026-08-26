@@ -3,7 +3,7 @@ title: CrewAI替代品2026：7款精选工具
 date: '2026-05-10T09:33:37'
 modified: '2026-08-11T19:14:36'
 slug: best-crewai-alternatives-in-2026-7-picks-for-no-code-open-source-and-production-teams
-description: 2026年最佳CrewAI替代方案：7款适合无代码、开源及生产团队的工具，助你突破使用瓶颈。
+description: '2026年最佳CrewAI替代方案：7款适合无代码、开源及生产团队的工具，助你突破使用瓶颈。'
 categories:
 - ai-tools-comparisons
 featured: /uploads/2026/05/image-1-d0c2b162-6676-4d68-9eb4-21b14c1e8e77.jpg

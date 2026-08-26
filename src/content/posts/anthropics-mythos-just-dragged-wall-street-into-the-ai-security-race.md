@@ -3,7 +3,7 @@ title: Anthropic’s Mythos Just Dragged Wall Street Into the AI Security Race
 date: '2026-04-13T09:06:38'
 modified: '2026-08-11T19:14:59'
 slug: anthropics-mythos-just-dragged-wall-street-into-the-ai-security-race
-description: 'A model release turned into a banking issue in less than a week Anthropic published Claude Mythos Preview on April 7, 2026, and the release immediately broke out of the usual AI-news bubble. This was '
+description: 'A model release turned into a banking issue in less than a week Anthropic published Claude Mythos Preview on April 7, 2026, and the release immediately.'
 categories:
 - ai-coding-development
 featured: /uploads/2026/04/blog-hero-19.jpg

@@ -25,7 +25,7 @@ wpId: 836
 <p>If you are still comparing automation tools, Dify sits closer to an AI application builder than a classic workflow automation product. For event-driven automations and app integrations, you may also want to read our <a href="/n8n-ai-agent-tutorial-build-a-practical-workflow/">n8n AI agent tutorial</a> and <a href="/openclaw-vs-n8n-which-ai-automation-tool-should-you-use-in-2026/">OpenClaw vs n8n comparison</a>.</p>
 <h2>Step 1: Create the Right Type of App</h2>
 <p>In Dify, start from <strong>Studio</strong> and create a new app. For this tutorial, choose a workflow or chatflow-style app rather than a simple prompt app. A basic prompt app is fine for one-shot generation, but an agent-style assistant needs more structure: user input, retrieval, model reasoning, conditional logic, and a final answer.</p>
-<p>Name the app something boring and clear, such as “Research Assistant &#8211; Internal Docs.” Clear naming matters once you have several test apps, multiple model providers, and logs from different experiments. It also helps when you later publish the app as a web app or API.</p>
+<p>Name the app something boring and clear, such as “Research Assistant – Internal Docs.” Clear naming matters once you have several test apps, multiple model providers, and logs from different experiments. It also helps when you later publish the app as a web app or API.</p>
 <h2>Step 2: Configure the User Input</h2>
 <p>Add a user input field for the main question. Keep it broad enough for real use, but do not make the first version too loose. A good starting instruction is:</p>
 <p><em>Ask a question about the uploaded documents, product notes, policies, or research material. Include the audience and decision context if relevant.</em></p>

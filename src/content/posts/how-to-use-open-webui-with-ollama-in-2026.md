@@ -17,7 +17,7 @@ wpId: 758
 <p>If you mainly want private document chat, read <a href="/anythingllm-ollama-tutorial-build-a-local-ai-chatbot-in-2026/">our AnythingLLM with Ollama guide</a>. If you want visual workflow building, <a href="/how-to-use-flowise-with-ollama-for-a-private-rag-chatbot-in-2026/">Flowise with Ollama</a> is usually the better lane. Open WebUI sits in the middle. It is broader than a bare model runner, but less opinionated than a document workspace.</p>
 <h2>Pricing, fit, and limitations before you install anything</h2>
 <p>Open WebUI is open source and free to self-host. Ollama is free too. So yes, the software bill can be zero.</p>
-<p>But dig a little deeper and the tradeoff is obvious. You are paying with local compute, disk space, and your own troubleshooting time. Open WebUI&#8217;s official quick start also notes that WebSocket support is required, which can become a real issue on locked-down networks or reverse proxies. And if you want to run the tool for multiple users, you need to think about authentication, persistent storage, and whether you should really be using single-user mode at all.</p>
+<p>But dig a little deeper and the tradeoff is obvious. You are paying with local compute, disk space, and your own troubleshooting time. Open WebUI’s official quick start also notes that WebSocket support is required, which can become a real issue on locked-down networks or reverse proxies. And if you want to run the tool for multiple users, you need to think about authentication, persistent storage, and whether you should really be using single-user mode at all.</p>
 <p>Bottom line: this setup is great if you want control and privacy. It is a bad fit if your top priority is the fastest possible no-maintenance demo.</p>
 <h2>What you need before you start</h2>
 <ul>
@@ -29,13 +29,13 @@ wpId: 758
 <p>My practical advice is boring, but it saves time: start with a smaller model first. Do not begin with the biggest thing your machine almost supports. A slow first run makes every networking problem feel worse.</p>
 <h2>Why Open WebUI is worth using with Ollama</h2>
 <p>Ollama alone is already useful, especially if you are happy in the CLI. Open WebUI changes the experience. According to the official docs and project pages, it gives you a browser-based chat interface, model management from the admin UI, support for local and cloud backends, multi-model conversations, and built-in paths toward retrieval, tools, and broader team controls.</p>
-<p>There is also a real ecosystem here. Open WebUI&#8217;s site currently highlights more than 290 million downloads, more than 392,000 community members, and more than 136,000 GitHub stars. Those numbers do not guarantee quality, but they do make one thing clear: if you get stuck, you are not using a ghost-town project.</p>
+<p>There is also a real ecosystem here. Open WebUI’s site currently highlights more than 290 million downloads, more than 392,000 community members, and more than 136,000 GitHub stars. Those numbers do not guarantee quality, but they do make one thing clear: if you get stuck, you are not using a ghost-town project.</p>
 <h2>How to use Open WebUI with Ollama step by step</h2>
 <h3>1. Install and verify Ollama first</h3>
 <p>Install Ollama from the official site, then pull a model you know your hardware can handle. The important part is not the exact model. The important part is confirming that Ollama is actually alive and listening on its default API port, which is typically <strong>11434</strong>.</p>
 <p>If Ollama is not running, Open WebUI has nothing to talk to. That sounds obvious, but it is the most common failure in these setups.</p>
 <h3>2. Start Open WebUI with the right image</h3>
-<p>Open WebUI&#8217;s official quick start uses Docker and maps host port <strong>3000</strong> to container port <strong>8080</strong>, with a persistent volume at <strong>/app/backend/data</strong>. That persistent storage matters. Without it, your settings and chat history disappear when the container goes away.</p>
+<p>Open WebUI’s official quick start uses Docker and maps host port <strong>3000</strong> to container port <strong>8080</strong>, with a persistent volume at <strong>/app/backend/data</strong>. That persistent storage matters. Without it, your settings and chat history disappear when the container goes away.</p>
 <p>The project documents four image directions that matter for most users:</p>
 <ul>
 <li><strong>:main</strong> for the standard setup</li>

@@ -2,7 +2,7 @@
 title: "Codex vs WorkBuddy in 2026: Coding Agent or Office Workstation?"
 date: '2026-08-25T14:40:00'
 slug: codex-vs-workbuddy-which-ai-agent-fits-your-work
-description: "Codex vs WorkBuddy compared on pricing, agents, skills, MCP, and ecosystems: one is a coding agent growing into all knowledge work, the other a Tencent office workstation."
+description: 'Codex vs WorkBuddy compared on pricing, agents, skills, MCP, and ecosystems: one is a coding agent growing into all knowledge work, the other a Tencent.'
 categories:
 - ai-tools-comparisons
 featured: /uploads/2026/08/codex-vs-workbuddy-hero.jpg

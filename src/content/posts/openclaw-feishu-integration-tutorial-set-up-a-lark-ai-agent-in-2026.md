@@ -3,17 +3,17 @@ title: 'OpenClaw Feishu Integration Tutorial: Set Up a Lark AI Agent in 2026'
 date: '2026-05-22T00:03:33'
 modified: '2026-08-11T19:14:28'
 slug: openclaw-feishu-integration-tutorial-set-up-a-lark-ai-agent-in-2026
-description: 'Quick answer: OpenClaw&#8217;s Feishu integration is worth setting up if your team already works in Feishu or Lark and wants an AI agent inside group chats, DMs, and internal workflows. It is not the '
+description: 'Quick answer: OpenClaw’s Feishu integration is worth setting up if your team already works in Feishu or Lark and wants an AI agent inside group chats.'
 categories:
 - ai-tutorials-how-tos
 featured: /uploads/2026/05/openclaw-feishu-integration-hero-28259837-26ea-4c95-8d99-ceed31aec0ee.jpg
 wpId: 844
 ---
 
-<p><strong>Quick answer:</strong> OpenClaw&#8217;s Feishu integration is worth setting up if your team already works in Feishu or Lark and wants an AI agent inside group chats, DMs, and internal workflows. It is not the easiest OpenClaw channel to configure, but it gives operators something Telegram does not: a work-native place for approvals, status checks, team questions, and recurring automation.</p>
+<p><strong>Quick answer:</strong> OpenClaw’s Feishu integration is worth setting up if your team already works in Feishu or Lark and wants an AI agent inside group chats, DMs, and internal workflows. It is not the easiest OpenClaw channel to configure, but it gives operators something Telegram does not: a work-native place for approvals, status checks, team questions, and recurring automation.</p>
 <p>This OpenClaw Feishu integration tutorial focuses on the practical setup path: what you need before starting, how to connect the bot, how to lock down access, and how to troubleshoot the parts that usually break. If you only want a personal assistant, the <a href="/openclaw-tutorial-build-a-telegram-ai-agent-in-2026/">OpenClaw Telegram tutorial</a> is still the lighter first build. If your assistant needs to sit inside a team workspace, Feishu/Lark is the more serious option.</p>
 <h2>Who This Setup Is For</h2>
-<p>Feishu makes sense for technical operators, founders, SEO teams, support teams, and internal automation builders who already use Feishu or Lark as a daily workspace. The use case is not &#8220;chat with an AI bot for fun.&#8221; The real value is a team agent that can answer status questions, run approved workflows, summarize context, trigger research, and report results back where the team already works.</p>
+<p>Feishu makes sense for technical operators, founders, SEO teams, support teams, and internal automation builders who already use Feishu or Lark as a daily workspace. The use case is not “chat with an AI bot for fun.” The real value is a team agent that can answer status questions, run approved workflows, summarize context, trigger research, and report results back where the team already works.</p>
 <p>Pricing is worth separating from setup. <a href="/listing/openclaw/">OpenClaw</a> itself is open source, so the self-hosted software does not require a platform subscription. You may still pay for model API usage, hosting, Feishu/Lark workspace costs, image generation, external APIs, and the time needed to maintain the server. That makes it cheap in software terms, but not free in operational terms.</p>
 <p>Bottom line: use Feishu when OpenClaw is part of a team operating system. Use Telegram when the assistant is mainly personal. Use a tool like <a href="/listing/dify/">Dify</a> or <a href="/listing/flowise/">Flowise</a> when you want a cleaner AI app builder instead of a messaging-first agent.</p>
 <h2>What You Need Before You Start</h2>
@@ -23,7 +23,7 @@ wpId: 844
 <pre><code>openclaw update</code></pre>
 <p>You also need a running OpenClaw gateway, access to Feishu Open Platform or Lark Developer, a model provider configured in OpenClaw, and permission to create or connect a self-built app in your Feishu/Lark workspace. For a serious setup, run OpenClaw on a VPS or always-on machine. A laptop demo is fine for testing, but it is a bad foundation for a team assistant that people expect to answer during the workday.</p>
 <h2>Step 1: Run the Feishu Channel Wizard</h2>
-<p>OpenClaw&#8217;s current setup path is straightforward. Start the channel login wizard:</p>
+<p>OpenClaw’s current setup path is straightforward. Start the channel login wizard:</p>
 <pre><code>openclaw channels login --channel feishu</code></pre>
 <p>The wizard gives you two basic routes. QR setup can create a bot automatically. Manual setup asks you to paste an App ID and App Secret from Feishu Open Platform or Lark Developer. In practice, manual setup is the safer path for teams because you can see exactly which app is being used, which permissions are granted, and who owns the credentials.</p>
 <p>There is one small catch in the official docs: if the domestic Feishu mobile app does not react to the QR code, rerun setup and choose manual setup. That sounds minor, but it is a common time sink. Do not debug QR behavior for an hour. Switch to manual and move on.</p>
@@ -78,10 +78,10 @@ openclaw logs --follow</code></pre>
 <h3>The App Secret leaks</h3>
 <p>Treat it like a real credential leak. Reset the App Secret in Feishu Open Platform or Lark Developer, update the OpenClaw config, and restart the gateway. Do not just delete the old message and hope nobody saw it.</p>
 <h2>When Feishu Is Better Than Telegram</h2>
-<p>Feishu is better when the assistant is part of a team&#8217;s working loop. It supports group workflows, internal approvals, and shared operational context. It also creates a cleaner boundary between personal chat and work automation.</p>
+<p>Feishu is better when the assistant is part of a team’s working loop. It supports group workflows, internal approvals, and shared operational context. It also creates a cleaner boundary between personal chat and work automation.</p>
 <p>Telegram is better when you want the fastest personal setup. It is easier to test, easier to message from a phone, and usually less tied to workspace admin permissions. That is why the Telegram route works well as a first OpenClaw experiment. Feishu is the next step when the assistant needs to become part of how a team works.</p>
 <p>If you are still deciding whether OpenClaw is the right base layer, read the <a href="/openclaw-review-2026-is-this-local-ai-assistant-worth-using/">OpenClaw review</a> and the comparison of <a href="/openclaw-vs-dify-which-ai-agent-platform-should-you-use-in-2026/">OpenClaw vs Dify</a>. If the setup burden feels too high, the <a href="/best-openclaw-alternatives-in-2026-7-picks-by-workflow-fit/">best OpenClaw alternatives</a> guide gives cleaner options by workflow fit.</p>
 <h2>Final Verdict</h2>
-<p>OpenClaw&#8217;s Feishu integration is not the lightest way to try an AI agent. It is the better route when you want the agent inside a real team workspace, with DMs, group mentions, access control, logs, and room for approval-based workflows.</p>
+<p>OpenClaw’s Feishu integration is not the lightest way to try an AI agent. It is the better route when you want the agent inside a real team workspace, with DMs, group mentions, access control, logs, and room for approval-based workflows.</p>
 <p>Start narrow: connect the channel, lock down DMs and groups, test status commands, then add one workflow that cannot do damage. Once the bot proves it can behave in Feishu, you can expand it into research, reporting, support triage, or content operations. That is where the integration earns its keep.</p>
 

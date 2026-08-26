@@ -3,7 +3,7 @@ title: 'Flowise Review 2026: Pricing, Pros, Cons, and Alternatives'
 date: '2026-04-27T00:02:40'
 modified: '2026-08-11T19:14:47'
 slug: flowise-review-2026-pricing-pros-cons-and-alternatives
-description: 'If you want the short version, here it is: Flowise is one of the better visual builders for AI agents and RAG workflows in 2026. It is especially strong for technical teams that want open-source flexi'
+description: 'If you want the short version, here it is: Flowise is one of the better visual builders for AI agents and RAG workflows in 2026.'
 categories:
 - ai-tools-reviews
 featured: /uploads/2026/04/blog-hero-47.jpg

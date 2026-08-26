@@ -63,7 +63,7 @@ wpId: 506
 
 
 
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"><p>&#8220;这些系统只是在试图预测序列中的下一个词或动作，但这可能不完美，它们会产生不准确的结果或幻觉。它们的能量消耗往往与任务本身不成比例。&#8221;</p></blockquote>
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"><p>“这些系统只是在试图预测序列中的下一个词或动作，但这可能不完美，它们会产生不准确的结果或幻觉。它们的能量消耗往往与任务本身不成比例。”</p></blockquote>
 
 
 

@@ -3,7 +3,7 @@ title: Gemini登录Mac：谷歌桌面AI布局时机说明什么
 date: '2026-04-19T00:02:36'
 modified: '2026-08-11T19:14:54'
 slug: google-finally-put-gemini-on-the-mac-and-the-timing-says-a-lot-about-the-desktop-ai-fight
-description: 谷歌终于把Gemini带到了Mac上，这个时机透露出桌面AI竞争的信号。过去一年，谷歌将Gemini推广至手机、搜索、Chrome、Gmail和Docs等几乎所有产品。
+description: 在手机、搜索、Chrome、Gmail铺完之后，Gemini才落地macOS。这个迟到一年的动作暴露了谷歌在桌面AI的被动。
 categories:
 - ai-tools-reviews
 featured: /uploads/2026/04/blog-hero-31.jpg

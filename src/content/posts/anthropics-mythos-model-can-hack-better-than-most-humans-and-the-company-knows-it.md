@@ -1,9 +1,9 @@
 ---
-title: Anthropic&#8217;s &#8220;Mythos&#8221; Model Can Hack Better Than Most Humans — And The Company Knows It
+title: Anthropic’s “Mythos” Model Can Hack Better Than Most Humans — And The Company Knows It
 date: '2026-04-07T00:40:34'
 modified: '2026-08-11T19:15:07'
 slug: anthropics-mythos-model-can-hack-better-than-most-humans-and-the-company-knows-it
-description: A draft blog post from Anthropic, obtained by Fortune, describes the company&#8217;s unreleased model &#8220;Mythos&#8221; as &#8220;currently far ahead of any other AI model in cyber capabilities.&#8
+description: A draft blog post from Anthropic, obtained by Fortune, describes the company’s unreleased model “Mythos” as “currently far ahead of any other AI model in.
 categories:
 - ai-coding-development
 featured: /uploads/2026/04/blog-hero-2.jpg
@@ -11,7 +11,7 @@ wpId: 509
 ---
 
 
-<p class="wp-block-paragraph">A draft blog post from Anthropic, obtained by Fortune, describes the company&#8217;s unreleased model &#8220;Mythos&#8221; as &#8220;currently far ahead of any other AI model in cyber capabilities.&#8221; The post warns that Mythos &#8220;presages an upcoming wave of models that can exploit vulnerabilities in ways that far outpace the efforts of defenders.&#8221;</p>
+<p class="wp-block-paragraph">A draft blog post from Anthropic, obtained by Fortune, describes the company’s unreleased model “Mythos” as “currently far ahead of any other AI model in cyber capabilities.” The post warns that Mythos “presages an upcoming wave of models that can exploit vulnerabilities in ways that far outpace the efforts of defenders.”</p>
 
 
 
@@ -23,15 +23,15 @@ wpId: 509
 
 
 
-<p class="wp-block-paragraph">OpenAI CEO Sam Altman was asked about the prospect of a &#8220;world-shaking cyberattack&#8221; this year during a Monday interview with Axios co-founder Mike Allen. His response was not reassuring. &#8220;I think that&#8217;s totally possible, yes,&#8221; Altman said. &#8220;I think to avoid that, it will require a tremendous amount of work.&#8221;</p>
+<p class="wp-block-paragraph">OpenAI CEO Sam Altman was asked about the prospect of a “world-shaking cyberattack” this year during a Monday interview with Axios co-founder Mike Allen. His response was not reassuring. “I think that’s totally possible, yes,” Altman said. “I think to avoid that, it will require a tremendous amount of work.”</p>
 
 
 
-<p class="wp-block-paragraph">OpenAI also released its own policy blueprint on Monday titled &#8220;Industrial Policy for the Intelligence Age,&#8221; which acknowledges that &#8220;as AI systems become more capable and more embedded across the economy, they may introduce new vulnerabilities alongside new abundance.&#8221; The document states plainly that &#8220;some systems may be misused for cyber or biological harm.&#8221;</p>
+<p class="wp-block-paragraph">OpenAI also released its own policy blueprint on Monday titled “Industrial Policy for the Intelligence Age,” which acknowledges that “as AI systems become more capable and more embedded across the economy, they may introduce new vulnerabilities alongside new abundance.” The document states plainly that “some systems may be misused for cyber or biological harm.”</p>
 
 
 
-<h2 class="wp-block-heading">How AI Changes the Attacker&#8217;s Calculus</h2>
+<h2 class="wp-block-heading">How AI Changes the Attacker’s Calculus</h2>
 
 
 
@@ -63,7 +63,7 @@ wpId: 509
 
 
 
-<p class="wp-block-paragraph">Aikido&#8217;s analysis points to the recent compromise of the Axios NPM package as an instructive example. The attacker did not modify source code. They compromised a maintainer account, added a new dependency, and published an update. No CVE matched the attack. No malicious code pattern triggered a scanner. No signature-based tool caught it because nothing in the attack matched a known pattern.</p>
+<p class="wp-block-paragraph">Aikido’s analysis points to the recent compromise of the Axios NPM package as an instructive example. The attacker did not modify source code. They compromised a maintainer account, added a new dependency, and published an update. No CVE matched the attack. No malicious code pattern triggered a scanner. No signature-based tool caught it because nothing in the attack matched a known pattern.</p>
 
 
 
@@ -79,7 +79,7 @@ wpId: 509
 
 
 
-<p class="wp-block-paragraph">&#8220;The remaining personnel are carrying out mission essential functions without pay while facing increasing pressure from nation-state and criminal actors targeting our nation&#8217;s critical infrastructure,&#8221; Andersen said. &#8220;This is not a sustainable model.&#8221;</p>
+<p class="wp-block-paragraph">“The remaining personnel are carrying out mission essential functions without pay while facing increasing pressure from nation-state and criminal actors targeting our nation’s critical infrastructure,” Andersen said. “This is not a sustainable model.”</p>
 
 
 
@@ -95,7 +95,7 @@ wpId: 509
 
 
 
-<p class="wp-block-paragraph">Anthropic has not announced a release date for Mythos. The company says it wants to fully understand the model&#8217;s near-term cybersecurity risks before proceeding. But the competitive pressure to ship is immense. Google, OpenAI, and others are all racing toward the same capability threshold. No single company can afford to pause indefinitely while competitors move ahead.</p>
+<p class="wp-block-paragraph">Anthropic has not announced a release date for Mythos. The company says it wants to fully understand the model’s near-term cybersecurity risks before proceeding. But the competitive pressure to ship is immense. Google, OpenAI, and others are all racing toward the same capability threshold. No single company can afford to pause indefinitely while competitors move ahead.</p>
 
 
 

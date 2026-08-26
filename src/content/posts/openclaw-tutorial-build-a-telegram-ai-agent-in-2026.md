@@ -3,7 +3,7 @@ title: 'OpenClaw Tutorial: Build a Telegram AI Agent in 2026'
 date: '2026-05-18T00:03:23'
 modified: '2026-08-11T19:14:32'
 slug: openclaw-tutorial-build-a-telegram-ai-agent-in-2026
-description: 'Quick answer: OpenClaw is worth trying if you want a self-hosted AI assistant that can live in Telegram, remember your preferences, use tools, and run scheduled work. It is not the right first project'
+description: 'Quick answer: OpenClaw is worth trying if you want a self-hosted AI assistant that can live in Telegram, remember your preferences, use tools, and run.'
 categories:
 - ai-tutorials-how-tos
 featured: /uploads/2026/05/openclaw-telegram-ai-agent-hero-e8cf1188-93c2-4ccf-a019-c647c5718623.jpg
@@ -35,7 +35,7 @@ openclaw onboard --install-daemon</code></pre>
 <p>After installation, run a health check if your version provides one:</p>
 <pre><code>openclaw doctor</code></pre>
 <p>Pay attention to warnings about exposed gateways, open DM policies, missing authentication, and risky file permissions. Those warnings are not cosmetic. They decide whether strangers can reach your assistant or whether your own agent has more power than it needs.</p>
-<h2>Step 2: Create The Agent&#8217;s Operating Manual</h2>
+<h2>Step 2: Create The Agent’s Operating Manual</h2>
 <p>OpenClaw agents use local files as part of their working context. In practice, this means you can shape the assistant with Markdown instead of burying everything in one giant prompt.</p>
 <p>A practical starter workspace usually has three files:</p>
 <ul>

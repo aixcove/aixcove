@@ -3,7 +3,7 @@ title: 斯坦福研究：AI编程基准测试存在重大缺陷
 date: '2026-04-16T00:02:09'
 modified: '2026-08-11T19:14:57'
 slug: ai-models-now-solve-nearly-every-coding-benchmark-and-stanfords-latest-report-shows-what-that-actually-means
-description: AI模型在编码基准测试中近乎满分，但斯坦福最新报告揭示，这些高分为何无法反映真实世界中的实际表现。
+description: 编码基准近乎满分不等于能干活。斯坦福报告拆解基准分数与真实工程表现的落差，指出评测体系已被Agent产物污染。
 categories:
 - ai-coding-development
 featured: /uploads/2026/04/blog-hero-25.jpg

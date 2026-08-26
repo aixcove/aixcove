@@ -3,7 +3,7 @@ title: CrewAI怎么用：2026多智能体工作流教程
 date: '2026-05-10T00:09:46'
 modified: '2026-08-11T19:14:37'
 slug: how-to-use-crewai-for-multi-agent-workflows-in-2026
-description: CrewAI是2026年构建多智能体工作流的简洁方案，适合喜欢Python、需要角色型代理和结构化流程的用户。
+description: 用Python定义角色、任务和流程，CrewAI把多智能体协作变成几十行代码的事。本文覆盖安装、模式设计与常见坑。
 categories:
 - ai-tutorials-how-tos
 featured: /uploads/2026/05/image-1-dc347886-1711-4b66-a7b2-2987fa07b34d.jpg

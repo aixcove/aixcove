@@ -3,7 +3,7 @@ title: This AI Research Cuts Energy Use by 100x and Actually Gets Better Results
 date: '2026-04-07T00:04:01'
 modified: '2026-08-11T19:15:07'
 slug: this-ai-research-cuts-energy-use-by-100x-and-actually-gets-better-results
-description: 'AI is burning through electricity at a rate that should make anyone paying a power bill nervous. In 2024, AI systems and data centers in the US alone consumed roughly 415 terawatt hours. That is more '
+description: 'AI is burning through electricity at a rate that should make anyone paying a power bill nervous.'
 categories:
 - ai-agents-automation
 featured: /uploads/2026/04/blog-hero.jpg
@@ -12,7 +12,7 @@ wpId: 506
 
 
 
-<p class="wp-block-paragraph">AI is burning through electricity at a rate that should make anyone paying a power bill nervous. In 2024, AI systems and data centers in the US alone consumed roughly 415 terawatt hours. That is more than 10% of the country&#8217;s total electricity output, according to the International Energy Agency, and demand is on track to double by 2030.</p>
+<p class="wp-block-paragraph">AI is burning through electricity at a rate that should make anyone paying a power bill nervous. In 2024, AI systems and data centers in the US alone consumed roughly 415 terawatt hours. That is more than 10% of the country’s total electricity output, according to the International Energy Agency, and demand is on track to double by 2030.</p>
 
 
 
@@ -24,7 +24,7 @@ wpId: 506
 
 
 
-<p class="wp-block-paragraph">A team at Tufts University, led by Matthias Scheutz, has developed what they call a neuro-symbolic visual-language-action model. The paper, titled &#8220;The Price Is Not Right: Neuro-Symbolic Methods Outperform VLAs on Structured Long-Horizon Manipulation Tasks with Significantly Lower Energy Consumption,&#8221; was published on arXiv in February 2026 and will be presented at the International Conference on Robotics and Automation in Vienna this May.</p>
+<p class="wp-block-paragraph">A team at Tufts University, led by Matthias Scheutz, has developed what they call a neuro-symbolic visual-language-action model. The paper, titled “The Price Is Not Right: Neuro-Symbolic Methods Outperform VLAs on Structured Long-Horizon Manipulation Tasks with Significantly Lower Energy Consumption,” was published on arXiv in February 2026 and will be presented at the International Conference on Robotics and Automation in Vienna this May.</p>
 
 
 
@@ -70,7 +70,7 @@ wpId: 506
 
 
 
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"><p>&#8220;These systems are just trying to predict the next word or action in a sequence, but that can be imperfect, and they can come up with inaccurate results or hallucinations. Their energy expense is often disproportionate to the task.&#8221;</p></blockquote>
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"><p>“These systems are just trying to predict the next word or action in a sequence, but that can be imperfect, and they can come up with inaccurate results or hallucinations. Their energy expense is often disproportionate to the task.”</p></blockquote>
 
 
 
@@ -90,7 +90,7 @@ wpId: 506
 
 
 
-<p class="wp-block-paragraph">Open-ended tasks like writing essays, generating code, or answering general knowledge questions do not have such clean rule sets. It is not obvious how you would apply symbolic reasoning to something as fuzzy as &#8220;write a persuasive email.&#8221; The current research does not address that.</p>
+<p class="wp-block-paragraph">Open-ended tasks like writing essays, generating code, or answering general knowledge questions do not have such clean rule sets. It is not obvious how you would apply symbolic reasoning to something as fuzzy as “write a persuasive email.” The current research does not address that.</p>
 
 
 
@@ -102,7 +102,7 @@ wpId: 506
 
 
 
-<p class="wp-block-paragraph">That said, this research points at something important. The AI industry&#8217;s current strategy of brute-forcing every problem with more compute and more data is hitting physical and economic limits. Energy is expensive. Chips are expensive. Building data centers takes years and billions of dollars.</p>
+<p class="wp-block-paragraph">That said, this research points at something important. The AI industry’s current strategy of brute-forcing every problem with more compute and more data is hitting physical and economic limits. Energy is expensive. Chips are expensive. Building data centers takes years and billions of dollars.</p>
 
 
 

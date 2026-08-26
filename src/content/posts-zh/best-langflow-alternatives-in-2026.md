@@ -3,7 +3,7 @@ title: Langflow替代品推荐：2026年最佳选择
 date: '2026-05-03T09:07:15'
 modified: '2026-08-11T19:14:42'
 slug: best-langflow-alternatives-in-2026
-description: Flowise是最接近Langflow的开源替代品，Dify功能更全面，n8n适合自动化场景。2026年Langflow替代工具推荐，帮你找到更合适的可视化AI工作流平台。
+description: '喜欢Langflow可视化画布但受限于它的边界？6款替代品按部署控制、RAG深度、许可证与团队适配逐一比较。'
 categories:
 - ai-tools-comparisons
 featured: /uploads/2026/05/blog-hero-5.jpg

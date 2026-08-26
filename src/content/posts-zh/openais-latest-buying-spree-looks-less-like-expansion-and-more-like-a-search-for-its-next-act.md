@@ -3,7 +3,7 @@ title: OpenAI最新收购潮：是扩张还是寻找新方向？
 date: '2026-04-20T09:02:47'
 modified: '2026-08-11T19:14:52'
 slug: openais-latest-buying-spree-looks-less-like-expansion-and-more-like-a-search-for-its-next-act
-description: OpenAI近期连续收购两家风格迥异的公司，这一组合透露出其战略转型信号，而非单纯扩张。分析OpenAI收购动作背后的深层意图，解读其未来布局方向。
+description: 一个月内两笔风格迥异的收购，与其说是扩张，不如说是OpenAI在为下一个故事线焦虑。逐笔拆解交易背后的意图。
 categories:
 - ai-agents-automation
 featured: /uploads/2026/04/blog-hero-34.jpg

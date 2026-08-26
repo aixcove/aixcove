@@ -3,7 +3,7 @@ title: 亚马逊AI收入150亿美元：数字背后的真实信号
 date: '2026-04-10T06:53:50'
 modified: '2026-08-11T19:15:04'
 slug: amazons-15-billion-ai-revenue-bombshell-what-the-numbers-actually-tell-us
-description: 亚马逊云AI部门年收入已达150亿美元，这一数字正在改变硅谷格局。了解亚马逊云AI业务现状与增长趋势，看它如何影响云计算市场。
+description: AWS的AI业务年收入已达150亿美元，增速超预期。拆解这份财报数字对云计算格局和AI军备竞赛的实际含义。
 categories:
 - ai-trends-news
 featured: /uploads/2026/04/cover-523.jpg

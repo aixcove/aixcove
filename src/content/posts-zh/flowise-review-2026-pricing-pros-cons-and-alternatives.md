@@ -3,7 +3,7 @@ title: Flowise评测2026：价格、优缺点及替代品
 date: '2026-04-27T00:02:40'
 modified: '2026-08-11T19:14:47'
 slug: flowise-review-2026-pricing-pros-cons-and-alternatives
-description: Flowise是2026年构建AI智能体与RAG工作流的可视化工具之一，尤其适合需要开源灵活性的技术团队。
+description: 拖拽式节点编排LLM应用，开源可自托管，但深度定制要写代码。实测Flowise的真实能力边界、成本与适用团队。
 categories:
 - ai-tools-reviews
 featured: /uploads/2026/04/blog-hero-47.jpg
