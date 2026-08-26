@@ -11,21 +11,21 @@ image: /uploads/2026/04/viz_ai.jpg
 featured: false
 ---
 <h2>What Is Viz.ai?</h2>
-<p>Viz.ai is an FDA-cleared AI-powered healthcare platform that uses advanced computer vision and deep learning to analyze medical images in real time. Designed to accelerate critical care decisions, Viz.ai automatically detects conditions like strokes, pulmonary embolisms, and aortic dissections on CT scans, then immediately alerts the appropriate care team. By reducing the time between scan and treatment, Viz.ai helps save lives in time-sensitive medical emergencies.</p>
-<h2>Key Features and Capabilities</h2>
-<p>Viz.ai provides AI-powered clinical intelligence:</p>
+<p>Viz.ai is an AI-powered medical imaging platform used by hospitals and care teams. It analyses scans — most notably stroke and other time-critical imaging — to detect conditions and speed up care-team communication. Its goal is earlier detection and faster triage in workflows where minutes matter.</p>
+<p>It is clinical software sold to healthcare institutions, regulated for specific intended uses, and not a consumer or general-purpose tool.</p>
+<h2>Key Features</h2>
 <ul>
-<li><strong>Automated image analysis</strong> — AI detects abnormalities on CT, X-ray, and ECG scans</li>
-<li><strong>Stroke detection</strong> — Identifies large vessel occlusions and hemorrhages in seconds</li>
-<li><strong>Care team alerts</strong> — Automatically notifies specialists when critical findings are detected</li>
-<li><strong>Workflow automation</strong> — Streamlines communication between radiologists and care teams</li>
-<li><strong>Multi-disease platform</strong> — Covers stroke, pulmonary embolism, aortic dissection, and more</li>
-<li><strong>FDA-cleared</strong> — Regulatory clearance for clinical use in the United States</li>
+<li><strong>Automated scan analysis</strong> for time-sensitive conditions.</li>
+<li><strong>Care-team coordination</strong> — streamline communication around findings.</li>
+<li><strong>Workflow integration</strong> with hospital systems.</li>
+<li><strong>Prioritised alerts</strong> to direct attention to urgent cases.</li>
 </ul>
-<h2>Pricing Plans</h2>
-<p>Viz.ai is available to healthcare institutions through enterprise licensing. Pricing depends on the modules deployed, institution size, and integration requirements. Contact Viz.ai directly for a consultation and pricing information specific to your healthcare facility&#8217;s needs.</p>
+<p>Integrate alerts into the care workflow so findings reach the right clinician fast, and confirm that every AI-surfaced finding is reviewed by a qualified professional before a clinical decision. Keep deployment aligned with the approved intended use and hospital policies.</p>
+<h2>Pricing</h2>
+<p>Viz.ai is sold through enterprise sales to healthcare providers; pricing is not published and depends on institution size, deployment, and clinical scope. For current figures, contact <a href="https://www.viz.ai/" target="_blank" rel="noopener noreferrer">Viz.ai</a> directly. Prices checked August 2026 — no public pricing.</p>
+<h2>Limitations and Trade-offs</h2>
+<p>It is intended for specific clinical use cases, not general image analysis. Deployment requires integration with hospital IT and adherence to clinical regulations and privacy standards. Decisions should always be confirmed by qualified clinicians; AI surfacing is an aid, not a diagnosis.</p>
 <h2>Who Should Use Viz.ai?</h2>
-<p>Viz.ai is designed for hospitals and healthcare systems, particularly those with emergency departments and stroke centers. Emergency radiologists use it for faster scan triage. Stroke teams receive automated alerts for immediate intervention. Hospital administrators improve care quality metrics and reduce door-to-treatment times. Health systems standardize care protocols across multiple facilities.</p>
-<h2>Viz.ai vs Traditional Radiology</h2>
-<p>Viz.ai does not replace radiologists — it augments their capabilities by providing an automated first-pass analysis that accelerates critical findings. While a radiologist might take minutes to hours to read a scan (depending on queue depth), Viz.ai analyzes images in seconds and escalates critical cases immediately. This parallel processing approach significantly reduces time to treatment for life-threatening conditions.</p>
-
+<p>It is for hospitals, radiology, and stroke/care teams that handle high volumes of time-critical imaging. Individuals and general imaging needs are outside its scope.</p>
+<h2>Viz.ai vs Alternatives</h2>
+<p>Viz.ai is a specialist clinical platform. For general image understanding, it is not the right category — most AI image tools do not meet clinical regulatory requirements. Insights should always be reviewed by the relevant specialists.</p>

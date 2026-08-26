@@ -1,37 +1,12 @@
 ---
 title: Bolt.new
 date: '2026-04-19T14:40:58'
-modified: '2026-07-05T17:06:54'
+modified: '2026-08-26T12:00:00'
 slug: bolt-new
-description: 什么是Bolt.new？Bolt.new是一个AI编程和应用程序构建工具，帮助用户通过自然语言提示创建、编辑和运行Web应用程序。它最著名的是基于浏览器的快速开发能力。
+description: 'Bolt.new 是 StackBlitz 的浏览器提示词应用构建工具，用 WebContainers 运行 JavaScript 项目。 价格、免费层、限制与适用开发工作流概览。'
 categories:
 - ai-coding
 wpId: 635
 image: /uploads/2026/04/bolt.new_.jpg
 featured: false
----
-<h2>什么是Bolt.new？</h2>
-<p>Bolt.new是一款AI编码和应用构建工具，帮助用户通过自然语言提示创建、编辑和运行Web应用。它以快速的浏览器端开发、快速原型制作以及无需冗长本地设置即可将想法转化为可运行的前端或全栈项目而闻名。</p>
-<h2>最适合</h2>
-<ul>
-<li>快速测试应用想法的创始人</li>
-<li>希望在进入完整IDE之前获得AI辅助脚手架搭建的开发者</li>
-<li>创建交互式原型的设计师和产品团队</li>
-<li>学习现代Web应用如何组合在一起的学生</li>
-</ul>
-<h2>主要优势</h2>
-<ul>
-<li><strong>快速启动：</strong>当你需要快速获得一个可运行项目时非常有用。</li>
-<li><strong>浏览器工作流：</strong>减少了常见Web项目的设置摩擦。</li>
-<li><strong>自然语言编辑：</strong>适合UI迭代和样板代码更改。</li>
-<li><strong>原型友好：</strong>在投入更大规模工程工作流之前很有帮助。</li>
-</ul>
-<h2>局限性</h2>
-<p>Bolt.new不能完全替代成熟的工程工作流。较大的代码库仍然需要版本控制纪律、测试、安全审查和部署检查。比较AI编码工具的开发者还应查看<a href="/listing/cursor/">Cursor</a>、<a href="/listing/github-copilot/">GitHub Copilot</a>和<a href="/listing/replit-agent/">Replit Agent</a>。</p>
-<h2>定价和替代方案</h2>
-<p>Bolt.new通常被视为免费增值或付费AI开发工具，具体取决于使用量和套餐限制。如果你的优先事项是AI优先的编辑器，请与Cursor进行比较。如果你希望在托管工作区中进行代理式编码，请与Replit Agent进行比较。如果你需要在现有工作流中获得IDE级自动补全，请与GitHub Copilot进行比较。</p>
-<h2>常见问题</h2>
-<h3>Bolt.new适合生产级应用吗？</h3>
-<p>它可以帮助创建良好的起点，但生产级应用仍然需要代码审查、测试、部署加固和安全检查。</p>
-<h3>谁应该避免使用Bolt.new？</h3>
-<p>拥有大型现有代码库、严格合规要求或复杂后端架构的团队可能更倾向于使用本地IDE和更可控的AI编码助手。</p>
+---\n<h2>Bolt.new 是什么？</h2><p>Bolt.new 是 StackBlitz 的浏览器提示词应用构建工具，用 WebContainers 运行 JavaScript 项目。 选型不能只看一次提示词能否生成页面。更关键的是它怎样读取上下文、是否会改动多个文件、命令由谁确认，以及模型调用是否另行收费。</p><p>稳妥的试用方式是拿一个可回滚的小任务：先要求计划和涉及文件，再限定改动范围，运行既有测试，最后人工读 diff。这样才能分辨它是真的减少复核，还是把错误推迟到上线前。</p><p>StackBlitz 提供的是协作界面，并不是对需求正确性或代码质量的保证。清晰验收条件、仓库规范、最小权限和人工审查依然不可省略。</p><h2>核心功能</h2><ul><li><strong>prompt-to-app</strong>：应在真实仓库、受限权限和明确验收条件下检验。</li><li><strong> browser Node runtime</strong>：应在真实仓库、受限权限和明确验收条件下检验。</li><li><strong> live preview</strong>：应在真实仓库、受限权限和明确验收条件下检验。</li><li><strong> private projects</strong>：应在真实仓库、受限权限和明确验收条件下检验。</li></ul><h2>定价</h2><p>免费版 $0，含公开私有项目、每日 30 万 token 和每月 100 万 token；本次公开卡片未展示可靠付费金额。 以上为<strong>截至 2026 年 8 月</strong>的公开信息；地区、税费、模型和额度可能变动，请以<a href="https://bolt.new/pricing" target="_blank" rel="noopener noreferrer">官方价格或产品页面</a>为准。</p><h2>限制与取舍</h2><ul><li>web-stack focus。选型前应以账户、地区和项目设置再次确认。</li><li> tokens run out。选型前应以账户、地区和项目设置再次确认。</li><li> generated demos need security review。选型前应以账户、地区和项目设置再次确认。</li></ul><p>请在同一份 issue、同一代码快照和同一测试命令下比较工具。一次聊天表现不错，不表示它能稳定完成跨文件改动；免费额度也只有覆盖日常工作量时才有意义。</p><h2>适合谁使用？</h2><p>founders and designers validating a web prototype。个人应从不含密钥和客户数据的仓库开始，保持独立分支，并阅读每条待执行命令。负责人则应把身份管理、数据保留、审计和重度用户成本一起评估。</p><h2>Bolt.new 与替代方案</h2><p>Bolt.new 没有放之四海皆准的胜负。GitHub Copilot 更适合已围绕 GitHub 与主流 IDE 协作的团队；Claude Code、Gemini CLI、Kimi Code、Qwen Code CLI 和 OpenCode 更偏终端代理；Bolt 与 Replit 强调浏览器中尽快得到原型。决定应落在工作流和治理要求上。</p><p>预算优先可看<a href="/zh/best-free-ai-coding-tools-in-2026/">免费 AI 编程工具指南</a>；比较终端代理可看<a href="/zh/best-claude-code-alternatives-in-2026-7-practical-picks/">Claude Code 替代方案</a>。合并前的测试、审查和安全检查不能由代理替代。</p>\n

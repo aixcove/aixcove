@@ -1,30 +1,12 @@
 ---
 title: OpenCode
 date: '2026-04-05T14:37:52'
-modified: '2026-04-17T14:50:10'
+modified: '2026-08-26T12:00:00'
 slug: opencode
-description: 什么是OpenCode？OpenCode是一个开源的AI编程助手，在终端中运行，通过命令行提供智能代码生成、解释和重构功能
+description: 'OpenCode 是开源终端 AI 编程代理，可接入多家服务商或本地模型；Zen 提供按量托管模型。 价格、免费层、限制与适用开发工作流概览。'
 categories:
 - ai-coding
 wpId: 214
 image: /uploads/2026/04/opencode.jpg
 featured: false
----
-<h2>什么是 OpenCode？</h2>
-<p>OpenCode 是一款开源 AI 编程助手，运行在终端中，通过命令行界面提供智能代码生成、解释和重构功能。OpenCode 以灵活性为核心设计，支持多种 AI 模型后端，让开发者可以自由选择偏好的服务商，同时保持统一的终端原生工作流。</p>
-<h2>核心功能与能力</h2>
-<p>OpenCode 在终端中提供强大的编程辅助：</p>
-<ul>
-<li><strong>多模型支持</strong> — 可接入 OpenAI、Anthropic、Google 或本地模型</li>
-<li><strong>代码生成</strong> — 根据描述编写函数、类及完整模块</li>
-<li><strong>代码解释</strong> — 通过详细的 AI 分析理解复杂代码库</li>
-<li><strong>代码重构</strong> — 借助 AI 建议改进代码结构和可读性</li>
-<li><strong>终端原生</strong> — 无需 IDE，兼容任何编辑器或工作流</li>
-<li><strong>开源</strong> — 完全可定制，社区驱动开发</li>
-</ul>
-<h2>定价方案</h2>
-<p>OpenCode 本身免费且开源。你只需为你配置的 AI 模型 API 用量付费。这让开发者完全掌控成本——根据需求和预算，可以选择免费的本地模型、DeepSeek 等性价比服务商，或 GPT-4 等高端模型。</p>
-<h2>谁适合使用 OpenCode？</h2>
-<p>OpenCode 适合重视开源工具和灵活性的开发者。终端爱好者欣赏其 CLI 原生设计。注重隐私的开发者可以搭配本地模型使用，实现零数据泄露。预算有限的团队可配置价格实惠的 API 服务商。开源社区贡献者则乐于扩展和定制这款工具。</p>
-<h2>OpenCode 与 Claude Code 对比</h2>
-<p>OpenCode 在模型选择上更灵活且免费使用，而 Claude Code 则提供与 Anthropic 模型更完善、更紧密集成的体验。对于想使用自己的 API 密钥并自由选择模型的开发者，OpenCode 提供更大的自由度。对于想要开箱即用、针对 Claude 优化的解决方案，官方工具更为便捷。</p>
+---\n<h2>OpenCode 是什么？</h2><p>OpenCode 是开源终端 AI 编程代理，可接入多家服务商或本地模型；Zen 提供按量托管模型。 选型不能只看一次提示词能否生成页面。更关键的是它怎样读取上下文、是否会改动多个文件、命令由谁确认，以及模型调用是否另行收费。</p><p>稳妥的试用方式是拿一个可回滚的小任务：先要求计划和涉及文件，再限定改动范围，运行既有测试，最后人工读 diff。这样才能分辨它是真的减少复核，还是把错误推迟到上线前。</p><p>OpenCode 提供的是协作界面，并不是对需求正确性或代码质量的保证。清晰验收条件、仓库规范、最小权限和人工审查依然不可省略。</p><h2>核心功能</h2><ul><li><strong>75+ providers</strong>：应在真实仓库、受限权限和明确验收条件下检验。</li><li><strong> local endpoints</strong>：应在真实仓库、受限权限和明确验收条件下检验。</li><li><strong> parallel agents</strong>：应在真实仓库、受限权限和明确验收条件下检验。</li><li><strong> explicit Zen rate card</strong>：应在真实仓库、受限权限和明确验收条件下检验。</li></ul><h2>定价</h2><p>客户端免费开源。Zen 示例从每百万 token 输入 $0.05、输出 $0.40，到输入 $3、输出 $15；免费模型为临时提供。 以上为<strong>截至 2026 年 8 月</strong>的公开信息；地区、税费、模型和额度可能变动，请以<a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener noreferrer">官方价格或产品页面</a>为准。</p><h2>限制与取舍</h2><ul><li>API or GPU costs remain。选型前应以账户、地区和项目设置再次确认。</li><li> retention varies。选型前应以账户、地区和项目设置再次确认。</li><li> free models disappear。选型前应以账户、地区和项目设置再次确认。</li></ul><p>请在同一份 issue、同一代码快照和同一测试命令下比较工具。一次聊天表现不错，不表示它能稳定完成跨文件改动；免费额度也只有覆盖日常工作量时才有意义。</p><h2>适合谁使用？</h2><p>operators needing model choice and terminal control。个人应从不含密钥和客户数据的仓库开始，保持独立分支，并阅读每条待执行命令。负责人则应把身份管理、数据保留、审计和重度用户成本一起评估。</p><h2>OpenCode 与替代方案</h2><p>OpenCode 没有放之四海皆准的胜负。GitHub Copilot 更适合已围绕 GitHub 与主流 IDE 协作的团队；Claude Code、Gemini CLI、Kimi Code、Qwen Code CLI 和 OpenCode 更偏终端代理；Bolt 与 Replit 强调浏览器中尽快得到原型。决定应落在工作流和治理要求上。</p><p>预算优先可看<a href="/zh/best-free-ai-coding-tools-in-2026/">免费 AI 编程工具指南</a>；比较终端代理可看<a href="/zh/best-claude-code-alternatives-in-2026-7-practical-picks/">Claude Code 替代方案</a>。合并前的测试、审查和安全检查不能由代理替代。</p>\n

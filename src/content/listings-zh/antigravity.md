@@ -1,30 +1,12 @@
 ---
 title: Antigravity
 date: '2026-04-05T13:04:47'
-modified: '2026-04-17T14:50:08'
+modified: '2026-08-26T12:00:00'
 slug: antigravity
-description: 什么是Antigravity？Antigravity是一款AI驱动的开发工具，旨在加速软件工程工作流程。它为常见的开发任务提供智能自动化，包括代码
+description: 'Google Antigravity 是 Google 的智能体 IDE 预览产品，面向仓库规划、修改、运行和验证任务。 价格、免费层、限制与适用开发工作流概览。'
 categories:
 - ai-coding
 wpId: 208
 image: /uploads/2026/04/antigravity.jpg
 featured: false
----
-<h2>Antigravity：AI加速开发工具详解</h2>
-<p>Antigravity是一款AI驱动的开发工具，旨在加速软件工程工作流程。它为常见开发任务提供智能自动化，包括代码生成、测试、文档编写和部署。该工具旨在减少编程的重复性部分，使开发者能够专注于创造性问题解决和架构决策。</p>
-<h2>主要功能和能力</h2>
-<p>Antigravity通过AI驱动的自动化简化开发流程：</p>
-<ul>
-<li><strong>智能代码生成</strong> — 从自然语言描述生成可投入生产的代码</li>
-<li><strong>自动化测试</strong> — 为代码库创建全面的测试套件</li>
-<li><strong>文档自动化</strong> — 生成和维护技术文档</li>
-<li><strong>代码分析</strong> — 识别性能瓶颈和安全漏洞</li>
-<li><strong>部署辅助</strong> — 简化CI/CD管道配置和部署</li>
-<li><strong>集成支持</strong> — 与流行框架、数据库和云平台兼容</li>
-</ul>
-<h2>定价方案</h2>
-<p>请访问Antigravity官方网站获取最新定价和计划详情。该工具通常为个人开发者提供免费版本，同时为需要高级功能和更高使用限制的团队和组织提供付费计划。</p>
-<h2>谁应该使用Antigravity？</h2>
-<p>Antigravity适合希望减少模板任务时间的全栈开发者。构建MVP的独立创始人欣赏其快速原型制作能力。小型团队受益于一致的代码质量和自动化文档。管理多个项目的开发者使用它来保持跨代码库的生产力。</p>
-<h2>Antigravity与其他AI编码工具对比</h2>
-<p>Antigravity将自己定位为全面的开发自动化平台，而非仅仅是代码补全工具。虽然像Copilot这样的工具专注于内联建议，但Antigravity旨在从编写到测试再到部署自动化整个开发工作流程。对于想要超越代码编写端到端AI辅助的开发者，Antigravity提供了更广泛的功能范围。</p>
+---\n<h2>Google Antigravity 是什么？</h2><p>Google Antigravity 是 Google 的智能体 IDE 预览产品，面向仓库规划、修改、运行和验证任务。 选型不能只看一次提示词能否生成页面。更关键的是它怎样读取上下文、是否会改动多个文件、命令由谁确认，以及模型调用是否另行收费。</p><p>稳妥的试用方式是拿一个可回滚的小任务：先要求计划和涉及文件，再限定改动范围，运行既有测试，最后人工读 diff。这样才能分辨它是真的减少复核，还是把错误推迟到上线前。</p><p>Google 提供的是协作界面，并不是对需求正确性或代码质量的保证。清晰验收条件、仓库规范、最小权限和人工审查依然不可省略。</p><h2>核心功能</h2><ul><li><strong>agent workspace</strong>：应在真实仓库、受限权限和明确验收条件下检验。</li><li><strong> evidence artifacts</strong>：应在真实仓库、受限权限和明确验收条件下检验。</li><li><strong> parallel agents</strong>：应在真实仓库、受限权限和明确验收条件下检验。</li><li><strong> approval controls</strong>：应在真实仓库、受限权限和明确验收条件下检验。</li></ul><h2>定价</h2><p>免费公开预览；截至 2026 年 8 月未公布付费套餐价格。 以上为<strong>截至 2026 年 8 月</strong>的公开信息；地区、税费、模型和额度可能变动，请以<a href="https://antigravity.google/" target="_blank" rel="noopener noreferrer">官方价格或产品页面</a>为准。</p><h2>限制与取舍</h2><ul><li>preview quotas change。选型前应以账户、地区和项目设置再次确认。</li><li> narrow tests are not full validation。选型前应以账户、地区和项目设置再次确认。</li><li> Google-controlled workflow。选型前应以账户、地区和项目设置再次确认。</li></ul><p>请在同一份 issue、同一代码快照和同一测试命令下比较工具。一次聊天表现不错，不表示它能稳定完成跨文件改动；免费额度也只有覆盖日常工作量时才有意义。</p><h2>适合谁使用？</h2><p>developers and small teams that can review diffs。个人应从不含密钥和客户数据的仓库开始，保持独立分支，并阅读每条待执行命令。负责人则应把身份管理、数据保留、审计和重度用户成本一起评估。</p><h2>Google Antigravity 与替代方案</h2><p>Google Antigravity 没有放之四海皆准的胜负。GitHub Copilot 更适合已围绕 GitHub 与主流 IDE 协作的团队；Claude Code、Gemini CLI、Kimi Code、Qwen Code CLI 和 OpenCode 更偏终端代理；Bolt 与 Replit 强调浏览器中尽快得到原型。决定应落在工作流和治理要求上。</p><p>预算优先可看<a href="/zh/best-free-ai-coding-tools-in-2026/">免费 AI 编程工具指南</a>；比较终端代理可看<a href="/zh/best-claude-code-alternatives-in-2026-7-practical-picks/">Claude Code 替代方案</a>。合并前的测试、审查和安全检查不能由代理替代。</p>\n

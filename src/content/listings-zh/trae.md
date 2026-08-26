@@ -1,30 +1,12 @@
 ---
 title: Trae
 date: '2026-04-05T13:02:56'
-modified: '2026-04-17T14:50:00'
+modified: '2026-08-26T12:00:00'
 slug: trae
-description: 什么是Trae？Trae是由字节跳动（TikTok的母公司）开发的AI驱动集成开发环境（IDE）。Trae旨在使软件开发更快、更直观，Trae集
+description: 'Trae 是字节跳动的 AI 开发环境，含类 VS Code 编辑器、补全、聊天、多文件代理和 TraeWork 任务。 价格、免费层、限制与适用开发工作流概览。'
 categories:
 - ai-coding
 wpId: 204
 image: /uploads/2026/04/trae.jpg
 featured: false
----
-<h2>Trae 是什么？</h2>
-<p>Trae 是由字节跳动（TikTok 母公司）开发的 AI 集成开发环境（IDE）。Trae 旨在让软件开发更快、更直观，将代码生成、实时补全和自然语言编程等高级 AI 能力直接集成到功能完整的编码环境中。它的设计目标是成为 Cursor 等工具的竞品，同时提供自己独特的 AI 辅助开发方案。</p>
-<h2>核心功能与能力</h2>
-<p>Trae 提供全面的 AI 编码体验：</p>
-<ul>
-<li><strong>AI 聊天助手</strong> — 对话式界面，可提问编程问题并获得帮助</li>
-<li><strong>内联代码生成</strong> — 输入时实时提供代码补全和建议</li>
-<li><strong>Builder 模式</strong> — 通过自然语言描述直接生成完整功能</li>
-<li><strong>多文件编辑</strong> — 智能协调多个文件间的修改</li>
-<li><strong>基于 VS Code</strong> — 构建在熟悉的 VS Code 平台上，支持扩展</li>
-<li><strong>免费使用 Claude 和 GPT</strong> — 免费访问高级 AI 模型</li>
-</ul>
-<h2>定价方案</h2>
-<p>Trae 目前完全免费，可完整使用包括 Claude 和 GPT-4 在内的 AI 功能。这使其成为市面上性价比最高的 AI 编码工具之一。字节跳动尚未公布付费层级，但随着产品成熟，未来可能会推出高级功能。</p>
-<h2>谁适合使用 Trae？</h2>
-<p>Trae 适合希望获得强大 AI 编码辅助、又不想支付 Cursor 或 GitHub Copilot 订阅费用的开发者。学生和编程训练营学员可以免费使用高级 AI 模型。自由职业开发者可以享受零成本的专业工具。正在探索 AI 编码工具的团队可以将 Trae 作为零风险试用选项，再决定是否投入付费替代方案。</p>
-<h2>Trae 与 Cursor 对比</h2>
-<p>Trae 相比 Cursor 的主要优势是免费提供顶级 AI 模型。Cursor 产品更成熟，代码库索引更深入，用户体验也更精细。对于预算有限的开发者或刚接触 AI 编码工具的用户，Trae 提供了极佳的价值。对于需要企业级功能和稳定性的团队，Cursor 仍是更稳妥的选择。</p>
+---\n<h2>Trae 是什么？</h2><p>Trae 是字节跳动的 AI 开发环境，含类 VS Code 编辑器、补全、聊天、多文件代理和 TraeWork 任务。 选型不能只看一次提示词能否生成页面。更关键的是它怎样读取上下文、是否会改动多个文件、命令由谁确认，以及模型调用是否另行收费。</p><p>稳妥的试用方式是拿一个可回滚的小任务：先要求计划和涉及文件，再限定改动范围，运行既有测试，最后人工读 diff。这样才能分辨它是真的减少复核，还是把错误推迟到上线前。</p><p>ByteDance 提供的是协作界面，并不是对需求正确性或代码质量的保证。清晰验收条件、仓库规范、最小权限和人工审查依然不可省略。</p><h2>核心功能</h2><ul><li><strong>VS Code-like editor</strong>：应在真实仓库、受限权限和明确验收条件下检验。</li><li><strong> inline completion</strong>：应在真实仓库、受限权限和明确验收条件下检验。</li><li><strong> multi-file Builder</strong>：应在真实仓库、受限权限和明确验收条件下检验。</li><li><strong> cloud task concurrency</strong>：应在真实仓库、受限权限和明确验收条件下检验。</li></ul><h2>定价</h2><p>截至 2026 年 8 月，Free $0，Lite $3，Pro 试用后 $10，Pro+ $30，Ultra $100，均为月价。 以上为<strong>截至 2026 年 8 月</strong>的公开信息；地区、税费、模型和额度可能变动，请以<a href="https://www.trae.ai/pricing" target="_blank" rel="noopener noreferrer">官方价格或产品页面</a>为准。</p><h2>限制与取舍</h2><ul><li>credits limit agents。选型前应以账户、地区和项目设置再次确认。</li><li> region terms need checking。选型前应以账户、地区和项目设置再次确认。</li><li> not a replacement for CI。选型前应以账户、地区和项目设置再次确认。</li></ul><p>请在同一份 issue、同一代码快照和同一测试命令下比较工具。一次聊天表现不错，不表示它能稳定完成跨文件改动；免费额度也只有覆盖日常工作量时才有意义。</p><h2>适合谁使用？</h2><p>developers wanting one AI-first IDE。个人应从不含密钥和客户数据的仓库开始，保持独立分支，并阅读每条待执行命令。负责人则应把身份管理、数据保留、审计和重度用户成本一起评估。</p><h2>Trae 与替代方案</h2><p>Trae 没有放之四海皆准的胜负。GitHub Copilot 更适合已围绕 GitHub 与主流 IDE 协作的团队；Claude Code、Gemini CLI、Kimi Code、Qwen Code CLI 和 OpenCode 更偏终端代理；Bolt 与 Replit 强调浏览器中尽快得到原型。决定应落在工作流和治理要求上。</p><p>预算优先可看<a href="/zh/best-free-ai-coding-tools-in-2026/">免费 AI 编程工具指南</a>；比较终端代理可看<a href="/zh/best-claude-code-alternatives-in-2026-7-practical-picks/">Claude Code 替代方案</a>。合并前的测试、审查和安全检查不能由代理替代。</p>\n
