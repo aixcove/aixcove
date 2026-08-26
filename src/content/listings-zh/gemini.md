@@ -3,7 +3,7 @@ title: Gemini
 date: '2026-04-05T10:19:38'
 modified: '2026-04-17T15:38:27'
 slug: gemini
-description: Gemini 是 Google 的多模态 AI，覆盖对话、Workspace 与 API。免费层、AI Pro 定价、功能与限制。
+description: Gemini 是 Google 的多模态 AI，覆盖对话、Workspace 与 API。已核实免费层、AI Pro 定价、功能与限制。
 categories:
 - llm-chat
 wpId: 186

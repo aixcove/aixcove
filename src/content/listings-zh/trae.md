@@ -3,7 +3,7 @@ title: Trae
 date: '2026-04-05T13:02:56'
 modified: '2026-08-26T12:00:00'
 slug: trae
-description: Trae 是字节跳动的智能体 AI 编码 IDE。已核实定价、功能、限制，并与 Cursor、Copilot 对比。
+description: Trae 是字节跳动的智能体 AI 编码 IDE，内置构建器。已核实定价、功能、限制，并与 Cursor、Copilot 对比。
 categories:
 - ai-coding
 wpId: 204

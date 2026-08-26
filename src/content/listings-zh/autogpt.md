@@ -3,7 +3,7 @@ title: AutoGPT
 date: '2026-04-06T06:13:02'
 modified: '2026-08-26T12:00:00'
 slug: autogpt
-description: AutoGPT 是开源的先驱自主智能体项目。已核实功能、限制与现代替代方案。
+description: AutoGPT 是开源的先驱自主智能体项目。已核实 2026 年 8 月功能、限制与值得考虑的现代替代。
 categories:
 - ai-agents
 wpId: 270

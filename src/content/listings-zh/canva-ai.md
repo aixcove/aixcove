@@ -3,7 +3,7 @@ title: Canva AI
 date: '2026-04-06T06:11:22'
 modified: '2026-04-17T15:38:21'
 slug: canva-ai
-description: Canva AI 在可编辑工作区里加入提示设计、媒体与协作工具。已核实定价、功能、限制与替代方案。
+description: Canva AI 在可编辑工作区里加入提示设计、媒体与协作工具。已核实定价、功能、限制与设计替代方案。
 categories:
 - ai-creative
 wpId: 262

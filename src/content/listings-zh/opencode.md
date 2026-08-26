@@ -3,7 +3,7 @@ title: OpenCode
 date: '2026-04-05T14:37:52'
 modified: '2026-08-26T12:00:00'
 slug: opencode
-description: OpenCode 是开源的终端编码智能体，支持本地或自托管。已核实定价、功能、限制与替代方案。
+description: OpenCode 是开源的终端编码智能体，支持本地或自托管智能体工作流。已核实定价、功能、限制与替代方案。
 categories:
 - ai-coding
 wpId: 214

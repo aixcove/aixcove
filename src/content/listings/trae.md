@@ -3,7 +3,7 @@ title: Trae
 date: '2026-04-05T13:02:56'
 modified: '2026-08-26T12:00:00'
 slug: trae
-description: Trae is ByteDance’s agentic AI coding IDE. Verified pricing, features, limits, and how it compares to Cursor and Copilot.
+description: 'Trae is ByteDance’s agentic AI coding IDE with a built-in builder. Verified pricing, features, limits, and how it compares to Cursor and Copilot.'
 categories:
 - ai-coding
 wpId: 204

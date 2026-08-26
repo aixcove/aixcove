@@ -3,7 +3,7 @@ title: Harvey AI
 date: '2026-04-06T06:11:55'
 modified: '2026-04-17T14:58:27'
 slug: harvey-ai
-description: Harvey AI 是面向律所与法务团队的 AI 助手。销售定价、功能、限制与适用人群。
+description: Harvey AI 是面向律所与法务团队的 AI 法律助手。已核实 2026 年 8 月销售定价、功能、限制与定位。
 categories:
 - vertical-ai
 wpId: 264

@@ -3,7 +3,7 @@ title: CodeBuddy
 date: '2026-04-05T13:03:36'
 modified: '2026-08-26T12:00:00'
 slug: codebuddy
-description: CodeBuddy 是面向 IDE 与终端的智能体编码助手。已核实定价、功能、限制，并与 Cursor、Copilot 对比。
+description: CodeBuddy 是面向 IDE 与终端的智能体编码助手。已核实 2026 年 8 月定价、功能、限制，并与 Cursor 对比。
 categories:
 - ai-coding
 wpId: 206

@@ -3,7 +3,7 @@ title: Runway
 date: '2026-04-06T06:10:48'
 modified: '2026-04-17T15:38:22'
 slug: runway
-description: Runway is an AI video suite with a free tier and plans from $12/month. Verified pricing, features, limits, and alternatives.
+description: Runway is an AI video suite with a free tier and paid plans from $12/month. Verified pricing, features, limits, and alternatives for creatives.
 categories:
 - ai-creative
 wpId: 260

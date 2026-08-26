@@ -3,7 +3,7 @@ title: Viz.ai
 date: '2026-04-06T06:12:12'
 modified: '2026-04-17T15:38:15'
 slug: viz-ai
-description: Viz.ai 分析时间敏感医学影像，加快护理团队响应。临床销售定价、功能与限制。
+description: Viz.ai 分析时间敏感医学影像，加快护理团队响应。已核实临床销售定价、功能与限制。
 categories:
 - vertical-ai
 wpId: 265

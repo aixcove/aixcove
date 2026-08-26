@@ -3,7 +3,7 @@ title: Descript
 date: '2026-04-06T06:11:38'
 modified: '2026-04-17T15:38:23'
 slug: descript
-description: Descript 是以文稿为核心的音视频编辑器，提供免费层。已核实定价、功能、限制与适用人群。
+description: Descript 是以文稿为核心的音视频编辑器，提供免费层。已核实 2026 年 8 月定价、功能、限制与适用人群。
 categories:
 - ai-creative
 wpId: 263

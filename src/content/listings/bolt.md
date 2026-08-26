@@ -3,7 +3,7 @@ title: Bolt
 date: '2026-04-06T06:14:25'
 modified: '2026-08-26T12:00:00'
 slug: bolt
-description: Bolt is a browser-based AI app builder. Verified pricing, features, limits, and alternatives for building from a prompt.
+description: Bolt is a browser-based AI app builder that ships from a prompt. Verified pricing, features, limits, and alternatives for building prototypes fast.
 categories:
 - ai-coding
 wpId: 282

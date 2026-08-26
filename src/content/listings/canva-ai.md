@@ -3,7 +3,7 @@ title: Canva AI
 date: '2026-04-06T06:11:22'
 modified: '2026-04-17T15:38:21'
 slug: canva-ai
-description: Canva AI adds prompt design and media tools inside an editable workspace. Verified pricing, features, limits, and alternatives.
+description: Canva AI adds prompt design, media, and collaboration inside an editable workspace. Verified pricing, features, limits, and design alternatives.
 categories:
 - ai-creative
 wpId: 262

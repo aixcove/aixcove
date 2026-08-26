@@ -3,7 +3,7 @@ title: Qwen
 date: '2026-04-05T10:22:01'
 modified: '2026-04-17T15:38:29'
 slug: qwen
-description: Qwen 是阿里开放权重的 LLM 系列，中文与多语言强。免费自托管、API 计价与限制。
+description: Qwen 是阿里开放权重的 LLM 系列，中文与多语言强。已核实免费自托管、API 计价与限制。
 categories:
 - llm-chat
 wpId: 187

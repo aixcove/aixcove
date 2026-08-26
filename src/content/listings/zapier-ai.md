@@ -3,7 +3,7 @@ title: Zapier AI
 date: '2026-04-06T06:09:42'
 modified: '2026-08-26T12:00:00'
 slug: zapier-ai
-description: Zapier AI adds agentic automation across thousands of apps. Verified features, pricing, limits, and alternatives.
+description: Zapier AI adds agentic automation across thousands of apps. Verified Aug 2026 pricing, features, limits, and alternatives for modern workflows.
 categories:
 - ai-agents
 wpId: 256

@@ -3,7 +3,7 @@ title: QWen
 date: '2026-04-05T10:22:01'
 modified: '2026-04-17T15:38:29'
 slug: qwen
-description: Qwen is Alibaba’s open-weight LLM family strong in Chinese and multilingual tasks. Free self-host, API pricing, and limits.
+description: 'Qwen is Alibaba’s open-weight LLM family strong in Chinese and multilingual tasks. Verified Aug 2026 free self-hosting, API pricing, and limits.'
 categories:
 - llm-chat
 wpId: 187

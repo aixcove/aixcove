@@ -3,7 +3,7 @@ title: Bolt.new
 date: '2026-04-19T14:40:58'
 modified: '2026-08-26T12:00:00'
 slug: bolt-new
-description: Bolt.new 是在浏览器里从提示词生成可运行代码的应用构建器。已核实定价、功能、限制与适用人群。
+description: Bolt.new 是在浏览器里从提示词生成可运行项目的应用构建器。已核实定价、功能、限制与适用人群。
 categories:
 - ai-coding
 wpId: 635

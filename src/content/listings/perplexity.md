@@ -3,7 +3,7 @@ title: Perplexity
 date: '2026-04-06T06:14:42'
 modified: '2026-04-17T15:38:02'
 slug: perplexity
-description: Perplexity is an answer engine with cited sources and live web search. Free tier and Pro from ~$20/month. Features and limits.
+description: Perplexity is an answer engine with cited sources and live web search. Verified Aug 2026 free tier and Pro around $20/month. Features and limits.
 categories:
 - llm-chat
 wpId: 284

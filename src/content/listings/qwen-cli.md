@@ -3,7 +3,7 @@ title: QWen CLI
 date: '2026-04-05T13:02:11'
 modified: '2026-08-26T12:00:00'
 slug: qwen-cli
-description: Qwen Code CLI is Alibaba’s open coding agent for terminal and VSCode. Verified features, pricing, limits, and self-host options.
+description: 'Qwen Code CLI is Alibaba’s open coding agent for terminal and VSCode. Verified features, pricing, limits, and self-hosted options for developers.'
 categories:
 - ai-coding
 wpId: 203

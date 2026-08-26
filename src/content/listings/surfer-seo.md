@@ -3,7 +3,7 @@ title: Surfer SEO
 date: '2026-04-06T06:08:35'
 modified: '2026-04-17T15:38:09'
 slug: surfer-seo
-description: Surfer SEO gives query-specific content briefs and a live coverage score. Verified August 2026 pricing, features, and limits.
+description: Surfer SEO builds query-specific content briefs and a live coverage score. Verified Aug 2026 pricing, features, and limits for content teams.
 categories:
 - ai-writing-marketing
 wpId: 252

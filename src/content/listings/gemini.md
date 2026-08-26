@@ -3,7 +3,7 @@ title: Gemini
 date: '2026-04-05T10:19:38'
 modified: '2026-04-17T15:38:27'
 slug: gemini
-description: Gemini is Google’s multimodal AI across chat, Workspace, and API. Free tier, AI Pro pricing, features, limits, and fit.
+description: 'Gemini is Google’s multimodal AI across chat, Workspace, and API. Verified Aug 2026 free tier and AI Pro pricing, features, limits, and fit.'
 categories:
 - llm-chat
 wpId: 186

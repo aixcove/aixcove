@@ -3,7 +3,7 @@ title: OpenClaw
 date: '2026-04-05T13:38:48'
 modified: '2026-08-26T12:00:00'
 slug: openclaw
-description: OpenClaw is an open-source, self-hosted AI assistant that learns re-usable skills. Verified features, limits, and alternatives.
+description: OpenClaw is an open-source, self-hosted AI assistant that learns re-usable skills. Verified Aug 2026 features, limits, and realistic alternatives.
 categories:
 - ai-agents
 wpId: 213

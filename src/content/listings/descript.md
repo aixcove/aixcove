@@ -3,7 +3,7 @@ title: Descript
 date: '2026-04-06T06:11:38'
 modified: '2026-04-17T15:38:23'
 slug: descript
-description: Descript is a transcript-first audio and video editor with a free tier. Verified pricing, features, limits, and fit.
+description: Descript is a transcript-first audio and video editor with a free tier. Verified Aug 2026 pricing, features, limits, and who it best suits.
 categories:
 - ai-creative
 wpId: 263

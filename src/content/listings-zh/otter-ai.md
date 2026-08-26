@@ -3,7 +3,7 @@ title: Otter.ai
 date: '2026-04-06T06:09:58'
 modified: '2026-04-17T14:53:23'
 slug: otter-ai
-description: Otter.ai 录制并转写会议，生成摘要与行动项。已核实免费层、定价、功能与限制。
+description: Otter.ai 录制并转写会议，生成摘要与行动项。已核实免费层、定价、功能、限制与团队适用性。
 categories:
 - ai-productivity
 wpId: 257

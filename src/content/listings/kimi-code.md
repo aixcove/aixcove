@@ -3,7 +3,7 @@ title: Kimi Code
 date: '2026-06-19T04:21:37'
 modified: '2026-08-26T12:00:00'
 slug: kimi-code
-description: Kimi Code is a coding agent, not just autocomplete. See verified features, pricing, limits, and where it fits next to other AI coding tools.
+description: Kimi Code is a coding agent that plans and edits files, not just autocomplete. See verified Aug 2026 features, pricing, limits, and where it fits.
 categories:
 - ai-coding
 wpId: 871

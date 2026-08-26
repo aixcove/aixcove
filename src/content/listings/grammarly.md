@@ -3,7 +3,7 @@ title: Grammarly
 date: '2026-04-06T06:10:15'
 modified: '2026-04-17T15:38:20'
 slug: grammarly
-description: Grammarly is an English writing assistant with a free tier and Pro from $12/month. Verified features, limits, and who it fits.
+description: Grammarly is an English writing assistant with a free tier and Pro from $12/month. Verified Aug 2026 features, limits, and who it best fits.
 categories:
 - ai-writing-marketing
 wpId: 258

@@ -3,7 +3,7 @@ title: Runway
 date: '2026-04-06T06:10:48'
 modified: '2026-04-17T15:38:22'
 slug: runway
-description: Runway 是 AI 视频套件，提供免费层，每月 12 美元起。已核实定价、功能、限制与替代方案。
+description: Runway 是 AI 视频套件，提供免费层，每月 12 美元起。已核实定价、功能、限制与创意替代方案。
 categories:
 - ai-creative
 wpId: 260

@@ -3,7 +3,7 @@ title: Replit AI
 date: '2026-04-06T06:14:09'
 modified: '2026-08-26T12:00:00'
 slug: replit-ai
-description: Replit AI builds and hosts apps from a prompt in the browser. Verified pricing, features, limits, and who it fits.
+description: Replit AI builds, edits, and hosts apps straight from the browser. Verified Aug 2026 pricing, features, limits, and who it is best suited for.
 categories:
 - ai-coding
 wpId: 280

@@ -3,7 +3,7 @@ title: Replit AI
 date: '2026-04-06T06:14:09'
 modified: '2026-08-26T12:00:00'
 slug: replit-ai
-description: Replit AI 在浏览器里从提示词构建并托管应用。已核实定价、功能、限制与适用人群。
+description: Replit AI 在浏览器里构建、编辑并托管应用。已核实 2026 年 8 月定价、功能、限制与适用人群。
 categories:
 - ai-coding
 wpId: 280

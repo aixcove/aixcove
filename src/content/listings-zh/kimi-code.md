@@ -3,7 +3,7 @@ title: Kimi Code
 date: '2026-06-19T04:21:37'
 modified: '2026-08-26T12:00:00'
 slug: kimi-code
-description: Kimi Code 不是只有自动补全，而是能独立完成任务的编码智能体。已核实功能、定价、限制与定位。
+description: Kimi Code 不是只有自动补全，而是能独立规划并编辑文件的编码智能体。已核实功能、定价、限制与定位。
 categories:
 - ai-coding
 wpId: 871

@@ -3,7 +3,7 @@ title: ElevenLabs
 date: '2026-04-06T06:11:05'
 modified: '2026-04-17T15:38:24'
 slug: elevenlabs
-description: ElevenLabs is an AI voice platform with a free tier and plans from $6/month. Verified pricing, features, limits, and fit.
+description: ElevenLabs is an AI voice platform with a free tier and paid plans from $6/month. Verified pricing, features, limits, and fit for audio work.
 categories:
 - ai-creative
 wpId: 261

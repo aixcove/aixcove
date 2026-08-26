@@ -3,7 +3,7 @@ title: Jasper
 date: '2026-04-06T06:08:01'
 modified: '2026-04-17T15:38:11'
 slug: jasper
-description: Jasper is a marketing AI platform with brand voice and campaign workflows. Verified Pro pricing, features, and limits.
+description: Jasper is a marketing AI platform with brand voice and campaign workflows. Verified Aug 2026 Pro pricing, features, limits, and optimal team fit.
 categories:
 - ai-writing-marketing
 wpId: 250

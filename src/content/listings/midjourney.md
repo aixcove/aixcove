@@ -3,7 +3,7 @@ title: Midjourney
 date: '2026-04-06T06:10:32'
 modified: '2026-04-17T15:38:20'
 slug: midjourney
-description: Midjourney is a paid image generator with no free tier, from $10/month. Verified pricing, features, limits, and fit.
+description: Midjourney is a paid image generator with no free tier, from $10/month. Verified Aug 2026 pricing, features, limits, and who it suits well.
 categories:
 - ai-creative
 wpId: 259

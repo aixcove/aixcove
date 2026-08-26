@@ -3,7 +3,7 @@ title: Harvey AI
 date: '2026-04-06T06:11:55'
 modified: '2026-04-17T14:58:27'
 slug: harvey-ai
-description: Harvey AI is a legal AI assistant for law firms and in-house teams. Sales-led pricing, verified features, limits, and fit.
+description: Harvey AI is a legal AI assistant for law firms and in-house teams. Verified Aug 2026 sales-led pricing, features, limits, and who it fits best.
 categories:
 - vertical-ai
 wpId: 264

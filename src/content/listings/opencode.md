@@ -3,7 +3,7 @@ title: OpenCode
 date: '2026-04-05T14:37:52'
 modified: '2026-08-26T12:00:00'
 slug: opencode
-description: OpenCode is an open-source terminal coding agent for local or self-hosted workflows. Verified pricing, features, limits, and alternatives.
+description: OpenCode is an open-source terminal coding agent for local or self-hosted agentic workflows. Verified pricing, features, limits, and alternatives.
 categories:
 - ai-coding
 wpId: 214

@@ -3,7 +3,7 @@ title: Otter.ai
 date: '2026-04-06T06:09:58'
 modified: '2026-04-17T14:53:23'
 slug: otter-ai
-description: Otter.ai records and transcribes meetings with summaries and action items. Verified free tier, pricing, features, and limits.
+description: Otter.ai records and transcribes meetings with summaries and action items. Verified free tier, pricing, features, limits, and fit for teams.
 categories:
 - ai-productivity
 wpId: 257

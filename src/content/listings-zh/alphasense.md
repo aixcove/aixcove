@@ -3,7 +3,7 @@ title: AlphaSense
 date: '2026-04-06T06:12:28'
 modified: '2026-04-17T15:38:14'
 slug: alphasense
-description: AlphaSense 是面向机构的 AI 金融研究平台。企业销售定价、功能、限制与适用人群。
+description: AlphaSense 是面向机构的 AI 金融研究平台。已核实企业销售定价、功能、限制与适用人群。
 categories:
 - vertical-ai
 wpId: 266

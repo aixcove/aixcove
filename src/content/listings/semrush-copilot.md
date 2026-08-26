@@ -3,7 +3,7 @@ title: Semrush Copilot
 date: '2026-04-06T06:08:51'
 modified: '2026-04-17T14:53:17'
 slug: semrush-copilot
-description: Semrush Copilot turns audit, ranking, and backlink reports into a prioritised SEO work queue. Verified included pricing and limits.
+description: Semrush Copilot turns audit, ranking, and backlink reports into a prioritised SEO work queue. Verified Aug 2026 included pricing and its limits.
 categories:
 - ai-writing-marketing
 wpId: 253

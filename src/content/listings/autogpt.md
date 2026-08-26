@@ -3,7 +3,7 @@ title: AutoGPT
 date: '2026-04-06T06:13:02'
 modified: '2026-08-26T12:00:00'
 slug: autogpt
-description: AutoGPT is the pioneering open-source autonomous agent project. Verified features, limits, and modern alternatives.
+description: AutoGPT is the pioneering open-source autonomous agent project. Verified Aug 2026 features, limits, and modern alternatives worth evaluating.
 categories:
 - ai-agents
 wpId: 270

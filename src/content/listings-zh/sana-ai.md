@@ -3,7 +3,7 @@ title: Sana AI
 date: '2026-04-06T06:12:45'
 modified: '2026-04-17T14:58:33'
 slug: sana-ai
-description: Sana AI 是企业学习与知识助手。已核实功能、免费层与 Pro 定价、限制与适用人群。
+description: Sana AI 是企业学习与知识助手。已核实 2026 年 8 月销售主导定价、功能、限制与适用人群。
 categories:
 - vertical-ai
 wpId: 268
@@ -21,7 +21,7 @@ featured: false
 <li><strong>与公司既有知识系统集成</strong>。</li>
 </ul>
 <h2>定价</h2>
-<p>Sana 提供免费层与 Pro 计划；企业版走销售询价。免费额度与人均 Pro 成本随时间不同。当前费率见<a href="https://sana.ai/pricing" target="_blank" rel="noopener noreferrer">Sana 定价页</a>。数字核对于 2026 年 8 月。</p>
+<p><p>Sana 采用销售主导、按用户定制的价格，通常为多年合同加实施费。无公开自助价，截至 2026 年 8 月也未确认免费层或固定 Pro 单价。当前报价请直接联系<a href="https://sana.ai/pricing" target="_blank" rel="noopener noreferrer">Sana AI</a>。数字核对于 2026 年 8 月——无公开定价。</p></p>
 <h2>限制与取舍</h2>
 <p>价值高度依赖你内部知识库的质量与组织方式；来源杂乱会产生糟糕回答。免费层有限，较大团队人均成本会上升。它不能替代扎实的文档与知识管理纪律。</p>
 <p>在 AI 之前先投资知识库：清晰的负责人、干净的权限、及时更新的内容，都会产生巨大差别。确认助手能访问什么、答案从哪来，并在把生成的入职材料展示给新员工前先复核。</p>

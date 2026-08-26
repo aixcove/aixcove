@@ -3,7 +3,7 @@ title: Bolt
 date: '2026-04-06T06:14:25'
 modified: '2026-08-26T12:00:00'
 slug: bolt
-description: Bolt 是浏览器里的 AI 应用构建器。已核实定价、功能、限制与替代方案。
+description: Bolt 是浏览器里的 AI 应用构建器，从提示词直接交付原型。已核实定价、功能、限制与替代方案。
 categories:
 - ai-coding
 wpId: 282

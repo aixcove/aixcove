@@ -3,7 +3,7 @@ title: Kiro
 date: '2026-04-05T13:03:51'
 modified: '2026-08-26T12:00:00'
 slug: kilo
-description: Kilo is AWS’s agentic coding IDE built on the Kiro engine. Verified pricing, features, limits, and how it fits an AWS stack.
+description: 'Kilo is AWS’s agentic coding IDE built on the Kiro engine for cloud-native work. Verified pricing, features, limits, and fit inside an AWS stack.'
 categories:
 - ai-coding
 wpId: 207

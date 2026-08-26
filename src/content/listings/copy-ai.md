@@ -3,7 +3,7 @@ title: Copy.ai
 date: '2026-04-06T06:08:18'
 modified: '2026-04-17T15:38:10'
 slug: copy-ai
-description: Copy.ai is a go-to-market AI workspace with chat and workflow automation. Verified August 2026 pricing, features, and limits.
+description: Copy.ai is a go-to-market AI workspace with chat and workflow automation for sales teams. Verified Aug 2026 pricing, features, and limits.
 categories:
 - ai-writing-marketing
 wpId: 251

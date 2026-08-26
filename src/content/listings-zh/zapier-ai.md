@@ -3,7 +3,7 @@ title: Zapier AI
 date: '2026-04-06T06:09:42'
 modified: '2026-08-26T12:00:00'
 slug: zapier-ai
-description: Zapier AI 在成千上万应用间加入智能体自动化。已核实功能、定价、限制与替代方案。
+description: Zapier AI 在成千上万应用间加入智能体自动化。已核实 2026 年 8 月定价、功能、限制与替代方案。
 categories:
 - ai-agents
 wpId: 256

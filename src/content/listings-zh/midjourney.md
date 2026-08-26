@@ -3,7 +3,7 @@ title: Midjourney
 date: '2026-04-06T06:10:32'
 modified: '2026-04-17T15:38:20'
 slug: midjourney
-description: Midjourney 是付费图像生成服务，无免费层，每月 10 美元起。已核实定价、功能、限制与适用人群。
+description: Midjourney 是付费图像生成服务，无免费层，每月 10 美元起。已核实 2026 年 8 月定价、功能与限制。
 categories:
 - ai-creative
 wpId: 259

@@ -3,7 +3,7 @@ title: Sana AI
 date: '2026-04-06T06:12:45'
 modified: '2026-04-17T14:58:33'
 slug: sana-ai
-description: Sana AI is an enterprise learning and knowledge assistant. Verified features, free tier and Pro pricing, limits, and fit.
+description: Sana AI is an enterprise learning and knowledge assistant. Verified Aug 2026 sales-led per-user pricing, features, limits, and who it suits.
 categories:
 - vertical-ai
 wpId: 268
@@ -22,7 +22,7 @@ featured: false
 </ul>
 <p>Invest in the knowledge base before the AI: clear owners, clean permissions, and up-to-date content make a large difference. Confirm what the assistant can access and where it gets answers, then review generated onboarding material before it is shown to a new hire.</p>
 <h2>Pricing</h2>
-<p>Sana offers a free tier and a Pro plan; enterprise pricing is quoted through sales. Free limits and per-seat Pro costs vary. Check <a href="https://sana.ai/pricing" target="_blank" rel="noopener noreferrer">Sana pricing</a> for current figures. Prices checked August 2026.</p>
+<p><p>Sana is sold on a per-user, custom basis through a sales-led process, typically as a multi-year contract with an implementation fee. There is no published self-serve price and, as of August 2026, no confirmed free tier or fixed Pro rate. For current figures, contact <a href="https://sana.ai/pricing" target="_blank" rel="noopener noreferrer">Sana AI</a> directly. Prices checked August 2026 — no public pricing.</p></p>
 <h2>Limitations and Trade-offs</h2>
 <p>Value depends heavily on the quality and organisation of your internal knowledge base; a poorly maintained source set produces poor answers. The free tier is limited, and per-seat cost scales for large teams. It is not a substitute for strong documentation and knowledge management discipline.</p>
 <h2>Who Should Use Sana AI?</h2>

@@ -3,7 +3,7 @@ title: GLM
 date: '2026-04-05T10:24:34'
 modified: '2026-04-17T15:38:30'
 slug: glm
-description: GLM is Zhipu AI’s model family for Chinese tasks and coding. Free tier, pricing, features, limits, and alternatives.
+description: 'GLM is Zhipu AI’s model family for Chinese-language work and coding. Verified Aug 2026 free tier, pricing, features, limits, and alternatives.'
 categories:
 - llm-chat
 wpId: 188

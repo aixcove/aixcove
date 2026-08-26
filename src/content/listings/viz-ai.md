@@ -3,7 +3,7 @@ title: Viz.ai
 date: '2026-04-06T06:12:12'
 modified: '2026-04-17T15:38:15'
 slug: viz-ai
-description: Viz.ai analyses time-critical medical imaging to speed up care-team response. Clinical sales pricing, features, and limits.
+description: Viz.ai analyses time-critical medical imaging to speed up care-team response. Verified clinical sales-led pricing, features, and real limits.
 categories:
 - vertical-ai
 wpId: 265
