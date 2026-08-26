@@ -56,7 +56,7 @@ wpId: 771
 <li>n8n将结果写入你的帮助台，对紧急项目发送Slack警报，并将原始请求存储到表格或数据库中</li>
 </ul>
 <p>这类工作流展示了n8n的真正优势。模型只做一项有边界的推理任务。n8n负责处理周围的操作流程。</p>
-<p>如果你想要一个更偏UI驱动的本地文档聊天设置，Aixcove已有关于<a href="/how-to-use-anythingllm-with-ollama-for-private-document-chat-in-2026/">AnythingLLM与Ollama</a>和<a href="/how-to-use-open-webui-with-ollama-in-2026/">Open WebUI与Ollama</a>的指南。当聊天体验比工作流编排更重要时，这些是更好的选择。</p>
+<p>如果你想要一个更偏UI驱动的本地文档聊天设置，Aixcove已有关于<a href="/anythingllm-ollama-tutorial-build-a-local-ai-chatbot-in-2026/">AnythingLLM与Ollama</a>和<a href="/how-to-use-open-webui-with-ollama-in-2026/">Open WebUI与Ollama</a>的指南。当聊天体验比工作流编排更重要时，这些是更好的选择。</p>
 <h2>步骤4：为结构而非风格编写提示词</h2>
 <p>人们常犯的错误是：把本地模型当作魔法。较小的Ollama托管模型可以表现得相当好，但前提是任务被严格限定。</p>
 <p>要求结构化输出。明确告诉模型需要返回哪些字段。保持任务范围狭窄。例如，让它返回<em>类别</em>、<em>优先级</em>和<em>摘要</em>，而不是“分析这条消息”。这一改变就能让下游自动化变得更加可靠。</p><p>关键在于，n8n 的强项在于每个后续步骤都有干净的数据可处理。如果模型回复内容冗长，整个工作流很快就会变得脆弱。</p>

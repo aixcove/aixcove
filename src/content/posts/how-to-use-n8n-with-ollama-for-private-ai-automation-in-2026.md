@@ -59,7 +59,7 @@ wpId: 771
 <li>n8n writes the result to your help desk, sends Slack alerts for urgent items, and stores the raw request in a sheet or database</li>
 </ul>
 <p>That kind of workflow shows the real strength of n8n. The model does one bounded piece of reasoning. n8n handles the operational plumbing around it.</p>
-<p>If you want a more UI-driven local setup for document chat, Aixcove already has guides for <a href="/how-to-use-anythingllm-with-ollama-for-private-document-chat-in-2026/">AnythingLLM with Ollama</a> and <a href="/how-to-use-open-webui-with-ollama-in-2026/">Open WebUI with Ollama</a>. Those are better picks when chat UX matters more than workflow orchestration.</p>
+<p>If you want a more UI-driven local setup for document chat, Aixcove already has guides for <a href="/anythingllm-ollama-tutorial-build-a-local-ai-chatbot-in-2026/">AnythingLLM with Ollama</a> and <a href="/how-to-use-open-webui-with-ollama-in-2026/">Open WebUI with Ollama</a>. Those are better picks when chat UX matters more than workflow orchestration.</p>
 <h2>Step 4: Write prompts for structure, not style</h2>
 <p>Here is the mistake people make: they treat local models like magic. Smaller Ollama-hosted models can work surprisingly well, but only if the task is tightly framed.</p>
 <p>Ask for structured output. Tell the model exactly what fields to return. Keep the job narrow. For example, ask it to return <em>category</em>, <em>priority</em>, and <em>summary</em> instead of “analyze this message.” That single change makes downstream automation much more reliable.</p>

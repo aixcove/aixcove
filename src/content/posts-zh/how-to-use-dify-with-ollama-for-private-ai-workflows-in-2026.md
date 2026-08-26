@@ -15,7 +15,7 @@ wpId: 762
 <h2>谁应该真正使用Dify与Ollama</h2>
 <p>这种设置适合一个狭窄的群体。</p>
 <p>首先，构建内部AI工具的团队，这些工具不应将每个提示和文档发送给第三方API。其次，喜欢Dify产品层的构建者，即工作流、数据集、应用发布、日志和团队结构，但想要本地模型控制。第三，任何测试私有RAG或助手工作流并决定Dify是否值得更广泛采用的人。</p>
-<p>如果你主要想要一个本地聊天界面，<a href="/how-to-use-open-webui-with-ollama-in-2026/">Open WebUI与Ollama</a>更简单。如果你的主要工作是私有文档聊天，<a href="/how-to-use-anythingllm-with-ollama-for-private-document-chat/">AnythingLLM与Ollama</a>通常是更快的起点。如果你想要一个更轻量的可视化构建器，<a href="/how-to-use-flowise-with-ollama-for-a-private-rag-chatbot-in-2026/">Flowise与Ollama</a>可能感觉不那么沉重。</p>
+<p>如果你主要想要一个本地聊天界面，<a href="/how-to-use-open-webui-with-ollama-in-2026/">Open WebUI与Ollama</a>更简单。如果你的主要工作是私有文档聊天，<a href="/anythingllm-ollama-tutorial-build-a-local-ai-chatbot-in-2026/">AnythingLLM与Ollama</a>通常是更快的起点。如果你想要一个更轻量的可视化构建器，<a href="/how-to-use-flowise-with-ollama-for-a-private-rag-chatbot-in-2026/">Flowise与Ollama</a>可能感觉不那么沉重。</p>
 <h2>安装任何东西之前的定价、适用性和限制</h2>
 <p>这是大多数教程匆匆略过的部分，这是一个错误。</p><p>在<a href="https://dify.ai/pricing">Dify Cloud 定价</a>页面上，官方目前列出免费 Sandbox 层级，Professional 为<strong>每个工作区每月 59 美元</strong>，Team 为<strong>每个工作区每月 159 美元</strong>。这一点很重要，因为搜索 Dify Ollama 教程的人，不只是想连接本地模型。他们还在判断自托管是否值得折腾。</p>
 <p>加入 Ollama 后，吸引力很明显。你可以在本地运行开源模型，避免为许多工作负载向 OpenAI 或 Anthropic 支付按 token 计费的费用。但“免费”在这里承担了很多含义。大型本地模型仍需要内存、磁盘空间，如果追求可接受的速度，通常还要一块不错的 GPU。Dify 也比 Open WebUI 这类工具更复杂。</p>
@@ -64,7 +64,7 @@ wpId: 762
 <li>在路由前对短请求分类</li>
 </ul>
 <p>Dify 的优势在于你刻意使用工作流层。如果第一版就塞进多个分支、多个工具、检索和超长提示词，排查问题会难上加难。</p>
-<p>想更全面了解 Dify 本身，<a href="/how-to-use-dify-to-build-your-first-ai-workflow/">我们的 Dify 工作流指南</a>覆盖了基础应用搭建流程。还在纠结平台的话，<a href="/dify-vs-flowise-which-ai-workflow-builder-fits-you-in-2026/">Dify vs Flowise</a> 和 <a href="/n8n-vs-dify-which-ai-automation-tool-fits-you-in-2026/">n8n vs Dify</a> 这两篇对比值得接着读。</p>
+<p>想更全面了解 Dify 本身，<a href="/how-to-use-dify-to-build-your-first-ai-workflow-in-2026/">我们的 Dify 工作流指南</a>覆盖了基础应用搭建流程。还在纠结平台的话，<a href="/dify-vs-flowise-which-ai-workflow-builder-fits-you-in-2026/">Dify vs Flowise</a> 和 <a href="/n8n-vs-dify-which-ai-automation-tool-fits-you-in-2026/">n8n vs Dify</a> 这两篇对比值得接着读。</p>
 <h3>6. 核心流程稳定后再加知识检索</h3>
 <p>Dify 在知识库和应用结合上比很多本地 AI 工具强，这是选它的一个理由。</p>
 <p>但坑也在这：一看到数据集和检索功能，就容易过早加上。先把纯模型工作流跑稳，再传文档，用一小批干净文件测试。如果答案跑偏，问题通常出在源材料质量差、分块策略弱，或者本地模型撑不起检索任务。</p>
