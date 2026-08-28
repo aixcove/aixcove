@@ -15,6 +15,8 @@ export default defineConfig({
       defaultLocale: 'en',
       locales: { en: 'en', zh: 'zh-CN' },
     },
+    // noindex search pages must not be submitted in the sitemap (fleet audit 2026-08-28)
+    filter: (page) => !/\/search\/?$/.test(new URL(page).pathname),
     changefreq: 'weekly',
     priority: 0.7,
     lastmod: new Date(),
