@@ -3,6 +3,11 @@
 // 2) old WP-style URLs (pre-Astro-migration) -> new routes, single-hop 301.
 //    Sources: GSC/Bing 28d page data (dead URLs with historical impressions).
 const LEGACY_REDIRECTS = {
+  // GSC Page Indexing 404 sample, verified 2026-08-28 (exact legacy route)
+  '/contact': '/contact-us/',
+  '/contact/': '/contact-us/',
+  '/zh/contact': '/zh/contact-us/',
+  '/zh/contact/': '/zh/contact-us/',
   '/category/ai-tools-reviews/page/3/': '/category/ai-tools-reviews/',
   '/best-dify-alternatives-in-2026-3/': '/best-dify-alternatives-in-2026/',
   '/best-n8n-alternatives-in-2026-6-picks-by-workflow-fit/': '/best-n8n-alternatives-for-ai-workflow-automation-in-2026/',
