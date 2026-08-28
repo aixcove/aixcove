@@ -15,8 +15,16 @@ export default defineConfig({
       defaultLocale: 'en',
       locales: { en: 'en', zh: 'zh-CN' },
     },
-    // noindex search pages must not be submitted in the sitemap (fleet audit 2026-08-28)
-    filter: (page) => !/\/search\/?$/.test(new URL(page).pathname),
+    // Keep noindex/search and low-value page-2+ archives out of the sitemap.
+    // Pagination remains crawlable through normal internal links, but the sitemap
+    // is reserved for canonical content pages and first-page archives.
+    filter: (page) => {
+      const pathname = new URL(page).pathname;
+      const isSearch = /\/search\/?$/.test(pathname);
+      const isMainPagination = /^\/(?:zh\/)?(?:blog|listings)\/[2-9]\d*\/$/.test(pathname);
+      const isCategoryPagination = /^\/(?:zh\/)?(?:category|listing-category)\/[^/]+\/page\/[2-9]\d*\/$/.test(pathname);
+      return !isSearch && !isMainPagination && !isCategoryPagination;
+    },
     changefreq: 'weekly',
     priority: 0.7,
     lastmod: new Date(),
