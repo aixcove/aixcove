@@ -1,9 +1,9 @@
 ---
 title: GLM
 date: '2026-04-05T10:24:34'
-modified: '2026-04-17T15:38:30'
+modified: '2026-08-29T11:00:00'
 slug: glm
-description: 'GLM is Zhipu AI’s model family for Chinese-language work and coding. Verified Aug 2026 free tier, pricing, features, limits, and alternatives.'
+description: GLM is Z.ai's open-weight model family with GLM-5.3 for coding and agents. Verified Aug 2026 API pricing, Coding Plan credits, limits, and fit.
 categories:
 - llm-chat
 wpId: 188
@@ -13,22 +13,45 @@ author: AIX Cove
 source: Official docs & pricing pages; hands-on testing where noted. Verified Aug 2026.
 reviewed: AIX Cove
 ---
-<h2>What Is GLM?</h2>
-<p>GLM is the model family from Zhipu AI (Z.ai), built for Chinese-language tasks and available both as hosted chat and as open weights. GLM Coding is its coding-optimised release, aimed at developers who want strong code generation and agentic workflows. It is a practical choice for Chinese-language products and for coding work where a local or hosted open model fits.</p>
-<p>As with any model, “open” describes the weights — the quality and cost depend on the specific release and how you run it.</p>
-<h2>Key Features</h2>
+<h2>What is GLM?</h2>
+<p>GLM is the model family from Z.ai (Zhipu AI), a Beijing-based company that releases its flagship models as open weights while also selling hosted access. The current flagship, GLM-5.3, arrived in late August 2026 and made two moves at once: the weights went up on Hugging Face under a mostly-MIT-style license, and the model positioned itself for agentic coding work, with Claude Code, Cline, and OpenCode named as supported clients.</p>
+<p>The practical picture is three doors into the same family. Chat on chat.z.ai needs no setup. The Open Platform API bills per token. And the GLM Coding Plan, starting at $18 per month, wraps the flagship models into a credits-based subscription for coding agents. Which door you pick changes the cost model more than the capability.</p>
+<p>"Open weights" still means you own the serving problem. GLM-5.3 is a large mixture-of-experts release, roughly 753B total parameters with FP8 quantization as shipped. Running it yourself means multi-GPU infrastructure or a provider like vLLM and SGLang, both of which Z.ai supports. Most individual developers will get better economics from the API or the Coding Plan.</p>
+<h2>What GLM-5.3 actually does</h2>
+<p>According to Z.ai's documentation, GLM-5.3 shares its base model with GLM-5.2 and gains from post-training, with the company claiming a 50% improvement on its internal Z.ai Code Bench. On public benchmarks the model card lists Terminal-Bench 3.0 rising from 4.6 to 28.3 and DeepSWE v1.1 from 46.2 to 66.9 compared with GLM-5.2. These are vendor numbers; treat them as orientation rather than proof. Independent tracker Artificial Analysis scores GLM-5.3 at 60 on its Intelligence Index and places it near the top tier of tracked models, while noting very verbose output (170M tokens generated during evaluation) and mid-tier speed around 66.5 output tokens per second.</p>
+<p>One capability deserves a specific mention. Z.ai reports that GLM-5.3 improved unusually fast at vulnerability discovery, more than doubling GLM-5.2 on the ExploitBench benchmark, and the company says it has used the model with security teams in China to find 2,436 vulnerabilities across 269 projects, publishing results in a public Security Disclosure Ledger. The same model card openly admits the exploitation-chain scores still trail closed frontier models. If you do security work, this is simultaneously the most interesting and most double-edged feature.</p>
+<p>Technical boundaries worth knowing before you build: GLM-5.3 accepts text input only (vision tasks route to GLM-5.3-Flash or the 4.6V line), has a 1M-token context window with 128K maximum output, and always runs with reasoning enabled at one of three effort levels (low, high, max). Requests that used <code>thinking.type: "disabled"</code> on older GLM models will fail until migrated.</p>
+<h2>The three access routes, priced</h2>
+<p>API pricing on the Open Platform is per million tokens in USD. GLM-5.3 costs $1.4 input, $0.26 cached input, and $4.4 output. GLM-5.3-Flash, the faster multimodal-coding sibling, was listed at a 50% promotional discount when checked ($0.075 input / $0.25 output, promotion ending September 9, 2026), and older models go down from there. Two small models, GLM-4.7-Flash and GLM-4.5-Flash, are free on the API, which makes them a reasonable smoke-test tier before you spend anything.</p>
+<p>The GLM Coding Plan is where most coding-agent users land. It starts at $18 per month (Lite) with Pro and Max tiers above it. Since a July 30, 2026 update it works on credits with two limits: a 5-hour rolling allowance and a weekly allowance (Lite 2,000/10,000, Pro 12,000/60,000, Max 28,000/140,000). Output tokens on GLM-5.3 cost 24 credits per 10,000 tokens, and usage during off-peak hours, including all weekends, is charged at half rate. Z.ai estimates a Lite plan covers roughly 48-97M tokens per week depending on cache hits and timing; heavy users should read the credit table rather than the marketing page. Two catches: the plan is strictly limited to officially supported coding tools (using the subscription as a general API proxy is against the usage policy), and requests naming older models like GLM-5.2 are automatically routed to GLM-5.3.</p>
+<p>Self-hosting is free in license terms for almost everyone. The GLM-5.3 license only requires Z.ai's security review if you run a Model-as-a-Service business with your affiliate group exceeding $10B revenue over 12 months. For individuals, startups, and most enterprises, commercial use is unrestricted.</p>
+<h2>A typical workflow with a coding agent</h2>
+<p>The common path looks like this. Subscribe to a Coding Plan tier, generate an API key, then point your tool at one of three endpoints: <code>https://api.z.ai/api/anthropic</code> for Claude Code and other Anthropic-protocol clients, <code>https://api.z.ai/api/v1</code> for Codex-style OpenAI Responses tooling, or <code>https://api.z.ai/api/coding/paas/v4</code> for OpenAI Chat Completions clients like Cline. In Claude Code you edit <code>~/.claude/settings.json</code> to set the base URL, model, and API key, then verify with a one-line test call that the model actually responds.</p>
+<p>Z.ai's own best-practices guide is worth reading because it matches how the model behaves: give the agent task context (files, constraints, verification commands), ask for a plan before implementation on complex work, store long-lived project rules in a project-level config file instead of repeating them in every prompt, and remember that the execution environment, including permissions and available tools, defines what the agent can actually do. This is the same operating pattern Claude Code users already know.</p>
+<h2>Practical tips</h2>
 <ul>
-<li><strong>Strong Chinese-language and multilingual performance</strong>.</li>
-<li><strong>GLM Coding series</strong> tuned for code generation and agent flows.</li>
-<li><strong>Open weights</strong> so you can self-host or run via API.</li>
-<li><strong>Hosted chat</strong> for a zero-setup option.</li>
+<li><strong>Match reasoning effort to the task.</strong> GLM-5.3 defaults to <code>max</code> effort, which is thorough but token-hungry. On the API, set <code>reasoning_effort: "low"</code> for simple edits and saves real money at scale; reserve <code>max</code> for multi-file refactors and debugging sessions.</li>
+<li><strong>Exploit the off-peak half-price window.</strong> Peak hours are weekdays 14:00-18:00 Singapore time. If your team is in Europe or the Americas, most of your working day already falls in the discounted window, which effectively doubles a Coding Plan's weekly credits.</li>
+<li><strong>Use the free Flash models as a canary.</strong> Wire your integration against GLM-4.7-Flash (free) first, confirm tool calls and structured output work, then switch the model ID. It separates integration bugs from model issues for zero cost.</li>
+<li><strong>Watch the verbosity.</strong> Independent testing found GLM-5.3 generates far more output tokens than median. In agents, cap <code>max_tokens</code>, and in the Coding Plan expect credits to drain faster than token counts alone suggest, since output is weighted 24x against 6.9x for input.</li>
+<li><strong>Migrate old prompts deliberately.</strong> If you have GLM-4.x-era code that disables thinking, change it to <code>enabled</code> with low effort before switching the model ID, or requests will error out mid-migration.</li>
 </ul>
-<p>For coding work, feed the model your repo structure, expected output, and test commands before asking for code, then review the diff rather than accepting it wholesale. Check the current plan and per-token pricing once a quarter, since model availability and prices shift.</p>
-<h2>Pricing</h2>
-<p>GLM offers a free personal tier and paid plans. GLM Coding has its own subscription; API access is billed per token. Check <a href="https://bigmodel.cn/coding" target="_blank" rel="noopener noreferrer">Zhipu AI coding pricing</a> for current GLM Coding plan figures and <a href="https://open.bigmodel.cn" target="_blank" rel="noopener noreferrer">bigmodel.cn</a> for API rates. Prices checked August 2026.</p>
-<h2>Limitations and Trade-offs</h2>
-<p>Model availability and pricing change quickly, and the strongest releases may be hosted-only rather than fully open. As with other open-weight options, self-hosting requires compute. Verify current plans before committing a team to a specific tier.</p>
-<h2>Who Should Use GLM?</h2>
-<p>It is a strong fit for Chinese-language products and for developers who want a coding model that runs locally or through a Chinese-friendly provider. Teams building bilingual tools will value its native Chinese strength.</p>
-<h2>GLM vs Alternatives</h2>
-<p>Compare <a href="/listing/qwen/">Qwen</a> for another Chinese-strong open family, and <a href="/listing/deepseek/">DeepSeek</a> for reasoning-focused options. For a hosted English-first model, <a href="/listing/gemini/">Gemini</a> and <a href="/listing/claude/">Claude</a> are the usual alternatives.</p>
+<h2>Limitations and risks</h2>
+<p>The coding-agent subscription is not a general API plan. Z.ai's usage policy restricts the Coding Plan to supported tools, so teams wanting a raw model endpoint for their own applications should budget for pay-as-you-go API pricing instead. The Anthropic-protocol endpoint has a documented quirk: subscribers with current or expired Coding Plans can currently access the model API only through the OpenAI Chat Completion-compatible protocol.</p>
+<p>Self-hosting the flagship is out of reach for most teams; a 753B-parameter MoE model needs serious GPU inventory even in FP8. The smaller open releases (GLM-4.5-Air and similar) are more realistic for local deployment. Data-handling expectations also differ by route: the Team Plan documentation states code and conversations are excluded from training by default, but verify current terms for your route before sending proprietary code to any hosted endpoint.</p>
+<p>Finally, benchmark claims in this space age in weeks. GLM-5.3's competitive position is real but recent, prices shift with promotions, and Z.ai has already re-based its subscription once in 2026. Re-check the pricing page before committing a budget quarter.</p>
+<h2>What public discussion says</h2>
+<p>Reception to GLM-5.3 was unusually strong for an open-weight release. The launch announcement drew over 1,100 points on Hacker News with hundreds of comments, and the open-weights upload itself was a separate front-page story. Independent comparisons circulated arguing the model matched or beat closed models at a fifth of the price, and one widely shared write-up described using GLM-5.3 to finish a days-long tablet jailbreak project in a day. Community caution tends to focus on the same points a careful evaluator would raise: vendor benchmark selection, verbosity driving real costs above expectations, and the usual open-source serving burden. HN discussion also surfaced skepticism about how long the price advantage lasts as demand grows. These are experience reports and opinion, not measurements, but the direction is consistent: strong capability, genuinely cheap today, verify the fine print.</p>
+<h2>Who should use GLM?</h2>
+<p>Developers who want frontier-tier coding-agent capability at a fraction of closed-model subscription prices are the obvious fit, especially Claude Code users looking to cut costs, since the tool works over Z.ai's Anthropic-compatible endpoint with a config change. Chinese-language and bilingual products get a model family with native strength in both languages. Budget-constrained teams can prototype free on the Flash models, then scale to credits. It fits less well when you need a single vendor for vision-plus-text work at the flagship tier, guaranteed identical behavior between self-hosted and hosted versions, or an API subscription that doubles as a general-purpose endpoint. For those cases, compare <a href="/listing/claude/">Claude</a>, <a href="/listing/codex/">OpenAI Codex</a>, or the fully managed <a href="/listing/github-copilot/">GitHub Copilot</a>.</p>
+<h2>GLM vs alternatives</h2>
+<p>The closest open-weight comparisons are <a href="/listing/deepseek/">DeepSeek</a> and <a href="/listing/qwen/">Qwen</a>, both of which also release weights and sell hosted access; DeepSeek leans toward reasoning, Qwen covers a wider model-size range. Against hosted agents, GLM's edge is price and openness, while <a href="/listing/kimi/">Kimi</a> and <a href="/listing/gemini/">Gemini</a> compete on long-context quality and ecosystem depth. For a wider field view, see our <a href="/best-free-ai-coding-tools-in-2026/">free AI coding tools guide</a> and the <a href="/best-openai-codex-alternatives-in-2026-8-practical-picks/">Codex alternatives comparison</a>.</p>
+<h2>Useful links</h2>
+<ul>
+<li><a href="https://docs.z.ai/guides/llm/glm-5.3" target="_blank" rel="noopener noreferrer">GLM-5.3 model documentation</a></li>
+<li><a href="https://docs.z.ai/guides/overview/pricing" target="_blank" rel="noopener noreferrer">Z.ai API pricing</a></li>
+<li><a href="https://docs.z.ai/devpack/overview" target="_blank" rel="noopener noreferrer">GLM Coding Plan overview (credits and limits)</a></li>
+<li><a href="https://huggingface.co/zai-org/GLM-5.3" target="_blank" rel="noopener noreferrer">GLM-5.3 open weights on Hugging Face</a></li>
+<li><a href="https://artificialanalysis.ai/models/glm-5-3" target="_blank" rel="noopener noreferrer">Artificial Analysis independent scoring</a></li>
+<li><a href="https://z.ai/blog/glm-5.3" target="_blank" rel="noopener noreferrer">Z.ai GLM-5.3 announcement</a></li>
+</ul>
