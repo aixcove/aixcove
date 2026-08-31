@@ -19,7 +19,7 @@ wpId: 817
 <h2>What You Need Before Installing OpenClaw</h2>
 <p>Start small. A basic Telegram agent does not require a complex server setup, but it does need a stable environment.</p>
 <ul>
-<li>A Linux VPS, macOS machine, or Windows setup through WSL2</li>
+<li>A Linux VPS, macOS machine, or Windows setup through WSL2. If you are choosing a VPS for this, the <a href="https://vpsdex.com/en/activities/" target="_blank" rel="noopener">review archive on VPSDex</a> covers route quality and benchmarks for most budget providers.</li>
 <li>Node 24 recommended, or Node 22.16 and above</li>
 <li>An OpenAI, Anthropic, Google, or compatible model account</li>
 <li>A Telegram bot token from BotFather</li>

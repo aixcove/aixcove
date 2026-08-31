@@ -18,7 +18,7 @@ wpId: 817
 <h2>安装 OpenClaw 前你需要什么</h2>
 <p>从小处开始。一个基本的 Telegram 代理不需要复杂的服务器设置，但它需要一个稳定的环境。</p>
 <ul>
-<li>一台 Linux VPS、macOS 机器，或通过 WSL2 的 Windows 设置</li>
+<li>一台 Linux VPS、macOS 机器，或通过 WSL2 的 Windows 设置。如果还在挑选 VPS，可以参考 <a href="https://vpsdex.com/zh/activities/" target="_blank" rel="noopener">VPSDex 的评测文章</a>，里面有各家的线路与实测数据。</li>
 <li>推荐 Node 24，或 Node 22.16 及以上版本</li>
 <li>一个 OpenAI、Anthropic、Google 或兼容的模型账户</li>
 <li>一个来自 BotFather 的 Telegram 机器人令牌</li>
