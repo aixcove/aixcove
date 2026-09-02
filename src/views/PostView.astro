@@ -57,14 +57,6 @@ const { Content } = await render(post);
     })} />
     <script type="application/ld+json" set:html={JSON.stringify({
       '@context': 'https://schema.org',
-      '@type': 'Dataset',
-      name: title,
-      description: description,
-      inLanguage: lang === 'zh' ? 'zh-CN' : 'en',
-      mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).toString(),
-    })} />
-    <script type="application/ld+json" set:html={JSON.stringify({
-      '@context': 'https://schema.org',
       '@type': 'BreadcrumbList',
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: lang === 'zh' ? '首页' : 'Home', item: new URL(lang === 'zh' ? '/zh/' : '/', Astro.site).toString() },
