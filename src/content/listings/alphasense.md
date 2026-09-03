@@ -1,34 +1,54 @@
 ---
 title: AlphaSense
 date: '2026-04-06T06:12:28'
-modified: '2026-04-17T15:38:14'
+modified: '2026-09-03T10:30:00'
 slug: alphasense
-description: AlphaSense is an AI financial research platform for institutions. Enterprise sales-led pricing, verified features, limits, and who it serves.
+description: AlphaSense is an institutional market-intelligence search platform at alpha-sense.com. Verified Tegus content, plans, sales-led pricing, security, limits.
 categories:
 - vertical-ai
 wpId: 266
 image: /uploads/2026/04/alpha_sense.jpg
 featured: false
 author: AIX Cove
-source: Official docs & pricing pages; hands-on testing where noted. Verified Aug 2026.
+source: Official docs & pricing pages; hands-on testing where noted. Verified Sep 2026.
 reviewed: AIX Cove
 ---
 <h2>What Is AlphaSense?</h2>
-<p>AlphaSense is an AI-powered financial and market research platform used by investment professionals, corporate strategists, and analysts. It searches across millions of documents — filings, transcripts, expert calls, news, and research — and surfaces the passages that matter for a decision. The differentiator is coverage and search depth, not a chat interface alone.</p>
-<p>It is a business intelligence tool, not a public consumer product, and access is typically sold by seat and data package to institutions.</p>
-<h2>Key Features</h2>
+<p>AlphaSense is a market-intelligence search platform sold to institutions. Jack Kokko, a former Morgan Stanley investment banker, and engineer Raj Neervannan founded it in 2011 after Kokko's own experience with manual research work. The original product put regulatory filings, earnings-call transcripts, and broker research into one searchable library and used search plus AI to surface the relevant passages. The company now describes its content set as more than 500 million documents, drawing on SEC and global filings, earnings-call transcripts, equity research from 1,000+ sell-side and independent firms, trade press, life-sciences content, and the Tegus library of expert-call transcripts. Tegus was a separate expert-network company that later joined AlphaSense; the company's about page also lists BamSEC, Canalyst, and Sentieo among its acquisitions, which together assembled the filings, financial-model, and expert-network pieces of the product.</p>
+<p>One trap deserves a warning before anything else. The domain alphasense.com belongs to a gas-sensor manufacturer in Essex, England, and has nothing to do with financial research. The platform's actual website is alpha-sense.com, with a hyphen. Check the domain before you send anything, or your pricing inquiry will land at a sensor factory.</p>
+<p>The company's own pricing-page FAQ states more than 7,000 enterprise customers, including 90% of the S&P 100, 90% of top investment banks, and 95% of leading consultancies. These are vendor figures without third-party audit, though they fit its sales-led model. Individual users are essentially outside its target market.</p>
+<h2>Core Capabilities</h2>
+<p>The product's blocks are easiest to follow in the order a research project uses them.</p>
+<p><strong>Generative Search with sentence-level citations.</strong> Search runs across the document library and any internal content you connect, and returns summarized answers. The company emphasizes that outputs carry sentence-level citations you can click back to the source. This genuinely makes results easier to verify than conclusion-only tools, but a citation proves the source exists, not that the paraphrase is faithful. For anything important, click through and read the passage in context.</p>
+<p><strong>Deep Research and work products.</strong> Deep Research runs multi-pass retrieval around a research question and produces a cited briefing. Companion PowerPoint and Excel add-ins turn search results into firm-formatted decks and financial-model tables; the company claims every output stays traceable to its source.</p>
+<p><strong>Monitoring and Workflow Agents.</strong> Monitoring lets you set alerts on companies, industries, and themes, pushing updates when filings and transcripts land. The newer Workflow Agents turn repeated search-and-summarize work into scheduled jobs, shifting research from manual pull to automated push. The site also lists an always-on agent called SuperAnalyst, which was marked "coming soon" when we verified in September 2026, so confirm actual availability with sales before planning around it.</p>
+<p><strong>Enterprise Intelligence.</strong> This is the pricier deployment. It connects your shared drives so internal memos, meeting notes, and decks become searchable alongside the external library. Security options include bring-your-own-key and bring-your-own-bucket models, the latter keeping documents inside your own AWS environment, plus permission mirroring that carries existing access controls over.</p>
+<p><strong>Expert calls.</strong> Through the Tegus network you can book one-on-one expert calls with transcription, translation, and a compliance portal included. The company claims savings of up to 70% versus traditional expert networks; that is a vendor claim, and real cost depends on your call volume.</p>
+<h2>Pricing and Access</h2>
+<p>AlphaSense publishes no prices. Everything is an annual subscription quoted through sales, and the pricing FAQ says a team member will be in touch to discuss terms. Two main packages exist. Market Intelligence covers the external content library, AI search, 24/7 support, and training. Enterprise Intelligence adds internal-content search, private-cloud hosting, API uploads, IT support, and custom training. Expert calls and Canalyst financial models bill as separate add-ons. The site carries "get started for free" buttons labeled as a free trial, but expect a sales conversation rather than a self-serve checkout.</p>
+<p>This structure defines the customer profile. A small team buying per seat should do honest usage math, because a group that runs a handful of searches per quarter will never spread the cost out.</p>
+<h2>A Typical Workflow</h2>
+<p>Consider due diligence on a private target. The analyst starts by searching the company name and its competitors, scanning years of filings, transcripts, and research summaries, using sentence-level citations to jump to management's exact words on growth and margins. Industry keywords go into monitoring, so new documents push themselves during the diligence window. When primary-source color is needed, the analyst books two or three expert calls through Tegus, and the transcripts land back in the platform as searchable material the same day. At the end, the Excel add-in pulls the comps table straight into the model where assumptions can be edited. The platform's job is assembling material with source locations attached; the judgement stays with the human.</p>
+<h2>Practical Tips</h2>
 <ul>
-<li><strong>Deep search across filings, transcripts, expert calls, and news</strong>.</li>
-<li><strong>Market and company monitoring</strong> with alerting on relevant terms.</li>
-<li><strong>Data extraction and comparison</strong> from qualitative sources.</li>
-<li><strong>Team collaboration</strong> around a centralised research library.</li>
+<li><strong>Set monitors before the project starts, not after.</strong> Search is pull, monitoring is push. Configure alerts for company names, product names, and executives the day a diligence or competitive-tracking project opens, and a week later you have an organized update stream instead of repeated manual searches.</li>
+<li><strong>Build the click-through habit.</strong> Sentence-level citations are the feature most worth using. When a summary says management guidance is optimistic, open the transcript at the cited sentence, check the surrounding qualifiers, and only then put it in your memo.</li>
+<li><strong>Clean up share-drive permissions before connecting internal content.</strong> Enterprise Intelligence indexes your shared drives. If legacy permissions are messy, search results can surface group-internal memos to the whole company. Test permission mirroring on a pilot folder before rolling it out.</li>
+<li><strong>Route expert calls through compliance first.</strong> Confirm your firm's information-barrier policy before booking, and use the built-in compliance portal for an audit trail, so calls never drift into material non-public information.</li>
+<li><strong>Put roadmap items in the contract.</strong> For capabilities still labeled "coming soon" like SuperAnalyst, have sales write delivery dates into the agreement. Do not build a project timeline around a marketing page.</li>
 </ul>
-<p>Frame every search around the decision you are making and the document type you expect, then review the surfaced passage in context rather than the snippet alone. Set monitors on the terms that actually change your view, and keep the analyst reading the source in the loop.</p>
-<h2>Pricing</h2>
-<p>AlphaSense is enterprise software sold through sales; there is no public self-serve price. Seats, document coverage, and add-on data packages determine cost. For current figures, contact <a href="https://www.alphasense.com/" target="_blank" rel="noopener noreferrer">AlphaSense</a> directly. Prices checked August 2026 — no public pricing.</p>
-<h2>Limitations and Trade-offs</h2>
-<p>Cost and access are the main barriers: it is built for institutions, not individuals. Search quality depends on the document set and your queries. It surfaces evidence but does not replace the judgement of an analyst reading the underlying material.</p>
-<h2>Who Should Use AlphaSense?</h2>
-<p>It is for buy-side and sell-side research, corporate strategy, and market intelligence teams that need fast access to a broad, source-backed document set. Smaller teams may find the per-seat cost hard to justify.</p>
-<h2>AlphaSense vs Alternatives</h2>
-<p>For a cheaper consumer answer engine see <a href="/listing/perplexity/">Perplexity</a>. AlphaSense is differentiated by institutional coverage and expert-call transcripts rather than general web search.</p>
+<h2>Limitations and Risks</h2>
+<p>Price and access are the blunt limits. No public pricing, a required sales call, and annual subscriptions keep most individual researchers out entirely. Public discussions show the friction plainly. In a March 2024 Hacker News thread, a solo founder complained that platforms like AlphaSense and Bloomberg demand a phone call before quoting any price, putting them out of reach for one-person teams. A commenter who had raised funding twice replied that early-stage work is better served by public data and first-hand conversations, and that these tools matter more for management consultants and strategy teams later on.</p>
+<p>On output quality, no citation mechanism replaces human review. An AI summary can flatten a conditional statement into a confident fact, and cross-document comparisons can mix numbers with different bases. The platform makes provenance unusually visible, which is a real strength and also the way it hands verification responsibility back to the user.</p>
+<p>Data governance deserves advance thought. Indexing internal documents raises questions about search boundaries, departed-employee access, and audit logs. The baseline posture is solid, with SOC 2 Type II and ISO/IEC 27001 certification, encryption at rest and in transit, and a dedicated encrypted storage environment per customer, all stated on the pricing-page FAQ. The BYOB model addresses part of the remaining worry at the price of more deployment and operational complexity.</p>
+<h2>Who Should Use It, and Who Should Not</h2>
+<p>It fits investment banks, private equity, hedge funds, asset managers, venture capital, consulting firms, corporate strategy and competitive-intelligence teams, plus law firms and insurers doing industry research. The test is simple, whether a team continuously processes company and industry material from many sources and has budget to pay for retrieval efficiency.</p>
+<p>It does not fit individual investors, students, or solo founders. Beyond budget, the platform solves a scale problem in material processing that a one-off research project never hits; public search plus free data sources serve that case better. For a cheap general answer engine, see our <a href="/listing/perplexity/">Perplexity</a> guide. To build your own retrieval workflow on private data, <a href="/listing/dify/">Dify</a> and <a href="/listing/anythingllm/">AnythingLLM</a> are a different route. For the same vertical-AI logic in other fields, see <a href="/listing/harvey-ai/">Harvey AI</a> and <a href="/listing/viz-ai/">Viz.ai</a>.</p>
+<h2>Useful Links</h2>
+<ul>
+<li><a href="https://www.alpha-sense.com/platform/" target="_blank" rel="noopener noreferrer">AlphaSense platform overview</a> (features and product lines)</li>
+<li><a href="https://www.alpha-sense.com/pricing/" target="_blank" rel="noopener noreferrer">AlphaSense pricing page</a> (package structure, FAQ, and security notes)</li>
+<li><a href="https://help.alpha-sense.com/hc/en-us/articles/41098563605395-Getting-Started-in-AlphaSense" target="_blank" rel="noopener noreferrer">Official getting-started guide and live training</a></li>
+<li><a href="https://news.ycombinator.com/item?id=39675304" target="_blank" rel="noopener noreferrer">Hacker News thread on market-research tool access costs</a> (March 2024)</li>
+<li>On this site: <a href="/listing/perplexity/">Perplexity</a>, <a href="/listing/harvey-ai/">Harvey AI</a>, <a href="/listing/dify/">Dify</a>, and <a href="/listing/anythingllm/">AnythingLLM</a></li>
+</ul>
