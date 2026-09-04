@@ -1,34 +1,46 @@
 ---
 title: Harvey AI
 date: '2026-04-06T06:11:55'
-modified: '2026-04-17T14:58:27'
+modified: '2026-09-04T00:00:00'
 slug: harvey-ai
-description: Harvey AI is a legal AI assistant for law firms and in-house teams. Verified Aug 2026 sales-led pricing, features, limits, and who it fits best.
+description: Harvey is enterprise legal AI for research, contract work, document analysis, and legal-team workflows. Learn its current products, controls, limits, and rollout tips.
 categories:
 - vertical-ai
 wpId: 264
 image: /uploads/2026/04/harvey_ai.jpg
 featured: false
 author: AIX Cove
-source: Official docs & pricing pages; hands-on testing where noted. Verified Aug 2026.
+source: Official Harvey product and security pages, plus public Hacker News discussion. Reviewed September 2026.
 reviewed: AIX Cove
 ---
-<h2>What Is Harvey AI?</h2>
-<p>Harvey AI is an AI assistant built for legal work. It helps law firms and in-house teams draft, summarise, research, and review legal documents, drawing on a firm’s own materials and a legal-tuned model. It is designed to assist lawyers with tasks like contract analysis and due-diligence review rather than to replace legal judgement.</p>
-<p>It is a specialist enterprise tool, sold through sales and configured around a firm’s data and permissions.</p>
-<h2>Key Features</h2>
+<h2>What Harvey is for</h2>
+<p>Harvey is an enterprise platform for legal and professional-services teams. Its current product navigation groups the work into Agents, Vault, Knowledge, Spaces, Command Center, Contract Intelligence, and model-related tools. In practical terms, that covers questions over legal and regulatory material, document collection and bulk analysis, contract review, and repeatable team workflows. It is sold as a configured organizational product, so it belongs in a legal department or firm rollout conversation rather than a casual individual-tool comparison.</p>
+<p>The product can make the first pass through a large matter faster. It cannot establish the governing law, verify an authority, preserve privilege by itself, or take responsibility for advice. A lawyer still needs to decide what sources control, inspect every material proposition, and own the final document.</p>
+
+<h2>A useful first workflow</h2>
+<p>Start with one bounded matter, such as triaging a set of vendor agreements against an approved playbook. Put the playbook, clause definitions, escalation rules, and a small representative document set in the agreed workspace. Ask for a table that names the document, clause location, deviation, confidence, and recommended human owner. Review the table against the originals before asking for proposed language. Only after that review should the team use a repeatable agent or workflow for the same task.</p>
+<p>Harvey describes <a href="https://www.harvey.ai/" target="_blank" rel="noopener noreferrer">Vault</a> as a place to store, organize, and bulk-analyze legal documents, and <a href="https://www.harvey.ai/" target="_blank" rel="noopener noreferrer">Knowledge</a> as research across legal, regulatory, and tax domains. Those labels describe product intent, not a promise that every answer is complete or current. Keep a citation and source-check step outside the generated answer.</p>
+
+<h2>How to use it carefully</h2>
 <ul>
-<li><strong>Contract analysis and review</strong> against a set of criteria.</li>
-<li><strong>Legal research and summarisation</strong> of source material.</li>
-<li><strong>Drafting assistance</strong> for standard documents and letters.</li>
-<li><strong>Firm-data grounding</strong> — works within your own precedents and permissions.</li>
+<li><strong>Give it a closed question.</strong> Name the jurisdiction, effective date, document population, playbook version, and output fields. A broad request for a “risk review” makes omissions hard to spot.</li>
+<li><strong>Require locations before prose.</strong> Ask for section, page, or clause references and have a reviewer open each source. This turns a fluent summary into a review queue.</li>
+<li><strong>Separate finding from drafting.</strong> Confirm a flagged issue and the approved fallback language before generating an amendment, email, or client-facing memo.</li>
+<li><strong>Trial one practice group first.</strong> Measure false positives, missed issues, reviewer time, and escalation quality on a reversible document set. Use those results to revise the playbook and access model.</li>
+<li><strong>Keep matter permissions narrow.</strong> Confirm who can upload, search, share, export, and administer each workspace before adding live client material.</li>
 </ul>
-<p>Establish firm precedents, terms, and permissions up front so outputs stay grounded and confidential. Treat every output as a first draft for a lawyer to review — flag unclear passages and never submit AI text without a qualified reviewer confirming accuracy and privilege.</p>
-<h2>Pricing</h2>
-<p>Harvey AI is sold through enterprise sales with custom, per-seat pricing; there is no public self-serve rate. Pricing depends on firm size, usage, and data configuration. For current figures, contact <a href="https://www.harvey.ai/" target="_blank" rel="noopener noreferrer">Harvey</a> directly. Prices checked August 2026 — no public pricing.</p>
-<h2>Limitations and Trade-offs</h2>
-<p>It is expensive and aimed at legal professionals, not general use. AI output in legal work carries real risk: confidentiality, privilege, and accuracy must be reviewed by a qualified lawyer. Adoption requires clear data-governance and permissions setup.</p>
-<h2>Who Should Use Harvey AI?</h2>
-<p>It is for law firms and in-house legal teams handling high volumes of contract and document work. Individual practitioners and non-legal teams are better served by general assistants.</p>
-<h2>Harvey AI vs Alternatives</h2>
-<p>For general document assistance, <a href="/listing/claude/">Claude</a> is a cheaper, more accessible option — but it lacks Harvey’s legal-specific training and firm-data integration, so it should not be treated as a legal-grade substitute.</p>
+
+<h2>Security, procurement, and pricing boundaries</h2>
+<p>Harvey’s <a href="https://www.harvey.ai/security" target="_blank" rel="noopener noreferrer">security page</a> says the service supports retention policies, deletion, and regional data options in the EU or Switzerland, the US, and Australia. It also says customer data is never used to train models used by other customers, and describes security commitments and independent testing. These are vendor statements. Procurement should obtain the current agreement and confirm the exact region, retention period, subprocessors, access roles, incident terms, model-training commitment, and any professional-privilege requirements for its own engagement.</p>
+<p>Harvey does not publish a self-serve price page. Budget, minimum commitment, implementation scope, model access, and usage terms therefore need to come from a written sales quote. Do not treat marketing examples or old media reports as current pricing.</p>
+
+<h2>Where it fits and where it does not</h2>
+<p>Harvey is a plausible fit for firms and in-house teams with recurring, document-heavy work, approved precedents, accountable reviewers, and someone who can run data governance. It is a poor fit when the team only needs occasional general writing help, cannot define a review process, cannot bring sensitive documents into an approved service, or expects automatic legal advice.</p>
+<p>Public discussion offers a useful reality check, though it is not a product benchmark. A <a href="https://hn.algolia.com/?q=Harvey%20AI&sort=byPopularity&prefix&page=0&dateRange=all&type=comment" target="_blank" rel="noopener noreferrer">Hacker News comment search</a> includes questions about the cost of intensive AI queries and whether legal-document drafting is where the value lies. That does not validate any particular claim about Harvey. It does explain why a limited pilot should record both review quality and total usage cost.</p>
+
+<h2>Related tools and sources</h2>
+<ul>
+<li><a href="https://www.harvey.ai/" target="_blank" rel="noopener noreferrer">Harvey platform overview</a></li>
+<li><a href="https://www.harvey.ai/security" target="_blank" rel="noopener noreferrer">Harvey security information</a></li>
+<li>For general document and research assistance, see <a href="/listing/claude/">Claude</a> and <a href="/listing/perplexity/">Perplexity</a>. For a self-managed knowledge workflow, see <a href="/listing/anythingllm/">AnythingLLM</a>.</li>
+</ul>
