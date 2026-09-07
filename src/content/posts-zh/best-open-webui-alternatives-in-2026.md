@@ -1,9 +1,9 @@
 ---
-title: Open WebUI替代品：2026本地AI聊天8大工具
+title: 'Open WebUI替代品：2026本地AI聊天8大工具'
 date: '2026-04-24T09:03:50'
-modified: '2026-08-11T19:14:49'
+modified: '2026-09-06T08:58:11'
 slug: best-open-webui-alternatives-in-2026
-description: 比较最佳 Open WebUI 替代品，支持自托管 AI 聊天、RAG、团队协作和自动化功能，包含设置难度、定价和适用场景分析。
+description: '不满足于Open WebUI？2026年8款实测替代品：自托管AI对话、RAG与团队场景，按部署难度、模型支持与价格逐项对比。'
 categories:
 - ai-tools-comparisons
 featured: /uploads/2026/04/blog-hero-42.jpg

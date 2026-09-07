@@ -1,9 +1,9 @@
 ---
-title: LangGraph vs n8n：2026年AI工作流工具怎么选
+title: 'LangGraph vs n8n：2026年AI工作流工具怎么选'
 date: '2026-05-09T09:12:01'
-modified: '2026-08-11T19:14:37'
+modified: '2026-09-06T08:58:11'
 slug: langgraph-vs-n8n-which-ai-workflow-tool-fits-you-in-2026
-description: LangGraph与n8n对比：2026年选哪个AI工作流工具？若在两者间纠结，答案很简单：核心难题是智能体行为就选LangGraph，否则选n8n。
+description: '代码型智能体图选LangGraph，可视化自动化选n8n。2026年对比：可控性、部署方式、学习曲线与总成本，帮你按技术栈选型。'
 categories:
 - ai-tools-comparisons
 featured: /uploads/2026/05/image-1-51308a0a-7ad9-4400-828e-1c71e15bbd80.jpg
