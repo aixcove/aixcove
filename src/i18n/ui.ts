@@ -32,9 +32,10 @@ export const ui = {
     notfound_back: '← Back to home',
     notfound_tools: 'Browse AI tools',
     footer_tag: 'AI tools directory & reviews',
-    footer_privacy: 'Privacy',
-    footer_terms: 'Terms',
-    footer_contact: 'Contact',
+    footer_privacy: 'Privacy Policy',
+    footer_terms: 'Terms of Use',
+    footer_contact: 'Contact Us',
+    footer_methodology: 'Review Methodology',
   },
   zh: {
     nav_tools: 'AI 工具',
@@ -71,7 +72,31 @@ export const ui = {
     footer_privacy: '隐私政策',
     footer_terms: '使用条款',
     footer_contact: '联系我们',
+    footer_methodology: '评测方法',
   },
+};
+
+// Listing 分类 SEO intro（kind=listings 时显示在卡片网格前）
+export const listingCatIntroEn: Record<string, string> = {
+  'ai-coding': 'Hands-on profiles of AI coding tools — coding agents, terminal assistants, AI-native IDEs and code-review automation — each verified against official docs and pricing, with setup paths, license model, and where each tool beats its alternatives.',
+  'ai-agents': 'Tools for building and running AI agents — frameworks, agent platforms, orchestration and autonomous-run systems — compared on extensibility, sandboxing, observability, and the operational knowledge each one assumes.',
+  'llm-chat': 'LLM chat assistants and self-hosted chat UIs — model support, RAG pipelines, team features, and deployment effort, profiled from official docs so you can pick by workflow rather than hype.',
+  'ai-writing-marketing': 'AI writing and marketing tools — drafting, editing, SEO and campaign automation — with pricing tiers, free-tier limits, and the content types each tool actually handles well.',
+  'ai-creative': 'AI tools for image, video and audio generation and editing — model access, commercial-use terms, output limits, and the production workflows each fits.',
+  'vertical-ai': 'Industry-specific AI tools for finance, healthcare, e-commerce and other verticals — compliance posture, integration surface, and the domain data each product is built around.',
+  'local-self-hosted': 'Self-hosted and local-first AI tools you can run on your own hardware — hardware requirements, license terms, setup difficulty, and what you trade versus managed cloud services.',
+  'ai-productivity': 'AI productivity and workplace tools — meeting, document, search and workflow automation — assessed on integration depth, data handling, and real day-to-day time savings.',
+};
+
+export const listingCatIntroZh: Record<string, string> = {
+  'ai-coding': 'AI 编程工具实测档案——编程智能体、终端助手、AI 原生 IDE 与代码审查自动化，每款都对照官方文档与定价核验，附部署路径、授权模式与各自胜出的场景。',
+  'ai-agents': '构建与运行 AI 智能体的工具——框架、平台、编排与自主执行系统，按可扩展性、沙箱隔离、可观测性以及各自默认的运维门槛横向对比。',
+  'llm-chat': '大模型对话助手与自托管聊天界面——模型支持、RAG 管线、团队协作与部署成本，全部依据官方文档整理，按工作流选型而非跟风。',
+  'ai-writing-marketing': 'AI 写作与营销工具——写作起草、改稿、SEO 与营销自动化，覆盖定价档位、免费额度与各工具真正擅长的内容类型。',
+  'ai-creative': '图像、视频与音频生成编辑工具——模型接入、商用授权、产出限制与各自适配的生产工作流。',
+  'vertical-ai': '面向金融、医疗、电商等行业的垂直 AI 工具——合规姿态、集成能力与产品背后的领域数据。',
+  'local-self-hosted': '可完全自托管、本地运行的 AI 工具——硬件要求、许可证条款、部署难度，以及与托管云服务相比的取舍。',
+  'ai-productivity': '办公效率 AI 工具——会议、文档、搜索与工作流自动化，考察集成深度、数据处理方式与真实的日常省时效果。',
 };
 
 // 分类名中译 (posts 11 + listing 35)

@@ -2,7 +2,7 @@
 // 分类列表视图（posts category / listing category 共用）
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { localeUrl } from '../i18n/utils';
-import { ui, catName } from '../i18n/ui';
+import { ui, catName, listingCatIntroEn, listingCatIntroZh } from '../i18n/ui';
 
 interface Props {
   lang: 'en' | 'zh';
@@ -15,6 +15,7 @@ const { lang, kind, catId, catNameEn, items } = Astro.props;
 const L = ui[lang];
 const cname = catName(lang, catId, catNameEn);
 const isPosts = kind === 'posts';
+const catIntro = isPosts ? '' : (lang === 'zh' ? listingCatIntroZh[catId] : listingCatIntroEn[catId]) || '';
 const altUrl = lang === 'zh'
   ? (isPosts ? `/category/${catId}/` : `/listing-category/${catId}/`)
   : (isPosts ? `/zh/category/${catId}/` : `/zh/listing-category/${catId}/`);
@@ -32,6 +33,7 @@ const altUrl = lang === 'zh'
     </div>
     <h1 style="font-size:1.9rem">{cname}</h1>
     <p style="color:var(--muted)">{isPosts ? L.articles_count(items.length) : L.tools_count(items.length)}</p>
+    {catIntro && <p class="cat-intro" style="max-width:760px;line-height:1.7;margin:14px 0 22px">{catIntro}</p>}
     <div class="grid cols-3">
       {items.map((it) => {
         const href = isPosts ? localeUrl(lang, `/${it.id}/`) : localeUrl(lang, `/listing/${it.id}/`);

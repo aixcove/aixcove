@@ -8,6 +8,17 @@ categories:
 - ai-agents
 image: /uploads/2026/08/deepseek-harness-review-hero.jpg
 featured: false
+faq:
+- q: DeepSeek Harness 是什么？
+  a: 'DeepSeek Harness（命令名 dsh）是 DeepSeek 于 2026 年 8 月以开发者预览版开源的 Agent 框架，TypeScript 编写、基于 Cordis、MIT 许可。它位于大模型与你的任务之间，提供环境理解、工具调用与跨会话的持续执行能力。'
+- q: DeepSeek Harness 免费吗？
+  a: 框架本身免费且开源（MIT）。模型调用需要自备 DeepSeek API Key，按官方 API 定价计费，成本只有 token 消耗。
+- q: DeepSeek Harness 是开源的吗？
+  a: 是，完整源码在 GitHub 上以 MIT 许可发布，接受社区贡献与插件开发。
+- q: 怎么运行 DeepSeek Harness？
+  a: 安装 Node.js 后执行 npx @deepseek-ai/dsh web，本地 Web UI 跑在 http://127.0.0.1:3080。在设置里填入 DeepSeek API Key、选择工作区目录即可开始会话。源码部署走 pnpm install / build / pnpm dsh web 流程。
+- q: DeepSeek Harness 和 Claude Code 有什么区别？
+  a: Claude Code 是绑定 Anthropic 模型的成熟商业产品；dsh 用完整源码与插件级可替换性取代商业打磨——包括模型适配器在内的一切能力都是可替换的 Cordis 插件。想自己掌控 Harness 层就选 dsh。
 ---
 <h2>DeepSeek Harness 是什么</h2>
 <p>DeepSeek Harness，命令名 <code>dsh</code>，是 DeepSeek 在 2026 年 8 月以开发者预览版形式开源的 Agent 框架。它处在语言模型和你想完成的工作之间。官方的概括是 <code>Agent = Model + Harness</code>，模型负责推理，Harness 负责让 Agent 理解环境、使用工具、在一次真实会话里持续干活。项目用 TypeScript 写在 Cordis 框架上，MIT 许可，发布几天内 GitHub 星标约十二万。</p>

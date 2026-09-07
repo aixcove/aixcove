@@ -8,6 +8,17 @@ categories:
 - ai-agents
 image: /uploads/2026/08/deepseek-harness-review-hero.jpg
 featured: false
+faq:
+- q: What is DeepSeek Harness?
+  a: 'DeepSeek Harness (command dsh) is an open-source agent harness released by DeepSeek in developer preview in August 2026. Written in TypeScript on the Cordis framework and MIT-licensed, it sits between a language model and your workload, providing environment understanding, tool use, and sustained operation across real sessions.'
+- q: Is DeepSeek Harness free?
+  a: 'Yes. The framework itself is free, MIT-licensed open-source software. Model usage requires your own DeepSeek API key and follows standard DeepSeek API pricing, so the only cost is token consumption.'
+- q: Is DeepSeek Harness open source?
+  a: 'Yes, the full source is available on GitHub under the MIT license, and the project accepts community contributions and plugin development.'
+- q: How do you run DeepSeek Harness?
+  a: 'With Node.js installed, npx @deepseek-ai/dsh web starts the local web UI at http://127.0.0.1:3080. Add a DeepSeek API key in Settings, pick a workspace directory, and start a session. A source checkout uses the usual pnpm install / build / pnpm dsh web path.'
+- q: How does DeepSeek Harness differ from Claude Code?
+  a: 'Claude Code is a polished commercial product tied to Anthropic models; dsh trades that polish for full source access and plugin-level replaceability — every capability, including the model adapter, is a Cordis plugin you can swap. Choose dsh if you want to own the harness layer.'
 ---
 <h2>What is DeepSeek Harness?</h2>
 <p>DeepSeek Harness, command name <code>dsh</code>, is the open-source agent harness that DeepSeek released in developer preview in August 2026. It sits between a language model and the work you want done. The team summarizes it as <code>Agent = Model + Harness</code>, where the model provides reasoning and the harness provides environment understanding, tool use, and sustained operation across real sessions. It is written in TypeScript on the Cordis framework, ships under the MIT license, and reached roughly 120k GitHub stars within days of release.</p>
