@@ -1,7 +1,7 @@
 ---
 title: Qwen3.8-27B本地部署指南：从核显到RTX 5090的显卡配置全表
 date: '2026-09-10T09:00:00'
-modified: '2026-09-11T09:30:00'
+modified: '2026-09-11T10:45:00'
 slug: run-qwen3-8-27b-locally-gpu-guide
 description: Qwen3.8-27B本地部署全攻略：核显、Mac、RTX 40/50系笔记本与台式机显卡逐一给出量化版本选择、上下文设置和真实速度预期，附可复制的启动命令。
 categories:
@@ -112,8 +112,18 @@ cmake -B build -DGGML_CUDA=ON && cmake --build build -j --target llama-server
 <li><strong>Huihui-ai abliterated（safetensors）：</strong>经典abliteration方法（把拒绝方向从残差流中正交化移除），发布在 <a href="https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated" rel="nofollow noopener" target="_blank">huihui-ai/Huihui-Qwen3.8-27B-abliterated</a>。Ollama用户可以直接：<code>ollama run huihui_ai/Qwen3.8-abliterated</code>。</li>
 <li><strong>JonathanColetti Uncensored（数据透明，GGUF + bf16）：</strong>abliteration路线的衍生版，文档诚实得出奇——<a href="https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored" rel="nofollow noopener" target="_blank">bf16权重在这里</a>，<a href="https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF" rel="nofollow noopener" target="_blank">imatrix GGUF在这里</a>（IQ2_M到Q8_0全覆盖，MTP头已嫁接回并验证，含视觉投影器）。公布的数据：100条持出有害提示上的拒绝率从98降到12，基准均值只掉了0.5分（MMLU 83.4→83.3，ARC-Challenge -1.2）。维护者明确说明拒绝行为是"大幅减少，不是消除"。</li>
 <li><strong>OrcaRouter Uncensored-FP8（vLLM服务）：</strong>与官方FP8量化方案完全对齐的FP8版本，走同一vLLM内核路径，262K上下文、工具调用和MTP全部保留——见 <a href="https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8" rel="nofollow noopener" target="_blank">orcarouter/Qwen3.8-27B-Uncensored-FP8</a>（GGUF转换在 <a href="https://huggingface.co/chimingw/Qwen3.8-27B-Uncensored-OrcaRouter-GGUF" rel="nofollow noopener" target="_blank">chimingw 的镜像</a>）。用vLLM/SGLang部署而不是llama.cpp的话，走这条路。</li>
-<li><strong>HauhauCS Aggressive MTP GGUF（0/465拒绝，速度最快）：</strong>最激进的选项——<a href="https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF" rel="nofollow noopener" target="_blank">HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF</a> 宣称<strong>465条测试提示零拒绝</strong>，风格是"直接给答案，困难问题也不绕弯子"。它还是所有变体里投机解码故事最好的：每个GGUF都保留原生MTP头，附带的FastMTP 32K侧车宣称文档生成最高3.02倍于无MTP（比标准内置MTP再快35.2%）。量化阶梯从IQ4_XS（15.7GB）到Q8_K_P（31.5GB）全覆盖。提醒：公布的加速数字来自96GB的RTX PRO 6000 Blackwell平台，消费级卡上只能当上限看；"Aggressive"名副其实——除拒绝测试之外的质量回归数据比JonathanColetti版本薄。</li>
+<li><strong>HauhauCS Aggressive MTP GGUF（0/465拒绝，速度最快）：</strong>最激进的选项——<a href="https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF" rel="nofollow noopener" target="_blank">HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF</a> 宣称<strong>465条测试提示零拒绝</strong>，风格是"直接给答案，困难问题也不绕弯子"。它还是所有变体里投机解码故事最好的：每个GGUF都保留原生MTP头，附带的FastMTP 32K侧车宣称文档生成最高3.02倍于无MTP（比标准内置MTP再快35.2%）。量化阶梯从IQ4_XS（15.7GB）到Q8_K_P（31.5GB）全覆盖。提醒：公布的加速数字来自96GB的RTX PRO 6000 Blackwell平台，消费级卡上只能当上限看；"Aggressive"名副其实——除拒绝测试之外的质量回归数据比JonathanColetti版本薄。如果发布时Qwen3.8有Balanced变体，HauhauCS自己的指引是：对可靠性敏感的agent工作，Balanced是更稳的默认。</li>
 </ul>
+
+<h3>怎么挑：真正要问的四个问题</h3>
+<p>只看拒绝率挑无审查模型，就像只看极速买车——是真的，但基本没用。跨架构的abliteration工具研究（2025年12月的arXiv论文，覆盖Heretic、DECCP、ErisForge、FailSpy）和Qwen 3.6/3.8变体生态的独立取证评测，指向挑选前值得问的四个问题：</p>
+<ul>
+<li><strong>1. 这次编辑把模型挪了多少？（KL散度）</strong>——这是预测质量损伤最好的单一指标。Abliteration的原理是从模型内部表征里减去一个"拒绝方向"；整体token分布挪得越少，原模型幸存的部分越多。JonathanColetti公布了这个数字（选定工作点的首token KL为0.1191，还附了12到98拒绝率的完整权衡表）——肯发布KL/拒绝曲线的维护者，说明他是优化过的而不是拍脑袋。生态里的独立取证发现：最好的方法（Heretic级）能把能力保持在基线的1%以内，最差的实现曾在某些架构上把MMLU砸掉6分。方法好坏因模型而异：对一家温和的工具换一家可能就是重创。</li>
+<li><strong>2. 到底测没测过，测得诚实吗？</strong>——拒绝率是最好吹的数字（0/465很漂亮，直到你问这465条提示是什么、"带免责声明回答"算不算不拒绝；自动拒绝评分研究发现基于关键词的统计会把拒绝率低估20个百分点以上，因为免责声明式回答其实在照办、只是嘴上留了个余地）。金标准是维护者同时公布：拒绝率+能力基准+对同一基线版本的KL数。JonathanColetti和独立取证是这么做的；"零拒绝，能力无变化"而没有方法论的，是营销话术。</li>
+<li><strong>3. 行为风格配你的活儿吗？</strong>——HauhauCS自己的指引是最清楚的表达：Aggressive（原始答案、无铺垫）给明确想要这个的人；Balanced（同样0/465拒绝，但会出声推理、偶尔简短免责声明）给agent编码、工具调用和长上下文这类稳定性比语气重要的工作。拒绝移除和回答风格是两个独立的轴——模型可以完全不拒绝、同时依然先想后答，对多数真实工作这正是你想要的。</li>
+<li><strong>4. 在你的量化档位上会怎样？</strong>——拒绝率和基准数字通常在高精度（Q6+）下测得。拒绝方向编辑会和量化相互作用：同一个abliterated模型在IQ4_XS上行为可能不同，2-bit下明显更糟，而衍生版维护者很少测Q4以下。JonathanColetti明确让用户在Q6_K/Q8_0上验证行为，而不是假设IQ4_XS上依然成立。如果你在16GB或更小的卡上跑，诚实的预期是"无审查了，但比公布数字略欠连贯"。</li>
+</ul>
+<p>从这些研究里能落地的默认选择：第一个无审查模型，选肯公布KL/拒绝权衡表和能力变化值的变体（目前是JonathanColetti），显存允许就上Q6以上。如果你明确要零摩擦的直接回答并理解代价，带MTP加速的HauhauCS Aggressive是纸面上最强的——长agent会话旁边留一个Balanced或JonathanColetti做备胎。任何abliterated的2-bit量化都当实验品对待，别当工具用。无论选哪个，抽查一下TruthfulQA式行为（对抗性假前提问题）：关于abliteration固有代价的研究显示，"压力下的真实性"是拒绝方向移除最一致损害的能力——即使通用基准看起来一切正常。</p>
 <p>前文所有显卡档位的结论原样适用——文件体积、量化阶梯、启动参数都不变，因为abliteration只改动一小部分权重方向，不动架构。两个诚实的提醒：去审查会让基准分数轻微下降（记录最完整的案例约半分）；低比特率（2-bit）下abliterated权重的行为测试还不充分。各路线的社区讨论见 <a href="https://www.reddit.com/r/LLM/comments/1vwajr7/best_uncensored_qwen3827b_model/" rel="nofollow noopener" target="_blank">r/LLM 的对比帖</a>。</p>
 <p>一点关于责任的实际提醒：这些是第三方（不是Qwen官方）修改过的Apache 2.0权重。原始模型卡、使用条款和当地法律对你生成的内容照常适用。模型不那么爱拒绝，不改变你要为自己的输出负责这个事实。</p>
 
