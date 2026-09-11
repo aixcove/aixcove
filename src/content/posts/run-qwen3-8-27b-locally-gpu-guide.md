@@ -1,6 +1,7 @@
 ---
 title: "How to Run Qwen3.8-27B Locally: A GPU-by-GPU Setup Guide"
 date: '2026-09-10T09:00:00'
+modified: '2026-09-11T09:30:00'
 slug: run-qwen3-8-27b-locally-gpu-guide
 description: "Qwen3.8-27B local setup for every hardware tier: integrated graphics, Mac, RTX 40/50 laptops and desktops. Correct quants, contexts, and realistic speeds."
 categories:
@@ -104,6 +105,16 @@ cmake -B build -DGGML_CUDA=ON && cmake --build build -j --target llama-server
 ./build/bin/llama-server -hf unsloth/Qwen3.8-27B-GGUF:UD-Q4_K_XL \
   -ngl 99 -fa on --jinja -c 32768 --port 8080</code></pre>
 <p>The server exposes an OpenAI-compatible API at <code>localhost:8080</code> that anything — chat UIs, coding agents, your own scripts — can call. This is the runtime every benchmark above used; if you want the published numbers, use this path.</p>
+
+<h2>Uncensored variants: what exists and what to expect</h2>
+<p>The base Qwen3.8-27B ships with standard safety alignment, and abliterated ("uncensored") derivatives appeared within days of the open-weights release. Three routes are worth knowing, in descending order of quality transparency:</p>
+<ul>
+<li><strong>Huihui-ai abliterated (safetensors):</strong> the classic abliteration method (orthogonalizing the refusal direction out of the residual stream), published as <a href="https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated" rel="nofollow noopener" target="_blank">huihui-ai/Huihui-Qwen3.8-27B-abliterated</a>. Also on Ollama directly: <code>ollama run huihui_ai/Qwen3.8-abliterated</code>.</li>
+<li><strong>JonathanColetti Uncensored (measured, GGUF + bf16):</strong> an abliteration-style derivative with unusually honest documentation — <a href="https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored" rel="nofollow noopener" target="_blank">bf16 weights here</a> and <a href="https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF" rel="nofollow noopener" target="_blank">imatrix GGUFs here</a> (IQ2_M through Q8_0, MTP head preserved and verified, vision projector included). The published refusal rate drops from 98/100 to 12/100 on their held-out harmful-prompt set, with a mean benchmark delta of just -0.5 points (MMLU 83.4 → 83.3, ARC-Challenge -1.2). The maintainer is explicit that refusals are "substantially reduced, not eliminated."</li>
+<li><strong>OrcaRouter Uncensored-FP8 (vLLM serving):</strong> an FP8 build matching the official quantization scheme so it serves through the identical vLLM kernel path at 262K context with tools and MTP intact — see <a href="https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8" rel="nofollow noopener" target="_blank">orcarouter/Qwen3.8-27B-Uncensored-FP8</a> (GGUF conversions at <a href="https://huggingface.co/chimingw/Qwen3.8-27B-Uncensored-OrcaRouter-GGUF" rel="nofollow noopener" target="_blank">chimingw's mirror</a>). This is the route if you are serving with vLLM/SGLang rather than running llama.cpp.</li>
+</ul>
+<p>Everything in the GPU tiers above applies unchanged — file sizes, quant ladders, and settings are identical because abliteration only edits a small set of weight directions, not the architecture. Two honest caveats: refusal removal can slightly degrade benchmark scores (about half a point in the best-documented case) and abliterated weights can change how the model behaves at very low bit-rates (2-bit quants of ablitered models are less tested). Community discussion of the alternatives lives at <a href="https://www.reddit.com/r/LLM/comments/1vwajr7/best_uncensored_qwen3827b_model/" rel="nofollow noopener" target="_blank">r/LLM's comparison thread</a>.</p>
+<p>A practical note on legality and responsibility: these are Apache 2.0 weights modified by third parties, not by Qwen. The original model card, terms, and applicable local laws still apply to what you generate. Running a model that refuses less does not change what you are responsible for.</p>
 
 <h2>Common failure modes, and their one-line fixes</h2>
 <ul>

@@ -1,6 +1,7 @@
 ---
 title: Qwen3.8-27B本地部署指南：从核显到RTX 5090的显卡配置全表
 date: '2026-09-10T09:00:00'
+modified: '2026-09-11T09:30:00'
 slug: run-qwen3-8-27b-locally-gpu-guide
 description: Qwen3.8-27B本地部署全攻略：核显、Mac、RTX 40/50系笔记本与台式机显卡逐一给出量化版本选择、上下文设置和真实速度预期，附可复制的启动命令。
 categories:
@@ -104,6 +105,16 @@ cmake -B build -DGGML_CUDA=ON && cmake --build build -j --target llama-server
 ./build/bin/llama-server -hf unsloth/Qwen3.8-27B-GGUF:UD-Q4_K_XL \
   -ngl 99 -fa on --jinja -c 32768 --port 8080</code></pre>
 <p>启动后在<code>localhost:8080</code>暴露OpenAI兼容API，聊天界面、编码agent、你自己的脚本都能直接调。本文引用的所有实测数据都出自这个运行时；想要跑出公开数字，走这条路。</p>
+
+<h2>无审查版本：有哪些选择，预期是什么</h2>
+<p>官方Qwen3.8-27B自带标准安全对齐，开源权重发布后几天内就出现了abliterated（去审查）衍生版。三条路线值得了解，按质量透明度从高到低：</p>
+<ul>
+<li><strong>Huihui-ai abliterated（safetensors）：</strong>经典abliteration方法（把拒绝方向从残差流中正交化移除），发布在 <a href="https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated" rel="nofollow noopener" target="_blank">huihui-ai/Huihui-Qwen3.8-27B-abliterated</a>。Ollama用户可以直接：<code>ollama run huihui_ai/Qwen3.8-abliterated</code>。</li>
+<li><strong>JonathanColetti Uncensored（数据透明，GGUF + bf16）：</strong>abliteration路线的衍生版，文档诚实得出奇——<a href="https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored" rel="nofollow noopener" target="_blank">bf16权重在这里</a>，<a href="https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF" rel="nofollow noopener" target="_blank">imatrix GGUF在这里</a>（IQ2_M到Q8_0全覆盖，MTP头已嫁接回并验证，含视觉投影器）。公布的数据：100条持出有害提示上的拒绝率从98降到12，基准均值只掉了0.5分（MMLU 83.4→83.3，ARC-Challenge -1.2）。维护者明确说明拒绝行为是"大幅减少，不是消除"。</li>
+<li><strong>OrcaRouter Uncensored-FP8（vLLM服务）：</strong>与官方FP8量化方案完全对齐的FP8版本，走同一vLLM内核路径，262K上下文、工具调用和MTP全部保留——见 <a href="https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8" rel="nofollow noopener" target="_blank">orcarouter/Qwen3.8-27B-Uncensored-FP8</a>（GGUF转换在 <a href="https://huggingface.co/chimingw/Qwen3.8-27B-Uncensored-OrcaRouter-GGUF" rel="nofollow noopener" target="_blank">chimingw 的镜像</a>）。用vLLM/SGLang部署而不是llama.cpp的话，走这条路。</li>
+</ul>
+<p>前文所有显卡档位的结论原样适用——文件体积、量化阶梯、启动参数都不变，因为abliteration只改动一小部分权重方向，不动架构。两个诚实的提醒：去审查会让基准分数轻微下降（记录最完整的案例约半分）；低比特率（2-bit）下abliterated权重的行为测试还不充分。各路线的社区讨论见 <a href="https://www.reddit.com/r/LLM/comments/1vwajr7/best_uncensored_qwen3827b_model/" rel="nofollow noopener" target="_blank">r/LLM 的对比帖</a>。</p>
+<p>一点关于责任的实际提醒：这些是第三方（不是Qwen官方）修改过的Apache 2.0权重。原始模型卡、使用条款和当地法律对你生成的内容照常适用。模型不那么爱拒绝，不改变你要为自己的输出负责这个事实。</p>
 
 <h2>常见翻车点与一句话修复</h2>
 <ul>
