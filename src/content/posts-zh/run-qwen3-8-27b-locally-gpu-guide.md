@@ -1,7 +1,7 @@
 ---
 title: Qwen3.8-27B本地部署指南：从核显到RTX 5090的显卡配置全表
 date: '2026-09-10T09:00:00'
-modified: '2026-09-11T12:10:00'
+modified: '2026-09-11T13:20:00'
 slug: run-qwen3-8-27b-locally-gpu-guide
 description: Qwen3.8-27B本地部署全攻略：核显、Mac、RTX 40/50系笔记本与台式机显卡逐一给出量化版本选择、上下文设置和真实速度预期，附可复制的启动命令。
 categories:
@@ -148,6 +148,17 @@ cmake -B build -DGGML_CUDA=ON && cmake --build build -j --target llama-server
 <li><strong>模型卡诚信是可以查证的，而且参差不齐。</strong>orcarouter：4/4声明核实。trohrbaugh：KL校准差距9%。coder3101：卡低卖了一个数量级（诚实的方向）。obliteratus："0%拒绝"是记分方式的产物。blackfrost：多方向叙事被自家权重打脸。把公开的拒绝数字当成"待验证的声明"，不要当成"继承的事实"。</li>
 </ul>
 <p>关于覆盖范围的一点说明：JonathanColetti和HauhauCS不在这张八模型表里（前者已在上文引用的卡数据中自测；后者GGUF-only的发布无法逆向进对比，且同一取证项目<a href="https://abliterlitics.dev/techniques/hauhaucs/" rel="nofollow noopener" target="_blank">有单独页面</a>说明为何将HauhauCS模型移出对比）。另外有评论者提出了一个合理的方法论批评：部分版权"软拒绝"可能只是27B模型不知道答案，而非拒绝——报告自己也把这一点列为可能原因。无论如何，能力与KL取证不受影响。</p>
+
+<h3>结论：到底该跑哪一个</h3>
+<p>把上文的方法论、取证和167小时横评压缩成一张决策表：</p>
+<ul>
+<li><strong>只想选最好的那个：orcarouter。</strong>横评数据出来后，这就是有实证背书的默认答案：实际完成率最高（82.2%）、唯一一张经受住取证核验的模型卡、编辑干净量小、无思维循环问题、版权解锁最高——而且格式最全：<a href="https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored" rel="nofollow noopener" target="_blank">safetensors</a>、<a href="https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8" rel="nofollow noopener" target="_blank">vLLM用FP8</a>、GGUF转换都有，一个模型同时覆盖桌面端和服务端。</li>
+<li><strong>把"能力零损伤"放第一位：apostate</strong>（78.7% ASR + 全场最低实测KL 0.0439，代价是接受无视觉塔/无MTP的包装）；如果想故意保留部分拒绝行为，选<strong>trohrbaugh</strong>（57.5%，能力档案最干净、循环率最低——报告作者的日用机就是它）。</li>
+<li><strong>llama.cpp / LM Studio 用户、看重公开KL曲线：JonathanColetti。</strong>依然是有据可查的第一推荐——基准表奖励"可验证的声明"，而这个仓库正是自己发布权衡数据的那个。</li>
+<li><strong>要零铺垫的直答+最高速度：HauhauCS Aggressive</strong>——睁着眼睛用：MTP加速是真的，但取证记录有争议，维护者自己都说可靠性敏感的场景用Balanced。装一个备胎模型。</li>
+<li><strong>避开：obliteratus</strong>（44.8%思维循环+真实能力损伤）和<strong>blackfrost</strong>（聊天模板里藏越狱注入、方向库宣传与权重不符）。</li>
+</ul>
+<p>比选哪个变体更重要的是三件事：显存允许就跑Q6以上（低量化下行为会分岔）；用原版聊天模板（下载的每个模板都先diff）；装好后抽查TruthfulQA式假前提问题——这是所有实测方法损伤最重的能力。预期按类别校准：数学和推理在去审查后基本无损，版权不行（实测上限39%），对抗式提示则是激进变体陷入思维循环的地方。</p>
 <p>前文所有显卡档位的结论原样适用——文件体积、量化阶梯、启动参数都不变，因为abliteration只改动一小部分权重方向，不动架构。两个诚实的提醒：去审查会让基准分数轻微下降（记录最完整的案例约半分）；低比特率（2-bit）下abliterated权重的行为测试还不充分。各路线的社区讨论见 <a href="https://www.reddit.com/r/LLM/comments/1vwajr7/best_uncensored_qwen3827b_model/" rel="nofollow noopener" target="_blank">r/LLM 的对比帖</a>。</p>
 <p>一点关于责任的实际提醒：这些是第三方（不是Qwen官方）修改过的Apache 2.0权重。原始模型卡、使用条款和当地法律对你生成的内容照常适用。模型不那么爱拒绝，不改变你要为自己的输出负责这个事实。</p>
 

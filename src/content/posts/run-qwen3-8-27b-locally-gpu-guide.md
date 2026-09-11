@@ -1,7 +1,7 @@
 ---
 title: "How to Run Qwen3.8-27B Locally: A GPU-by-GPU Setup Guide"
 date: '2026-09-10T09:00:00'
-modified: '2026-09-11T12:10:00'
+modified: '2026-09-11T13:20:00'
 slug: run-qwen3-8-27b-locally-gpu-guide
 description: "Qwen3.8-27B local setup for every hardware tier: integrated graphics, Mac, RTX 40/50 laptops and desktops. Correct quants, contexts, and realistic speeds."
 categories:
@@ -148,6 +148,17 @@ cmake -B build -DGGML_CUDA=ON && cmake --build build -j --target llama-server
 <li><strong>Model-card honesty is checkable, and it varies wildly.</strong> orcarouter: 4/4 claims verified. trohrbaugh: KL calibrated within 9%. coder3101: card undersold by an order of magnitude (in the honest direction). obliteratus: "0% refusals" is a scoring artifact. blackfrost: the multi-direction story is contradicted by its own weights. Treat published refusal numbers as a claim to verify, not a fact to inherit.</li>
 </ul>
 <p>A note on scope: JonathanColetti and HauhauCS were not in this particular eight-model table (the former is measured in its own card data cited above; the latter's GGUF-only release could not be reverse-engineered into the comparison, and the same forensics project <a href="https://abliterlitics.dev/techniques/hauhaucs/" rel="nofollow noopener" target="_blank">has a separate page</a> documenting why it discontinued HauhauCS models from its comparisons). And one commenter raised a fair methodological critique: some copyright "soft refusals" may just be a 27B model not knowing the material rather than refusing — the report itself flags this as a possible cause. The capability and KL forensics are unaffected either way.</p>
+
+<h3>The bottom line: which one should you actually run</h3>
+<p>Everything above — methods, forensics, the 167-hour shootout — collapses into one decision table:</p>
+<ul>
+<li><strong>Just want the best one: orcarouter.</strong> With the shootout data in, this is the evidence-backed default: highest real completion rate (82.2%), the only card whose every claim survived forensic verification, clean small edits, no thinking-loop problem, best copyright unlock — and it ships in every format: <a href="https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored" rel="nofollow noopener" target="_blank">safetensors</a>, <a href="https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8" rel="nofollow noopener" target="_blank">FP8 for vLLM</a>, GGUF conversions. One model covers the desktop and the serving case.</li>
+<li><strong>Want zero capability damage above all: apostate</strong> (78.7% ASR at the lowest measured KL, 0.0439 — accept the no-vision/no-MTP packaging) or <strong>trohrbaugh</strong> if you'd rather keep some refusals on purpose (57.5%, the cleanest capability profile and lowest loop rate — the author's own daily driver).</li>
+<li><strong>llama.cpp / LM Studio with published KL curves: JonathanColetti.</strong> Still the best-documented first pick — the benchmark table rewards claims you can verify, and this is the repo that publishes its own trade-off data.</li>
+<li><strong>Raw direct answers at maximum speed: HauhauCS Aggressive</strong> — with eyes open: MTP acceleration is real, the forensics record is mixed, and the maintainer's own advice is Balanced for anything reliability-critical. Keep a fallback model installed.</li>
+<li><strong>Avoid: obliteratus</strong> (44.8% thinking loops, real capability damage) and <strong>blackfrost</strong> (jailbreak hidden in the chat template, unverified direction-bank claim).</li>
+</ul>
+<p>Three settings matter more than the variant you pick: run Q6 or better if VRAM allows (behaviour diverges at low quants); keep the stock chat template (diff any you download); and spot-check TruthfulQA-style false-premise questions after install — it is the capability every measured method damages most. And keep expectations calibrated by category: math and reasoning survive uncensoring essentially intact, copyright does not (measured ceiling 39%), and adversarial-style prompts are where aggressive variants fall into thinking loops.</p>
 <p>Everything in the GPU tiers above applies unchanged — file sizes, quant ladders, and settings are identical because abliteration only edits a small set of weight directions, not the architecture. Two honest caveats: refusal removal can slightly degrade benchmark scores (about half a point in the best-documented case) and abliterated weights can change how the model behaves at very low bit-rates (2-bit quants of ablitered models are less tested). Community discussion of the alternatives lives at <a href="https://www.reddit.com/r/LLM/comments/1vwajr7/best_uncensored_qwen3827b_model/" rel="nofollow noopener" target="_blank">r/LLM's comparison thread</a>.</p>
 <p>A practical note on legality and responsibility: these are Apache 2.0 weights modified by third parties, not by Qwen. The original model card, terms, and applicable local laws still apply to what you generate. Running a model that refuses less does not change what you are responsible for.</p>
 
