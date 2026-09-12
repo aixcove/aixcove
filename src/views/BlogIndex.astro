@@ -34,6 +34,31 @@ const pageUrl = (n: number) => (n <= 1 ? `${pg.base}` : `${pg.base}${n}/`);
         ))}
       </div>
     )}
+    {pg.current === 1 && (
+      <nav class="featured-guides" aria-labelledby="featured-guides-heading">
+        <h2 id="featured-guides-heading">{lang === 'zh' ? '精选指南：从你要做的事开始' : 'Featured guides: start with a task'}</h2>
+        <ul>
+          <li>
+            <a href={localeUrl(lang, '/best-cursor-alternatives-in-2026-6-practical-picks/')}>
+              {lang === 'zh' ? '想换掉 Cursor？' : 'Looking for a Cursor alternative?'}
+            </a>
+            {' '}{lang === 'zh' ? '按编辑器、终端和模型控制需求比较六种选择。' : 'Compare six options by editor, terminal workflow, and model control.'}
+          </li>
+          <li>
+            <a href={localeUrl(lang, '/anythingllm-ollama-tutorial-build-a-local-ai-chatbot-in-2026/')}>
+              {lang === 'zh' ? '用 AnythingLLM + Ollama 搭建私有文档聊天' : 'Build private document chat with AnythingLLM + Ollama'}
+            </a>
+            {' '}{lang === 'zh' ? '从小型文档集开始，配置本地模型与嵌入，再检查检索结果。' : 'Start with a small document set, configure local models and embeddings, then check retrieval.'}
+          </li>
+          <li>
+            <a href={localeUrl(lang, '/how-to-use-dify-with-ollama-for-private-ai-workflows-in-2026/')}>
+              {lang === 'zh' ? '用 Dify + Ollama 搭建本地 AI 工作流' : 'Build local AI workflows with Dify + Ollama'}
+            </a>
+            {' '}{lang === 'zh' ? '先跑通自托管部署与模型连接，再添加工作流和知识检索。' : 'Set up self-hosting and test the model connection before adding workflows and knowledge retrieval.'}
+          </li>
+        </ul>
+      </nav>
+    )}
     <div class="grid cols-3">
       {posts.map((p) => (
         <article class="card">
@@ -71,3 +96,12 @@ const pageUrl = (n: number) => (n <= 1 ? `${pg.base}` : `${pg.base}${n}/`);
     )}
   </section>
 </BaseLayout>
+
+<style>
+  .featured-guides { margin: 1.5rem 0; padding: 1rem 1.25rem; border: 1px solid var(--border); border-radius: 12px; }
+  .featured-guides h2 { margin: 0 0 .75rem; font-size: 1.15rem; }
+  .featured-guides ul { margin: 0; padding-left: 1.25rem; }
+  .featured-guides li { line-height: 1.6; }
+  .featured-guides li + li { margin-top: .65rem; }
+  .featured-guides a { text-decoration: underline; text-underline-offset: .15em; }
+</style>
