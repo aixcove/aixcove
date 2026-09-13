@@ -34,7 +34,7 @@ reviewed: AIX Cove
 <p>如果你离开 Dify 的真正原因是隐私、本地控制，或者想轻松搭建内部文档助手，AnythingLLM 可能是更干净的选择。桌面版是开源且本地优先的。托管方案 Basic 版每月 50 美元，Pro 版每月 99 美元，而免费的 Docker 路线对自托管用户依然有吸引力。</p>
 <p>它输给 Dify 的地方在于更广泛的应用编排。你不会因为想要一个跨团队多 AI 应用的产品平台而选 AnythingLLM。你选它，是因为想要一个用于私有检索、内部助手和文档密集型场景的实用工作区。</p>
 <p><strong>最适合：</strong>自托管用户、注重隐私的团队，以及构建内部知识助手而非完整 AI 产品的公司。</p>
-<p>你也可以先浏览 <a href="/listing/anythingllm/">Aixcove 上的 AnythingLLM 页面</a>，那里有更简短的目录版本。</p>
+<p>你也可以先浏览 <a href="/zh/listing/anythingllm/">Aixcove 上的 AnythingLLM 页面</a>，那里有更简短的目录版本。</p>
 <h3>4. Langflow，最适合想要掌控力的低代码开发者</h3>
 <p>Langflow 更贴近构建者群体。它提供面向智能体、MCP 服务器、RAG 应用和 API 部署的低代码可视化系统，底层是 Python，连接器生态广泛。如果 Dify 让你觉得有点受限，Langflow 是很多开发者下一步会试的工具。</p>
 <p>它的优势在于灵活性。你可以切换模型、接入数据源、把流程变成 API，同时不放弃可视化界面。短板在于面向业务运营的成熟度。当开发者主导时，Langflow 很强大。当你的主要需求是面向广泛内部团队的治理时，它的吸引力就没那么大了。</p>
@@ -62,11 +62,11 @@ reviewed: AIX Cove
 <li>选择 <strong>Langflow</strong>，如果开发者想要更多控制，而不想整天处理原始框架。</li>
 <li>选择 <strong>Botpress</strong>，如果你的 AI 代理会与客户对话，而不仅仅是内部用户。</li>
 </ul>
-<p>当然，有时正确答案是留在 Dify。如果你需要结合工作流、数据集、应用部署和自托管的中级平台，<a href="/listing/dify/">Dify 本身仍是强选项</a>。</p>
+<p>当然，有时正确答案是留在 Dify。如果你需要结合工作流、数据集、应用部署和自托管的中级平台，<a href="/zh/listing/dify/">Dify 本身仍是强选项</a>。</p>
 <h2>如何选择而不浪费一周</h2>
 <p>从瓶颈开始，而不是演示。</p>
 <p>如果你的团队一直问 Slack 触发器、CRM 更新、审批和 SaaS 集成，你可能在找 n8n。如果讨论围绕私有文档、本地模型和离线控制，直接选 AnythingLLM。如果人们反复争论代理架构和流程设计，试试 Flowise 或 Langflow。如果支持团队需要人工交接和渠道分析，把 Botpress 列入候选。</p>
-<p>还要诚实考虑上线后谁负责维护。当单个团队需要共享 AI 应用平台时，Dify 常胜出。当日常负责人是想要自动化简单性的纯运营团队，或想要更深控制的开发者团队时，它就处于劣势。</p><p>如需更多目录内容，可浏览Aixcove的<a href="/listing-category/ai-agents-automation/">AI智能体与自动化</a>、<a href="/listing-category/ai-coding-development/">AI编程与开发</a>以及<a href="/listing-category/ai-business-productivity/">AI商业与生产力</a>板块。</p>
+<p>还要诚实考虑上线后谁负责维护。当单个团队需要共享 AI 应用平台时，Dify 常胜出。当日常负责人是想要自动化简单性的纯运营团队，或想要更深控制的开发者团队时，它就处于劣势。</p><p>如需更多目录内容，可浏览Aixcove的<a href="/zh/listing-category/ai-agents/">AI智能体与自动化</a>、<a href="/zh/listing-category/ai-coding/">AI编程与开发</a>以及<a href="/zh/listing-category/ai-agents/">AI商业与生产力</a>板块。</p>
 <h2>结论</h2>
 <p>哪款Dify替代品最好，取决于你要替换的具体场景。对工作流密集的团队，n8n是最强的切换选择。对开源可视化智能体搭建，Flowise是最直接的竞争对手。对内部知识库的私有化处理，AnythingLLM更精准。对低代码开发者，Langflow更灵活。对面向客户的智能体，Botpress走的是另一条路，而且往往更合适。</p>
 <p>这一点很多盘点文章都没提到。用户离开Dify，很少是因为讨厌Dify本身。真正的原因是他们实际的使用场景比Dify的中庸产品设计更窄、更本地化、更面向客户，或者更偏自动化。</p>

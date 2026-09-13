@@ -41,7 +41,7 @@ featured: false
 <li><a href="/zh/listing/dify/">Dify</a>，最接近的还在维护的替代，带完整应用层</li>
 <li><a href="/zh/listing/langgraph/">LangGraph</a>，代码级控制智能体状态和编排</li>
 <li><a href="/zh/listing/anythingllm/">AnythingLLM</a>，更简单的私有文档聊天工作区</li>
-<li>全部 <a href="/zh/listing-category/ai-agents/">AI 智能体工具</a>，我们的 <a href="/zh/best-flowise-alternatives-in-2026/">Flowise 替代品指南</a>，以及 <a href="/zh/dify-vs-flowise-which-ai-builder-fits-you-in-2026/">Dify 与 Flowise 对比</a></li>
+<li>全部 <a href="/zh/listing-category/ai-agents/">AI 智能体工具</a>，我们的 <a href="/zh/best-flowise-alternatives-in-2026/">Flowise 替代品指南</a>，以及 <a href="/zh/dify-vs-flowise-which-ai-workflow-builder-fits-you-in-2026/">Dify 与 Flowise 对比</a></li>
 </ul>
 <h2>资料来源</h2>
 <ul>

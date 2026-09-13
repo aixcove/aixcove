@@ -1,7 +1,7 @@
 ---
 title: 'AnythingLLM + Ollama: Local AI Chatbot in 7 Steps (2026)'
 date: '2026-05-24T01:58:57'
-modified: '2026-07-26T19:09:41'
+modified: '2026-09-13T12:20:39'
 slug: anythingllm-ollama-tutorial-build-a-local-ai-chatbot-in-2026
 description: Build a private document chatbot with AnythingLLM and Ollama in 7 concrete steps, plus a config table and the common pitfalls. Prices checked August 2026.
 categories:
@@ -46,9 +46,9 @@ reviewed: AIX Cove
 <p>Once the model responds, leave Ollama running. If you later run AnythingLLM in Docker, remember that a container’s <code>localhost</code> is not always your host machine’s <code>localhost</code>.</p>
 <h2>Step 2: Install AnythingLLM</h2>
 <p>You have two sensible options. The desktop app is easiest if you are testing on your own computer: install it, choose providers, create a workspace, upload documents, and start asking questions.</p>
-<p>The Docker version is better if you want a service other people can access, or if the setup should live on a server. Use Docker when you care about repeatability and uptime. Use desktop when you care about getting a useful answer today.</p>
+<p>The Docker version is better if you want a service other people can access, or if the setup should live on a server. One networking note before you start: if AnythingLLM runs in Docker while Ollama runs on the host, <code>127.0.0.1</code> inside the container points at the container itself, so point the base URL at your host address instead (on Docker Desktop for Mac/Windows, <code>host.docker.internal</code> usually works; on Linux, use the host IP or the docker bridge gateway). Use Docker when you care about repeatability and uptime. Use desktop when you care about getting a useful answer today.</p>
 <h2>Step 3: Connect AnythingLLM to Ollama</h2>
-<p>Inside AnythingLLM, open the model configuration area and choose Ollama as the LLM provider. The important fields are the Ollama base URL and the model name. Pick the model you pulled earlier, such as <code>llama3.2</code>, save the settings, and run a plain chat test before adding documents.</p>
+<p>Inside AnythingLLM, open the model configuration area and choose Ollama as the LLM provider. Two fields matter: the Ollama base URL and the model name. With default settings, the base URL is <code>http://127.0.0.1:11434</code> (per the official Ollama connection docs). For the model name, use exactly what you pulled earlier, such as <code>llama3.2</code> — run <code>ollama list</code> if you are unsure of the exact tag. Save the settings, send a plain chat message, and only move on to documents once the model replies.</p>
 <ul>
 <li>Ask a basic question that does not require uploaded files.</li>
 <li>Check response speed.</li>
@@ -81,6 +81,14 @@ reviewed: AIX Cove
 <h2>Step 6: Tune the Prompt and Retrieval</h2>
 <p>The default settings may be fine for a demo. For daily use, tune them. Start with the system prompt: tell the assistant to answer from the provided documents when the question is document-specific, cite the relevant file or section when available, and say when the source material is missing or unclear.</p>
 <p>Then test retrieval. Ask the same question in a few ways. If AnythingLLM retrieves the wrong files, the issue may be document naming, chunking, poor source structure, or an embedder that is not strong enough for your content.</p>
+<h2>Step 6.5: Verify With a Fixed Test Set</h2>
+<p>Before trusting the workspace, run it against a small fixed set of materials and questions — this takes about ten minutes and turns "it seems to work" into "it answers these five questions correctly."</p>
+<ul>
+<li><strong>Pick two or three small documents</strong> (a few pages each) on a topic you know well.</li>
+<li><strong>Write down three questions in advance:</strong> one the documents answer clearly (note the correct answer and which file/section it comes from), one the documents only partially answer, and one they do not answer at all.</li>
+<li><strong>Expected results:</strong> the first question gets the right answer with a correct citation; the second gets a hedged answer that reflects the partial source; the third gets an explicit "the documents do not cover this" instead of a confident guess.</li>
+</ul>
+<p>If question three produces a confident fabricated answer, tighten the system prompt from Step 6 and retest. This same three-question set is also your regression test after changing models, embedders, or prompts later.</p>
 <h2>Step 7: Decide Whether Agents Are Needed</h2>
 <p>AnythingLLM includes AI agent features, but you do not need to turn every document chatbot into an agent. For basic document Q&amp;A, keep it simple and prove the workspace first.</p>
 <p>Agents become useful when the assistant needs to browse, call tools, generate files, or run a multi-step task. That is a different risk profile. If a chatbot gives a weak answer, you correct it. If an agent takes the wrong action, you may have cleanup work.</p>

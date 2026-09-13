@@ -29,26 +29,26 @@ wpId: 8
 
 
  <div class="hp-listing-categories hp-grid hp-block"><div class="hp-row"><div class="hp-grid__item hp-col-sm-3 hp-col-xs-12"><article class="hp-listing-category hp-listing-category--view-block"><header class="hp-listing-category__header"><div class="hp-listing-category__image">
-	<a href="/listing-category/ai-coding-development/">
+	<a href="/listing-category/ai-coding/">
 					<img decoding="async" src="/uploads/2026/04/AI_Coding_Development-400x533.jpg" alt="AI Coding &amp; Development" loading="lazy">
 			</a>
 </div>
 <div class="hp-listing-category__item-count hp-listing-category__count">20 Listings</div>
-</header><div class="hp-listing-category__content"><h3 class="hp-listing-category__name"><a href="/listing-category/ai-coding-development/">AI Coding &amp; Development</a>
+</header><div class="hp-listing-category__content"><h3 class="hp-listing-category__name"><a href="/listing-category/ai-coding/">AI Coding &amp; Development</a>
 </h3><div class="hp-listing-category__details hp-listing-category__details--primary"></div></div></article></div><div class="hp-grid__item hp-col-sm-3 hp-col-xs-12"><article class="hp-listing-category hp-listing-category--view-block"><header class="hp-listing-category__header"><div class="hp-listing-category__image">
-	<a href="/listing-category/ai-marketing-growth/">
+	<a href="/listings/">
 					<img decoding="async" src="/uploads/2026/04/AI_Marketing_Growth-400x533.jpg" alt="AI Marketing &amp; Growth" loading="lazy">
 			</a>
 </div>
 <div class="hp-listing-category__item-count hp-listing-category__count">8 Listings</div>
-</header><div class="hp-listing-category__content"><h3 class="hp-listing-category__name"><a href="/listing-category/ai-marketing-growth/">AI Marketing &amp; Growth</a>
+</header><div class="hp-listing-category__content"><h3 class="hp-listing-category__name"><a href="/listings/">AI Marketing &amp; Growth</a>
 </h3><div class="hp-listing-category__details hp-listing-category__details--primary"></div></div></article></div><div class="hp-grid__item hp-col-sm-3 hp-col-xs-12"><article class="hp-listing-category hp-listing-category--view-block"><header class="hp-listing-category__header"><div class="hp-listing-category__image">
-	<a href="/listing-category/ai-business-productivity/">
+	<a href="/listing-category/ai-agents/">
 					<img decoding="async" src="/uploads/2026/04/AI_Business_Productivity-400x533.jpg" alt="AI Business &amp; Productivity" loading="lazy">
 			</a>
 </div>
 <div class="hp-listing-category__item-count hp-listing-category__count">3 Listings</div>
-</header><div class="hp-listing-category__content"><h3 class="hp-listing-category__name"><a href="/listing-category/ai-business-productivity/">AI Business &amp; Productivity</a>
+</header><div class="hp-listing-category__content"><h3 class="hp-listing-category__name"><a href="/listing-category/ai-agents/">AI Business &amp; Productivity</a>
 </h3><div class="hp-listing-category__details hp-listing-category__details--primary"></div></div></article></div><div class="hp-grid__item hp-col-sm-3 hp-col-xs-12"><article class="hp-listing-category hp-listing-category--view-block"><header class="hp-listing-category__header"><div class="hp-listing-category__image">
 	<a href="/listing-category/ai-vertical-industry-solutions/">
 					<img decoding="async" src="/uploads/2026/04/AI_Vertical_Industry_Solutions-400x533.jpg" alt="AI Vertical Industry Solutions" loading="lazy">
@@ -68,7 +68,7 @@ wpId: 8
 					</a>
 	</div>
 </header><div class="hp-listing__content">	<div class="hp-listing__categories hp-listing__category">
-					<a href="/listing-category/ai-coding-development/">AI Coding &amp; Development</a>
+					<a href="/listing-category/ai-coding/">AI Coding &amp; Development</a>
 			</div>
 	<h4 class="hp-listing__title"><a href="/listing/kimi-code/">Kimi Code</a>
 </h4><div class="hp-listing__details hp-listing__details--primary"><time class="hp-listing__created-date hp-listing__date hp-meta" datetime="2026-06-19 04:21:37">
@@ -79,7 +79,7 @@ wpId: 8
 					</a>
 	</div>
 </header><div class="hp-listing__content">	<div class="hp-listing__categories hp-listing__category">
-					<a href="/listing-category/ai-coding-development/">AI Coding &amp; Development</a>
+					<a href="/listing-category/ai-coding/">AI Coding &amp; Development</a>
 			</div>
 	<h4 class="hp-listing__title"><a href="/listing/zcode/">ZCode</a>
 </h4><div class="hp-listing__details hp-listing__details--primary"><time class="hp-listing__created-date hp-listing__date hp-meta" datetime="2026-06-19 04:20:52">
@@ -101,7 +101,7 @@ wpId: 8
 					</a>
 	</div>
 </header><div class="hp-listing__content">	<div class="hp-listing__categories hp-listing__category">
-					<a href="/listing-category/ai-coding-development/">AI Coding &amp; Development</a>
+					<a href="/listing-category/ai-coding/">AI Coding &amp; Development</a>
 			</div>
 	<h4 class="hp-listing__title"><a href="/listing/adk-rust/">ADK-Rust</a>
 </h4><div class="hp-listing__details hp-listing__details--primary"><time class="hp-listing__created-date hp-listing__date hp-meta" datetime="2026-05-11 02:20:22">
@@ -134,7 +134,7 @@ wpId: 8
 					</a>
 	</div>
 </header><div class="hp-listing__content">	<div class="hp-listing__categories hp-listing__category">
-					<a href="/listing-category/ai-agents-automation/">AI Agents &amp; Automation</a>
+					<a href="/listing-category/ai-agents/">AI Agents &amp; Automation</a>
 			</div>
 	<h4 class="hp-listing__title"><a href="/listing/autogen-studio/">AutoGen Studio</a>
 </h4><div class="hp-listing__details hp-listing__details--primary"><time class="hp-listing__created-date hp-listing__date hp-meta" datetime="2026-04-19 16:08:18">
@@ -145,7 +145,7 @@ wpId: 8
 					</a>
 	</div>
 </header><div class="hp-listing__content">	<div class="hp-listing__categories hp-listing__category">
-					<a href="/listing-category/ai-business-productivity/">AI Business &amp; Productivity</a>
+					<a href="/listing-category/ai-agents/">AI Business &amp; Productivity</a>
 			</div>
 	<h4 class="hp-listing__title"><a href="/listing/dify/">Dify</a>
 </h4><div class="hp-listing__details hp-listing__details--primary"><time class="hp-listing__created-date hp-listing__date hp-meta" datetime="2026-04-19 14:42:28">

@@ -22,7 +22,7 @@ wpId: 783
 <li><strong>Cloud pricing:</strong> Sandbox free with 200 message credits, Professional at $59 per workspace per month, Team at $159 per workspace per month</li>
 <li><strong>Self-hosted option:</strong> yes, but it is not a one-container toy install</li>
 </ul>
-<p>If you want a broader context before building, Aixcove already has a <a href="/listing/dify/">Dify listing</a> and more tools in <a href="/listing-category/ai-coding-development/">AI Coding and Development</a>.</p>
+<p>If you want a broader context before building, Aixcove already has a <a href="/listing/dify/">Dify listing</a> and more tools in <a href="/listing-category/ai-coding/">AI Coding and Development</a>.</p>
 <h2>What you need before you start</h2>
 <p>You can use Dify in the cloud or self-host it.</p>
 <h3>Option 1: Dify Cloud</h3>
@@ -80,7 +80,7 @@ wpId: 783
 <p>That is why the smartest setup is sometimes both. Dify handles the AI app layer. Another automation tool handles the surrounding business process.</p>
 <h2>Quick verdict</h2>
 <p>Dify is worth learning because it shortens the path from idea to working AI app. The thing is, it only feels magical when you use it for the right class of problem. For knowledge assistants, lightweight internal tools, and fast AI workflow prototypes, it is genuinely strong. For everything else, especially automation-heavy work, the limits show up fast.</p>
-<p>If you want more tools in this part of the market, start from the <a href="/">Aixcove homepage</a> or browse <a href="/listing-category/ai-business-productivity/">AI Business and Productivity</a> for adjacent options.</p>
+<p>If you want more tools in this part of the market, start from the <a href="/">Aixcove homepage</a> or browse <a href="/listing-category/ai-agents/">AI Business and Productivity</a> for adjacent options.</p>
 <h2>FAQ</h2>
 <h3>Is Dify free to use?</h3>
 <p>Yes. Dify offers a free Sandbox cloud tier with 200 message credits, and it also offers a self-hosted open-source edition.</p>

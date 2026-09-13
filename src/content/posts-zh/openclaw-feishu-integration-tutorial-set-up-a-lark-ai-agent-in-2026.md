@@ -13,8 +13,8 @@ wpId: 844
 <p>这篇OpenClaw飞书集成教程聚焦实际配置路径：开始前需要准备什么，怎么连接机器人，怎么锁定访问权限，以及怎么排查常见故障。如果你只想要一个个人助手，<a href="/zh/openclaw-tutorial-build-a-telegram-ai-agent-in-2026/">OpenClaw Telegram教程</a>仍然是更轻量的首选。如果你的助手需要放在团队工作区里，飞书/Lark是更认真的选择。</p>
 <h2>这个配置适合谁</h2>
 <p>飞书适合那些已经把飞书或Lark作为日常工作区的技术运营、创始人、SEO团队、支持团队和内部自动化搭建者。用例不是“跟AI机器人聊天好玩”。真正的价值是一个团队代理，能回答状态问题、运行已批准的工作流、总结上下文、触发研究，并把结果汇报回团队已经在用的地方。</p>
-<p>定价需要跟配置分开看。<a href="/listing/openclaw/">OpenClaw</a>本身是开源的，所以自托管软件不需要平台订阅。你可能仍需支付模型API使用费、托管费、飞书/Lark工作区成本、图像生成、外部API，以及维护服务器的时间。这在软件层面算便宜，但在运营层面不是免费的。</p>
-<p>底线：当OpenClaw是团队操作系统的一部分时用飞书。当助手主要是个人用时用Telegram。当你想要一个更干净的AI应用构建器而不是消息优先的代理时，用像<a href="/listing/dify/">Dify</a>或<a href="/listing/flowise/">Flowise</a>这样的工具。</p>
+<p>定价需要跟配置分开看。<a href="/zh/listing/openclaw/">OpenClaw</a>本身是开源的，所以自托管软件不需要平台订阅。你可能仍需支付模型API使用费、托管费、飞书/Lark工作区成本、图像生成、外部API，以及维护服务器的时间。这在软件层面算便宜，但在运营层面不是免费的。</p>
+<p>底线：当OpenClaw是团队操作系统的一部分时用飞书。当助手主要是个人用时用Telegram。当你想要一个更干净的AI应用构建器而不是消息优先的代理时，用像<a href="/zh/listing/dify/">Dify</a>或<a href="/zh/listing/flowise/">Flowise</a>这样的工具。</p>
 <h2>开始前需要准备什么</h2>
 <p>官方OpenClaw飞书文档把该渠道列为生产就绪，支持机器人私聊和群聊。WebSocket是默认模式，webhook模式作为选项可用。文档还说飞书渠道要求OpenClaw 2026.4.25或更高版本，所以开始前先检查你的版本：</p>
 <pre><code>openclaw --version</code></pre>

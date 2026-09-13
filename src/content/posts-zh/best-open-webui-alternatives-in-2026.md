@@ -32,7 +32,7 @@ wpId: 703
 <p>自托管和桌面版本是免费的，采用MIT许可证。还有托管计划，Aixcove的最新评论指出，云用户的起价约为每月50美元。这很重要，因为免费版本只是在软件许可意义上免费。您仍然需要为自己的模型、存储和基础设施付费。</p>
 <p>为什么要切换？AnythingLLM为您提供工作区、文档上传、内置向量数据库支持、API访问、多用户部署路径，以及比Open WebUI更完善的RAG结构。它感觉不像一个通用的AI仪表板，更像一个打包的内部知识产品。</p>
 <p>缺点很简单。它更重。如果你只是想要一个用于Ollama或OpenAI兼容后端的干净本地聊天界面，AnythingLLM可能会显得多余。</p>
-<p>如果这符合你的需求，Aixcove已经有了<a href="/listing/anythingllm/">AnythingLLM列表</a>和更深入的<a href="/zh/anythingllm-review-2026-pricing-pros-cons-and-best-alternatives/">AnythingLLM评测</a>。</p>
+<p>如果这符合你的需求，Aixcove已经有了<a href="/zh/listing/anythingllm/">AnythingLLM列表</a>和更深入的<a href="/zh/anythingllm-review-2026-pricing-pros-cons-and-best-alternatives/">AnythingLLM评测</a>。</p>
 <h3>2. LibreChat：最适合多模型高级用户和安全团队部署</h3>
 <p><a href="https://www.librechat.ai/">LibreChat</a>是如果Open WebUI对于真实的团队环境感觉太轻量，我会首先考虑的替代品。其官方网站强调功能集：代理、代码解释器、MCP支持、网络搜索、工件、内存、SSO、OAuth、SAML、LDAP，以及对OpenAI、Anthropic、AWS、Azure和自定义端点的支持。</p><p>该软件是开源的，因此不像SaaS产品那样有明显的入门许可费用。代价是设置复杂度。LibreChat功能更强大，但也对操作者有更多要求。</p>
 <p>它最适合需要统一界面连接多个模型提供商、更好的身份验证和工具扩展性的团队。如果你试图将一个简单的本地AI工具交给非技术同事后置之不理，它就不是最佳选择。</p>
@@ -60,19 +60,19 @@ wpId: 703
 <li><strong>最适合本地桌面简化使用：</strong> Jan</li>
 <li><strong>最适合跨设备的轻量级客户端：</strong> Chatbox</li>
 </ul>
-<p>还有第六种值得一提的路径。如果您的问题实际上是工作流自动化或发布AI应用而非聊天界面，应转向<a href="/listing/dify/">Dify</a>等平台，而不是用一个聊天界面替换另一个。这是不同的类别，通常是正确的选择。</p>
+<p>还有第六种值得一提的路径。如果您的问题实际上是工作流自动化或发布AI应用而非聊天界面，应转向<a href="/zh/listing/dify/">Dify</a>等平台，而不是用一个聊天界面替换另一个。这是不同的类别，通常是正确的选择。</p>
 <h2>我的建议</h2>
 <p>大多数寻找Open WebUI替代品的人实际上属于两种阵营之一。</p>
 <p>第一阵营想要更好的私密AI工作空间。这些人应该从AnythingLLM开始，如果需要更多的提供商灵活性和更强的企业控制，再考虑LibreChat。</p><p>第二阵营希望减少摩擦。这些人应该先看看 Jan 或 Chatbox，如果想要更好的界面又不牺牲灵活性，可以选择中间的 LobeChat。</p>
 <p>这是许多清单文章忽略的部分。问题不是"什么是最好的 Open WebUI 替代品？"，真正的问题是"你想解决什么痛点？"一旦你回答了这个问题，候选名单就会小很多。</p>
-<p>如果你想要更多此类购买指南，Aixcove 的 <a href="/category/ai-tools-comparisons/">AI 工具比较</a> 和 <a href="/category/ai-tools-reviews/">AI 工具评测</a> 是下一个去处。</p>
+<p>如果你想要更多此类购买指南，Aixcove 的 <a href="/zh/category/ai-tools-comparisons/">AI 工具比较</a> 和 <a href="/zh/category/ai-tools-reviews/">AI 工具评测</a> 是下一个去处。</p>
 <p><!-- aixcove-seo-refresh-2026-07 --></p>
 <h2>如何选择 Open WebUI 替代品</h2>
 <p>合适的 Open WebUI 替代品取决于你要替换什么。如果你只需要本地聊天界面，应该选择围绕模型切换和简单设置构建的工具。如果你需要私人文档聊天，优先考虑检索和文件处理功能。如果你需要将 AI 工作流程提供给其他用户，应该选择应用构建工具而非聊天界面。</p>
 <ul>
-<li><strong>对于私人文档聊天：</strong>从 <a href="/listing/anythingllm/">AnythingLLM</a> 开始。</li>
-<li><strong>对于 AI 应用构建：</strong>比较 <a href="/listing/dify/">Dify</a> 和 <a href="/listing/flowise/">Flowise</a>。</li>
-<li><strong>对于自动化：</strong>当触发器和集成很重要时，使用 <a href="/listing/n8n/">n8n</a> 配合本地模型。</li>
+<li><strong>对于私人文档聊天：</strong>从 <a href="/zh/listing/anythingllm/">AnythingLLM</a> 开始。</li>
+<li><strong>对于 AI 应用构建：</strong>比较 <a href="/zh/listing/dify/">Dify</a> 和 <a href="/zh/listing/flowise/">Flowise</a>。</li>
+<li><strong>对于自动化：</strong>当触发器和集成很重要时，使用 <a href="/zh/n8n-review-2026-pricing-pros-cons-and-best-use-cases/">n8n</a> 配合本地模型。</li>
 <li><strong>对于开发者控制：</strong>考虑 LangGraph 或自定义本地模型堆栈。</li>
 </ul>
 <h2>常见问题</h2>

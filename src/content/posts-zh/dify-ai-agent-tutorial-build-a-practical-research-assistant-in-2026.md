@@ -76,7 +76,7 @@ wpId: 836
 <p><!-- aixcove-seo-refresh-2026-07 --></p>
 <h2>最适合此Dify智能体工作流的场景</h2>
 <p>本教程最适合那些想要实用研究助手、又不想从零编写完整智能体框架的团队。Dify提供托管应用层、提示词编排、检索选项和用户界面，方便你用真实用户测试工作流。</p>
-<p>如果你需要代码级状态控制，请与<a href="/listing/langgraph/">LangGraph</a>对比。如果你需要拖拽式链构建器，请与<a href="/listing/flowise/">Flowise</a>对比。对于私有文档聊天，<a href="/listing/anythingllm/">AnythingLLM</a>可能更简单。</p>
+<p>如果你需要代码级状态控制，请与<a href="/zh/listing/langgraph/">LangGraph</a>对比。如果你需要拖拽式链构建器，请与<a href="/zh/listing/flowise/">Flowise</a>对比。对于私有文档聊天，<a href="/zh/listing/anythingllm/">AnythingLLM</a>可能更简单。</p>
 <h2>在生产环境使用前需要添加的内容</h2>
 <ul>
 <li><strong>来源规则：</strong>定义助手可以信任哪些来源，以及何时应拒绝回答。</li>
@@ -87,6 +87,6 @@ wpId: 836
 <h3>Dify 足以构建真正的 AI 研究助手吗？</h3>
 <p>对于许多内部研究和知识库工作流来说，答案是肯定的。对于需要自定义状态转换的复杂多步骤代理，LangGraph 等框架能提供更多控制。</p>
 <h3>研究自动化应该用 Dify 还是 n8n？</h3>
-<p>当主要产品是 AI 助手时，用 Dify。当主要任务是跨应用、触发器和业务系统的自动化时，用 <a href="/listing/n8n/">n8n</a>。</p>
+<p>当主要产品是 AI 助手时，用 Dify。当主要任务是跨应用、触发器和业务系统的自动化时，用 <a href="/zh/n8n-review-2026-pricing-pros-cons-and-best-use-cases/">n8n</a>。</p>
 <h3>主要风险是什么？</h3>
 <p>主要风险是不检查检索质量就信任生成的摘要。好的来源选择和答案审查比添加更多提示词更重要。</p>

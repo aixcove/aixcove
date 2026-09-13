@@ -1,7 +1,7 @@
 ---
 title: "How to Run Qwen3.8-27B Locally: A GPU-by-GPU Setup Guide"
 date: '2026-09-10T09:00:00'
-modified: '2026-09-11T13:20:00'
+modified: '2026-09-13T12:20:39'
 slug: run-qwen3-8-27b-locally-gpu-guide
 description: "Qwen3.8-27B local setup for every hardware tier: integrated graphics, Mac, RTX 40/50 laptops and desktops. Correct quants, contexts, and realistic speeds."
 categories:
@@ -97,11 +97,10 @@ ollama run qwen3.8:27b          # 18 GB, Q4_K_M default, 256K context, vision en
 <h3>Option 2: LM Studio (best GUI, best for Mac MLX)</h3>
 <p>Download the app, search for "Qwen3.8-27B", pick the quant matching your tier from the table above, and set the context slider to 16-32K. On Apple Silicon choose the MLX build. On Windows with NVIDIA, enable Flash Attention in the model settings and set GPU offload to maximum. Its per-model settings UI makes the reasoning_effort and context decisions visible, which is half the battle with this model.</p>
 <h3>Option 3: llama.cpp (maximum control, fastest)</h3>
-<pre><code># Linux build with CUDA
+<pre><code>&#35; Linux build with CUDA
 git clone https://github.com/ggml-org/llama.cpp && cd llama.cpp
 cmake -B build -DGGML_CUDA=ON && cmake --build build -j --target llama-server
-
-# download + serve in one line
+&#35; download + serve in one line
 ./build/bin/llama-server -hf unsloth/Qwen3.8-27B-GGUF:UD-Q4_K_XL \
   -ngl 99 -fa on --jinja -c 32768 --port 8080</code></pre>
 <p>The server exposes an OpenAI-compatible API at <code>localhost:8080</code> that anything — chat UIs, coding agents, your own scripts — can call. This is the runtime every benchmark above used; if you want the published numbers, use this path.</p>

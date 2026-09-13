@@ -67,8 +67,8 @@ wpId: 903
 <p>NotebookLM 仍然擅长将可信的来源包转化为你可以理解的内容。一旦工作变成发现、提取、引用管理、隐私或团队知识，替代品就开始变得有意义。</p>
 <h2>Aixcove 上的相关 AI 工具类别</h2>
 <ul>
-<li><a href="/listing-category/general-purpose-llms-chat-assistants/">通用大语言模型与聊天助手</a></li>
-<li><a href="/listing-category/ai-business-productivity/">AI 商业与生产力</a></li>
-<li><a href="/listing-category/ai-content-creation/">AI 内容创作</a></li>
+<li><a href="/zh/listing-category/llm-chat/">通用大语言模型与聊天助手</a></li>
+<li><a href="/zh/listing-category/ai-agents/">AI 商业与生产力</a></li>
+<li><a href="/zh/listings/">AI 内容创作</a></li>
 <li><a href="/zh/blog/">Aixcove 博客上的更多 AI 工具比较</a></li>
 </ul>

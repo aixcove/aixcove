@@ -1,7 +1,7 @@
 ---
 title: Qwen3.8-27B本地部署指南：从核显到RTX 5090的显卡配置全表
 date: '2026-09-10T09:00:00'
-modified: '2026-09-11T14:30:00'
+modified: '2026-09-13T12:20:39'
 slug: run-qwen3-8-27b-locally-gpu-guide
 description: Qwen3.8-27B本地部署全攻略：核显、Mac、RTX 40/50系笔记本与台式机显卡逐一给出量化版本选择、上下文设置和真实速度预期，附可复制的启动命令。
 categories:
@@ -97,11 +97,11 @@ ollama run qwen3.8:27b          # 18GB，默认Q4_K_M，256K上下文，开视�
 <h3>方案二，LM Studio适合图形界面用户，Mac优先选MLX</h3>
 <p>装好应用，搜索“Qwen3.8-27B”，按上面的显卡档位选量化版本，把上下文滑块设到16-32K。Apple Silicon选MLX版本；Windows+NVIDIA在模型设置里打开Flash Attention，把GPU offload拉满。单模型设置界面里就能找到reasoning_effort和上下文长度，先把这两项调好，可以少踩不少坑。</p>
 <h3>方案三，llama.cpp设置最灵活，速度最快</h3>
-<pre><code># Linux CUDA编译
+```bash
+# Linux CUDA编译
 git clone https://github.com/ggml-org/llama.cpp && cd llama.cpp
 cmake -B build -DGGML_CUDA=ON && cmake --build build -j --target llama-server
-
-# 下载+启动一行搞定
+&#35; 下载+启动一行搞定
 ./build/bin/llama-server -hf unsloth/Qwen3.8-27B-GGUF:UD-Q4_K_XL \
   -ngl 99 -fa on --jinja -c 32768 --port 8080</code></pre>
 <p>启动后，<code>localhost:8080</code>会提供OpenAI兼容API，聊天界面、编码agent和自己的脚本都可以直接调用。本文引用的所有实测数据都使用这个运行时；想复现公开测试的速度，优先用llama.cpp。</p>

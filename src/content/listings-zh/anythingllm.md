@@ -29,4 +29,4 @@ featured: false
 <h2>谁适合用 AnythingLLM？</h2>
 <p>它适合想低成本搭建内部知识助手、又不想被闭源 SaaS 锁定的中小团队，以及需要统一管理内部文档与流程的运营团队。对数据敏感的行业（医疗、金融、法律）最看重它的自托管能力，个人开发者和爱好终端用户也能用它做文档问答与检索。</p>
 <h2>AnythingLLM 与替代方案</h2>
-<p>AnythingLLM 面向团队协作、RAG 与广泛模型兼容；<a href="/listing/open-webui/">Open WebUI</a> 更偏单人本地模型聊天界面；PrivateGPT 则聚焦私有文档推理。需要更多选择可参考<a href="/best-anythingllm-alternatives-in-2026-7-picks-for-private-ai-assistants/">AnythingLLM 替代品指南</a>。</p>
+<p>AnythingLLM 面向团队协作、RAG 与广泛模型兼容；<a href="/zh/open-webui-vs-anythingllm-which-self-hosted-ai-ui-fits-you-in-2026/">Open WebUI</a> 更偏单人本地模型聊天界面；PrivateGPT 则聚焦私有文档推理。需要更多选择可参考<a href="/zh/best-anythingllm-alternatives-in-2026-2/">AnythingLLM 替代品指南</a>。</p>

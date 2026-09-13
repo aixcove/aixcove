@@ -47,7 +47,7 @@ wpId: 826
 </ul><li><strong>研究与决策支持：</strong>OpenClaw。这类任务通常过于开放，不适合固定工作流。</li>
 </ul>
 <h2>值得考虑的替代方案</h2>
-<p>如果两者都不完全合适，先看任务类别。对于本地大模型应用和文档对话，<a href="/listing/anythingllm/">AnythingLLM</a> 可能更贴近需求。对于应用搭建和AI工作流产品，<a href="/listing/dify/">Dify</a> 值得对比。对于智能体实验，<a href="/listing/autogen-studio/">AutoGen Studio</a> 与 OpenClaw 和 n8n 定位不同。</p>
+<p>如果两者都不完全合适，先看任务类别。对于本地大模型应用和文档对话，<a href="/zh/listing/anythingllm/">AnythingLLM</a> 可能更贴近需求。对于应用搭建和AI工作流产品，<a href="/zh/listing/dify/">Dify</a> 值得对比。对于智能体实验，<a href="/zh/listing/autogen-studio/">AutoGen Studio</a> 与 OpenClaw 和 n8n 定位不同。</p>
 <p>你也可以阅读 aixcove 的 <a href="/zh/n8n-ai-agent-tutorial-build-a-practical-workflow/">n8n AI智能体教程</a>，了解 n8n 在实际中如何处理智能体式工作流。</p>
 <h2>最终结论</h2>
 <p>当你需要能通过对话推理变化工作的助手时，选 OpenClaw。当你需要可检查、可测试、可重复运行的可靠工作流自动化时，选 n8n。</p>

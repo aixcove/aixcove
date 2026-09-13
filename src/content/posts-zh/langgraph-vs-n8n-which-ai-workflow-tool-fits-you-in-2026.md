@@ -66,7 +66,7 @@ wpId: 777
 <li>基于触发器的管道，用于总结、分类、路由或丰富数据</li>
 <li>第一个生产级AI工作流，速度比完美抽象更重要</li>
 </ul><p>n8n 对混合团队来说也是更稳妥的选择。如果开发者、运维人员和半技术背景的业务方都要接触工作流，可视化系统通常比纯代码图谱更经得起时间考验。</p>
-<p>如果你想看看相近的选项，我们的<a href="/best-n8n-alternatives-in-2026-7-picks-for-ai-workflows-and-self-hosting/">最佳 n8n 替代品</a>指南值得一读。</p>
+<p>如果你想看看相近的选项，我们的<a href="/zh/best-n8n-alternatives-for-ai-workflow-automation-in-2026/">最佳 n8n 替代品</a>指南值得一读。</p>
 <h2>什么时候两者都用</h2>
 <p>很多对比文章漏掉了这一点。</p>
 <p>你不一定非要选出一个赢家。</p>

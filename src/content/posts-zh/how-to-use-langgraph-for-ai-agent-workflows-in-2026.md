@@ -11,7 +11,7 @@ wpId: 775
 ---
 <p>如果你想要一个简短的回答，那就是：LangGraph 是在你需要真正控制路由、记忆、工具使用和人工审批时，构建 AI 智能体工作流的最佳方式之一。它基于 MIT 许可证免费开源，但并不是最容易上手的起点。你用可视化构建器换来了代码级控制，因此它最适合开发人员和技术团队，而不是无代码的普通用户。</p>
 <p>这种取舍就是全部关键。很多“LangGraph 教程”页面展示一个玩具计算器智能体就结束了。有用，当然。但人们转向 LangGraph 的原因不是想要另一个演示。他们想要一个在工作流变得混乱时真正能掌控的智能体。</p>
-<p>如果这听起来像你，本指南会让你动起来。如果你还在代码优先和可视化工具之间犹豫，看完这里后可以查看 <a href="/listing/langgraph/">LangGraph 列表</a>、<a href="/listing/flowise/">Flowise 列表</a>，以及我们的 <a href="/zh/dify-vs-flowise-which-ai-workflow-builder-fits-you-in-2026/">Dify 与 Flowise 对比</a>。</p>
+<p>如果这听起来像你，本指南会让你动起来。如果你还在代码优先和可视化工具之间犹豫，看完这里后可以查看 <a href="/zh/listing/langgraph/">LangGraph 列表</a>、<a href="/zh/listing/flowise/">Flowise 列表</a>，以及我们的 <a href="/zh/dify-vs-flowise-which-ai-workflow-builder-fits-you-in-2026/">Dify 与 Flowise 对比</a>。</p>
 <h2>LangGraph 擅长什么，哪里让人头疼</h2>
 <p>LangGraph 是 LangChain 技术栈中的底层编排框架。它不把智能体当作一个长提示循环，而是让你将工作流建模为节点、边和共享状态。官方快速入门提供了 Graph API 和 Functional API 两种方式，这很有帮助，因为不是每个团队都想立刻用图原语来思考。</p>
 <p>实际适用场景如下：</p>
@@ -19,12 +19,12 @@ wpId: 775
 <li><strong>最适合：</strong>构建多步骤智能体、工具使用助手、审批密集型工作流或有状态自动化的开发人员。</li>
 <li><strong>定价：</strong>LangGraph 本身免费。你的实际成本来自模型 API、向量存储、追踪和基础设施。</li>
 <li><strong>主要优势：</strong>细粒度路由、记忆、人机协同控制、流式输出，以及比黑盒智能体封装更容易调试。</li>
-<li><strong>主要限制：</strong>它要求你像工程师一样思考。如果你想要拖拽式速度，<a href="/listing/flowise/">Flowise</a> 或 <a href="/listing/dify/">Dify</a> 会感觉更轻量。</li>
+<li><strong>主要限制：</strong>它要求你像工程师一样思考。如果你想要拖拽式速度，<a href="/zh/listing/flowise/">Flowise</a> 或 <a href="/zh/listing/dify/">Dify</a> 会感觉更轻量。</li>
 </ul><p>这个限制很关键。LangGraph难，不是因为语法复杂，而是因为它逼着你定义清楚：当工具调用失败、当需要人工审批、当模型应该停下来而不是继续循环时，你的代理该怎么反应。这正是严肃团队喜欢它的原因。</p>
 <h2>开始前需要准备什么</h2>
 <p>做一个基础的LangGraph教程项目，你需要Python 3.10或更高版本、一个模型提供商，以及LangGraph包本身。官方快速入门用的是Anthropic，但如果你技术栈里已经有其他受支持的聊天模型，也可以替换。想最小化配置的话，先装核心包，把项目保持得很小。</p>
 <ul>
-<li><strong>框架层：</strong>LangGraph加上更广的<a href="/listing/langchain/">LangChain生态</a>。</li>
+<li><strong>框架层：</strong>LangGraph加上更广的<a href="/zh/listing/langchain/">LangChain生态</a>。</li>
 <li><strong>模型层：</strong>Anthropic、OpenAI，或者你信得过的其他提供商。</li>
 <li><strong>可选但明智：</strong>项目超出玩具示例后，用LangSmith做追踪。</li>
 </ul>
@@ -41,7 +41,7 @@ wpId: 775
 <li>一个共享状态对象，保存消息和控制数据</li><li>一个条件边，决定工作流是继续还是停止</li>
 </ul>
 <p>这里的关键是循环。模型思考，需要时调用工具，拿到结果，再决定是回答还是继续干活。听起来简单，但这就是LangGraph比一堆松散的agent辅助函数更好用的核心原因。工作流是明确的。</p>
-<p>如果你用过<a href="/listing/crewai/">CrewAI</a>或其他高层级agent框架，会觉得这个更底层。这是优点。你看到的是路由逻辑，而不是依赖隐藏的默认设置。</p>
+<p>如果你用过<a href="/zh/listing/crewai/">CrewAI</a>或其他高层级agent框架，会觉得这个更底层。这是优点。你看到的是路由逻辑，而不是依赖隐藏的默认设置。</p>
 <h2>第三步：添加模型能真正用好的工具</h2>
 <p>很多第一次用LangGraph的构建失败，原因很无聊：工具太差。框架通常不是问题，工具签名才是。</p>
 <p>每个工具保持窄范围。给它一个清晰的名字。写一个docstring，告诉模型什么时候调用它。返回结构化数据，别是一团乱麻。如果工具需要内部秘密上下文，把它藏在应用代码里，别暴露在模型可见的签名中。</p>
@@ -69,7 +69,7 @@ wpId: 775
 <p>如果你构建的代理工作流需要可靠性多于便利性，答案是肯定的。</p>
 <p>如果你主要想要一个快速的无代码演示，答案是否定的。</p>
 <p>这话听起来直接，但能省时间。LangGraph值得学，因为它让你控制那些通常最先出问题的部分：路由、状态、工具使用和审批。这才是真正的价值。不是图表的隐喻，不是围绕代理的热度。是控制。</p>
-<p>如果你想在投入前继续研究，先从<a href="/listing/langgraph/">LangGraph列表</a>开始，与<a href="/listing/flowise/">Flowise</a>和<a href="/listing/crewai/">CrewAI</a>对比，然后把工具映射到你实际需要交付的工作流上。这比另一个泛泛的代理演示告诉你更多。</p>
+<p>如果你想在投入前继续研究，先从<a href="/zh/listing/langgraph/">LangGraph列表</a>开始，与<a href="/zh/listing/flowise/">Flowise</a>和<a href="/zh/listing/crewai/">CrewAI</a>对比，然后把工具映射到你实际需要交付的工作流上。这比另一个泛泛的代理演示告诉你更多。</p>
 <h2>常见问题</h2>
 <h3>LangGraph免费吗？</h3>
 <p>是的。LangGraph是开源的，免费使用。你的成本来自模型提供商、存储、追踪和托管。</p>

@@ -13,7 +13,7 @@ wpId: 817
 <p>这篇 OpenClaw 教程展示了一个实用的首个工作流：一个连接 Telegram 的 AI 代理，可以从你自己的工作区回答问题，之后还能扩展为定时 SEO、收件箱或研究自动化。重点不是第一天就安装所有功能，而是先运行一个安全、有用的代理，然后在不给它随意访问你数字生活的前提下逐步扩展。</p>
 <h2>这篇 OpenClaw 教程适合谁</h2>
 <p>OpenClaw 适合开发者、运维人员、创始人和技术型营销人员，他们想要一个能做的比回答提示更多的助手。如果你已经在使用 n8n、Make、Dify、Flowise 或本地 LLM 应用等工具，OpenClaw 处于不同的赛道：它给 AI 代理一个持久的工作区、消息渠道、技能、定时任务和本地工具访问权限。</p>
-<p>开源版本的价格很直接。<a href="/listing/openclaw/">Aixcove 上的 OpenClaw 列表</a>指出 OpenClaw 是开源的，所以自主托管项目没有平台订阅费。你仍然需要为你连接的模型 API 付费，除非你把一些任务路由到本地模型。托管式 OpenClaw 服务也存在，但那些收费针对基础设施和支持，而不是核心开源软件本身。</p>
+<p>开源版本的价格很直接。<a href="/zh/listing/openclaw/">Aixcove 上的 OpenClaw 列表</a>指出 OpenClaw 是开源的，所以自主托管项目没有平台订阅费。你仍然需要为你连接的模型 API 付费，除非你把一些任务路由到本地模型。托管式 OpenClaw 服务也存在，但那些收费针对基础设施和支持，而不是核心开源软件本身。</p>
 <p>底线：当你想要控制权、消息集成和真正的任务执行时，用 OpenClaw。如果你想要一个已经为你选好护栏的精致 SaaS 仪表盘，跳过它。</p>
 <h2>安装 OpenClaw 前你需要什么</h2>
 <p>从小处开始。一个基本的 Telegram 代理不需要复杂的服务器设置，但它需要一个稳定的环境。</p>
@@ -57,7 +57,7 @@ openclaw onboard --install-daemon</code></pre>
 <li>写出包含目标关键词、分类、内链和独特视角的简报</li>
 <li>在发布前停下，除非你明确批准自动发布</li>
 </ul>
-<p>这就是 OpenClaw 和普通工作流工具的区别。像 <a href="/listing/dify/">Dify</a> 适合做应用型 LLM 工作流，<a href="/listing/flowise/">Flowise</a> 适合可视化链条搭建，<a href="/listing/anythingllm/">AnythingLLM</a> 适合私有知识库场景。OpenClaw 更适合那种需要跨渠道运行、记住操作规则、调用本地文件、协调多步骤杂活的助手。</p>
+<p>这就是 OpenClaw 和普通工作流工具的区别。像 <a href="/zh/listing/dify/">Dify</a> 适合做应用型 LLM 工作流，<a href="/zh/listing/flowise/">Flowise</a> 适合可视化链条搭建，<a href="/zh/listing/anythingllm/">AnythingLLM</a> 适合私有知识库场景。OpenClaw 更适合那种需要跨渠道运行、记住操作规则、调用本地文件、协调多步骤杂活的助手。</p>
 <h2>第 5 步：加更多工具之前先设好护栏</h2>
 <p>第一次安全配置应该在连接邮箱、浏览器自动化、文件管理或发布工具之前完成。</p>
 <h3>最小权限原则</h3>
@@ -73,4 +73,4 @@ openclaw onboard --install-daemon</code></pre>
 <p>OpenClaw在工作流具有对话性、持续性和个人化时胜出：提醒、研究、分类、内容运营、开发者杂务、浏览器任务和多渠道助手行为。当你需要严格的企业控制、精良的管理后台或非技术人员的上手路径时，它就不那么有吸引力了。</p>
 <h2>最终结论</h2>
 <p>OpenClaw是那些想要自托管AI智能体而非另一个聊天窗口的人的认真选择。设置比SaaS工具需要更多细心，但回报不同：持久记忆、真实工具、渠道访问、定时任务和本地控制。</p>
-<p>对于首次构建，基于Telegram的助手是正确的起点。保持权限严格，自动化一个有用的工作流，只有在智能体证明能遵守规则后再扩展。这是务实的路径。当OpenClaw变得无聊地可靠时，它才真正有趣。</p><p>如需查看更多同类工具，可浏览Aixcove上的<a href="/listing-category/ai-agents-automation/">AI智能体与自动化工具</a>，或在<a href="/listing-category/ai-business-productivity/">AI商业与生产力</a>分类中对比相近的工作流工具。</p>
+<p>对于首次构建，基于Telegram的助手是正确的起点。保持权限严格，自动化一个有用的工作流，只有在智能体证明能遵守规则后再扩展。这是务实的路径。当OpenClaw变得无聊地可靠时，它才真正有趣。</p><p>如需查看更多同类工具，可浏览Aixcove上的<a href="/zh/listing-category/ai-agents/">AI智能体与自动化工具</a>，或在<a href="/zh/listing-category/ai-agents/">AI商业与生产力</a>分类中对比相近的工作流工具。</p>

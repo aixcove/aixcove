@@ -66,5 +66,5 @@ wpId: 854
 <p>Use Bolt.new to generate a fast starting point. Use Cursor when the project becomes a real repository that needs careful edits, refactoring, tests, and deeper context.</p>
 <h3>Are there self-hosted alternatives to Bolt.new?</h3>
 <p>Dyad is the strongest fit in this group because it is local and open-source. It is not the same as a fully managed hosted builder, so expect more setup work and more control.</p>
-<p>Related Aixcove resources: browse <a href="/listing/bolt-new/">Bolt.new on Aixcove</a>, explore <a href="/listing-category/ai-code-generation-debug/">AI code generation tools</a>, or compare <a href="/category/ai-tools-comparisons/">AI tools comparisons</a>.</p>
+<p>Related Aixcove resources: browse <a href="/listing/bolt-new/">Bolt.new on Aixcove</a>, explore <a href="/listing-category/ai-coding/">AI code generation tools</a>, or compare <a href="/category/ai-tools-comparisons/">AI tools comparisons</a>.</p>
 

@@ -61,4 +61,4 @@ wpId: 854
 <p>使用 Bolt.new 生成快速起点。当项目成为需要仔细编辑、重构、测试和更深层次上下文的真实仓库时，使用 Cursor。</p>
 <h3>有哪些自托管的 Bolt.new 替代品？</h3>
 <p>Dyad 是这个群体中最合适的，因为它本地且开源。它与完全托管的应用构建器不同，所以需要更多的设置工作和更多的控制权。</p>
-<p>相关 Aixcove 资源：浏览 <a href="/listing/bolt-new/">Aixcove 上的 Bolt.new</a>，探索 <a href="/listing-category/ai-code-generation-debug/">AI 代码生成工具</a>，或比较 <a href="/category/ai-tools-comparisons/">AI 工具对比</a>。</p>
+<p>相关 Aixcove 资源：浏览 <a href="/zh/listing/bolt-new/">Aixcove 上的 Bolt.new</a>，探索 <a href="/zh/listing-category/ai-coding/">AI 代码生成工具</a>，或比较 <a href="/zh/category/ai-tools-comparisons/">AI 工具对比</a>。</p>

@@ -70,9 +70,9 @@ wpId: 903
 <p>NotebookLM remains excellent for turning a trusted source pack into something you can understand. The moment the job becomes discovery, extraction, citation management, privacy, or team knowledge, the alternatives start to make sense.</p>
 <h2>Related AI tool categories on Aixcove</h2>
 <ul>
-<li><a href="/listing-category/general-purpose-llms-chat-assistants/">General-Purpose LLMs &amp; Chat Assistants</a></li>
-<li><a href="/listing-category/ai-business-productivity/">AI Business &amp; Productivity</a></li>
-<li><a href="/listing-category/ai-content-creation/">AI Content Creation</a></li>
+<li><a href="/listing-category/llm-chat/">General-Purpose LLMs &amp; Chat Assistants</a></li>
+<li><a href="/listing-category/ai-agents/">AI Business &amp; Productivity</a></li>
+<li><a href="/listings/">AI Content Creation</a></li>
 <li><a href="/blog/">More AI tool comparisons on the Aixcove blog</a></li>
 </ul>
 

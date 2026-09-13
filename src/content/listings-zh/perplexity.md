@@ -31,4 +31,4 @@ reviewed: AIX Cove
 <h2>谁适合用 Perplexity？</h2>
 <p>它适合研究员、分析师、学生，以及想快速拿到有来源答案、又不想开十个标签页的人。需要为文档做深度、可靠引文的团队，应把它与一手来源核对配合，而非直接信任摘要。</p>
 <h2>Perplexity 与替代方案</h2>
-<p>可参考<a href="/best-perplexity-alternatives-in-2026-8-practical-picks/">Perplexity 替代品指南</a>与<a href="/best-perplexity-ai-alternatives-in-2026-7-picks-by-research-workflow/">研究工作流选品</a>。Perplexity 是答案优先；要用你自己的文件做文档级问答，可对比<a href="/listing/notion-ai/">Notion AI</a>。</p>
+<p>可参考<a href="/zh/best-perplexity-alternatives-in-2026-8-practical-picks/">Perplexity 替代品指南</a>与<a href="/zh/best-perplexity-ai-alternatives-in-2026-7-picks-by-research-workflow/">研究工作流选品</a>。Perplexity 是答案优先；要用你自己的文件做文档级问答，可对比<a href="/zh/listing/notion-ai/">Notion AI</a>。</p>

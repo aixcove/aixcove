@@ -78,7 +78,7 @@ wpId: 771
 <p><!-- aixcove-seo-refresh-2026-07 --></p>
 <h2>什么情况下适合用 n8n 加 Ollama 这套组合</h2>
 <p>当你需要自动化处理私人笔记、内部文档或本地工具，又不想把每个提示词都发给云端模型时，这个工作流最合适。可以用它来总结内部文件、分流支持工单、起草例行更新，或者给现有的 n8n 自动化加一个本地 AI 步骤。</p>
-<p>对非技术团队来说，这不是最快的路径。如果你想要一个可视化 AI 应用构建器并支持托管部署，可以对比一下 <a href="/listing/dify/">Dify</a>。如果你的主要目标是私有文档对话而不是自动化，先从 <a href="/listing/anythingllm/">AnythingLLM</a> 开始。</p>
+<p>对非技术团队来说，这不是最快的路径。如果你想要一个可视化 AI 应用构建器并支持托管部署，可以对比一下 <a href="/zh/listing/dify/">Dify</a>。如果你的主要目标是私有文档对话而不是自动化，先从 <a href="/zh/listing/anythingllm/">AnythingLLM</a> 开始。</p>
 <h2>快速对比：n8n 加 Ollama 与替代方案</h2>
 <ul>
 <li><strong>选 n8n 加 Ollama</strong>：隐私、自托管和工作流控制比精致的 AI 应用界面更重要时。</li>

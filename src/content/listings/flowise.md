@@ -41,7 +41,7 @@ featured: false
 <li><a href="/listing/dify/">Dify</a> as the closest maintained replacement with a full app layer</li>
 <li><a href="/listing/langgraph/">LangGraph</a> for code-level agent state and orchestration</li>
 <li><a href="/listing/anythingllm/">AnythingLLM</a> for a simpler private document chat workspace</li>
-<li>Browse all <a href="/listing-category/ai-agents/">AI agent tools</a>, our <a href="/best-flowise-alternatives-in-2026/">Flowise alternatives</a> guide, and the <a href="/dify-vs-flowise-which-ai-builder-fits-you-in-2026/">Dify vs Flowise</a> comparison</li>
+<li>Browse all <a href="/listing-category/ai-agents/">AI agent tools</a>, our <a href="/best-flowise-alternatives-in-2026/">Flowise alternatives</a> guide, and the <a href="/dify-vs-flowise-which-ai-workflow-builder-fits-you-in-2026/">Dify vs Flowise</a> comparison</li>
 </ul>
 <h2>Sources and further reading</h2>
 <ul>

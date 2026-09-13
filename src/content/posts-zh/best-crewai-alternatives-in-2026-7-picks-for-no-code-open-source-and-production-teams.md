@@ -45,7 +45,7 @@ wpId: 781
 <p>这听起来像是一个弱点。但通常这正是它的卖点。</p><p>n8n让技术团队能够将确定性自动化与AI行为相结合。当您需要判断时可以调用LLM，保持工作流程其余部分明确，并在某些内容接触CRM、收件箱或数据库前添加审批节点。其AI代理工具位于一个更广泛的自动化平台内，拥有500多种集成和可自托管的部署选项。</p>
 <p>这就是为什么n8n经常与CrewAI出现在同一讨论中，尽管产品形态不同。真实团队很少需要孤立使用的代理。</p>
 <p>局限在于n8n不是为复杂代理架构建模的最简洁工具。当工作流程比理论更重要时，它表现更好。</p>
-<p>如果这接近您的使用场景，我们的<a href="/zh/langgraph-vs-n8n-which-ai-workflow-tool-fits-you-in-2026/">LangGraph与n8n对比</a>和<a href="/best-n8n-alternatives-in-2026-7-picks-for-ai-workflows-and-self-hosting/">最佳n8n替代品</a>推荐将帮助您进一步筛选。</p>
+<p>如果这接近您的使用场景，我们的<a href="/zh/langgraph-vs-n8n-which-ai-workflow-tool-fits-you-in-2026/">LangGraph与n8n对比</a>和<a href="/zh/best-n8n-alternatives-for-ai-workflow-automation-in-2026/">最佳n8n替代品</a>推荐将帮助您进一步筛选。</p>
 <h2>4. AutoGen</h2>
 <p>对于想要多代理行为但不想采用CrewAI产品层的开发者来说，AutoGen仍然很有意义。</p>
 <p>它是开源的，免费使用，并有微软提供的成熟文档支持。AutoGen Studio还为团队提供了基于Web的UI，用于原型设计，无需每次都从头开始编写代码。</p>

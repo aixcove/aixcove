@@ -77,7 +77,7 @@ wpId: 703
 <ul>
 <li><strong>For private document chat:</strong> start with <a href="/listing/anythingllm/">AnythingLLM</a>.</li>
 <li><strong>For AI app building:</strong> compare <a href="/listing/dify/">Dify</a> and <a href="/listing/flowise/">Flowise</a>.</li>
-<li><strong>For automation:</strong> use <a href="/listing/n8n/">n8n</a> with a local model when triggers and integrations matter.</li>
+<li><strong>For automation:</strong> use <a href="/n8n-review-2026-pricing-pros-cons-and-best-use-cases/">n8n</a> with a local model when triggers and integrations matter.</li>
 <li><strong>For developer control:</strong> consider LangGraph or a custom local-model stack.</li>
 </ul>
 <h2>FAQ</h2>

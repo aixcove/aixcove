@@ -8,7 +8,7 @@ categories:
 featured: /uploads/2026/08/codex-vs-workbuddy-hero.jpg
 ---
 <h2>Codex vs WorkBuddy 怎么选：编程智能体还是办公工作站？</h2>
-<p>先给结论。你的日常工作是写代码、改项目、跑测试、做网站和自动化脚本，选 <a href="/listing/codex/">Codex</a>。你的日常工作是文档、表格、PPT、报告、调研和文件整理，选 WorkBuddy。两个都在往"全能 AI Agent"的方向走，但出发点完全不同：Codex 是从编程智能体长出来的，WorkBuddy 是腾讯做的全场景办公工作站。2026 年 8 月两边的官方信息都核验过，下面逐项对比。</p>
+<p>先给结论。你的日常工作是写代码、改项目、跑测试、做网站和自动化脚本，选 <a href="/zh/listing/codex/">Codex</a>。你的日常工作是文档、表格、PPT、报告、调研和文件整理，选 WorkBuddy。两个都在往"全能 AI Agent"的方向走，但出发点完全不同：Codex 是从编程智能体长出来的，WorkBuddy 是腾讯做的全场景办公工作站。2026 年 8 月两边的官方信息都核验过，下面逐项对比。</p>
 <h2>定位：一个从开发往外走，一个从办公往外走</h2>
 <p>OpenAI 官方定价页把 Codex 描述为覆盖网页、CLI、IDE 扩展和 iOS 的编程智能体，Pro 档还提供 GPT-5.3-Codex-Spark 研究预览模型，任务可以长时间在云端跑，配合自动代码审查和 Slack 集成。它的核心循环是：给一个目标，自己读文件、执行、测试、修改、交付。</p>
 <p>WorkBuddy 官方文档的自我定义是"全场景 AI Agent 桌面工作站"：一句话布置任务，它自己拆解规划并执行，产出可核验的结果——文档、报告、表格、演示文稿。它是 macOS 和 Windows 桌面应用，靠多智能体协同完成办公任务，还有 Expert Center（专家中心）按写作、数据分析、开发、设计、商业等领域召唤内置专家。</p>

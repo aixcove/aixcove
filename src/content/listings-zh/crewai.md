@@ -42,9 +42,9 @@ reviewed: AIX Cove
 <h2>公开讨论怎么说</h2>
 <p>社区文章与框架对比反复出现同一个模式。CrewAI 常被描述成跑通多智能体原型最快的路子，多篇独立对比给出的双智能体"研究+写作"Crew 耗时约在二十到三十分钟。角色模型受好评，因为非工程背景的协作方能直接读懂智能体定义。常见的抱怨集中在深层流程调试、日志在任务回调里传不干净、顺序执行拖慢可并行的任务。这些是值得参考的方向，不是定论，自己动手验证再下判断。</p>
 <h2>谁适合用 CrewAI？</h2>
-<p>它适合熟悉 Python、想要精细控制多智能体结构、看重原型速度与免费自托管协议的开发者和团队。工作流以线性或按角色分工为主时，抽象刚好合身。需要循环、检查点与回放、类型化状态或一流生产可观测性的，先对比 <a href="/listing/langgraph/">LangGraph</a>。完全不写代码的，无代码平台更合适。</p>
+<p>它适合熟悉 Python、想要精细控制多智能体结构、看重原型速度与免费自托管协议的开发者和团队。工作流以线性或按角色分工为主时，抽象刚好合身。需要循环、检查点与回放、类型化状态或一流生产可观测性的，先对比 <a href="/zh/listing/langgraph/">LangGraph</a>。完全不写代码的，无代码平台更合适。</p>
 <h2>CrewAI 与替代方案</h2>
-<p>CrewAI 以角色驱动，适合分工明确的任务。要想更底层、显式状态控制的框架，可对比<a href="/listing/langgraph/">LangGraph</a>；想要无代码可视化，见<a href="/best-crewai-alternatives-in-2026-7-picks-for-no-code-open-source-and-production-teams/">CrewAI 替代品指南</a>与<a href="/best-autogen-alternatives-in-2026-6-practical-picks/">AutoGen 替代品</a>。想了解编排更少的智能体对话，见<a href="/listing/autogpt/">AutoGPT</a>。</p>
+<p>CrewAI 以角色驱动，适合分工明确的任务。要想更底层、显式状态控制的框架，可对比<a href="/zh/listing/langgraph/">LangGraph</a>；想要无代码可视化，见<a href="/zh/best-crewai-alternatives-in-2026-7-picks-for-no-code-open-source-and-production-teams/">CrewAI 替代品指南</a>与<a href="/zh/best-autogen-alternatives-in-2026-6-practical-picks/">AutoGen 替代品</a>。想了解编排更少的智能体对话，见<a href="/zh/listing/autogpt/">AutoGPT</a>。</p>
 <h2>相关链接</h2>
 <ul>
 <li><a href="https://docs.crewai.com/quickstart" target="_blank" rel="noopener noreferrer">官方快速上手（构建一个 Flow）</a></li>

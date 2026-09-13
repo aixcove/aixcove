@@ -27,7 +27,7 @@ wpId: 709
 <p>如果你喜欢Flowise的整体思路，但想要一个更完整的产品，Dify是我会首先推荐的替代品。它的定位很直接：在一个平台里搞定agent工作流、RAG管道、集成和可观测性。这一点很重要，因为很多Flowise替代品其实只是加了AI标签的工作流构建器。</p><p>当项目越过实验阶段时，Dify 的优势更明显。它自带知识库工作流、插件生态、应用发布功能，产品形态也更有主见，通常能省下不少时间。</p>
 <p><strong>胜过 Flowise 的地方：</strong>应用层更完整，内置 RAG 工作流更强，从原型到团队使用的交接更顺畅。</p>
 <p><strong>不如 Flowise 的地方：</strong>如果你只想要一个轻量的可视化沙盒，它显得笨重；云服务用量上来后，费用也会跟着涨。</p>
-<p>想了解更多，Aixcove 已有 <a href="/listing/dify/">Dify 收录页</a>，博客上还有更深入的 <em>Dify 评测</em>。</p>
+<p>想了解更多，Aixcove 已有 <a href="/zh/listing/dify/">Dify 收录页</a>，博客上还有更深入的 <em>Dify 评测</em>。</p>
 <h3>2. n8n — AI 只是更大自动化系统的一部分时，它最合适</h3>
 <p><strong>适合：</strong>运维团队、技术型市场人员，以及需要 AI 智能体跨多个业务应用协作的开发者。</p>
 <p><strong>定价：</strong>付费方案从 Starter 档起步；提供自托管商业版，开源社区版依然是主要卖点。</p>
@@ -36,7 +36,7 @@ wpId: 709
 <p>缺点是，纯智能体设计时 n8n 会显得偏重。如果你只想要一个可视化环境来串联提示词、检索器和工具，Flowise 通常更直接。</p>
 <p><strong>选 n8n 的情况：</strong>工作流和模型本身同等重要。</p>
 <p><strong>不选的情况：</strong>你主要想要一个专门的 AI 应用构建器，不需要围绕它的传统自动化。</p>
-<p>相关阅读：<a href="/listing-category/ai-agents-automation/">AI 智能体与自动化</a>，以及我们最近关于 n8n 替代品的文章。</p>
+<p>相关阅读：<a href="/zh/listing-category/ai-agents/">AI 智能体与自动化</a>，以及我们最近关于 n8n 替代品的文章。</p>
 <h3>3. Langflow — 适合既要可视化构建又要 Python 灵活性的开发者</h3>
 <p><strong>适合：</strong>开发者、AI 工程师，以及重度 RAG 实验。</p>
 <p><strong>定价：</strong>开源，提供云部署选项。</p><p>Langflow 已经成为每当 Flowise 感觉过于局限于自身可视化工作流风格时，人们自然会拿来对比的对象。官网将其定位为面向智能体（agentic）和 RAG 应用的低代码 AI 构建器，底层使用 Python，支持主流大语言模型和向量数据库，提供可复用组件，并支持以 API 形式部署。</p>
@@ -71,7 +71,7 @@ wpId: 709
 </ul>
 <h2>如何选择而不浪费另一周时间</h2>
 <p>从Flowise用户常回避的问题开始：<strong>你是在构建AI产品，还是一个恰好使用AI的自动化业务流程？</strong></p>
-<p>如果是AI产品，筛选<strong>Dify</strong>、<strong>Langflow</strong>，如果团队技术够强，也可以考虑<strong>Haystack</strong>。如果是自动化问题，筛选<strong>n8n</strong>和<strong>Activepieces</strong>。如果你真正需要的是速度和托管基础设施，<strong>Gumloop</strong>应该出现在你打开的第一个标签页里。</p><p>关于自托管，也要坦诚一点。很多团队嘴上说需要，等意识到维护是实打实的工作后，又悄悄选了SaaS。如果你的技术栈里确实有本地和自托管工具，也值得看看Aixcove的<a href="/listing-category/ai-coding-development/">AI编程与开发</a>板块，以及<a href="/listing/anythingllm/">AnythingLLM</a>这类工具，能补充相关知识，也能了解本地大模型的工作流。</p>
+<p>如果是AI产品，筛选<strong>Dify</strong>、<strong>Langflow</strong>，如果团队技术够强，也可以考虑<strong>Haystack</strong>。如果是自动化问题，筛选<strong>n8n</strong>和<strong>Activepieces</strong>。如果你真正需要的是速度和托管基础设施，<strong>Gumloop</strong>应该出现在你打开的第一个标签页里。</p><p>关于自托管，也要坦诚一点。很多团队嘴上说需要，等意识到维护是实打实的工作后，又悄悄选了SaaS。如果你的技术栈里确实有本地和自托管工具，也值得看看Aixcove的<a href="/zh/listing-category/ai-coding/">AI编程与开发</a>板块，以及<a href="/zh/listing/anythingllm/">AnythingLLM</a>这类工具，能补充相关知识，也能了解本地大模型的工作流。</p>
 <h2>最终结论</h2>
 <p>对多数读者来说，<strong>Dify是2026年Flowise的最佳替代品</strong>，它保留了可视化工作流的思路，但补上了通往生产环境的更完整路径。如果你的需求是把AI嵌进更广泛的自动化流程里，<strong>n8n</strong>更划算。<strong>Langflow</strong>则更适合想要更多开发者控制权、又不愿放弃可视化层的场景。</p>
 <p>Flowise本身仍然值得用。但如果你已经在找替代品，多半是碰到了它的真正瓶颈：不是能力不够，而是不合适。</p>

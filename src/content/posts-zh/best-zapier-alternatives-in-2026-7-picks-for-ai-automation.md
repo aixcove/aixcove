@@ -55,4 +55,4 @@ wpId: 905
 <p>对于AI密集型工作流，要特别小心计费单位。Zapier按任务数计费。n8n在托管计划里包含AI积分。Activepieces按活跃流程计费，但运行次数不限。Bardeen用积分。Pipedream的积分跟用量挂钩。这些单位不能互换。如果计费单位恰好对应你工作流里最频繁的部分，便宜的套餐也可能变贵。</p>
 <h2>最终结论</h2><p>对大多数运营团队来说，最好的 Zapier 替代品是 Make。技术性最强的替代品是 n8n。最佳开源选择是 Activepieces。如果你是开发者，我会建议先试试 Pipedream。对于基于浏览器的研究类工作流，Bardeen 比另一个后端连接器更合适。</p>
 <p>Zapier 依然是简单应用自动化的默认选择，这个优势不小。但一旦涉及 AI、代码、自托管或高并发运行，“默认”就不够用了。更该问的问题是：你的自动化应该跑在哪里，谁来维护它，以及供应商按什么单位向你收费。</p>
-<p>接下来可以浏览 Aixcove 的相关分类：<a href="/listing-category/ai-agents-automation/">AI Agents &amp; Automation</a>、<a href="/listing-category/ai-marketing-growth/">AI Marketing &amp; Growth</a> 和 <a href="/listing-category/ai-code-generation-debug/">AI Code Generation &amp; Debug</a>。</p>
+<p>接下来可以浏览 Aixcove 的相关分类：<a href="/zh/listing-category/ai-agents/">AI Agents &amp; Automation</a>、<a href="/zh/listings/">AI Marketing &amp; Growth</a> 和 <a href="/zh/listing-category/ai-coding/">AI Code Generation &amp; Debug</a>。</p>
